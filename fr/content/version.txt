@@ -1,5 +1,5 @@
 ﻿this::
-    date = 2019-12-29
+    date = 2019-12-29 ; 2019-12-30
 
 
 abrev::
@@ -15,16 +15,17 @@ abrev::
 Nommer les versions
 ===================
 
-Le système de nommage des versions s'appuie sur deux standards : voir "¨semversion" et "¨softwarelife". Nous utilisons surtout les règles suivantes largement suffisantes pour des projets non professionnels en donnant des exemples sous forme de notes de pas de page.
+Le système de nommage des versions s'appuie sur deux standards : voir "¨semversion" et "¨softwarelife". Nous utilisons surtout les règles suivantes largement suffisantes pour des projets non professionnels.
+Nous donnons au passage des exemples sous forme de notes de bas de page.
 ((
     Pour les documents, nous appellerons "sections" les parties, les chapitres, les sections, les sous-sections et les sous-sous-sections.
 )).
 
-    1) Un numéro de version est soit du type version::``MAJ.MIN.COR``, soit de la forme version::``MAJ.MIN.COR-EXTRA``. Aucun numéro ne s'écrira version::``MAJ.MIN`` ou version::``MAJ`` !
+    1) Un numéro de version est soit du type version::``MAJ.MIN.COR``, soit de la forme version::``MAJ.MIN.COR-EXTRA``. Aucun numéro ne s'écrira version::``MAJ.MIN``, ni version::``MAJ`` !
 
     1) Chaque sous-numéro commence à version::``0`` donc la toute première version sera version::``0.0.0``.
 
-    1) Les numéros augmentent sous la forme version::``0.0.0``, version::``0.0.1``, version::``0.0.2``, version::``0.1.0``, version::``1.0.0``, ... ¨etc. Noter qu'un changemnt de sous-numéro remet à zéro tous les sous-numéros plus à droite.
+    1) Les numéros augmentent sous la forme version::``0.0.0``, version::``0.0.1``, version::``0.0.2``, version::``0.1.0``, version::``1.0.0``, ... ¨etc. Noter qu'un changement de sous-numéro remet à zéro tous les sous-numéros plus à droite.
 
     1) version::``MAJ`` est à modifier dès qu'un changement non rétrocompatible apparaît
     ((
@@ -37,13 +38,13 @@ Le système de nommage des versions s'appuie sur deux standards : voir "¨semver
     ((
         **Changement mineur :**
         pour un document ceci correspond à un enrichissement du contenu (nouvelles sections ¨etou mises à jour de sections précédemment créées),
-        et pour un programme à un enrichissemnt de l'¨api sans modifier ce qu'elle proposait avant.
+        et pour un programme à un enrichissement de l'¨api sans modifier ce qu'elle proposait avant.
     )).
 
     1) version::``COR`` change à chaque correction d’anomalies rétrocompatibles
     ((
         **Correctifs :**
-        pour un document ceci correspond à des corrections à la marge (erreurs orthographiques, grammaticales ¨etou syntaxiques, mais aussi une réorgnaisation purement visuelle du contenu sans toucher à l'organisation des sections),
+        pour un document ceci correspond à des corrections à la marge (erreurs orthographiques, grammaticales ¨etou syntaxiques, mais aussi une réorganisation purement visuelle du contenu sans toucher à l'organisation des sections),
         et pour un programme à la correction de bogues sans toucher à l¨api.
     )).
 
@@ -53,6 +54,6 @@ Le système de nommage des versions s'appuie sur deux standards : voir "¨semver
 
         a) version::``beta`` s'utilise lorsque les fonctionnalités, bien que terminées, peuvent contenir des bogues et des problèmes de performance. Ce type de projet s'adresse aux utilisateurs testeurs.
 
-        a) version::``rc`` indique une version bêta avancée susceptible d'être un produit stable et prête à être publiée à moins que des bogues importants n'apparaissent. Ce type de projet s'adresse aux utilisateurs lambda mais avertis que le projet contient peut-être quelques bogues mineurs à signaler.
+        a) version::``rc``, pour "release candidate", indique une version bêta avancée susceptible d'être un produit stable et prête à être publiée à moins que des bogues importants n'apparaissent. Ce type de projet s'adresse aux utilisateurs lambda mais qui sont avertis que le projet contient peut-être quelques bogues mineurs à signaler.
 
         a) Pour les versions stables, c'est à dire celles considérées comme finies, à un moment donné bien entendu, nous n'utilisons pas version::``EXTRA`` tout simplement.

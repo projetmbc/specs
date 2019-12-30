@@ -7,7 +7,7 @@
 ======
 
 Ce document réunit un ensemble de règles utiles pour bâtir des projets informatiques tels que des programmes ou plus généralement des créations textuelles comme un document ¨pdf ou le contenu d'un site ¨web.
-Ces choix sont nés du fruit d'habitudes personnelles et de recommandations diverses en faisant des choix très pragmatiques
+Ces choix sont nés du fruit d'habitudes personnelles et de recommandations diverses et d'une forme appuyée de pragmatisme
 ((
     Ne pas hésiter à proposer des adaptations pour des langages "exotiques" car l'auteur pratique principalement ¨python, ¨latex, le ¨html et le ¨css pour le moment.
 )).
@@ -16,6 +16,6 @@ Ces choix sont nés du fruit d'habitudes personnelles et de recommandations dive
 warning::
     Les règles se veulent applicables dans le maximum de contextes
     ((
-        Certains langages comme ¨latex nous complique la vie en nous demandnat de les traiter partiellement à part.
+        Certains langages comme ¨latex nous complique la vie en nous demandant de les traiter partiellement à part dans certaines situations.
     )).
-    Elles casseront donc certaines habitudes propres à certains langages de programmation. Ces choix sont assumés !
+    Elles casseront donc des habitudes propres à certains langages de programmation. Ces choix sont assumés même si l'auteur de ce document est un petit amateur !

@@ -6,8 +6,8 @@ this::
 Constantes
 ==========
 
-Les noms des constantes globales ou de classe en ¨poo
+Les noms des constantes globales ou de classes en ¨poo
 ((
-    Et non d'instance de classe.
+    Et non des constantes d'instances d'une classe.
 )),
 sont du type ``ONE_GLOBAL_CONSTANT``.

@@ -6,7 +6,7 @@ this::
 Les booléens
 ============
 
-On utilise un verbe à l'infinitif comme dans les exemples suivants.
+Pour ce qui est ou renvoie un booléen, on utilise un verbe à l'infinitif comme dans les exemples suivants.
 
  	1) ``evaluate(...)`` ou ``isfile(...)`` indiquent des fonctions ou méthodes renvoyant un booléen.
 

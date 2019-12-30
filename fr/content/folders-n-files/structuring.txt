@@ -3,7 +3,7 @@
 
 
 abrev::
-    myspec_source_fr = cf::``code source ;
+    myspec_source_fr = cf::``code source des spécifications ;
                              https://github.com/projetmbc/specifications``
 
 
@@ -11,4 +11,4 @@ abrev::
 Bien organiser les dossiers
 ===========================
 
-On oublie parfois que l'organisation d'un dossier est porteuse de sens. Structurer ses dossiers et fichiers de façon logique et sémantique est une très bonne chose, ce principe s'appliquant aussi à des écrits comme la présente documentation : reportez-vous par exemple au ¨myspec_source_fr des spécifications que vous êtes entrain de lire.
+On oublie parfois que l'organisation d'un dossier est porteuse de sens. Structurer ses dossiers et fichiers de façon logique et sémantique est une très bonne chose, ce principe s'appliquant aussi à des écrits comme pour la présente ¨doc : reportez-vous par exemple au ¨myspec_source_fr que vous êtes entrain de lire.
