@@ -1,0 +1,58 @@
+this::
+    date = 2019-12-30
+
+
+===================
+Documenter son code
+===================
+
+Le langage ¨python utilise des docstrings pour documenter un code directement dans son listing.
+Ce principe est étendu à tous les langages en appliquant l'une des règles simples suivantes.
+
+    1) Si le langage propose déjà un système de documentation du code comme ¨python, on utilise alors ce système.
+
+    1) Si le langage dispose de commentaires multi-lignes, on les utilise mais en triplant le dernier caractère d'ouverture du commentaire et le premier pour la fermeture. Ainsi en ¨js, on utilise js::``/*** ... ***/`` au lieu de js::``/* ... */``.
+
+    1) Dans tous les autres cas, on entoure le commentaire de documentation de lignes où le dernier caractère de début du commentaire est triplé comme dans latex::``%%%`` au lieu de latex::``%`` en ¨latex.
+
+
+Voici un ¨1ER exemple utilisant en plus une syntaxe, non encore figée, du projet ¨docnsee en cours de développement.
+
+js::
+    /***
+    this::
+        date   = 2019-12-30
+        author = Christophe, BAL
+
+    One very small and unnecessary script.
+    ***/
+
+    function square(x) {
+    /***
+    prototype::
+        arg = float: x ;
+              ``x`` is a number to be squared
+
+        return = float ;
+                 the square of the number ``x``
+
+    Is this doc very useful ? ;-)
+    ***/
+        var y = x^2;
+
+        return y;
+    }
+
+
+Le ¨2EME exemple ci-après montre comment faire lorsque la langage ne propose pas de commentaires multi-lignes.
+
+latex::
+    %%%
+    % this::
+    %     date   = 2019-12-30
+    %     author = Christophe, BAL
+    %
+    % Just for showing how to do without multi-line comments.
+    %%%
+
+    \newcommand\mymacro{Do something !}

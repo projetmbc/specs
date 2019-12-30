@@ -1,0 +1,13 @@
+this::
+    date = 2019-12-30
+
+
+==========
+Constantes
+==========
+
+Les noms des constantes globales ou de classe en ¨poo
+((
+    Et non d'instance de classe.
+)),
+sont du type ``ONE_GLOBAL_CONSTANT``.

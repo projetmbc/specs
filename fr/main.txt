@@ -1,0 +1,18 @@
+﻿abrev::
+    content = /content
+
+
+=============================================
+Spécifications pour des projets informatiques
+=============================================
+
+content::
+    ¨content/intro.txt
+
+// Naming
+    ¨content/how-to-name.txt
+    ¨content/in-files.txt
+    ¨content/folders-n-files.txt
+
+// Versioning
+    ¨content/version.txt

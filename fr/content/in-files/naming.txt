@@ -1,0 +1,16 @@
+abrev::
+    content = /naming
+
+
+===========================
+Bien nommer dans un fichier
+===========================
+
+content::
+    ¨content/chars-set.txt
+    ¨content/module-n-package.txt
+    ¨content/constant.txt
+    ¨content/var-n-func.txt
+    ¨content/poo.txt
+    ¨content/error.txt
+    ¨content/scope.txt

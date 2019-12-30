@@ -1,0 +1,21 @@
+﻿this::
+    date = 2019-12-29 ; 2019-12-30
+
+
+======
+¨Intro
+======
+
+Ce document réunit un ensemble de règles utiles pour bâtir des projets informatiques tels que des programmes ou plus généralement des créations textuelles comme un document ¨pdf ou le contenu d'un site ¨web.
+Ces choix sont nés du fruit d'habitudes personnelles et de recommandations diverses en faisant des choix très pragmatiques
+((
+    Ne pas hésiter à proposer des adaptations pour des langages "exotiques" car l'auteur pratique principalement ¨python, ¨latex, le ¨html et le ¨css pour le moment.
+)).
+
+
+warning::
+    Les règles se veulent applicables dans le maximum de contextes
+    {{
+        Certains langages comme ¨latex nous complique la vie en nous demandnat de les traiter partiellement à part.
+    }}.
+    Elles casseront donc certaines habitudes propres à certains langages de programmation. Ces choix sont assumés !

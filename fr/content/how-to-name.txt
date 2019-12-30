@@ -1,0 +1,17 @@
+﻿this::
+    date = 2019-12-30
+
+
+=====================
+Comment bien nommer ?
+=====================
+
+Avant de voir dans les sections suivantes les règles d'écriture des noms, expliquons rapidement ce que nous pensons être un bon nom. Les principes suivants doivent être respectés le plus possible.
+
+    1) Un nom doit être court. Ainsi on préfèrera code::``DEBUG_MODE`` à code::``DEBUG_MODE_ACTIVATED_FOR_TESTING``.
+
+    1) Un nom doit être expressif. Ainsi on préfèrera code::``DEBUG_MODE`` à code::``DM`` ou code::``D``.
+
+    1) Un nom ne doit pas contenir d'¨infos superflues. Inutile d'écrire code::``int_nbcars`` car code::``nbcars`` indique un nombre de voitures, une quantité qui doit être entière.
+
+    1) Un nom peut utiliser des règles sémantiques d'écriture, tant que ces dernières sont fixées. Ainsi nous verrons dans les sections suivantes que code::``DEBUG_MODE`` indique une constante dans un listing informatique.

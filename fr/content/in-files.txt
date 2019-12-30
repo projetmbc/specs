@@ -1,0 +1,12 @@
+﻿abrev::
+    content = /in-files
+
+
+=================
+Dans les fichiers
+=================
+
+content::
+    ¨content/naming.txt
+    ¨content/typing.txt
+    ¨content/doc-in-code.txt

@@ -1,0 +1,23 @@
+this::
+    date = 2019-12-30
+
+
+===============
+Les énumérables
+===============
+
+Pour les structures énumérables de type tableau, liste, dictionnaire ou table de hashage, on utilise un nom au pluriel mixé avec une version singulière "longue" pour un élément particulier pris dans la structure énumérable comme dans l'exemple suivant.
+
+python::
+	# Usage du pluriel sans article.
+	words = [
+		"Le", "lundi", "30", "décembre", "2020",
+		"était", "une", "belle", "journée", "à", "Barberaz"
+	]
+
+	# Usage du singulier avec un article.
+	for oneword in words:
+		print(oneword)
+
+
+L'usage d'une une version singulière "longue" évite les erreurs de saisie et d'analyse du code !

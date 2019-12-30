@@ -1,0 +1,14 @@
+this::
+    date = 2019-12-30
+
+
+==========
+Visibilité
+==========
+
+Dans certains contextes, on ne veut pas rendre visible une constante, une classe, une méthode ou une fonction.
+Dans ce cas, le nom sera précédé d'un caractère spécial.
+
+    1) Pour la majorité des langages, on utilisera un simple blanc souligné ``_`` au tout début du nom comme dans ``_no_need_to_know_this``.
+
+    2) Pour ¨texlatex, on utilisera ``@`` comme dans ``@no@need@to@know@this``.

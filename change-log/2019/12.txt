@@ -1,0 +1,5 @@
+==========
+2019-12-30
+==========
+
+**Version version::``0.0.0-alpha``:** the aim of this project is to build specifications for coding and writing with a computer. For the moment, there is a just a french version.

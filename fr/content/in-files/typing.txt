@@ -1,0 +1,11 @@
+﻿abrev::
+    content = /typing
+
+
+=================
+Nommage et typage
+=================
+
+content::
+    ¨content/boolean.txt
+    ¨content/enumerable.txt
