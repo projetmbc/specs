@@ -16,9 +16,9 @@ Nommer les versions
 ===================
 
 Le système de nommage des versions s'appuie sur deux standards : voir "¨semversion" et "¨softwarelife". Nous utilisons surtout les règles suivantes largement suffisantes pour des projets non professionnels en donnant des exemples sous forme de notes de pas de page.
-{{
+((
     Pour les documents, nous appellerons "sections" les parties, les chapitres, les sections, les sous-sections et les sous-sous-sections.
-}}.
+)).
 
     1) Un numéro de version est soit du type version::``MAJ.MIN.COR``, soit de la forme version::``MAJ.MIN.COR-EXTRA``. Aucun numéro ne s'écrira version::``MAJ.MIN`` ou version::``MAJ`` !
 
@@ -27,25 +27,25 @@ Le système de nommage des versions s'appuie sur deux standards : voir "¨semver
     1) Les numéros augmentent sous la forme version::``0.0.0``, version::``0.0.1``, version::``0.0.2``, version::``0.1.0``, version::``1.0.0``, ... ¨etc. Noter qu'un changemnt de sous-numéro remet à zéro tous les sous-numéros plus à droite.
 
     1) version::``MAJ`` est à modifier dès qu'un changement non rétrocompatible apparaît
-    {{
+    ((
         **Changement majeur :**
         pour un document ceci correspond à l'organisation visible du contenu (sections supprimées ¨etou déplacées),
         et pour un programme à un changement d'¨api.
-    }}.
+    )).
 
     1) version::``MIN`` évolue lorsque de nouvelles fonctionnalités rétrocompatibles apparaissent
-    {{
+    ((
         **Changement mineur :**
         pour un document ceci correspond à un enrichissement du contenu (nouvelles sections ¨etou mises à jour de sections précédemment créées),
         et pour un programme à un enrichissemnt de l'¨api sans modifier ce qu'elle proposait avant.
-    }}.
+    )).
 
     1) version::``COR`` change à chaque correction d’anomalies rétrocompatibles
-    {{
+    ((
         **Correctifs :**
         pour un document ceci correspond à des corrections à la marge (erreurs orthographiques, grammaticales ¨etou syntaxiques, mais aussi une réorgnaisation purement visuelle du contenu sans toucher à l'organisation des sections),
         et pour un programme à la correction de bogues sans toucher à l¨api.
-    }}.
+    )).
 
     1) version::``EXTRA`` peut avoir les valeurs suivantes suivies éventuellement d'un point et d'un sous-numéro. On peut donc utiliser version::``1.2.0-alpha`` et version::``1.2.0-alpha.2``.
 

@@ -15,7 +15,7 @@ Ces choix sont nés du fruit d'habitudes personnelles et de recommandations dive
 
 warning::
     Les règles se veulent applicables dans le maximum de contextes
-    {{
+    ((
         Certains langages comme ¨latex nous complique la vie en nous demandnat de les traiter partiellement à part.
-    }}.
+    )).
     Elles casseront donc certaines habitudes propres à certains langages de programmation. Ces choix sont assumés !
