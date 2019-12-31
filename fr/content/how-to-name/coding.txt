@@ -1,0 +1,24 @@
+﻿this::
+    date = 2019-12-31
+
+
+=============================
+Des exemples en programmation
+=============================
+
+Voici des exemples de ce que donne les règles en programmation.
+
+    1) **Faire court :**
+       on préfèrera code::``DEBUG_MODE`` à code::``DEBUG_MODE_ACTIVATED_FOR_TESTING``.
+
+    1) **Être expressif :**
+       on préfèrera code::``DEBUG_MODE`` à code::``DM`` ou code::``D``
+    ((
+        Ne rigolez pas ! Je peux dénoncer des "codeurs" qui produisent ce genre d'horreurs.
+    )).
+
+    1) **Pas d'¨infos superflues :**
+       inutile d'écrire code::``int_nbcars`` car code::``nbcars`` indique un nombre de voitures, une quantité qui doit être entière.
+
+    1) **Utiliser des règles sémantiques d'écriture :**
+       nous verrons dans les sections suivantes que code::``DEBUG_MODE`` indique une constante globale ou de classe.

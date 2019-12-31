@@ -1,10 +1,10 @@
 ﻿abrev::
-    content = /in-files
+    content = /code-in-files
 
 
-=================
-Dans les fichiers
-=================
+=======================
+Coder dans des fichiers
+=======================
 
 content::
     ¨content/naming.txt

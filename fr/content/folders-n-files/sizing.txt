@@ -1,10 +1,12 @@
 ﻿this::
-    date = 2019-12-30
+    date = 2019-12-30 ; 2019-12-31
 
 
 ==============================
 Limiter la taille des fichiers
 ==============================
 
-Il ne faut jamais travailler sur des fichiers trop gros afin d'en faciliter la maintenance. Ceci est bien connu des programmeurs mais cette règle s'étend aussi aux écrits : il vaut mieux utiliser un fichier par section lorsque l'on écrit un document ¨latex par exemple.
-Ce choix implique de bien structurer ses dossiers. Nous allons en parler juste après.
+Il ne faut jamais travailler sur des fichiers trop gros afin d'en faciliter la maintenance. Ceci est bien connu des programmeurs mais cette règle s'étend aussi aux écrits : il vaut mieux utiliser un fichier par section lorsque l'on écrit un document ¨latex par exemple
+((
+    Ce choix implique de bien structurer les dossiers. Nous allons en parler juste après.
+)).

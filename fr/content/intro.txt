@@ -1,13 +1,13 @@
 ﻿this::
-    date = 2019-12-29 ; 2019-12-30
+    date = 2019-12-29 ; 2019-12-31
 
 
 ======
 ¨Intro
 ======
 
-Ce document réunit un ensemble de règles utiles pour bâtir des projets informatiques tels que des programmes ou plus généralement des créations textuelles comme un document ¨pdf ou le contenu d'un site ¨web.
-Ces choix sont nés du fruit d'habitudes personnelles et de recommandations diverses et d'une forme appuyée de pragmatisme
+Ce document réunit un ensemble de règles utiles pour bâtir des projets informatiques tels que des programmes ou plus généralement des créations textuelles comme un document écrit via ¨latex ou encore un site ¨web s'appuyant sur ¨html.
+Ces choix sont nés du fruit d'habitudes personnelles, de recommandations diverses et d'une forme appuyée de pragmatisme
 ((
     Ne pas hésiter à proposer des adaptations pour des langages "exotiques" car l'auteur pratique principalement ¨python, ¨latex, le ¨html et le ¨css pour le moment.
 )).
