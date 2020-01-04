@@ -1,0 +1,24 @@
+this::
+    date = 2020-01-04
+
+
+=====================================
+A défaut de tester, penser à tester !
+label::``testing``
+=====================================
+
+il faut tester ce que l'on produit.
+
+    1) Pour un simple document écrit, il est préférable d'avoir des relecteurs de confiance ou pas.
+
+    1) Pour un programme, les testes peuvent être penser en amont du code. Il faut aussi veiller à tester au maximum y compris les ¨gui_frs
+    ((
+        Pour le ¨web, il y a ¨selenium ou ¨pupeteer.
+    )),
+    en oubliant de vérifier que vos testes couvrent bien l'ensemble de vos fonctionnalités
+    ((
+        En ¨python, on s'appuiera par exemple sur ¨coverage.
+    ))
+
+
+Les tests sont vivants en ce sens qu'ils doivent tenir compte de retour d'expérience. En effet, on ne peut pas tout prévoir à l'avance !

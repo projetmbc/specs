@@ -1,5 +1,5 @@
 ﻿this::
-    date = 2019-12-30 ; 2019-12-31
+    date = 2019-12-30 ; 2020-01-03
 
 
 ==============================
@@ -10,3 +10,8 @@ Il ne faut jamais travailler sur des fichiers trop gros afin d'en faciliter la m
 ((
     Ce choix implique de bien structurer les dossiers. Nous allons en parler juste après.
 )).
+
+
+note::
+    Ceci n'empêche pas de fournir au final un unique fichier monstrueux mais pratique pour l'utilisateur : penser par exemple à un fichier ¨latex unique directement compilable en un ¨pdf, ou bien à un fichier path::``sty`` unique développé via des fichiers path::``sty`` petits et faciles à maintenir.
+    Dans ce genre de situation, la fabrication du gros fichier "tout-en-un" sera automatisée.

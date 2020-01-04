@@ -2,6 +2,7 @@ this::
     title  = Spécifications pour des projets informatiques
     author = Christophe, BAL
     mail   = projetmbc@gmail.com
+    lang   = fr_FR
 
     licence = cc , by-nc-sa , 4.0
     out     = html | pdf
@@ -10,6 +11,9 @@ this::
 abrev::
     content = /content
 
+    cookiecuter = cf::``Cookiecutter ;
+                        https://github.com/cookiecutter/cookiecutter/blob/master/docs/index.rst``
+
 
 content::
     ¨content/intro.txt
@@ -17,9 +21,15 @@ content::
 // Naming
     ¨content/how-to-name.txt
     ¨content/code-in-files.txt
+
+// TODO : truc dans structure e lien vec la modularité pour code mais aussi écrit : idée de ne pas produire des sections trop longues mais aussi d'essayer de faire ne sort e de renfdre une section réutilisable
+// mettre aussi truc sur une structure commune construite automatique (cookiecuter pour python par exemple ou plus généraliste si ceal existe)
+
     ¨content/folders-n-files.txt
+
 
 // Versioning
     ¨content/version.txt
 
-// Scrum bless you !
+// Scrum, co. & others bless you !
+    ¨content/process.txt

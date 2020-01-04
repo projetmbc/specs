@@ -1,0 +1,14 @@
+abrev::
+    content = /process
+
+
+=====================
+Processus de création
+=====================
+
+content::
+    ¨content/doforneed.txt
+    ¨content/doitnow[ornever].txt
+    ¨content/pragmatic.txt
+    ¨content/automatation.txt
+    ¨content/test.txt

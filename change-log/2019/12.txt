@@ -2,7 +2,7 @@
 2019-12-31
 ==========
 
-**Version version::``0.1.0-alpha``:** the sections just for coding and/or just for writiing are now recognizable.
+**Version version::``0.1.0-alpha``:** the sections just for coding and/or just for writing are now recognizable.
 
 
 ==========

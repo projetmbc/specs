@@ -1,5 +1,5 @@
 this::
-    date = 2019-12-31
+    date = 2019-12-31 ; 2020-01-03
 
 
 ============================
@@ -9,7 +9,7 @@ Des exemples pour des écrits
 Voici des exemples de ce que donne les règles lors de la rédaction d'un contenu textuel.
 
     1) **Faire court :**
-        entre "Spécifications pour des projets informatiques" et "Spécifications utiles, voire indispensables, à la fabrication de codes informatiques mais aussi d'écrits tapés via un langage de ¨mef", il est clair que le ¨1er choix est le meilleur pour le titre d'un document.
+        entre "Spécifications pour des projets informatiques" et "Spécifications utiles voire indispensables à la fabrication de codes informatiques mais aussi d'écrits tapés via un langage de ¨mef", il est clair que le ¨1er choix est le meilleur pour le titre d'un document.
 
     1) **Être expressif :**
        même si l'acronyme "S.P.D.P.I." vous parle et vous semble sympa, il vaut mieux utiliser "Spécifications pour des projets informatiques" pour le titre d'un document.
@@ -18,4 +18,4 @@ Voici des exemples de ce que donne les règles lors de la rédaction d'un conten
        dans "Spécifications utiles pour des projets informatiques", le "utile" ne l'est pas du tout ! En effet, à quoi bon rédiger un document sur des spécifications inutiles du point de vue de l'auteur. Non ?
 
     1) **Utiliser des règles sémantiques d'écriture :**
-       ici les textes ¨maths, ou plus généralement techniques, sont des bons exemples où des règles sémantiques implicites sont utilisées. Par exemple, dans un cours d'analyse, les fonctions seront nommées $f$, $g$, $h$ mais rarement $A$, $B$, $C$. 
+       les textes ¨maths, ou plus généralement techniques, sont des bons exemples car ils utilisent des règles sémantiques implicites. Ainsi, dans un cours d'analyse, les fonctions seront nommées `f`, `g`, `h` mais rarement `A`, `B`, `C`.
