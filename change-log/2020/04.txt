@@ -1,0 +1,5 @@
+==========
+2019-04-27
+==========
+
+**Version version::``0.3.0-alpha``:** a section about useful knowledge has been added.
