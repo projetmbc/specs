@@ -1,5 +1,5 @@
 ﻿this::
-    date = 2019-12-29 ; 2020-04-27
+    date = 2019-12-29 ; 2020-07-05
 
 
 abrev::
@@ -18,7 +18,7 @@ Nommer les versions
 Le système de nommage des versions s'appuie sur deux standards : voir "¨semversion" et "¨softwarelife". Nous utilisons surtout les règles suivantes largement suffisantes pour des projets non professionnels.
 Nous donnons au passage des exemples sous forme de notes de bas de page.
 ((
-    Pour les documents, "section" désignera de façon indifférente une partie, un chapitre, une section, une sous-section et une sous-sous-section.
+    Pour les documents, "section" désignera de façon indifférente une partie, un chapitre, une section, une sous-section ou une sous-sous-section.
 )).
 
     1) Un numéro de version est soit du type version::``MAJ.MIN.COR``, soit de la forme version::``MAJ.MIN.COR-EXTRA``.
@@ -30,18 +30,18 @@ Nous donnons au passage des exemples sous forme de notes de bas de page.
     1) Les numéros augmentent sous la forme suivante : version::``0.0.0``, version::``0.0.1``, version::``0.0.2``, version::``0.1.0``, version::``1.0.0``, ... ¨etc.
     Noter qu'un changement de sous-numéro remet à zéro tous les sous-numéros qui sont plus à droite.
 
-    1) Le numéro version::``MAJ`` est à modifier dès qu'un changement non rétrocompatible apparaît
+    1) Le numéro version::``MAJ`` est à modifier dès qu'un changement non rétrocompatible majeur apparaît
     ((
         **Changement majeur :**
         pour un document ceci correspond à l'organisation visible du contenu (sections supprimées ¨etou déplacées),
-        et pour un programme à un changement d'¨api (le programme s'utilise différemment).
+        et pour un programme à un changement important d'¨api (le programme s'utilise différemment).
     )).
 
-    1) Le numéro version::``MIN`` évolue lorsque de nouvelles fonctionnalités rétrocompatibles apparaissent
+    1) Le numéro version::``MIN`` évolue lorsque de nouvelles fonctionnalités rétrocompatibles apparaissent avec éventuellement de minimes changements non rétrocompatibles
     ((
         **Changement mineur :**
         pour un document ceci correspond à un enrichissement du contenu (nouvelles sections ¨etou mises à jour de sections précédemment existentes),
-        et pour un programme à un enrichissement de l'¨api sans modifier ce qu'elle proposait avant (le programme s'utilise de la même façon mais il a été enrichi de ¨nelles fonctionnalités).
+        et pour un programme à un enrichissement de l'¨api sans modifier ce qu'elle proposait avant (le programme s'utilise de la même façon, sauf peut-être à la marge, mais il a été enrichi de ¨nelles fonctionnalités).
     )).
 
     1) Le numéro version::``COR`` change à chaque correction d’anomalies rétrocompatibles
