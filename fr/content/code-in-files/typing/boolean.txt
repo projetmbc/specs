@@ -1,12 +1,12 @@
 this::
-    date = 2019-12-30
+    date = 2019-12-30 ; 2021-04-07
 
 
 ============
 Les booléens
 ============
 
-Pour ce qui est ou renvoie un booléen, on utilise un verbe à l'infinitif comme dans les exemples suivants.
+Pour ce qui est, ou bien renvoie, un booléen, on utilise un verbe à l'infinitif comme dans les exemples suivants.
 
  	1) ``evaluate(...)`` ou ``isfile(...)`` indiquent des fonctions ou méthodes renvoyant un booléen.
 

@@ -13,9 +13,9 @@ Voici des exemples de ce que donne les règles en programmation.
 
     1) **Être expressif :**
        on préfèrera code::``DEBUG_MODE`` à code::``DM`` ou code::``D``
-    ((
-        Ne rigolez pas ! Je peux dénoncer des "codeurs" qui produisent ce genre d'horreurs.
-    )).
+       ((
+            Ne rigolez pas ! Je peux dénoncer des "codeurs" qui produisent ce genre d'horreurs.
+       )).
 
     1) **Pas d'¨infos superflues :**
        inutile d'écrire code::``int_nbcars`` car code::``nbcars`` indique un nombre de voitures, une quantité qui doit être entière.

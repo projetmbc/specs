@@ -1,5 +1,5 @@
 ﻿this::
-    date = 2019-12-30 ; 2019-12-31
+    date = 2019-12-30 ; 2021-04-07
 
 
 ==================
@@ -14,4 +14,4 @@ Avant de voir dans les sections suivantes les règles d'écriture des noms, expl
 
     1) Un nom ne doit pas contenir d'¨infos superflues.
 
-    1) Un nom peut utiliser des règles sémantiques d'écriture, tant que ces
+    1) Un nom peut utiliser des règles sémantiques d'écriture.

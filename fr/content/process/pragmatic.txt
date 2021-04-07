@@ -1,5 +1,5 @@
 this::
-    date = 2020-01-04
+    date = 2020-01-04 ; 2021-04-07
 
 
 ================================
@@ -12,12 +12,12 @@ Il faut toujours être au maximum pragmatique.
 
     1) Garder ce qui est utile et ne pas hésiter à abandonner ce qui au final n'est plus ou pas pertinent.
 
-    1) Faire le deuil des projets que l'on arrive pas à débuter. Se poser la question de l'utilité du projet à faire depuis des années. Si besoin, pon passera par un état intermédiaire de "projets peut-être à faire".
+    1) Faire le deuil des projets que l'on n'arrive pas à débuter. Se poser la question de l'utilité du projet que l'on essaye de faire depuis des années. Si besoin, on passera par un état intermédiaire de "projets peut-être à faire".
 
     1) Limiter le nombre de projets en cours au minimum. Ceci évite de se disperser.
 
     1) Produire sur des cycles courts. Préférer un court texte sur un sujet ciblé que de se lancer dans un document fleuve que vous n'avez pas le temps d'écrire.
 
     1) Regrouper ce qui peut l'être par la suite. Si différents petits écrits ont un point commun, on pourra les réunir.
-    On peut aussi s'organiser en amont ne produisant différents projets qui ont un point commun mais que l'on ne met pas directement dans un gros projet.
-    De façon générale, il ne faut pas cherche à écrire un livre car un livre n'est pas un but mais juste une conséquence !
+    On peut aussi s'organiser en amont en produisant différents projets qui ont un point commun mais que l'on ne met pas directement dans un gros projet.
+    De façon générale, il ne faut pas chercher à écrire un livre car un livre n'est pas un but mais juste une conséquence !

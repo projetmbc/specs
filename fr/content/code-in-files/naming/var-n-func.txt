@@ -1,9 +1,9 @@
 this::
-    date = 2019-12-30
+    date = 2019-12-30 ; 2021-04-07
 
 
 ==============================
 Les variables et les fonctions
 ==============================
 
-Pour les langages de programmation, les noms des variables et ceux des fonctions et des arguments sont de préférence du type ``shortname``, et si besoin de la forme ``exceptionnal_long_name``.
+Pour les langages de programmation, les noms des variables ainsi que ceux des fonctions et de leurs arguments sont de préférence du type ``shortname``, et si besoin de la forme ``exceptionnal_long_name``.
