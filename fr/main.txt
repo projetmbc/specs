@@ -2,7 +2,7 @@ this::
     title  = Spécifications pour des projets informatiques
     author = Christophe, BAL
     mail   = projetmbc@gmail.com
-    lang   = fr_FR
+    lang   = fr
 
     licence = cc by-nc-sa 4.0
     out     = html | pdf
@@ -21,12 +21,7 @@ content::
 // Naming
     ¨content/how-to-name.txt
     ¨content/code-in-files.txt
-
-// TODO : truc dans structure e lien vec la modularité pour code mais aussi écrit : idée de ne pas produire des sections trop longues mais aussi d'essayer de faire ne sort e de renfdre une section réutilisable du type article pouvant Ãªtre intégré avec peu de mofi dans un livre
-// mettre aussi truc sur une structure commune construite automatique (cookiecuter pour python par exemple ou plus généraliste si ceal existe)
-
     ¨content/folders-n-files.txt
-
 
 // Versioning
     ¨content/version.txt
@@ -46,7 +41,7 @@ content::
 
 // TODO : Just for writing !
 // préciser qu'iic  c'est pour écrit technique
-// ne pas hesiter Ã  proposer des approches différentes voire imagées
+// ne pas hesiter à proposer des approches différentes voire imagées
 // (graphique ou schéma)
 // parer de la posivilité de 'écriture pour web dya et papier en simultanée'
 //    ¨content/onlywriting.txt         ????

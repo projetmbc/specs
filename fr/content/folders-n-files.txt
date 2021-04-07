@@ -10,3 +10,4 @@ content::
     ¨content/naming.txt
     ¨content/sizing.txt
     ¨content/structuring.txt
+    ¨content/modularity.txt

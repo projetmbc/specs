@@ -2,4 +2,13 @@
 2021-04-07
 ==========
 
+**Version version::``0.4.0-alpha``:** here are the changes.
+
+    1) One new section about modularization in general has been created.
+
+    2) Advices about (not) numbering files and folders have been added.
+
+    3) Informations about the use of short technical ¨docs in codes have been modified a lot.
+
+
 **Version version::``0.3.2-alpha``:** some minor errors have been seen and corrected.

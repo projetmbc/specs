@@ -1,5 +1,5 @@
 ﻿this::
-    date = 2019-12-30
+    date = 2019-12-30 ; 2021-04-07
 
 
 ========================================
@@ -30,3 +30,12 @@ warning::
         ((
             C'est le cas des ¨os_frs de type ¨linux et ¨macos, et aussi de ¨win à partir de la version 10 via l'activation d'une option.
         )).
+
+
+info::
+    Il vaut mieux éviter d'utiliser des fichiers numérotés car cela reflète généralement l'organisation d'un dossier.
+    Or les problèmes arrivent vite si l'on souhaite ajouter de nouveaux dossiers ¨etou fichiers via la nécessité de faire des renumérotations en chaîne.
+    Ceci étant dit, numéroter les fichiers ¨etou les dossiers est parfois utile
+    ((
+        L'auteur utilise cet artifice pour ses projets ¨latex.
+    ))

@@ -1,22 +1,33 @@
 this::
-    date = 2019-12-30
+    date = 2019-12-30 ; 2021-04-07
+
+
+abrev::
+    doxygen = cf::``Doxygen ;
+                    https://www.doxygen.nl/index.html``
 
 
 ===================
 Documenter son code
 ===================
 
-Le langage ¨python utilise des docstrings pour documenter un code directement dans son listing.
-Ce principe est étendu à tous les langages en appliquant l'une des règles simples suivantes.
+Beaucoup de langages de programmation proposent des outils pour documenter son code directement dans le code lui-même : on pense par exemple aux docstrings de ¨python ou au support de ¨doxygen en ¨c et en ¨php.
+Ce principe utile est repris et généralisé à d'autres langages en appliquant l'une des règles simples suivantes au grè des besoins.
 
-    1) Si le langage propose déjà un système de ¨doc du code comme ¨python, on utilise alors ce système.
+    1) Si le langage propose déjà un système de ¨doc du code, on pourra l'utiliser.
 
-    1) Si le langage dispose de commentaires multi-lignes, on les utilise mais en triplant le dernier caractère d'ouverture du commentaire et le premier pour la fermeture. Ainsi en ¨js, on utilise js::``/*** ... ***/`` au lieu de js::``/* ... */``.
+    1) On peut aussi utiliser les commentaires pour indiquer des ¨infos via une syntaxe, non encore figée, du projet ¨docnsee en cours de développement
+    ((
+        L'idée est d'utiliser partout ce système une fois qu'il sera mûr.
+    )).
+    Une ¨info technique s'indiquera en commençant un commentaire
+    ((
+        Ceci peut être un unique commentaire multiligne via par exemple js::``/* ... */`` en ¨js, ou bien plusieurs commentaires monolignes commençant par exemple par latex::``%`` en ¨latex.
+    ))
+    en triplant le dernier caractère du texte marquant le début du commentaire, et pour la fin on triplera le ¨1ER caractère.
 
-    1) Dans tous les autres cas, on entoure le commentaire de ¨doc de deux lignes où le dernier caractère de début de commentaires est triplé comme dans latex::``%%%`` au lieu de latex::``%`` en ¨latex.
 
-
-Voici un ¨1ER exemple utilisant en plus une syntaxe, non encore figée, du projet ¨docnsee en cours de développement.
+Voici un ¨1ER exemple du ¨2eme cas lorsque l'on dispose de comentaires multlignes.
 
 js::
     /***
@@ -44,7 +55,7 @@ js::
     }
 
 
-Le ¨2EME exemple ci-après montre comment faire lorsque le langage ne propose pas de commentaires multi-lignes.
+Le ¨2EME exemple ci-après montre comment faire lorsque le langage ne propose pas de commentaire multiligne.
 
 latex::
     %%%
@@ -52,10 +63,15 @@ latex::
     %     date   = 2019-12-30
     %     author = Christophe, BAL
     %
-    % Just for showing how to do without multi-line comments.
+    % Just for showing how to do without multiline comments.
     %%%
 
     \newcommand\mymacro{Do something !}
 
 
-On note que la syntaxe retenue ne nuit en rien à la compression des codes.
+On note que la syntaxe retenue ne nuit en rien à la compréhension des codes.
+
+
+
+warning::
+    Veiller à ne donner que des ¨infos techniques minimales pour ne pas avoir plus de ¨doc que de lignes de code et garder les détails pour une ¨doc non technique externe.

@@ -11,7 +11,7 @@ Il faut tester ce que l'on produit.
 
     1) Pour un simple document écrit, il est préférable d'avoir des relecteurs de confiance... ou pas.
 
-    1) Pour un programme, les tests peuvent être pensé en amont du code. Il faut aussi veiller à tester au maximum y compris les ¨gui_frs
+    1) Pour un programme, les tests peuvent être pensés en amont du code. Il faut aussi veiller à tester au maximum y compris les ¨gui_frs
     ((
         Pour le ¨web, il y a ¨selenium ou ¨pupeteer.
     )),
