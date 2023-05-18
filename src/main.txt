@@ -20,7 +20,6 @@ content::
 
 // Naming
     ¨content/how-to-name.txt
-    ¨content/coding.txt
     ¨content/archi.txt
 
 // Versioning
@@ -32,11 +31,8 @@ content::
 // Learning but not too much !
     ¨content/beingaware.txt
 
-
-
-
-// TODO : Just for coding !
-//    ¨content/onlycoding.txt         ????
+// Just for coding !
+    ¨content/just-coding.txt
 
 
 // TODO : Just for writing !
@@ -44,4 +40,4 @@ content::
 // ne pas hesiter à proposer des approches différentes voire imagées
 // (graphique ou schéma)
 // parer de la posivilité de 'écriture pour web dya et papier en simultanée'
-//    ¨content/onlywriting.txt         ????
+//    ¨content/just-writing.txt         ????

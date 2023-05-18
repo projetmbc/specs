@@ -10,7 +10,7 @@ content::
     ¨content/chars-set.txt
     ¨content/module-n-package.txt
     ¨content/constant.txt
-    ¨content/nopoo.txt
+    ¨content/no-poo.txt
     ¨content/poo.txt
     ¨content/error.txt
     ¨content/scope.txt
