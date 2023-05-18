@@ -1,0 +1,12 @@
+﻿abrev::
+    content = /:this.name:
+
+
+=======================
+Coder dans des fichiers
+=======================
+
+content::
+    ¨content/naming.txt
+    ¨content/typing.txt
+    ¨content/doc-in-code.txt

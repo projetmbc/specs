@@ -1,0 +1,16 @@
+abrev::
+    content = /:this.name:
+
+
+===========================
+Bien nommer dans un fichier
+===========================
+
+content::
+    ¨content/chars-set.txt
+    ¨content/module-n-package.txt
+    ¨content/constant.txt
+    ¨content/nopoo.txt
+    ¨content/poo.txt
+    ¨content/error.txt
+    ¨content/scope.txt

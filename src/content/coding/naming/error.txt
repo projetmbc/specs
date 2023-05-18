@@ -1,0 +1,9 @@
+this::
+    date = 2023-05-18
+
+
+=====================
+Erreurs que l'on lève
+=====================
+
+Les noms des erreurs renvoyées volontairement sont du type ``OneName`` en utilisant les bosses de chameaux.

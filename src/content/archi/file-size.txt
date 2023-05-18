@@ -1,0 +1,17 @@
+﻿this::
+    date = 2023-05-18
+
+
+==================================
+Des fichiers de taille raisonnable
+==================================
+
+Il ne faut jamais travailler sur des fichiers trop gros afin d'en faciliter la maintenance. Ceci est bien connu des programmeurs mais cette règle s'étend aussi aux écrits : il vaut mieux utiliser un fichier par section lorsque l'on écrit un document ¨latex par exemple
+((
+    Ce choix implique de bien structurer les dossiers. Nous allons en reparler dans les deux sections suivantes.
+)).
+
+
+note::
+    Ceci n'empêche pas de fournir au final un unique fichier monstrueux mais pratique pour l'utilisateur : penser par exemple à un fichier ¨latex unique directement compilable en un ¨pdf, ou bien à un fichier path::``sty`` unique développé via des fichiers path::``sty`` petits et faciles à maintenir.
+    Dans ce genre de situation, la fabrication du gros fichier "tout-en-un" sera automatisée.

@@ -1,0 +1,11 @@
+﻿abrev::
+    content = /:this.name:
+
+
+=================
+Nommage et typage
+=================
+
+content::
+    ¨content/boolean.txt
+    ¨content/enumerable.txt

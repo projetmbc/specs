@@ -1,0 +1,40 @@
+// ---------- //
+
+
+==
+07  (0.4.0-alpha)
+==
+
+-----
+:new:
+-----
+
+[[:doc:]]
+Two new ¨specs have been added.
+
+    1) One new section about modularization in general has been created.
+
+    2) Advices about (not) numbering files and folders have been added.
+
+
+--------
+:update:
+--------
+
+[[:doc:]]
+Informations about the use of short technical ¨docs in codes have been modified a lot.
+
+
+// ---------- //
+
+
+==
+07  (0.3.2-alpha)
+==
+
+--------
+:update:
+--------
+
+[[:doc:]]
+Some minor errors have been seen and corrected.

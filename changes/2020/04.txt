@@ -1,0 +1,13 @@
+// ---------- //
+
+
+==
+27  (0.3.0-alpha)
+==
+
+-----
+:new:
+-----
+
+[[:doc:]]
+A section about useful knowledge has been added.

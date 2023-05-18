@@ -1,0 +1,12 @@
+abrev::
+    content = /:this.name:
+
+
+=====================
+Comment bien nommer ?
+=====================
+
+content::
+    ¨content/general.txt
+    ¨content/writing.txt
+    ¨content/coding.txt

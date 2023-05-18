@@ -1,0 +1,28 @@
+// ---------- //
+
+
+==
+04  (0.2.0-alpha)
+==
+
+-----
+:new:
+-----
+
+[[:doc:]]
+A section about processes of creation has been added.
+
+
+// ---------- //
+
+
+==
+03
+==
+
+--------
+:update:
+--------
+
+[[:doc:]]
+Sizes of the files: a note has been added for big files automatically build from little ones.

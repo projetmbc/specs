@@ -1,0 +1,78 @@
+this::
+    date = 2023-05-18
+
+
+abrev::
+    doxygen = cf::``Doxygen ;
+                    https://www.doxygen.nl/index.html``
+
+
+===================
+Documenter son code
+===================
+
+Beaucoup de langages de ¨prog proposent des outils pour documenter son code directement dans le code lui-même : on pense par exemple aux docstrings de ¨python ou au support de ¨doxygen en ¨c et en ¨php.
+Ce principe utile est repris et généralisé à d'autres langages en appliquant l'une des règles simples suivantes au grè des besoins.
+
+Si le langage propose déjà un système de ¨doc du code, on pourra l'utiliser.
+Sinon on peut aussi utiliser les commentaires pour indiquer des ¨infos via une syntaxe, non encore figée, du projet ¨tnsdoc en cours de développement
+((
+    L'idée est d'utiliser partout ce système une fois qu'il sera mûr.
+)).
+Une ¨info ¨tech s'indiquera en commençant un commentaire
+avec trois fois le dernier caractère du texte marquant le début du commentaire, et pour la fin on triplera le ¨1ER caractère
+((
+    Ceci peut être un unique commentaire multiligne via par exemple js::``/*** ... ***/`` en ¨js, ou bien plusieurs commentaires monolignes commençant par exemple par latex::``%%%`` en ¨latex.
+)).
+
+
+Voici un ¨1ER exemple du ¨2eme cas lorsque l'on dispose de comentaires multlignes.
+
+js::
+    /***
+    this::
+        date   = 2019-12-30
+        author = Christophe, BAL
+
+    One very small and unnecessary script.
+    ***/
+
+    /***
+    prototype::
+        x : ``x`` is a number to be squared
+          @ is_float
+
+        :return: the square of the number ``x``
+               @ is_float
+
+    Is this doc very useful ? ;-)
+    ***/
+    function square(x) {
+        var y = x^2;
+
+        return y;
+    }
+
+
+Le ¨2EME exemple ci-après montre comment faire lorsque le langage ne propose pas de commentaire multiligne.
+
+latex::
+    %%%
+    % this::
+    %     date   = 2019-12-30
+    %     author = Christophe, BAL
+    %
+    % Just for showing how to do without multiline comments.
+    %%%
+
+    \newcommand\mymacro{Do something !}
+
+
+On note que la syntaxe retenue ne nuit en rien à la compréhension des codes.
+
+
+warning::
+    Veiller à ne donner que des ¨infos ¨techs minimales pour ne pas avoir plus de ¨doc que de lignes de code et garder les détails pour une ¨doc non ¨tech externe
+    ((
+        Toutes mes excuses aux adeptes de la ¨prog littérale que l'auteur trouve catastrophique pour un simple utiliseur.
+    )).

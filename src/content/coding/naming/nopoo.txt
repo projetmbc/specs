@@ -1,0 +1,11 @@
+abrev::
+    content = /:this.name:
+
+
+=========
+Sans ¨poo
+=========
+
+content::
+    ¨content/var-n-args.txt
+    ¨content/func.txt

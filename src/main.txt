@@ -1,0 +1,47 @@
+this::
+    title  = Spécifications pour des projets informatiques
+    author = Christophe, BAL
+    mail   = projetmbc@gmail.com
+    lang   = fr
+
+    licence = cc by-nc-sa 4.0
+    out     = html | pdf
+
+
+abrev::
+    content = /content
+
+    cookiecuter = cf::``Cookiecutter ;
+                        https://github.com/cookiecutter/cookiecutter``
+
+
+content::
+    ¨content/intro.txt
+
+// Naming
+    ¨content/how-to-name.txt
+    ¨content/coding.txt
+    ¨content/archi.txt
+
+// Versioning
+    ¨content/version.txt
+
+// Scrum, co. & others bless you !
+    ¨content/process.txt
+
+// Learning but not too much !
+    ¨content/beingaware.txt
+
+
+
+
+// TODO : Just for coding !
+//    ¨content/onlycoding.txt         ????
+
+
+// TODO : Just for writing !
+// préciser qu'iic  c'est pour écrit technique
+// ne pas hesiter à proposer des approches différentes voire imagées
+// (graphique ou schéma)
+// parer de la posivilité de 'écriture pour web dya et papier en simultanée'
+//    ¨content/onlywriting.txt         ????

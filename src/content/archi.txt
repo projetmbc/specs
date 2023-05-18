@@ -1,0 +1,13 @@
+﻿abrev::
+    content = /:this.name:
+
+
+======================================
+Organiser les dossiers et les fichiers
+======================================
+
+content::
+    ¨content/naming.txt
+    ¨content/file-size.txt
+    ¨content/structure.txt
+    ¨content/modularity.txt
