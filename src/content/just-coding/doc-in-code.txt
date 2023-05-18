@@ -12,26 +12,18 @@ Documenter son code
 ===================
 
 Beaucoup de langages de ¨prog proposent des outils pour documenter son code directement dans le code lui-même : on pense par exemple aux docstrings de ¨python ou au support de ¨doxygen en ¨c et en ¨php.
-Ce principe utile est repris et généralisé à d'autres langages en appliquant l'une des règles simples suivantes au grè des besoins.
-
-Si le langage propose déjà un système de ¨doc du code, on pourra l'utiliser.
-Sinon on peut aussi utiliser les commentaires pour indiquer des ¨infos via une syntaxe, non encore figée, du projet ¨tnsdoc en cours de développement
-((
-    L'idée est d'utiliser partout ce système une fois qu'il sera mûr.
-)).
-Une ¨info ¨tech s'indiquera en commençant un commentaire
-avec trois fois le dernier caractère du texte marquant le début du commentaire, et pour la fin on triplera le ¨1ER caractère
-((
-    Ceci peut être un unique commentaire multiligne via par exemple js::``/*** ... ***/`` en ¨js, ou bien plusieurs commentaires monolignes commençant par exemple par latex::``%%%`` en ¨latex.
-)).
+Ce principe utile est repris mais via un outil "maison" nommé ¨tnsdoc  en cours de développement. Ce dernier permet via une syntaxe, non encore figée, de produire une ¨doc ¨tech destinée à des codeurs, et non à des utilisateurs d'un projet.
 
 
-Voici un ¨1ER exemple du ¨2eme cas lorsque l'on dispose de comentaires multlignes.
+Comment ¨tnsdoc fonctionne-t-il ? Une ¨info ¨tech s'indiquera en commençant un commentaire avec trois fois le dernier caractère du texte marquant le début du commentaire, et pour la fin éventuelle on triplera le ¨1er caractère.
+
+
+Voici un ¨1er exemple lorsque l'on dispose de commentaires multilignes : avec le ¨js, il est possible d'employer js::``/* ... */``.
 
 js::
     /***
     this::
-        date   = 2019-12-30
+        date   = 2023-05-18
         author = Christophe, BAL
 
     One very small and unnecessary script.
@@ -54,21 +46,17 @@ js::
     }
 
 
-Le ¨2EME exemple ci-après montre comment faire lorsque le langage ne propose pas de commentaire multiligne.
+Le ¨2eme exemple ci-après montre comment faire lorsque le langage ne propose pas de commentaire multiligne : avec ¨latex, on dispose juste de latex::``%`` pour commenter une unique ligne. Noter au passage que la syntaxe précédente et la suivante ne nuisent en rien à la compréhension des codes.
 
 latex::
     %%%
     % this::
-    %     date   = 2019-12-30
+    %     date   = 2023-05-18
     %     author = Christophe, BAL
     %
     % Just for showing how to do without multiline comments.
     %%%
-
-    \newcommand\mymacro{Do something !}
-
-
-On note que la syntaxe retenue ne nuit en rien à la compréhension des codes.
+    \NewDocumentCommand\mymacro{}{Do something !}
 
 
 warning::
