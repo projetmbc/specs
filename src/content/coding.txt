@@ -1,5 +1,5 @@
 ﻿abrev::
-    content = /:this.name:
+    content = :this.name:
 
 
 =======================

@@ -1,0 +1,67 @@
+this::
+    date = 2023-05-19
+
+
+abrev::
+    doxygen = cf::``Doxygen ;
+                    https://www.doxygen.nl/index.html``
+
+
+================================
+Pour le "hacker", du bien arride
+================================
+
+Beaucoup de langages de ¨prog proposent des outils pour documenter son code directement dans le code lui-même : on pense par exemple aux docstrings de ¨python ou au support de ¨doxygen en ¨c et en ¨php.
+Ce principe est repris via un outil "maison" nommé ¨tnsdoc en cours de ¨dev. Ce dernier permet via une syntaxe intuitive, non encore figée, de produire une ¨doc ¨tech.
+
+
+Voici un ¨1er exemple lorsque l'on détourne les commentaires multilignes js::``/* ... */`` du ¨js en js::``/*** ... ***/`` pour indiquer l'usage de la syntaxe proposée par ¨tnsdoc
+((
+     Noter dans cet exemple et le suivant que la syntaxe ne nuit en rien à la compréhension des codes.
+)).
+
+js::
+    /***
+    this::
+        date   = 2023-05-18
+        author = Christophe, BAL
+
+    One very small and unnecessary script.
+    ***/
+
+    /***
+    prototype::
+        x : ``x`` is a number to be squared
+          @ is_float
+
+        :return: the square of the number ``x``
+               @ is_float
+
+    Is this doc very useful ? ;-)
+    ***/
+    function square(x) {
+        var y = x^2;
+
+        return y;
+    }
+
+
+Le ¨2eme exemple ci-après montre comment faire lorsque le langage ne propose pas de commentaire multiligne : avec ¨latex, on dispose juste de latex::``%`` pour commenter une unique ligne.
+
+latex::
+    %%%
+    % this::
+    %     date   = 2023-05-18
+    %     author = Christophe, BAL
+    %
+    % Just for showing how to do without multiline comments.
+    %%%
+    \NewDocumentCommand\mymacro{}{Do something !}
+
+
+warning::
+    Veiller à ne donner que des ¨infos ¨techs minimales pour ne pas avoir plus de ¨doc que de lignes de code et garder les détails pour la ¨doc non ¨tech "amicale"
+    ((
+        Toutes mes excuses aux adeptes de la ¨prog littérale que l'auteur trouve catastrophique pour un simple utiliseur.
+    )),
+    voir la section suivante.

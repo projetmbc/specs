@@ -1,0 +1,23 @@
+this::
+    date = 2023-05-20
+
+
+================================================
+Pour le "gentil utilisateur", soyons accueillant
+================================================
+
+Il semble vain de vouloir documenter son code directement dans le ¨src pour les raisons suivantes.
+
+    1) Dans un code source, on souhaite guerre avoir plus de commentaires, et à fortiori de ¨doc, que de code. Dès lors, on se retrouve vite à produire des ¨docs très ¨techs et peu attrayantes
+    ((
+        L'écosystème ¨latex est assez caractéristique de cet écueil.
+    ))
+
+    1) De plus, expliquer le fonctionnement d'un code peut nécessiter de montrer des exemples s'appuyant sur différents modules, et non juste quelques fonctions au sein d'un fichier. Il faut donc pouoir rédiger sur l'¨ens du code.
+
+
+C'est pour cela qu'une ¨doc proposant des cas d'utilisation est aussi dévelppée en parallèle du code ¨src, et ceci au format ¨tns.
+
+
+warning::
+    Cette approche souffre par contre d'un gros problème. Comment gérer les ¨majs du code et des ¨docs ? La section suivante aborde ce sujet.

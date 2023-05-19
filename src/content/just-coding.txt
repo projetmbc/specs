@@ -1,5 +1,5 @@
 abrev::
-    content = /:this.name:
+    content = :this.name:
 
 
 ===================
@@ -9,4 +9,4 @@ Juste pour la ¨prog
 content::
     ¨content/naming.txt
     ¨content/typing.txt
-    ¨content/doc-in-code.txt
+    ¨content/doc.txt        ????

@@ -1,12 +1,26 @@
+this::
+    date = 2023-05-19
+
+
 abrev::
-    content = /:this.name:
+    content = :this.name:
 
 
 =====================
 Comment bien nommer ?
 =====================
 
+Avant de voir quelques exemples concrets, expliquons rapidement ce que nous pensons être de bons noms. Les principes suivants doivent être respectés le plus possible.
+
+    1) Un nom doit être court.
+
+    1) Un nom doit être expressif.
+
+    1) Un nom ne doit pas contenir d'¨infos superflues.
+
+    1) Un nom peut utiliser des règles sémantiques d'écriture.
+
+
 content::
-    ¨content/general.txt
     ¨content/writing.txt
     ¨content/coding.txt

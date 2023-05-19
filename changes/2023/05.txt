@@ -5,9 +5,9 @@
 18  (0.5.1-alpha)
 ==
 
---------
+-----
 :new:
---------
+-----
 
 [[:doc:]]
 ¨Tech ¨doc of codes: systematic use of ¨tnsdoc.
@@ -25,4 +25,8 @@
 --------
 
 [[:doc:]]
-¨Infos about coding have moved to a dedicated section.
+Two things done.
+
+    1) ¨Infos about coding have moved to a dedicated section.
+
+    1) Naming rules for global setting functions.
