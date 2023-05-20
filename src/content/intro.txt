@@ -1,5 +1,5 @@
 ﻿this::
-    date = 2023-05-18
+    date = 2023-05-20
 
 
 ======
@@ -9,13 +9,13 @@
 Ce document réunit un ¨ens de règles utiles pour bâtir des projets informatiques tels que des programmes, mais aussi plus généralement des créations textuelles comme un document écrit via ¨latex ou encore un site ¨web s'appuyant sur ¨html.
 Ces choix sont nés d'habitudes personnelles, de recommandations diverses et d'une forme appuyée de pragmatisme
 ((
-    Ne pas hésiter à proposer des adaptations pour des langages "exotiques" car l'auteur pratique principalement ¨python, ¨latex, le ¨html et le ¨css pour le moment.
+    Ne pas hésiter à proposer des adaptations pour des langages "exotiques" car l'auteur pratique principalement ¨python, ¨latex, ¨latex3, le ¨html, le ¨ts, et le ¨css pour le moment.
 )).
 
 
 warning::
-    Les règles se veulent applicables dans au maximum de contextes
+    Les règles se veulent applicables à un maximum de contextes
     ((
         Certains langages comme ¨latex nous complique la vie en nous demandant de les traiter partiellement à part dans certaines situations.
-    )).
-    Elles casseront donc des habitudes propres à certains langages de programmation. Ces choix sont assumés même si l'auteur de ce document n'est qu'un amateur !
+    )),
+    elles casseront donc des habitudes propres à certains langages de programmation. Ces choix sont assumés même si l'auteur de ce document n'est qu'un codeur amateur !

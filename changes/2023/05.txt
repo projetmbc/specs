@@ -2,6 +2,21 @@
 
 
 ==
+20  (0.7.0-alpha)
+==
+
+--------
+:update:
+--------
+
+[[:doc:]]
+All explanations are now general: the personal tools used by the author are only indicated in footnotes.
+
+
+// ---------- //
+
+
+==
 20  (0.6.0-alpha)
 ==
 

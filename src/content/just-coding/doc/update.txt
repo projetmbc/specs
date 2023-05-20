@@ -6,11 +6,12 @@ this::
 ¨Majs, comment s'y prendre ?
 ============================
 
-Nous avons proposé dans cf::``?:changelog`` que le journal de bord des ¨chgts soit géré via un dossier dédié. C'est sur ce journal de bord qu'il faut donc s'appuyer pour ne pas manquer la ¨maj de la ¨doc amicale
+Nous avons proposé dans cf::``?:changelog.txt`` que le journal de bord des ¨chgts soit géré via un dossier dédié. C'est sur ce journal de bord qu'il faut donc s'appuyer pour ne pas manquer la ¨maj de la ¨doc amicale
 ((
     L'auteur de ce ¨docu s'appuie sur ¨ddbd, un projet en cours de ¨dev, afin de semi-automatiser la ¨maj de l'amicale ¨doc pour ne pas oublier un ¨chgt rendu nécessaire suite à la ¨modif du ¨src.
-)),
-puisque la ¨doc ¨tech sera facilement mise à jour en même temps que le ¨src en cas de besoin
-((
-    Ceci n'est pas ¨tjrs une obligation: par exemple, la correction d'un bug ne touchant pas à l'¨api ne nécessite généralement pas de ¨modif des docs.
 )).
+Notons que la ¨doc ¨tech est facilement mise à jour en même temps que le ¨src en cas de besoin.
+
+
+note::
+    Un ¨chgt du ¨src ne nécessite pas ¨tjrs de toucher aux ¨docs : par exemple, la correction d'un bug ne touchant pas à l'¨api ne nécessite généralement pas de ¨modif des ¨docs.

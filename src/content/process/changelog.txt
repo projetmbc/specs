@@ -16,4 +16,8 @@ Pour gérer un tel journal de bord, il a été retenu de passer via un dossier d
 ((
     L'auteur de ce ¨docu utilise ¨tnschges, l'un de ses projets en cours de ¨dev qui est dédié à la gestion semi-automatisé d'un journal de bord.
 )).
-L'avantage de ce choix est de centraliser à un endroit précis tout ce qui concerne les ¨modifs faites. À la longue, ceci devient très facile à maintenir et à utiliser.
+Ce choix présente les avantages suivants.
+
+    1) Des fichiers "textuels" sont très bien versionnés avec ¨git.
+
+    1) Centraliser à un endroit précis tout ce qui concerne les ¨modifs faites permet à la longue une utilisation et une maintenance très faciles.

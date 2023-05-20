@@ -9,5 +9,5 @@ Constantes
 Les noms des constantes globales ou de classes en ¨poo
 ((
     Et non des constantes d'instances d'une classe.
-)),
+))
 sont du type ``ONE_GLOBAL_CONSTANT``.

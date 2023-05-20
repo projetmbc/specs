@@ -8,7 +8,7 @@ Processus de création
 
 content::
     ¨content/doforneed.txt
-    ¨content/doitnow[ornever].txt
+    ¨content/doitnow-ornever.txt
     ¨content/pragmatic.txt
     ¨content/automation.txt
     ¨content/test.txt

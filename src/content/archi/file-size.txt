@@ -1,12 +1,12 @@
 ﻿this::
-    date = 2023-05-18
+    date = 2023-05-20
 
 
 ==================================
 Des fichiers de taille raisonnable
 ==================================
 
-Il ne faut jamais travailler sur des fichiers trop gros afin d'en faciliter la maintenance. Ceci est bien connu des programmeurs mais cette règle s'étend aussi aux écrits : il vaut mieux utiliser un fichier par section lorsque l'on écrit un document ¨latex par exemple
+Il ne faut jamais travailler sur des fichiers trop gros afin d'en faciliter la maintenance. Ceci est bien connu des programmeurs mais cette règle s'étend aussi aux écrits : par exemple, il vaut mieux utiliser un fichier par section lorsque l'on écrit un document ¨latex ou en ¨md par exemple
 ((
     Ce choix implique de bien structurer les dossiers. Nous allons en reparler dans les deux sections suivantes.
 )).
