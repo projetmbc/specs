@@ -2,6 +2,21 @@
 
 
 ==
+20  (0.7.1-alpha)
+==
+
+--------
+:update:
+--------
+
+[[:doc:]]
+Management of both ¨docs: no need to develop a dedicated ¨ddbd project as ¨tnschanges can do the job.
+
+
+// ---------- //
+
+
+==
 20  (0.7.0-alpha)
 ==
 

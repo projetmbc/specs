@@ -8,7 +8,7 @@ this::
 
 Nous avons proposé dans cf::``?:changelog.txt`` que le journal de bord des ¨chgts soit géré via un dossier dédié. C'est sur ce journal de bord qu'il faut donc s'appuyer pour ne pas manquer la ¨maj de la ¨doc amicale
 ((
-    L'auteur de ce ¨docu s'appuie sur ¨ddbd, un projet en cours de ¨dev, afin de semi-automatiser la ¨maj de l'amicale ¨doc pour ne pas oublier un ¨chgt rendu nécessaire suite à la ¨modif du ¨src.
+    L'auteur de ce ¨docu s'appuie sur ¨¨tnschges, un projet en cours de ¨dev, afin de semi-automatiser la ¨maj de l'amicale ¨doc pour ne pas oublier un ¨chgt rendu nécessaire suite à la ¨modif du ¨src.
 )).
 Notons que la ¨doc ¨tech est facilement mise à jour en même temps que le ¨src en cas de besoin.
 
