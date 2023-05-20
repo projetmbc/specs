@@ -1,0 +1,19 @@
+this::
+    date = 2023-05-20
+
+
+==================
+Journal des ¨chgts
+==================
+
+La tenue d'un journal des ¨chgts est une pratique extrêmement répandu dans les projets de programmation. Cette pratique est en fait aussi très pertinente pour un écrit. Dans ce dernier cas, ceci permet d'aider un lecteur acharné de ne pas perdre son temps lors de ¨chgts n'affectant pas le fond
+((
+    Penser par exemple à des corrections de syntaxe et d'orthographe, ou encore à juste de ¨mef (réorganisation des sections, ou bien simples ¨modifs esthétiques.)
+)).
+
+
+Pour gérer un tel journal de bord, il a été retenu de passer via un dossier dédié contenant les différents ¨majs indiqués de façon efficace, mais précise, et ceci via le biais de fichiers "textuels"
+((
+    L'auteur de ce ¨docu utilise ¨tnschges, l'un de ses projets en cours de ¨dev qui est dédié à la gestion semi-automatisé d'un journal de bord.
+)).
+L'avantage de ce choix est de centraliser à un endroit précis tout ce qui concerne les ¨modifs faites. À la longue, ceci devient très facile à maintenir et à utiliser.

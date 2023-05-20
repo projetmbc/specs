@@ -1,5 +1,5 @@
 this::
-    date = 2023-05-19
+    date = 2023-05-20
 
 
 abrev::
@@ -11,13 +11,21 @@ abrev::
 Pour le "hacker", du bien arride
 ================================
 
-Beaucoup de langages de ¨prog proposent des outils pour documenter son code directement dans le code lui-même : on pense par exemple aux docstrings de ¨python ou au support de ¨doxygen en ¨c et en ¨php.
-Ce principe est repris via un outil "maison" nommé ¨tnsdoc en cours de ¨dev. Ce dernier permet via une syntaxe intuitive, non encore figée, de produire une ¨doc ¨tech.
-
-
-Voici un ¨1er exemple lorsque l'on détourne les commentaires multilignes js::``/* ... */`` du ¨js en js::``/*** ... ***/`` pour indiquer l'usage de la syntaxe proposée par ¨tnsdoc
+Beaucoup de langages de ¨prog proposent des outils pour documenter son code directement dans le ¨src : on pense par exemple aux docstrings de ¨python ou au support de ¨doxygen en ¨c et en ¨php.
+Cette idée est excellente à condition de se limiter à la rédaction d'une ¨doc ¨tech donnant des caractéristiques telles que la ¨sign d'une ¨fonc par exemple, mais ceci ne doit surtout pas servir à rédiger une ¨doc au complet comme nous le verrons dans la section suivante
 ((
-     Noter dans cet exemple et le suivant que la syntaxe ne nuit en rien à la compréhension des codes.
+    L'auteur de ce ¨docu utilise un outil "maison" nommé ¨tnsdoc en cours de ¨dev. Ce dernier permet via une syntaxe intuitive, non encore figée, de produire une ¨doc ¨tech.
+)).
+
+
+Voyons ce que cela donne avec ¨tnsdoc
+((
+    Ce projet de l'auteur de ce ¨docu est en cours de ¨dev.
+)) ;
+rien n'empêche d'utiliser un autre outil bien entendu, ce qui est important dans les exemples proposés c'est de noter le minimalisme des ¨infos fournies.
+Pour un code ¨js, on procèderait comme suit où l'on détourne les commentaires multilignes js::``/* ... */`` en js::``/*** ... ***/`` pour indiquer l'usage de la syntaxe proposée par ¨tnsdoc
+((
+     Noter dans cet exemple et le suivant que la syntaxe de ¨tnsdoc ne nuit en rien à la compréhension des codes.
 )).
 
 js::
@@ -37,7 +45,7 @@ js::
         :return: the square of the number ``x``
                @ is_float
 
-    Is this doc very useful ? ;-)
+    Is this doc very useful? ;-)
     ***/
     function square(x) {
         var y = x^2;
@@ -46,22 +54,27 @@ js::
     }
 
 
-Le ¨2eme exemple ci-après montre comment faire lorsque le langage ne propose pas de commentaire multiligne : avec ¨latex, on dispose juste de latex::``%`` pour commenter une unique ligne.
+Voici un autre exemple via ¨tnsdoc pour ¨latex qui est sans commentaire multiligne, et ne propose que latex::``%`` pour commenter une unique ligne que l'on détourne ici en latex::``%%%`` pour aiguiller ¨tnsdoc.
 
 latex::
     %%%
     % this::
-    %     date   = 2023-05-18
+    %     date   = 2023-05-20
     %     author = Christophe, BAL
     %
     % Just for showing how to do without multiline comments.
+    %%%
+
+    %%%
+    % prototype::
+    %     :return: a constant token list
     %%%
     \NewDocumentCommand\mymacro{}{Do something !}
 
 
 warning::
-    Veiller à ne donner que des ¨infos ¨techs minimales pour ne pas avoir plus de ¨doc que de lignes de code et garder les détails pour la ¨doc non ¨tech "amicale"
+    Rappelons qu'il faut bien veiller à ne donner que des ¨infos ¨techs minimales pour ne pas avoir plus de ¨doc que de lignes de code et garder les détails pour la ¨doc non ¨tech "amicale"
     ((
-        Toutes mes excuses aux adeptes de la ¨prog littérale que l'auteur trouve catastrophique pour un simple utiliseur.
+        Toutes mes excuses aux adeptes de la ¨prog littérale que l'auteur trouve catastrophique du point de vue d'un utiliseur peu aguerri.
     )),
-    voir la section suivante.
+    voir la section suivante pour ce dernier point.

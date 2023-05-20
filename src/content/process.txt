@@ -12,3 +12,4 @@ content::
     ¨content/pragmatic.txt
     ¨content/automation.txt
     ¨content/test.txt
+    ¨content/changelog.txt

@@ -16,4 +16,4 @@ Le choix retenu est de produire deux ¨docs. L'une, très ¨tech, s'adresse au c
 content::
     ¨content/for-hackers.txt
     ¨content/for-users.txt
-    ¨content/update.txt         ??
+    ¨content/update.txt
