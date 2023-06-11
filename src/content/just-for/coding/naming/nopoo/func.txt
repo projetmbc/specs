@@ -1,5 +1,5 @@
 this::
-    date = 2023-05-18
+    date = 2023-06-11
 
 
 =============
@@ -10,4 +10,4 @@ Deux catgéories de fonction sont à considérer.
 
     1) Les fonctions de réglage global, d'utilisation réduite, usent de la casse en bosse de chameau comme dans ``SetMyConfig``.
 
-    2) Pour les autres, destinées à être employées souvent, les noms sont de préférence du type ``shortname``, et si besoin de la forme ``exceptionnal_long_name``.
+    2) Pour les autres, destinées à être employées souvent, les noms sont de préférence du type ``shortname``, et si besoin de la forme ``exceptionnal_longname``.

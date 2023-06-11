@@ -1,5 +1,5 @@
 this::
-    date = 2023-05-20
+    date = 2023-06-11
 
 
 ================================================
@@ -18,7 +18,7 @@ Il semble vain de vouloir documenter son code directement dans le ¨src pour les
     1) Enfin, pourquoi la ¨struc du code serait-elle bien adaptée à celle d'une ¨doc ?
 
 
-C'est pour ces raisons qu'une ¨doc proposant des cas d'utilisation est aussi développée en parallèle du code ¨src et de sa ¨doc ¨tech
+C'est pour ces raisons qu'une ¨doc proposant des cas d'utilisation est développée en parallèle du code ¨src et de sa ¨doc ¨tech
 ((
     L'auteur de ce ¨docu utilise le format ¨tns, l'un de ses projets en cours de ¨dev.
 )).

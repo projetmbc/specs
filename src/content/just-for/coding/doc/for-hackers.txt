@@ -1,5 +1,5 @@
 this::
-    date = 2023-05-20
+    date = 2023-06-11
 
 
 abrev::
@@ -31,7 +31,7 @@ Pour un code ¨js, on procèderait comme suit où l'on détourne les commentaire
 js::
     /***
     this::
-        date   = 2023-05-18
+        date   = 2023-06-11
         author = Christophe, BAL
 
     One very small and unnecessary script.
@@ -39,7 +39,7 @@ js::
 
     /***
     prototype::
-        x : ``x`` is a number to be squared
+        x : a number to be squared
           @ is_float
 
         :return: the square of the number ``x``
@@ -54,12 +54,12 @@ js::
     }
 
 
-Voici un autre exemple via ¨tnsdoc pour ¨latex qui est sans commentaire multiligne, et ne propose que latex::``%`` pour commenter une unique ligne que l'on détourne ici en latex::``%%%`` pour aiguiller ¨tnsdoc.
+Voici un autre exemple via ¨tnsdoc pour ¨latex. Ce dernier ne propose que latex::``%`` pour commenter ligne par ligne, ce système de commentaires est ici détourné en latex::``%%%`` pour aiguiller ¨tnsdoc.
 
 latex::
     %%%
     % this::
-    %     date   = 2023-05-20
+    %     date   = 2023-06-11
     %     author = Christophe, BAL
     %
     % Just for showing how to do without multiline comments.
@@ -68,6 +68,7 @@ latex::
     %%%
     % prototype::
     %     :return: a constant token list
+    %            @ is_text
     %%%
     \NewDocumentCommand\mymacro{}{Do something !}
 

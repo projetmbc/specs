@@ -32,7 +32,7 @@ content::
     ¨content/beingaware.txt
 
 // Just for coding !
-    ¨content/just-coding.txt
+    ¨content/just-for/coding.txt
 
 
 // TODO : Just for writing !
@@ -40,4 +40,4 @@ content::
 // ne pas hesiter à proposer des approches différentes voire imagées
 // (graphique ou schéma)
 // parer de la posivilité de 'écriture pour web dya et papier en simultanée'
-//    ¨content/just-writing.txt         ????
+//    ¨content/just-for/writing.txt         ????
