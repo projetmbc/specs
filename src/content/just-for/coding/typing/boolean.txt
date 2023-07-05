@@ -10,4 +10,4 @@ Pour ce qui est, ou bien renvoie, un booléen, on utilise un verbe à l'infiniti
 
  	1) ``evaluate(...)`` ou ``isfile(...)`` indiquent des fonctions ou méthodes renvoyant un booléen.
 
-	1) ``DEBUG_MODE`` et ``beincomment`` permettent d'indiquer ¨resp une constante et une variable booléennes.
+	1) ``DEBUG_MODE`` et ``beincomment`` permettent d'indiquer \resp une constante et une variable booléennes.

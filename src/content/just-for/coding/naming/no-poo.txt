@@ -3,9 +3,9 @@ abrev::
 
 
 =========
-Sans ¨poo
+Sans \poo
 =========
 
 content::
-    ¨content/var-n-args.txt
-    ¨content/func.txt
+    \content/var-n-args.txt
+    \content/func.txt

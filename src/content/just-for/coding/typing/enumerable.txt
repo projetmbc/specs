@@ -6,7 +6,7 @@ this::
 Les énumérables
 ===============
 
-Pour les structures énumérables de type tableau, liste, dictionnaire, ... ¨etc, on utilise un nom au pluriel.
+Pour les structures énumérables de type tableau, liste, dictionnaire, ... \etc, on utilise un nom au pluriel.
 Pour un élément particulier pris dans la structure énumérable, on utilise alors une version singulière "longue" du nom de l'énumérable comme dans l'exemple suivant.
 
 python::

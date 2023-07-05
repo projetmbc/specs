@@ -17,7 +17,7 @@ On préfèrera ``DEBUG_MODE`` à ``DM`` ou ``D``
 )).
 
 
-[[Pas d'¨infos superflues.]]
+[[Pas d'\infos superflues.]]
 Inutile d'écrire ``int_nbcars`` car ``nbcars`` indique un nombre de voitures, une quantité qui doit être entière.
 
 

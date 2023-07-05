@@ -16,11 +16,11 @@ Avant de voir quelques exemples concrets, expliquons rapidement ce que nous pens
 
     1) Un nom doit être expressif.
 
-    1) Un nom ne doit pas contenir d'¨infos superflues.
+    1) Un nom ne doit pas contenir d'\infos superflues.
 
     1) Un nom peut utiliser des règles sémantiques d'écriture.
 
 
 content::
-    ¨content/writing.txt
-    ¨content/coding.txt
+    \content/writing.txt
+    \content/coding.txt

@@ -3,10 +3,10 @@ abrev::
 
 
 ===================
-Juste pour la ¨prog
+Juste pour la \prog
 ===================
 
 content::
-    ¨content/naming.txt
-    ¨content/typing.txt
-    ¨content/doc.txt
+    \content/naming.txt
+    \content/typing.txt
+    \content/doc.txt

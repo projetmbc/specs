@@ -6,7 +6,7 @@ this::
 Constantes
 ==========
 
-Les noms des constantes globales ou de classes en ¨poo
+Les noms des constantes globales ou de classes en \poo
 ((
     Et non des constantes d'instances d'une classe.
 ))

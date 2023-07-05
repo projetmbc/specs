@@ -14,9 +14,9 @@ Voici quelques écueils à éviter, le mot d'ordre étant de ne pas anticiper tr
         Il faut éviter l'excès de solicitations qu'induit l'internet.
     )).
 
-    1) Préférer se tenir au courant sur ce que l'on est entrain de faire, d'apprendre ¨etou d'aimer
+    1) Préférer se tenir au courant sur ce que l'on est entrain de faire, d'apprendre \etou d'aimer
     ((
         On achètera des bouquins sur un sujet sur lequel on bosse actuellement pour le lire au plus vite.
     )).
 
-    1) On fera de la veille ¨techno uniquement sur un domaine que l'on utilise. Rien n'empêche de se tenir au courant sur plusieurs langages de ¨prog de façon générale mais pour ce qui est plus spécifique, à quoi bon tout savoir car les évolutions sont très rapides.
+    1) On fera de la veille \techno uniquement sur un domaine que l'on utilise. Rien n'empêche de se tenir au courant sur plusieurs langages de \prog de façon générale mais pour ce qui est plus spécifique, à quoi bon tout savoir car les évolutions sont très rapides.

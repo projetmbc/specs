@@ -10,7 +10,7 @@
 -----
 
 [[:doc:]]
-Two new ¨specs have been added.
+Two new \specs have been added.
 
     1) One new section about modularization in general has been created.
 
@@ -22,7 +22,7 @@ Two new ¨specs have been added.
 --------
 
 [[:doc:]]
-Informations about the use of short technical ¨docs in codes have been modified a lot.
+Informations about the use of short technical \docs in codes have been modified a lot.
 
 
 // ---------- //

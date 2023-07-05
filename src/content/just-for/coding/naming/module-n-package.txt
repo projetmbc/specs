@@ -6,4 +6,4 @@ this::
 Les librairies
 ==============
 
-Pour les langages de programmation, les noms des librairies, ¨cad des modules ¨etou des packages, sont de préférence du type ``shortname``, et si besoin de la forme ``exceptionnal_longname``.
+Pour les langages de programmation, les noms des librairies, \cad des modules \etou des packages, sont de préférence du type ``shortname``, et si besoin de la forme ``exceptionnal_longname``.

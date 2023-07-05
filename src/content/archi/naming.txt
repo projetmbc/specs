@@ -14,7 +14,7 @@ Sinon on pourra utiliser path::``var_and_func.py`` si l'emploi du caractère ``-
 ((
     On parle de "snake case".
 ))
-comme cela est le cas pour les modules et les packages ¨python par exemple.
+comme cela est le cas pour les modules et les packages \python par exemple.
 
 
 Dans tous les cas, on utilisera uniquement des lettres minuscules !
@@ -23,15 +23,15 @@ Dans tous les cas, on utilisera uniquement des lettres minuscules !
 warning::
     Des noms comme path::``var and func.txt`` et path::``varAndFunc.txt`` sont interdits pour les raisons suivantes.
 
-        1) Dans path::``var and func.txt``, les espaces vont compliquer inutilement l'usage de commandes ¨unix.
+        1) Dans path::``var and func.txt``, les espaces vont compliquer inutilement l'usage de commandes \unix.
 
-        1) Une faute de frappe dans path::``varAndFunc.txt`` rendra le fichier inexistant pour votre projet sur des ¨os_frs prenant en compte la casse dans les noms de fichier
+        1) Une faute de frappe dans path::``varAndFunc.txt`` rendra le fichier inexistant pour votre projet sur des \os_frs prenant en compte la casse dans les noms de fichier
         ((
-            C'est le cas des ¨os_frs de type ¨linux et ¨macos, et aussi de ¨win à partir de la version 10 via l'activation d'une option.
+            C'est le cas des \os_frs de type \linux et \macos, et aussi de \win à partir de la version 10 via l'activation d'une option.
         )).
 
 
 info::
     Il vaut mieux éviter d'utiliser des fichiers numérotés car cela reflète généralement l'organisation d'un dossier.
-    Or les problèmes arrivent vite si l'on souhaite ajouter de nouveaux dossiers ¨etou fichiers via la nécessité de faire des renumérotations en chaîne.
-    Ceci étant dit, numéroter les fichiers ¨etou les dossiers est parfois utile.
+    Or les problèmes arrivent vite si l'on souhaite ajouter de nouveaux dossiers \etou fichiers via la nécessité de faire des renumérotations en chaîne.
+    Ceci étant dit, numéroter les fichiers \etou les dossiers est parfois utile.

@@ -7,5 +7,5 @@ Nommage et typage
 =================
 
 content::
-    ¨content/boolean.txt
-    ¨content/enumerable.txt
+    \content/boolean.txt
+    \content/enumerable.txt

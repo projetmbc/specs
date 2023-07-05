@@ -10,13 +10,13 @@ Il faut tester ce que l'on produit.
 
     1) Pour un simple document écrit, il est préférable d'avoir des relecteurs de confiance... ou pas.
 
-    1) Pour un programme, les tests peuvent être pensés en amont du code. Il faut aussi veiller à tester au maximum y compris les ¨gui_frs
+    1) Pour un programme, les tests peuvent être pensés en amont du code. Il faut aussi veiller à tester au maximum y compris les \gui_frs
     ((
-        Pour le ¨web, il y a ¨selenium ou ¨pupeteer.
+        Pour le \web, il y a \selenium ou \pupeteer.
     )),
     et ceci en n'oubliant pas de vérifier que vos tests couvrent bien l'ensemble de vos fonctionnalités
     ((
-        En ¨python, on s'appuiera par exemple sur ¨coverage.
+        En \python, on s'appuiera par exemple sur \coverage.
     ))
 
 
