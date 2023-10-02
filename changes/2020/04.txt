@@ -10,4 +10,4 @@
 -----
 
 [[:doc:]]
-A section about useful knowledge has been added.
+General: a section about useful knowledge has been added.

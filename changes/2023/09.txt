@@ -2,7 +2,7 @@
 
 
 ==
-19  (0.18.0-beta)
+19
 ==
 
 -----
@@ -10,14 +10,14 @@
 -----
 
 [[:api:]]
-Change log for the user: the files for days can be suffixed to allow several new versions on the same day (this can be useful for the distracted coder like the man writing this text).
+\latex - Change log for the user: the files for days can be suffixed to allow several new versions on the same day (this can be useful for the distracted coder like the man writing this text).
 
 
 // ---------- //
 
 
 ==
-14  (0.17.0-beta)
+14
 ==
 
 -----
@@ -25,14 +25,14 @@ Change log for the user: the files for days can be suffixed to allow several new
 -----
 
 [[:tech:]]
-\Src code: tabulations are equal to two spaces.
+\latex - \Src code: tabulations are equal to two spaces.
 
 
 // ---------- //
 
 
 ==
-08  (0.16.0-beta)
+08
 ==
 
 -----
@@ -40,7 +40,7 @@ Change log for the user: the files for days can be suffixed to allow several new
 -----
 
 [[:api:]]
-Special comments for ext::``sty`` files: a second level of title can be used.
+\latex - Special comments for ext::``sty`` files: a second level of title can be used.
 
 
 -------
@@ -48,7 +48,7 @@ Special comments for ext::``sty`` files: a second level of title can be used.
 -------
 
 [[:api:]]
-Here are all the breaking changes.
+\latex: here are all the breaking changes.
 
     1) Special tools for the user \doc: the magic comment ``% == FORDOC == %`` replaces the old ``% == NEEDED == %``.
 
@@ -64,14 +64,14 @@ Here are all the breaking changes.
 --------
 
 [[:api:]]
-All specifications based on \src2prod have been updated.
+\latex: all specifications based on \src2prod have been updated.
 
 
 // ---------- //
 
 
 ==
-03  (0.15.0-beta)
+03
 ==
 
 -----
@@ -79,7 +79,7 @@ All specifications based on \src2prod have been updated.
 -----
 
 [[:tests:]]
-Tests fom the user's \doc: we can use meta-comments to indicate that an example should be used to test certain features of the package.
+\latex - Tests fom the user's \doc: we can use meta-comments to indicate that an example should be used to test certain features of the package.
 
 
 --------
@@ -87,8 +87,8 @@ Tests fom the user's \doc: we can use meta-comments to indicate that an example 
 --------
 
 [[:api:]]
-\tnscore: the coding paradigm is more flexible.
+\latex - \tnscore: the coding paradigm is more flexible.
 
 
 [[:doc:]]
-\tnsformat instead of \tnscolor: more general management of formatting styles rather than just colour.
+\latex - \tnsformat instead of \tnscolor: more general management of formatting styles rather than just colour.

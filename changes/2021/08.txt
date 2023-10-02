@@ -2,7 +2,7 @@
 
 
 ==
-07  (0.2.0-beta)
+07
 ==
 
 -----
@@ -10,7 +10,7 @@
 -----
 
 [[:api:]]
-Tools and tests: the files for testing and "tooling" must have a name starting by path::```test_``, path::``tests_``, path::``tool_`` or path::``tools_``.
+\latex - Tools and tests: the files for testing and "tooling" must have a name starting by path::```test_``, path::``tests_``, path::``tool_`` or path::``tools_``.
 
 
 // ---------- //
@@ -25,7 +25,7 @@ Tools and tests: the files for testing and "tooling" must have a name starting b
 --------
 
 [[:doc:]]
-Resources: explanations about the difference between files needed for the \doc and the ones for the ext::``sty`` final project.
+\latex - Resources: explanations about the difference between files needed for the \doc and the ones for the ext::``sty`` final project.
 
 
 --------
@@ -33,7 +33,7 @@ Resources: explanations about the difference between files needed for the \doc a
 --------
 
 [[:facto:]]
-Resources: a factorization of the source code of the \doc has been done.
+\latex - Resources: a factorization of the source code of the \doc has been done.
 
 
 // ---------- //
@@ -48,7 +48,7 @@ Resources: a factorization of the source code of the \doc has been done.
 --------
 
 [[:api:]]
-Here a are the changes.
+\latex: here a are the changes.
 
     1) About the \doc: two important new things added.
 
@@ -64,4 +64,4 @@ Here a are the changes.
 --------
 
 [[:facto:]]
-About the small codes: a factorization of the source code of the \doc has been done.
+\latex - About the small codes: a factorization of the source code of the \doc has been done.

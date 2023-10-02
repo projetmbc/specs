@@ -10,4 +10,4 @@
 --------
 
 [[:api:]]
-Translations: the workflow has been simplified.
+\latex - Translations: the workflow has been simplified.

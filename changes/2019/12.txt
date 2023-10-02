@@ -10,7 +10,7 @@
 -----
 
 [[:doc:]]
-The sections just for coding and/or just for writing are now recognizable.
+General: the sections just for coding and/or just for writing are now recognizable.
 
 
 // ---------- //
@@ -20,4 +20,4 @@ The sections just for coding and/or just for writing are now recognizable.
 30  (0.0.0-alpha)
 ==
 
-This project aims to propose general \specs for coding and writing with a computer. For the moment, there is only a french version of the \specs.
+General: this project aims to propose general \specs for coding and writing with a computer. For the moment, there is only a french version of the \specs.

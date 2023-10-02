@@ -1,0 +1,36 @@
+// ---------- //
+
+
+==
+30
+==
+
+-------
+:break:
+-------
+
+[[:api:]]
+\latex - Metainfos: in the user's \doc, the section ``EXTRAS`` has been renamed ``NEEDED``.
+
+
+--------
+:update:
+--------
+
+[[:api:]]
+\latex - Metainfos: in the ext::``sty`` files, the section ``TOOLS`` stops to be mandatory, but at least one section must be used.
+
+
+// ---------- //
+
+
+==
+28
+==
+
+-----
+:new:
+-----
+
+[[:api:]]
+\latex - Core tools: use of the ``xtemplate`` \techno from \latex3.

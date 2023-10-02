@@ -10,7 +10,7 @@
 --------
 
 [[:api:]]
-Some important clarifications have been added about the names of macros and \envs.
+\latex: some important clarifications have been added about the names of macros and \envs.
 
     1) The distinction between the public and the private \apis have been explained.
 
@@ -21,7 +21,7 @@ Some important clarifications have been added about the names of macros and \env
 
 
 ==
-05  (0.6.0-beta)
+05
 ==
 
 -----
@@ -29,7 +29,7 @@ Some important clarifications have been added about the names of macros and \env
 -----
 
 [[:api:]]
-Formatting.
+\latex - Formatting.
 
     1) Rules for font shapes added.
 

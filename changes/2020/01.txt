@@ -10,7 +10,7 @@
 -----
 
 [[:doc:]]
-A section about processes of creation has been added.
+General: a section about processes of creation has been added.
 
 
 // ---------- //
@@ -25,4 +25,4 @@ A section about processes of creation has been added.
 --------
 
 [[:doc:]]
-Sizes of the files: a note has been added for big files automatically build from little ones.
+General - Sizes of the files: a note has been added for big files automatically build from little ones.

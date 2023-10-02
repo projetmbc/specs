@@ -10,7 +10,7 @@
 --------
 
 [[:doc:]]
-Management of both \docs: no need to develop a dedicated \ddbd project as \tnschges can do the job.
+General - Management of both \docs: no need to develop a dedicated \ddbd project as \tnschges can do the job.
 
 
 // ---------- //
@@ -25,7 +25,7 @@ Management of both \docs: no need to develop a dedicated \ddbd project as \tnsch
 --------
 
 [[:doc:]]
-All explanations are now general: the personal tools used by the author are only indicated in footnotes.
+General: all explanations are now general (the personal tools used by the author are only indicated in footnotes).
 
 
 // ---------- //
@@ -40,7 +40,7 @@ All explanations are now general: the personal tools used by the author are only
 -----
 
 [[:doc:]]
-Here are the new features.
+General: here are the new features.
 
     1) Change log: use of \tnschges.
 
@@ -63,7 +63,7 @@ Here are the new features.
 -----
 
 [[:doc:]]
-\Tech \doc of codes: systematic use of \tnsdoc.
+General - \Tech \doc of codes: systematic use of \tnsdoc.
 
 
 // ---------- //
@@ -78,7 +78,7 @@ Here are the new features.
 --------
 
 [[:doc:]]
-Two things done.
+General: two things done.
 
     1) \Infos about coding have moved to a dedicated section.
 

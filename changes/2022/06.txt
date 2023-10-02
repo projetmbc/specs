@@ -10,7 +10,7 @@
 --------
 
 [[:api:]]
-Workflow: a lot of clarifications and simplifications have been made.
+\latex - Workflow: a lot of clarifications and simplifications have been made.
 
     1) Human \doc: the role of the coder has been explicitly documented.
 
@@ -23,7 +23,7 @@ Workflow: a lot of clarifications and simplifications have been made.
 
 
 ==
-14  (0.4.0-beta)
+14
 ==
 
 ------
@@ -31,7 +31,7 @@ Workflow: a lot of clarifications and simplifications have been made.
 ------
 
 [[:api:]]
-Translations of the human \doc: the changes can be translated now.
+\latex - Translations of the human \doc: the changes can be translated now.
 
 
 // ---------- //
@@ -46,7 +46,7 @@ Translations of the human \doc: the changes can be translated now.
 ------
 
 [[:api:]]
-About the structure of the small projects.
+\latex - About the structure of the small projects.
 
     1) The minimal structure of a small project has been added.
 
@@ -58,7 +58,7 @@ About the structure of the small projects.
 -------
 
 [[:api:]]
-Translations of the human \doc.
+\latex - Translations of the human \doc.
 
     1) The metainfos in the file path::``about.peuf`` has a new key to indicate the language used by the developper coding the project.
 
@@ -69,7 +69,7 @@ Translations of the human \doc.
 
 
 ==
-08  (0.3.0-beta)
+08
 ==
 
 -----
@@ -77,7 +77,7 @@ Translations of the human \doc.
 -----
 
 [[:api:]]
-Files and folders ignored automatically: the support of \git ignore files has been added.
+\latex - Files and folders ignored automatically: the support of \git ignore files has been added.
 
 
 --------
@@ -85,4 +85,4 @@ Files and folders ignored automatically: the support of \git ignore files has be
 --------
 
 [[:api:]]
-Technical signatures: the processus used to name the technical sections has been indicating clearly.
+\latex - Technical signatures: the processus used to name the technical sections has been indicating clearly.

@@ -10,7 +10,7 @@
 ------
 
 [[:doc:]]
-Here are the new features.
+General: here are the new features.
 
     1) Interfaces and abstract classes defined via ``myclass_base.MyClassBase`` with ``myclass_base`` the file containing the ``MyClassBase`` class.
 
