@@ -1,0 +1,6 @@
+abrev::
+    content = :this.name:
+
+
+content::
+    \content/latex.txt   ??

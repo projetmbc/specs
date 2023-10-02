@@ -1,0 +1,10 @@
+abrev::
+    content = :this.name:
+
+
+=================
+\latex uniquement
+=================
+
+content::
+    \content/????.txt
