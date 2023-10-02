@@ -1,0 +1,11 @@
+abrev::
+    content = :this.name:
+
+
+================================
+Langues de la \doc "utilisateur"
+================================
+
+content::
+    \content/manual.txt
+    \content/changelog.txt

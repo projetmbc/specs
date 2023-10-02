@@ -1,0 +1,18 @@
+﻿this::
+    title   = Spécifications pour les packages \latex3 et \lualatex
+    author  = Christophe, BAL
+    mail    = projetmbc@gmail.com
+    licence = cc by nc sa 4.0
+    out     = html | pdf
+    lexic   = latex3
+
+
+abrev::
+    content = content
+
+
+content::
+    \content/monorepo.txt
+    \content/api.txt
+    \content/workflow.txt
+    \content/formatting.txt

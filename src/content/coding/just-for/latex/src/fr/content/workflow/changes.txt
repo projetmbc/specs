@@ -1,0 +1,12 @@
+abrev::
+    content = :this.name:
+
+
+===================
+Indiquer les \chgts
+===================
+
+content::
+    \content/tech-doc.txt
+    \content/user-doc.txt
+    \content/translate.txt

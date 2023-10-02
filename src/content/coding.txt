@@ -2,9 +2,9 @@ abrev::
     content = :this.name:
 
 
-===================
-Juste pour la \prog
-===================
+=============
+Pour la \prog
+=============
 
 content::
     \content/naming.txt

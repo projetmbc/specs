@@ -1,0 +1,11 @@
+abrev::
+    content = :this.name:
+
+
+=============
+Noms utilisés
+=============
+
+content::
+    \content/packages.txt
+    \content/macros-n-envs.txt
