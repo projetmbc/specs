@@ -1,9 +1,0 @@
-this::
-    date = 2023-05-18
-
-
-====================
-Plaisir et nécessité
-====================
-
-Il faut toujours développer ou écrire face à un besoin, c'est à dire pour assouvir un plaisir ou répondre à une nécessité ponctuelle.

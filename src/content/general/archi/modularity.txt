@@ -1,0 +1,20 @@
+this::
+    date = 2021-04-07
+
+
+============================
+Modularité ou l'art du \lego
+============================
+
+Produire du contenu réutilisable ou adaptable à d'autres contextes que celui d'origine permet de faciliter grandement la tâche de création. Voici deux exemples concrets.
+
+    1) Un code doit être le plus facile à maintenir possible. Ceci ne peut se faire qu'en isolant les fonctionnalités et donc en organisant son code en modules ayant des champs d'action bien délimités. Du classique pour un codeur...
+
+    2) Lorsque l'on rédige un \docu, on peut se rendre compte que certaines parties auraient leur place ailleurs
+    ((
+        On peut imaginer un écrit pour un article que l'on intègre dans un cours en détaillant ce qui n'a pas à l'être dans un article.
+    )).
+    Dans ce genre de situation, il peut être utile d'isoler les parties "omnipotentes" qui seront alors intégrables ailleurs sans trop d'effort
+    ((
+        On peut aussi raisonner de façon réciproque pour passer d'un \docu initialement très détaillé à une version plus synthétique.
+    )).

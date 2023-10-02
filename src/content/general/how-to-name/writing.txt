@@ -1,0 +1,22 @@
+this::
+    date = 2023-05-19
+
+
+============================
+Des exemples pour des écrits
+============================
+
+[[Faire court.]]
+Entre "\Specs pour des projets informatiques" et "\Specs utiles voire indispensables à la fabrication de codes informatiques mais aussi d'écrits tapés via un langage de \mef", il est clair que le \1er choix est le meilleur pour le titre d'un \docu.
+
+
+[[Être expressif.]]
+Même si l'acronyme "S.p.d.P.I." vous parle et vous semble sympa, il vaut mieux utiliser "\Specs pour des projets informatiques" pour le titre d'un \docu.
+
+
+[[Pas d'\infos superflues.]]
+Dans "\Specs utiles pour des projets informatiques", le "utile" ne l'est pas du tout ! En effet, à quoi bon rédiger un \docu sur des \specs inutiles du point de vue de l'auteur. Non ?
+
+
+[[Utiliser des règles sémantiques d'écriture.]]
+Les textes \maths, ou plus généralement \techs, sont des bons exemples car ils utilisent des règles sémantiques implicites. Ainsi, dans un cours d'analyse, les fonctions seront nommées `f`, `g`, `h` mais rarement `A`, `B`, `C`.

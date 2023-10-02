@@ -1,0 +1,22 @@
+this::
+    date = 2023-05-18
+
+
+===================
+Se tenir au courant
+===================
+
+Lorsque l'on veut se tenir à niveau dans un domaine on peut vite se trouver confronter à l'effet "Tour de Babel".
+Voici quelques écueils à éviter, le mot d'ordre étant de ne pas anticiper trop des éventuels besoins à venir.
+
+    1) Archiver peu de \docus pour une éventuelle relecture différée : trop stocker c'est oublier ce que l'on a en stock mais aussi se trouver face à un excès de choix
+    ((
+        Il faut éviter l'excès de solicitations qu'induit l'internet.
+    )).
+
+    1) Préférer se tenir au courant sur ce que l'on est en train de faire, d'apprendre \etou d'aimer
+    ((
+        On achètera des bouquins sur un sujet sur lequel on bosse actuellement pour le lire au plus vite.
+    )).
+
+    1) On fera de la veille \techno uniquement sur un domaine que l'on utilise. Rien n'empêche de se tenir au courant sur plusieurs langages de \prog de façon générale mais pour ce qui est plus spécifique, à quoi bon tout savoir car les évolutions sont très rapides.

@@ -1,0 +1,11 @@
+﻿abrev::
+    content = :this.name:
+
+
+=======================================
+Nommage et typage sont sur un bateau...
+=======================================
+
+content::
+    \content/boolean.txt
+    \content/enumerable.txt

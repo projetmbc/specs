@@ -1,0 +1,15 @@
+this::
+    date = 2023-10-02
+
+
+===============
+Avec de la \poo
+===============
+
+Pour les langages de \prog de type \poo, on suit les règles suivantes.
+
+    1) Les noms des classes sont du type ``OneName`` en utilisant les bosses de chameau.
+
+    1) Au sein d'une classe, les noms des méthodes, des \args et des attributs, ainsi que ceux des \vars sont du type ``shortname``, et si besoin de la forme ``exceptionnal_longname``.
+
+    1) Pour la \def d'interfaces et de classes abstraites, on utilisera un schéma du type ``myclassbase.MyClassBase`` où ``myclassbase`` est le fichier contenant la classe ``MyClassBase``.

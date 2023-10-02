@@ -1,9 +1,0 @@
-this::
-    date = 2023-06-11
-
-
-==============================
-Les variables et les arguments
-==============================
-
-Pour les langaes de \prog impératifs, les noms des variables, ainsi que ceux des arguments des fonctions, sont de préférence du type ``shortname``, et si besoin de la forme ``exceptionnal_longname``.

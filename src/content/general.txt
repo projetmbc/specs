@@ -1,0 +1,14 @@
+abrev::
+    content = :this.name:
+
+
+====================
+Quelques généralités
+====================
+
+content::
+    \content/how-to-name.txt
+    \content/archi.txt
+    \content/process.txt
+    \content/version.txt
+    \content/beingaware.txt

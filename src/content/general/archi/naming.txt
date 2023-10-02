@@ -1,0 +1,35 @@
+﻿this::
+    date = 2023-10-02
+
+
+========================================
+Bien nommer les dossiers et les fichiers
+========================================
+
+Les fichiers et les dossiers seront nommés sous la forme path::``changelog.txt`` ou path::``var-and-func.txt`` dans la mesure du possible
+((
+    On parle de "kebab case".
+)).
+Sinon on pourra utiliser path::``var_and_func.py`` si l'emploi du caractère ``-`` est interdit
+((
+    On parle de "snake case".
+))
+comme cela est le cas pour les modules et les packages \python par exemple.
+**Dans tous les cas, on utilisera uniquement des lettres minuscules !**
+
+
+warning::
+    Des noms comme path::``var and func.txt`` et path::``varAndFunc.txt`` sont interdits pour les raisons suivantes.
+
+        1) Dans path::``var and func.txt``, les espaces vont compliquer inutilement l'usage de commandes dans un terminal.
+
+        1) Une faute de frappe dans path::``varAndFunc.txt`` rendra le fichier inexistant pour votre projet sur des \os_frs prenant en compte la casse dans les noms de fichier
+        ((
+            C'est le cas des \os_frs de type \linux et \macos, et aussi de \win à partir de la version 10 via l'activation d'une option.
+        )).
+
+
+info::
+    Il vaut mieux éviter d'utiliser des fichiers numérotés car cela reflète généralement l'organisation d'un dossier.
+    Or les problèmes arrivent vite si l'on souhaite ajouter de nouveaux dossiers \etou fichiers via la nécessité de faire des renumérotations en chaîne.
+    Ceci étant dit, numéroter les fichiers \etou les dossiers est parfois utile.

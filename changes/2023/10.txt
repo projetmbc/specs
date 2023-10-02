@@ -1,0 +1,21 @@
+// ---------- //
+
+
+==
+02  (0.9.0-alpha)
+==
+
+-------
+:break:
+-------
+
+[[:doc:]]
+Interfaces and abstract classes: the ``myclassbase`` file replaces the previous ``myclass_base``.
+
+
+--------
+:fordev:
+--------
+
+[[:doc:]]
+Preparing the insertion of the \latex specs.

@@ -1,0 +1,9 @@
+this::
+    date = 2023-06-11
+
+
+==============
+Les librairies
+==============
+
+Pour les langages de \prog, les noms des librairies, \cad des modules \etou des \packs, sont de préférence du type ``shortname``, et si besoin de la forme ``exceptionnal_longname``.

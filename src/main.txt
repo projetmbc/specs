@@ -17,22 +17,8 @@ abrev::
 
 content::
     \content/intro.txt
-
-// Naming
-    \content/how-to-name.txt
-    \content/archi.txt
-
-// Versioning
-    \content/version.txt
-
-// Scrum, co. & others bless you !
-    \content/process.txt
-
-// Learning but not too much !
-    \content/beingaware.txt
-
-// Just for coding !
-    \content/just-for/coding.txt
+    \content/general.txt
+    \content/coding.txt
 
 
 // TODO : Just for writing !
@@ -40,4 +26,4 @@ content::
 // ne pas hesiter à proposer des approches différentes voire imagées
 // (graphique ou schéma)
 // parer de la posivilité de 'écriture pour web dya et papier en simultanée'
-//    \content/just-for/writing.txt         ????
+//    \content/writing.txt         ????
