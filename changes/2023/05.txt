@@ -10,7 +10,7 @@
 --------
 
 [[:doc:]]
-Management of both \docs: no need to develop a dedicated \ddbd project as \tnschanges can do the job.
+Management of both \docs: no need to develop a dedicated \ddbd project as \tnschges can do the job.
 
 
 // ---------- //
@@ -46,7 +46,7 @@ Here are the new features.
 
     1) Just for codes.
 
-        * Two \docs : one purely technical and the other based on use cases.
+        * Two \docs : one purely \tech and the other based on use cases.
 
         * Workflow to best manage both \docs.
 

@@ -18,4 +18,4 @@ Interfaces and abstract classes: the ``myclassbase`` file replaces the previous 
 --------
 
 [[:doc:]]
-Preparing the insertion of the \latex specs.
+New folder structure preparing the insertion of the \latex specs.

@@ -22,7 +22,7 @@ Two new \specs have been added.
 --------
 
 [[:doc:]]
-Informations about the use of short technical \docs in codes have been modified a lot.
+\Infos about the use of short \tech \docs in codes have been modified a lot.
 
 
 // ---------- //

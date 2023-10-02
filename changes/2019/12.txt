@@ -20,4 +20,4 @@ The sections just for coding and/or just for writing are now recognizable.
 30  (0.0.0-alpha)
 ==
 
-This project aims to propose general specifications for coding and writing with a computer. For the moment, there is only a french version of the specifications.
+This project aims to propose general \specs for coding and writing with a computer. For the moment, there is only a french version of the \specs.

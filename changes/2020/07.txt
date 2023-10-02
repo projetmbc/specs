@@ -10,4 +10,4 @@
 --------
 
 [[:doc:]]
-For the versioning it is now advised to allow minor number change when very small changes of \api are done in a program.
+For the versioning it is now advised to allow minor number change when very small changes of \api are done in a \prog.
