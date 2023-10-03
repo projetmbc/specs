@@ -1,24 +1,10 @@
-Spécifications et bonnes pratiques
+Specifications and best practices
 ==================================
 
-Ce projet n'est pas un manifeste. Il réunit juste un ensemble de conseils qui aident au jour le jour l'auteur de ces lignes. Faites en usage ou pas en n'oubliant jamais le premier principe à suivre : **la liberté raisonnée**.
-
-
-
-The document `tnsspec`
-=====================
-
-
-> **I beg your pardon for my english...**
+> **I apologise for my English...**
 >
-> English is not my native language, so be nice if you notice misunderstandings, misspellings, or grammatical errors in my documents and codes.
+> English is not my first language, so please be kind if you notice any misunderstandings, spelling mistakes or grammatical errors in my documents and code.
 
+This project is not a manifesto. It's just a collection of tips to help the author of these lines on a daily basis. You can use it or not, but never forget the first principle to follow: **reasoned freedom**.
 
-About `tnsspec`
----------------
-
-This document contains all the specifications used to develop the tools proposed by the monorepo `typensee-latex`. There is only a French version.
-
-
-<!-- :version-START: -->
-<!-- :version-END: -->
+> For the moment, only a French version is available.

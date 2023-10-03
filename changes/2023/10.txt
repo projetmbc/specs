@@ -2,6 +2,21 @@
 
 
 ==
+03
+==
+
+--------
+:update:
+--------
+
+[[:doc:]]
+\Readme: the explanations are given in english.
+
+
+// ---------- //
+
+
+==
 02  (0.9.0-alpha)
 ==
 
