@@ -2,6 +2,27 @@
 
 
 ==
+04
+==
+
+--------
+:update:
+--------
+
+[[:doc:]]
+General - Workflow.
+
+    1) Gather several related projects in a common folder, the monorepo philosophy.
+
+    1) \Std structure.
+
+    1) Use of \git.
+
+
+// ---------- //
+
+
+==
 03
 ==
 
