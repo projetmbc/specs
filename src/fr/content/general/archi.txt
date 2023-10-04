@@ -7,7 +7,8 @@ Organiser les dossiers et les fichiers
 ======================================
 
 content::
-    \content/naming.txt
+    \content/file-n-folder-name.txt
     \content/file-size.txt
     \content/structure.txt
     \content/modularity.txt
+    \content/gather.txt

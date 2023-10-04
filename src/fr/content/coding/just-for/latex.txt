@@ -1,19 +1,20 @@
 this::
-    date = 2023-09-05
+    lexic = latex
 
 
-======================================
-Un dépôt unique pour plusieurs projets
-======================================
+abrev::
+    content = :this.name:
 
-Pour tous les packages \latex et \lualatex de la suite \tnstex, on utilise un unique dépôt \git
-((
-    En anglais, on parle de "monorepo".
-))
-pour les raisons suivantes
-((
-    Au-delà du fait que cela fait classe d'utiliser un "monorepo".
-)).
+
+===================
+\latex et compagnie
+===================
+
+content::
+    \content/????.txt
+
+
+
 
     * Toutes les fonctionnalités doivent pouvoir travailler de concert : par exemple, l'utilisation d'outils pour rédiger des probabilités ne doit pas entrer en conflit avec l'emploi d'\envs pour afficher des \algos.
 

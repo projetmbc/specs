@@ -1,0 +1,20 @@
+this::
+    date = 2023-10-04
+
+
+=========================================
+\Maj et fichiers ignorés - \git is a gift
+=========================================
+
+L'utilisation de \git pour des projets de type textuel n'est plus à justifier. Voici pourquoi.
+
+    1) Les \modifs textuelles apportées d'une version à la suivante sont clairement repérables, et en cas de conflit de \chgts, il est facile de prendre la bonne décision
+    ((
+        On peut garder l'une des \modifs faites, ou bien créer une \nelle \modif.
+    )).
+
+    1) Le code \src peut être mis en ligne sur des sites dédiés comme \codeberg.
+
+    1) On peut utiliser localement certains dossiers et fichiers sans pour autant les mettre en ligne.
+
+    1) Les outils \autos peuvent s'appuyer sur \git pour faire des mises à jours ciblées du produit fini.

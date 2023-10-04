@@ -10,7 +10,7 @@
 --------
 
 [[:doc:]]
-\Readme: the explanations are given in english.
+\Readme: the explanations are given in English, even though this project will certainly only be useful to me.
 
 
 // ---------- //

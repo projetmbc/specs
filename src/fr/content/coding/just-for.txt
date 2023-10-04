@@ -2,5 +2,6 @@ abrev::
     content = :this.name:
 
 
-content::
+// We do'nt want to augment the section level.
+input::
     \content/latex.txt   ??

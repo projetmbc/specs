@@ -7,9 +7,12 @@ Processus de création
 =====================
 
 content::
-    \content/doforneed.txt
-    \content/doitnow-ornever.txt
+    \content/do-for-need.txt
+    \content/now-or-never.txt
     \content/pragmatic.txt
     \content/automation.txt
     \content/test.txt
     \content/changelog.txt
+    \content/version.txt
+    \content/std-structure.txt
+    \content/update-n-ignore

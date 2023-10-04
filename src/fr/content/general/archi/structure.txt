@@ -1,10 +1,10 @@
 ﻿this::
-    date = 2023-10-02
+    date = 2023-10-03
 
 
 abrev::
     myspec_source_fr = cf::``code source des spécifications ;
-                             https://github.com/projetmbc/specifications/tree/main/src``
+                             https://github.com/projetmbc/specifications/tree/main``
 
 
 ===========================
