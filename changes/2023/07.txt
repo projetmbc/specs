@@ -10,4 +10,4 @@
 --------
 
 [[:doc:]]
-General - \Abbrevs: the syntax has moved from ``¨myabrev`` to ``\myabrev``.
+General - \Abbrevs: the syntax has moved from ''¨myabrev'' to ''\myabrev''.

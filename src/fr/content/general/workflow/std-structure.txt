@@ -6,7 +6,7 @@ this::
 Structure commune des projets
 =============================
 
-Un projet doit avoir à minima la structure suivante où le dossier path::``contribute`` est facultatif et le fichier path::``about.yaml`` peut utiliser un autre format que le \yaml. Les explications arrivent juste après.
+Un projet doit avoir à minima la structure suivante où le dossier path::''contribute'' est facultatif et le fichier path::''about.yaml'' peut utiliser un autre format que le \yaml. Les explications arrivent juste après.
 
 dirtree::
     + my-new-project
@@ -19,7 +19,7 @@ dirtree::
 
 Voici ce que sont ces composants.
 
-    1) Le fichier path::``about.yaml`` contient des \metainfos à propos du projet. Voici un exemple pour un projet \latex fictif où la syntaxe suit celle proposée par le projet \@bout.
+    1) Le fichier path::''about.yaml'' contient des \metainfos à propos du projet. Voici un exemple pour un projet \latex fictif où la syntaxe suit celle proposée par le projet \@bout.
 
     yaml::
         project:
@@ -36,20 +36,20 @@ Voici ce que sont ces composants.
 
     Rien n'empêche d'utiliser une autre syntaxe s'appuyant sur le format \json ou \toml par exemple, mais ce qui importe est de rendre les \infos facilement accessibles via un programme informatique.
 
-    1) Le dossier path::``changes`` accueille les \chgts rédigés comme expliqué dans cf::``changelog.txt``.
+    1) Le dossier path::''changes'' accueille les \chgts rédigés comme expliqué dans cf::''changelog.txt''.
 
-    1) Le dossier path::``src`` est le code \src du projet à développer en suivant les règles indiquées dans cf::``?/archi.txt``. A partir d'un tel dossier, on construira le produit fini dans un sous-dossier dédié éponyme ou presque du dossier path::``my-new-project`` : dans notre exemple, ce pourrait être path::``mynewproject``.
+    1) Le dossier path::''src'' est le code \src du projet à développer en suivant les règles indiquées dans cf::''?/archi.txt''. A partir d'un tel dossier, on construira le produit fini dans un sous-dossier dédié éponyme ou presque du dossier path::''my-new-project'' : dans notre exemple, ce pourrait être path::''mynewproject''.
 
-    1) Le dossier facultatif path::``contribute`` permet d'accueillir des contributions extérieures comme des \trads : voir cf::``translate.txt`` à ce propos.
+    1) Le dossier facultatif path::''contribute'' permet d'accueillir des contributions extérieures comme des \trads : voir cf::''translate.txt'' à ce propos.
 
 
 info::
-    Le fichier de type path::``about.yaml`` pourrait aussi être complété avec un numéro de version, un date de création et une date de dernier \chgt. Dans ce cas, il est conseillé de faire ceci de façon automatisée via l'analyse du dossier path::``changes``.
+    Le fichier de type path::''about.yaml'' pourrait aussi être complété avec un numéro de version, un date de création et une date de dernier \chgt. Dans ce cas, il est conseillé de faire ceci de façon automatisée via l'analyse du dossier path::''changes''.
 
 
 info::
     Concernant les tests, tout dépendra de la \techno employée. Voici deux exemples montrant qu'il faudra s'adapter.
 
-        1) Avec \python, il est facile de créer dans path::``my-new-project`` un sous-dossier path::``tests`` structuré pour tester son code \python.
+        1) Avec \python, il est facile de créer dans path::''my-new-project'' un sous-dossier path::''tests'' structuré pour tester son code \python.
 
-        1) Avec \latex, via le projet \l3build, il faudra obligatoirement passé via un sous-dossier path::``tests`` "plat" du dossier path::``my-new-project``.
+        1) Avec \latex, via le projet \l3build, il faudra obligatoirement passé via un sous-dossier path::''tests'' "plat" du dossier path::''my-new-project''.

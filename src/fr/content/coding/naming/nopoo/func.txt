@@ -8,6 +8,6 @@ Les fonctions
 
 Deux catgéories de fonction sont à considérer.
 
-    1) Les fonctions de réglage global, d'utilisation réduite, usent de la casse en bosse de chameau comme dans ``SetMyConfig``.
+    1) Les fonctions de réglage global, d'utilisation réduite, usent de la casse en bosse de chameau comme dans ''SetMyConfig''.
 
-    2) Pour les autres, destinées à être employées souvent, les noms sont de préférence du type ``shortname``, et si besoin de la forme ``exceptionnal_longname``.
+    2) Pour les autres, destinées à être employées souvent, les noms sont de préférence du type ''shortname'', et si besoin de la forme ''exceptionnal_longname''.

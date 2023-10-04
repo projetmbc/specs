@@ -7,15 +7,15 @@ Le jeu de caractères utilisables
 ================================
 
 Les langages de \prog étant très majoritairement en anglais, c'est cette langue qui est utilisée pour nommer les "objets" informatiques.
-Ceci implique que les noms utilisent des lettres non accentuées auxquelles on ajoute les chiffres ainsi que le blanc souligné ``_`` , ou un autre caractère spécial
+Ceci implique que les noms utilisent des lettres non accentuées auxquelles on ajoute les chiffres ainsi que le blanc souligné ''_'' , ou un autre caractère spécial
 ((
-    Par exemple, avec \latex, mais pas avec \latex3, le caractère ``@`` remplacera ``_``.
+    Par exemple, avec \latex, mais pas avec \latex3, le caractère ''@'' remplacera ''_''.
 )).
 
 
 info::
-    On emploiera le moins possible la casse en "BoSsEs De ChAmEaU" qui demande de jouer avec la touche key::``MAJ`` du clavier ce qui peut vite causer des erreurs de frappe.
+    On emploiera le moins possible la casse en "BoSsEs De ChAmEaU" qui demande de jouer avec la touche key::''MAJ'' du clavier ce qui peut vite causer des erreurs de frappe.
 
 
 warning::
-    Dans la suite, nous garderons le blanc souligné ``_`` comme caractère spécial.
+    Dans la suite, nous garderons le blanc souligné ''_'' comme caractère spécial.

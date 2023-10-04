@@ -3,7 +3,7 @@ this::
 
 
 =================================================================
-Macros et \envs créés dynamiquement à la sauce latex::``\csname``
+Macros et \envs créés dynamiquement à la sauce latex::''\csname''
 =================================================================
 
-Si une macro ou un \env fabrique des macros \etou des \envs via une machinerie de type latex::``\csname``, il faudra expliciter le plus clairement possible ceci dans son \proto. Par exemple, on indiquera ce que font ces nouveaux, comment ils sont nommés... \etc.
+Si une macro ou un \env fabrique des macros \etou des \envs via une machinerie de type latex::''\csname'', il faudra expliciter le plus clairement possible ceci dans son \proto. Par exemple, on indiquera ce que font ces nouveaux, comment ils sont nommés... \etc.

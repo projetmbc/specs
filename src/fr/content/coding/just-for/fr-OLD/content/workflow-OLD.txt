@@ -1,7 +1,7 @@
 abrev::
     content = :this.name:
 
-    bdocdate = date::``2023-09-30``
+    bdocdate = date::''2023-09-30''
 
 
 ================

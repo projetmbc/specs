@@ -63,7 +63,7 @@
 [[:api:]]
 \latex: two things have changed.
 
-    1) Names of ext::``tex`` files: the need to indicate the language has been added.
+    1) Names of ext::''tex'' files: the need to indicate the language has been added.
 
     1) Dirs and files protected or to ignore: the special names all use a plurial form.
 
@@ -105,9 +105,9 @@
 [[:api:]]
 \latex - New \specs.
 
-    1) A \latex package of the \tnstex series is indicated via peuf::``tnslatex = yes`` in the block peuf::``gene::...`` of the file path::``about.peuf``.
+    1) A \latex package of the \tnstex series is indicated via peuf::''tnslatex = yes'' in the block peuf::''gene::...'' of the file path::''about.peuf''.
 
-    1) Files and folders with a name respecting the pattern path::``x-...-x`` are ignored.
+    1) Files and folders with a name respecting the pattern path::''x-...-x'' are ignored.
 
 
 --------
@@ -136,7 +136,7 @@
 
     1) Languages: \api and rules to name internal translating macros.
 
-    1) The file path::``test-one-date.tex`` allows to test the displaying of changes in the user's \doc.
+    1) The file path::''test-one-date.tex'' allows to test the displaying of changes in the user's \doc.
 
 
 --------
@@ -146,13 +146,13 @@
 [[:api:]]
 \latex - Changes made.
 
-    1) The folder path::``src`` replaces path::``factory``.
+    1) The folder path::''src'' replaces path::''factory''.
 
     1) Options use new \specs (this is simpler now).
 
-    1) The file path::``about.peuf`` replaces the previous path::``infos.peuf``.
+    1) The file path::''about.peuf'' replaces the previous path::''infos.peuf''.
 
-    1) The two folders path::``change-log`` for the \tech \doc, and path::``99-major-change-log`` for the user \doc have been both renamed path::``changes``.
+    1) The two folders path::''change-log'' for the \tech \doc, and path::''99-major-change-log'' for the user \doc have been both renamed path::''changes''.
 
 
 // ---------- //
@@ -167,7 +167,7 @@
 --------
 
 [[:api:]]
-\latex - \Tech \signs: in the user \doc, the more general title verb::``:tech-sign:`` must be used such as to manage easily different languages.
+\latex - \Tech \signs: in the user \doc, the more general title verb::'':tech-sign:'' must be used such as to manage easily different languages.
 
 
 ------

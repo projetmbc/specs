@@ -8,6 +8,6 @@ Regrouper... À plusieurs, on est plus fort
 
 Lorsque différents projets entretiennent des liens plus ou moins ténus, il faut les placer dans un dossier commun pour faciliter la maintenance comme le montre les cas suivants.
 
-    * La \maj d'un projet ``A`` peut nécessiter celle d'autres projets utilisés \etou utilisateurs du projet ``A`` : ceci devient aisé quand cela se passe dans un dossier commun.
+    * La \maj d'un projet ''A'' peut nécessiter celle d'autres projets utilisés \etou utilisateurs du projet ''A'' : ceci devient aisé quand cela se passe dans un dossier commun.
 
     * Pour des codes informatiques, il est possible de faire des tests d'intégration : on cherche à valider que des outils utilisés conjointement fonctionnemnt comme attendu.

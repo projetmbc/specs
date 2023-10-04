@@ -3,7 +3,7 @@ this::
 
 
 ===============================================
-En-tête pour le fichier ext::``tex`` de la \doc
+En-tête pour le fichier ext::''tex'' de la \doc
 ===============================================
 
 Par défaut, un en-tête minimaliste suivant est ajouté au début du code \latex utilisé pour fabriquer la \doc.
@@ -17,7 +17,7 @@ latex::
     \usepackage{bcdoc}
 
 
-Si cela ne vous convient pas, il suffit d'ajouter un fichier là où vous le souhaitez avec l'\ens de votre en-tête. Imaginons faire ceci via un fichier path::``doc-header.tex`` dans le dossier du code \src comme suit.
+Si cela ne vous convient pas, il suffit d'ajouter un fichier là où vous le souhaitez avec l'\ens de votre en-tête. Imaginons faire ceci via un fichier path::''doc-header.tex'' dans le dossier du code \src comme suit.
 
 dirtree::
     + tnsfictive
@@ -28,7 +28,7 @@ dirtree::
         + [...]
 
 
-Pour indiquer l'en-tête, il faut passer via le bloc yaml::``texfacto`` du fichier path::``src/about.yaml`` où l'on donne un chemin relatif
+Pour indiquer l'en-tête, il faut passer via le bloc yaml::''texfacto'' du fichier path::''src/about.yaml'' où l'on donne un chemin relatif
 ((
     Rien n'empêche de placer le fichier hors du code \src, tant que le chemin indiqué permet de le retrouver relativement au code \src.
 )).
@@ -36,7 +36,7 @@ Pour indiquer l'en-tête, il faut passer via le bloc yaml::``texfacto`` du fichi
 yaml::
     ---
     extract = yes
-    title   = Le fichier path::``src/about.yaml``
+    title   = Le fichier path::''src/about.yaml''
     ---
     texfacto:
       doc:
@@ -44,12 +44,12 @@ yaml::
 
 
 warning::
-    Le contenu de path::``doc-header.tex`` étant ce qui se trouvera avant le latex::``\begin{document}``
+    Le contenu de path::''doc-header.tex'' étant ce qui se trouvera avant le latex::''\begin{document}''
     ((
-        Modulo quelques outils supplémentaires juste pour la \doc : voir cf::``extra-tools.txt`` à ce sujet.
+        Modulo quelques outils supplémentaires juste pour la \doc : voir cf::''extra-tools.txt'' à ce sujet.
     )),
-    il faut penser à utiliser un latex::``\documentclass``.
+    il faut penser à utiliser un latex::''\documentclass''.
 
 
 info::
-    Lors du \dev, on peut utiliser latex::``\input{../doc-header.tex}`` au tout début des fichiers employés pour rédiger la \doc morceau par morceau tout en validant localement que tout semble correct.
+    Lors du \dev, on peut utiliser latex::''\input{../doc-header.tex}'' au tout début des fichiers employés pour rédiger la \doc morceau par morceau tout en validant localement que tout semble correct.

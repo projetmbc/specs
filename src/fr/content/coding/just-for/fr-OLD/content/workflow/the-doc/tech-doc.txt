@@ -15,7 +15,7 @@ Le code \src est documenté \tech^t via des commentaires, en anglais uniquement,
     Cette syntaxe très intuitive est lisible directement sans aucune connaissance particulière.
 )) ;
 ceci rend possible l'automatisation de certaines tâches.
-Notons que cette \doc est traduisible dans d'autres langues : voir cf::``?/translate/tech-doc.txt``.
+Notons que cette \doc est traduisible dans d'autres langues : voir cf::''?/translate/tech-doc.txt''.
 
 content::
     \content/basic.txt

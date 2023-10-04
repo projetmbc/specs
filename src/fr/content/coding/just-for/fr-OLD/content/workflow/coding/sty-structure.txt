@@ -3,7 +3,7 @@ abrev::
 
 
 ======================================
-Organiser un fichier \src ext::``sty``
+Organiser un fichier \src ext::''sty''
 ======================================
 
 content::

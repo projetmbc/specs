@@ -10,7 +10,7 @@
 --------
 
 [[:api:]]
-\latex: use of path::``YAML`` files for configurations.
+\latex: use of path::''YAML'' files for configurations.
 
 
 // ---------- //

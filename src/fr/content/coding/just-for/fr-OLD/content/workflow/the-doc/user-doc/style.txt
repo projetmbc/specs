@@ -16,7 +16,7 @@ Les choix retenus et assumés, sont les suivants.
 
     * Le code \src n'apparaît jamais dans la \doc destinée à l'utilisateur : les codeurs affûtés sauront analyser le code \src en s'appuyant sur la \doc \tech.
 
-    * Une \doc séparée et aride, donne toutes les \signs détaillées des macros et des \envs avec de courtes explications : voir cf::``?/tech-doc.txt``.
+    * Une \doc séparée et aride, donne toutes les \signs détaillées des macros et des \envs avec de courtes explications : voir cf::''?/tech-doc.txt''.
     C'est très utile lorsque ponctuellement on ne sait plus trop comment s'utilise un \env, ou une macro.
 
 

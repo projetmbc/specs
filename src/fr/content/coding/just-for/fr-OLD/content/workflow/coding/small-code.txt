@@ -1,9 +1,9 @@
 abrev::
     content = :this.name:
 
-    glob   = verb::``glob``
-    pyglob = cf::``syntaxe \glob à la \python;
-                   https://docs.python.org/3/library/glob.html``
+    glob   = verb::''glob''
+    pyglob = cf::''syntaxe \glob à la \python;
+                   https://docs.python.org/3/library/glob.html''
 
 
 =========================

@@ -6,7 +6,7 @@ this::
 \Majs, comment s'y prendre ?
 ============================
 
-Nous avons proposé dans cf::``?:changelog.txt`` que le journal de bord des \chgts soit géré via un dossier dédié. C'est sur ce journal de bord qu'il faut donc s'appuyer pour bien mettre à jour la \doc amicale
+Nous avons proposé dans cf::''?:changelog.txt'' que le journal de bord des \chgts soit géré via un dossier dédié. C'est sur ce journal de bord qu'il faut donc s'appuyer pour bien mettre à jour la \doc amicale
 ((
     L'auteur de ce \docu s'appuie sur \tnschges afin de semi-automatiser la \maj de l'amicale \doc sans oublier un \chgt rendu nécessaire suite à la \modif du \src.
 )).

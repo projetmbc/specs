@@ -10,7 +10,7 @@ Tout tâche que vous faites régulièrement, \cad au moins deux fois, mérite d'
 
     1) Pour l'\ens de ses projets, l'auteur s'appuie sur \cookiecuter pour la création initiale de tout ce dont il a besoin.
 
-    1) Bien entendu il faut arriver à avoir le maximum de tests automatisés (on en reparle dans la section cf::``test.txt``).
+    1) Bien entendu il faut arriver à avoir le maximum de tests automatisés (on en reparle dans la section cf::''test.txt'').
 
     1) Quand on code, faire de l'intégration continue est un plus : l'idée consiste à mettre un \docu ou un code en ligne \etou en \prod
     ((
@@ -23,8 +23,8 @@ Tout tâche que vous faites régulièrement, \cad au moins deux fois, mérite d'
 
 Pour ce type d'opérations, les règles suivantes seront appliquées.
 
-    1) Plusieurs outils peuvent être réunis dans un dossier path::``tool`` ou path::``tools`` placé où l'on veut et à différents endroits si besoin.
+    1) Plusieurs outils peuvent être réunis dans un dossier path::''tool'' ou path::''tools'' placé où l'on veut et à différents endroits si besoin.
 
-    1) Il peut être parfois nécessaire, ou suffisant, d'utiliser un unique outil. Dans ce cas, le nom du fichier sera préfixé au choix par path::``tool_`` ou path::``tools_``.
+    1) Il peut être parfois nécessaire, ou suffisant, d'utiliser un unique outil. Dans ce cas, le nom du fichier sera préfixé au choix par path::''tool_'' ou path::''tools_''.
 
-    1) Les dossiers et fichiers de type ``tool`` n'apparaîtront pas dans le projet final livré, mais ils seront mis en ligne si le projet l'est.
+    1) Les dossiers et fichiers de type ''tool'' n'apparaîtront pas dans le projet final livré, mais ils seront mis en ligne si le projet l'est.

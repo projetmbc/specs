@@ -6,7 +6,7 @@ this::
 La base pour le codeur
 ======================
 
-Voici un exemple fictif où tnsdoc::``@ #1 in  ["a", "b", "c"]`` indique une contrainte ``@``-propos d'un \arg : ici l'\arg doit valoir ``a``, ``b`` ou ``c``.
+Voici un exemple fictif où tnsdoc::''@ #1 in  ["a", "b", "c"]'' indique une contrainte ''@''-propos d'un \arg : ici l'\arg doit valoir ''a'', ''b'' ou ''c''.
 Se reporter à la \doc de \tnsdoc pour voir l'étendue du possible.
 
 latex::

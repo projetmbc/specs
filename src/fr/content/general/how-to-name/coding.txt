@@ -7,19 +7,19 @@ Des exemples en programmation
 =============================
 
 [[Faire court.]]
-On préfèrera ``DEBUG_MODE`` à ``DEBUG_MODE_ACTIVATED_FOR_TESTING``.
+On préfèrera ''DEBUG_MODE'' à ''DEBUG_MODE_ACTIVATED_FOR_TESTING''.
 
 
 [[Être expressif.]]
-On préfèrera ``DEBUG_MODE`` à ``DM`` ou ``D``
+On préfèrera ''DEBUG_MODE'' à ''DM'' ou ''D''
 ((
     Ne rigolez pas ! Je peux dénoncer des "codeurs" qui produisent ce genre d'horreurs.
 )).
 
 
 [[Pas d'\infos superflues.]]
-Inutile d'écrire ``int_nbcars`` car ``nbcars`` indique un nombre de voitures, une quantité qui doit être entière.
+Inutile d'écrire ''int_nbcars'' car ''nbcars'' indique un nombre de voitures, une quantité qui doit être entière.
 
 
 [[Utiliser des règles sémantiques d'écriture.]]
-Nous verrons dans cf::``?:coding/naming.txt`` que ``DEBUG_MODE`` indique une \cte globale ou de classe.
+Nous verrons dans cf::''?:coding/naming.txt'' que ''DEBUG_MODE'' indique une \cte globale ou de classe.

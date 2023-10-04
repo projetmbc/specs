@@ -6,4 +6,4 @@ this::
 Les \vars et les \args
 ======================
 
-Pour les langages de \prog impérative, les noms des \vars, ainsi que ceux des \args des fonctions, sont de préférence du type ``shortname``, et si besoin de la forme ``exceptionnal_longname``.
+Pour les langages de \prog impérative, les noms des \vars, ainsi que ceux des \args des fonctions, sont de préférence du type ''shortname'', et si besoin de la forme ''exceptionnal_longname''.

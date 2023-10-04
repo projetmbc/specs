@@ -6,7 +6,7 @@ this::
 Langues pour les \macros et les \envs
 =====================================
 
-Prenons le cas du \pack \bdoc dont le code \src à la date du \bdocdate contient le dossier de \dev path::``main`` suivant.
+Prenons le cas du \pack \bdoc dont le code \src à la date du \bdocdate contient le dossier de \dev path::''main'' suivant.
 
 dirtree::
     + main
@@ -18,10 +18,10 @@ dirtree::
 
 
 warning::
-    Dans le dossier de \dev du code \src, les trads sont \tjrs à placer dans un sous-dossier nommé path::``locale``.
+    Dans le dossier de \dev du code \src, les trads sont \tjrs à placer dans un sous-dossier nommé path::''locale''.
 
 
-De façon automatisée, un dossier path::``contribute/api/locale/french/main``, comme ci-dessous, contiendra la dernière version des \trads utiles au fonctionnement du \pack \bdoc.
+De façon automatisée, un dossier path::''contribute/api/locale/french/main'', comme ci-dessous, contiendra la dernière version des \trads utiles au fonctionnement du \pack \bdoc.
 
 dirtree::
     + tnsfictive
@@ -36,11 +36,11 @@ dirtree::
         + [...]
 
 
-Il ne reste plus qu'à un traducteur allemand, par exemple, à créer un dossier path::``german`` avec le même contenu que celui du dossier path::``french``
+Il ne reste plus qu'à un traducteur allemand, par exemple, à créer un dossier path::''german'' avec le même contenu que celui du dossier path::''french''
 ((
-    Le choix de \bdoc est de reprendre les noms de langue utilisables avec le \pack ``babel``, et non de suivre la \isolangnorme.
+    Le choix de \bdoc est de reprendre les noms de langue utilisables avec le \pack ''babel'', et non de suivre la \isolangnorme.
 )).
-Le processus de \trad des mots et des phrases "fixes" est simple comme le montre le contenu du fichier path::``sentences.txt`` donné ci-après.
+Le processus de \trad des mots et des phrases "fixes" est simple comme le montre le contenu du fichier path::''sentences.txt'' donné ci-après.
 
 verb::
     ---
@@ -48,7 +48,7 @@ verb::
     ---
 
 
-Pour les phrases "paramétrables", ceci se fait comme suit où les lignes commentées via ``//`` en début de ligne indiquent la signification de chacun des \params ``#1``, ``#2``, ... \etc.
+Pour les phrases "paramétrables", ceci se fait comme suit où les lignes commentées via ''//'' en début de ligne indiquent la signification de chacun des \params ''#1'', ''#2'', ... \etc.
 
 verb::
     ---
@@ -57,4 +57,4 @@ verb::
 
 
 warning::
-    Les \ids avant les signes ``=`` sont de la responsabilité du codeur et non de celle du traducteur.
+    Les \ids avant les signes ''='' sont de la responsabilité du codeur et non de celle du traducteur.

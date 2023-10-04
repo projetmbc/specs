@@ -18,7 +18,7 @@
 
 
 [[:doc:]]
-\latex - \Specs for the path::``intro/intro.tex`` file.
+\latex - \Specs for the path::''intro/intro.tex'' file.
 
 
 // ---------- //
@@ -47,7 +47,7 @@
 
     1) Naming macros and \envs: clarifications added about agregating packages.
 
-    1) Naming packages: the systematic use of the ``tns`` prefix has been indicated.
+    1) Naming packages: the systematic use of the ''tns'' prefix has been indicated.
 
     1) Translations: better structures for the contributions.
 
@@ -123,9 +123,9 @@
 [[:api:]]
 \latex - Changes made.
 
-    1) Mathematical punctuations: explanations about the possible use of ``siuntix'', instead of always importing the ``numprint'' package.
+    1) Mathematical punctuations: explanations about the possible use of ''siuntix'', instead of always importing the ''numprint'' package.
 
-    1) Stretchable delimiters: in some cases, the user can choose local or global variants like ``big`` or ``Big`` from ``amsmath`` instead of ``stretch`` for example.
+    1) Stretchable delimiters: in some cases, the user can choose local or global variants like ''big'' or ''Big'' from ''amsmath'' instead of ''stretch'' for example.
 
     1) Breaking changes: a new mechanism for the 6-month transition periods.
 

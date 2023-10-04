@@ -11,8 +11,8 @@ this::
 abrev::
     content = /content
 
-    cookiecuter = cf::``Cookiecutter ;
-                        https://github.com/cookiecutter/cookiecutter``
+    cookiecuter = cf::''Cookiecutter ;
+                        https://github.com/cookiecutter/cookiecutter''
 
 
 content::

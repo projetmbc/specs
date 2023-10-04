@@ -6,7 +6,7 @@ this::
 Pour l'utilisateur ou pour le hackeur ?
 =======================================
 
-Si nous reprenons le \1er exemple mais en utilisant tnsdoc::``prototype*::``, avec un astérisque final, au lieu de tnsdoc::``prototype::``, on demande de ne pas faire apparaître l'\env dans la \doc \tech destiné à l'utilisateur, tout en laissant vsisible dans celle destiné aux hackeurs.
+Si nous reprenons le \1er exemple mais en utilisant tnsdoc::''prototype*::'', avec un astérisque final, au lieu de tnsdoc::''prototype::'', on demande de ne pas faire apparaître l'\env dans la \doc \tech destiné à l'utilisateur, tout en laissant vsisible dans celle destiné aux hackeurs.
 Idéal quand le prototype correspond à une macro ou un \env purement \tech qui n'est pas destiné à une usage standard d'un \pack.
 
 latex::

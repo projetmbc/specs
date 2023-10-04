@@ -3,8 +3,8 @@
 
 
 abrev::
-    myspec_source_fr = cf::``code source des spécifications ;
-                             https://github.com/projetmbc/specifications/tree/main``
+    myspec_source_fr = cf::''code source des spécifications ;
+                             https://github.com/projetmbc/specifications/tree/main''
 
 
 ===========================

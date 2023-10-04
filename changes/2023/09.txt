@@ -40,7 +40,7 @@
 -----
 
 [[:api:]]
-\latex - Special comments for ext::``sty`` files: a second level of title can be used.
+\latex - Special comments for ext::''sty'' files: a second level of title can be used.
 
 
 -------
@@ -50,11 +50,11 @@
 [[:api:]]
 \latex: here are all the breaking changes.
 
-    1) Special tools for the user \doc: the magic comment ``% == FORDOC == %`` replaces the old ``% == NEEDED == %``.
+    1) Special tools for the user \doc: the magic comment ''% == FORDOC == %'' replaces the old ''% == NEEDED == %''.
 
-    1) For non-aggregated packages, the yaml::``agregate`` block has been renamed yaml::``toc``.
+    1) For non-aggregated packages, the yaml::''agregate'' block has been renamed yaml::''toc''.
 
-    1) The setting macros used a name like ``SetTnsPackagename`` instead of ``settingtns``.
+    1) The setting macros used a name like ''SetTnsPackagename'' instead of ''settingtns''.
 
     1) The folders of the packages to be aggregated must be explicitly indicated (there will be no more recursive search).
 

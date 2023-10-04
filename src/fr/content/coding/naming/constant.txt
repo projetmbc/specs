@@ -10,4 +10,4 @@ Les noms des \ctes globales, ou de classes en \poo
 ((
     Et non des \ctes d'instances d'une classe.
 )),
-sont du type ``ONE_GLOBAL_CONSTANT``.
+sont du type ''ONE_GLOBAL_CONSTANT''.

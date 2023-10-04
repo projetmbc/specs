@@ -32,4 +32,4 @@ Les sections spéciales sont facultatives, mais il doit y en avoir au moins une 
 
 
 warning::
-    Penser à utiliser ``\RequirePackage{packfictif}[2021/07/05]`` en indiquant la date attendue pour chaque package importé.
+    Penser à utiliser ''\RequirePackage{packfictif}[2021/07/05]'' en indiquant la date attendue pour chaque package importé.
