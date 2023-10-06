@@ -1,5 +1,6 @@
 general:
-    desc   : This document contains some specifications and best practices.
+    desc   : General, pragmatic, "punk" and "everywhere" specifications
+             which do not care about advices of real experts. ;-)
     author : Christophe BAL
     licence: cc by nc sa 4.0
     require:

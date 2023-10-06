@@ -2,6 +2,7 @@ abrev::
     content = :this.name:
 
 
-// We do'nt want to augment the section level.
+// We do not want to increase the section level.
 input::
-    \content/latex.txt   ??
+    \content/python.txt   ????
+    \content/latex.txt    ??

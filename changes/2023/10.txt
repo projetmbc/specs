@@ -2,6 +2,21 @@
 
 
 ==
+06
+==
+
+--------
+:update:
+--------
+
+[[:doc:]]
+General - Workflow: explanations about the \readme file inside the \std structure.
+
+
+// ---------- //
+
+
+==
 04
 ==
 
