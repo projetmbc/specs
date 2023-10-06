@@ -36,7 +36,7 @@ Voici ce que sont ces composants.
 
     Rien n'empêche d'utiliser une autre syntaxe s'appuyant sur le format \json ou \toml par exemple, mais ce qui importe est de rendre les \infos facilement accessibles via un programme informatique.
 
-    1) Pour donner une vue globale d'un projet \info, il est d'usage de fournir un fichier \readme décrivant succinctement le dit projet en anglais
+    1) Pour donner une vue globale d'un projet informatique, il est d'usage de fournir un fichier \readme décrivant en anglais et succinctement le dit projet
     ((
         \multimd permet la rédaction du \readme morceau par morceau.
     )).

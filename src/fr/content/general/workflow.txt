@@ -10,9 +10,9 @@ content::
     \content/do-for-need.txt
     \content/now-or-never.txt
     \content/pragmatic.txt
-    \content/automation.txt
+    \content/tool.txt
     \content/test.txt
     \content/changelog.txt
     \content/version.txt
     \content/std-structure.txt
-    \content/update-n-ignore
+    \content/git.txt

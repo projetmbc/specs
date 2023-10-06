@@ -6,7 +6,7 @@ this::
 Les fonctions
 =============
 
-Deux catgéories de fonction sont à considérer.
+Deux catégories de fonction sont à considérer.
 
     1) Les fonctions de réglage global, d'utilisation réduite, usent de la casse en bosse de chameau comme dans ''SetMyConfig''.
 

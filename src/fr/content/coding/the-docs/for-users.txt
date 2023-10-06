@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-02
+    date = 2023-10-06
 
 
 ================================================
@@ -8,14 +8,14 @@ Pour le "gentil utilisateur", soyons accueillant
 
 Il semble vain de vouloir documenter son code directement dans le \src pour les raisons suivantes.
 
-    1) Dans un code \src, on ne souhaite pas noyer son code dans un flot de commentaires. Or, en documentant directement dans le code, on se retrouve vite à produire des \docs très \techs et peu attrayantes
+    1) Dans un code \src, on ne souhaite pas noyer son code dans un flot de commentaires. Dès lors, en documentant directement dans le code, on se retrouve vite à produire des \docs très \techs et peu attrayantes
     ((
         L'écosystème \latex est assez caractéristique de cet écueil. Une grande partie des projets fournissent une \doc destinée surtout aux "hackers". Ceci est très rebutant quand l'on commence la rédaction de \docus en \latex (heureusement, des projets plus récents évitent cet écueil).
     )).
 
     1) Expliquer le fonctionnement d'un code peut nécessiter de montrer des exemples s'appuyant sur différentes parties du code, et non juste quelques fonctions au sein d'un fichier. Il faut donc pouvoir rédiger une \doc en considérant l'\ens du code.
 
-    1) Enfin, pourquoi la \struc du code serait-elle bien adaptée à celle d'une \doc ? Vous avez quatre heures...
+    1) Enfin, pourquoi la structure du code serait-elle bien adaptée à celle d'une \doc ? Vous avez quatre heures...
 
 
 C'est pour ces raisons qu'une \doc proposant des cas d'utilisation est développée en parallèle du code \src et de sa \doc \tech.

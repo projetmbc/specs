@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-04
+    date = 2023-10-06
 
 
 =========================================
@@ -13,7 +13,7 @@ L'utilisation de \git pour des projets de type textuel n'est plus à justifier. 
         On peut garder l'une des \modifs faites, ou bien créer une \nelle \modif.
     )).
 
-    1) Le code \src peut être mis en ligne sur des sites dédiés comme \codeberg.
+    1) Le code \src peut être mis en ligne sur des sites dédiés comme \codeberg ou d'autres.
 
     1) On peut utiliser localement certains dossiers et fichiers sans pour autant les mettre en ligne.
 

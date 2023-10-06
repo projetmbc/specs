@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-02
+    date = 2023-10-06
 
 
 ==========
@@ -8,7 +8,7 @@ Visibilité
 
 Dans certains contextes, on ne veut pas rendre visible une \cte, une classe, une méthode ou une fonction.
 Dans ce cas, le nom sera précédé d'un caractère spécial même pour des langages diposant de mécanismes de type java::''private'' comme en \java.
-Pour la majorité des langages, on utilisera d'un ou deux blancs soulignés ''_'' au tout début du nom comme dans ''_no_need_to_know_this'' ou ''__really_secret''
+Pour la majorité des langages, on utilisera un ou deux blancs soulignés ''_'' au tout début du nom comme dans ''_no_need_to_know_this'' ou ''__really_secret''
 ((
     Pour \latex, et non \latex3, on utilisera ''@'' comme dans ''@no@need@to@know@this'' ou ''@@really@secret''.
 )).
