@@ -1,0 +1,9 @@
+this::
+    date = 2023-10-06
+
+
+==========================================================
+Macros et \envs créés dynamiquement à la sauce ''\csname''
+==========================================================
+
+Si une macro ou un \env fabrique des macros \etou des \envs via une machinerie de type ''\csname'', il faudra expliciter le plus clairement possible ceci dans son \proto. Par exemple, on indiquera ce que font ces outils, comment ils sont nommés... \etc.

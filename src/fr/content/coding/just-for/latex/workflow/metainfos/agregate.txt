@@ -1,0 +1,32 @@
+this::
+    date = 2023-10-06
+
+
+======================================
+Nécessaire pour les \packs agrégateurs
+======================================
+
+Dans le fichier path::''about.yaml'' d'un \pack agrégateur, en plus des \infos générales propres à tout \pack, il faut employer un bloc "autonome" yaml::''agregate'' afin d'indiquer les dossiers des codes \src des sous-\packs à agréger. Voici un exemple possible où l'ordre utilisé est celui retenu pour produire \auto^t les \docs.
+
+yaml::
+    # project:
+    #   ...
+
+    agregate:
+      - src/tnsfictive_1/
+      - src/tnsfictive_2/
+      - src/tnsfictive_3/
+
+
+Il est possible de s'appuyer sur \pyglob quand cela est possible. Si dans l'exemple précédent il n'y a que les dossiers indiqués dans le dossier path::''src'', on peut plus rapidement faire comme suit où les dossiers repérés seront ordonnés de façon \lexico.
+
+yaml::
+    # project:
+    #   ...
+
+    agregate:
+      - src/tnsfictive_*/
+
+
+warning::
+    Ne pas oublier l'oblique final path::''/'' pour indiquer des dossiers et non des fichiers.

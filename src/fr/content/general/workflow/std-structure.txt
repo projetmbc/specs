@@ -19,7 +19,7 @@ dirtree::
 
 Voici ce que sont ces composants.
 
-    1) Le fichier path::''about.yaml'' contient des \metainfos à propos du projet. Voici un exemple pour un projet \latex fictif où la syntaxe suit celle proposée par le projet \@bout.
+    1) Le fichier path::''about.yaml'' contient des \metainfos à propos du projet. Voici un exemple pour un projet \latex fictif où la syntaxe suit celle proposée par le projet \texfacto.
 
     yaml::
         project:

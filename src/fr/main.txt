@@ -14,6 +14,10 @@ abrev::
     cookiecuter = cf::''Cookiecutter ;
                         https://github.com/cookiecutter/cookiecutter''
 
+    glob   = verb::''glob''
+    pyglob = cf::''syntaxe \glob à la \python;
+                   https://docs.python.org/3/library/glob.html''
+
 
 content::
     \content/intro.txt

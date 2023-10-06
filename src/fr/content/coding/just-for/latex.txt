@@ -12,7 +12,13 @@ abrev::
 
 content::
     \content/workflow.txt
-    \content/XXXXX.txt
+
+
+
+/*   TODO
+
+    \content/api.txt   ????
+
     \content/XXXXX.txt
 
 
@@ -23,3 +29,5 @@ content::
     * Les packages "agrégateurs", \cad ceux réunissant d'autres packages, doivent pouvoir être mis à jour \auto^t et rapidement dès le changement de l'un de leur composant et ceci sans avoir à mettre à jour un autre dépôt.
 
     * Il devient facile d'utiliser des outils d'automatisation pour tester, analyser et livrer du code.
+
+*/

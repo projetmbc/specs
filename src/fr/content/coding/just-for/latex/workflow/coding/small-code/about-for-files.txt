@@ -1,0 +1,27 @@
+this::
+    date = 2023-10-06
+
+
+===========================================
+path::''about.yaml'' pour les fichiers \src
+===========================================
+
+Dans chaque sous-dossier \src peut être mis un fichier path::''about.yaml'' pour imposer l'ordre d'analyse de fichiers.
+Dans cette section, nous allons nous concentrer sur les fichiers ext::''sty'' liés au code (nous reviendrons sur les fichiers ext::''tex'' pour la \doc "utilisateur" dans la section suivante).
+Imaginons que l'on ait le code suivant pour notre exemple ficitf.
+
+yaml::
+    ---
+    title = Le fichier path::''src/poor-lonesome-cowboy/about.yaml''
+    ---
+
+    toc:
+      - rantanplan.sty
+      - lucky.sty
+
+
+Le code précédent sert à considérer le fichier path::''rantanplan.sty'' avant path::''lucky.sty'', tout en ignorant tout autre fichier ext::''sty''.
+
+
+info::
+    Sans fichier path::''about.yaml'', tous les fichiers ext::''sty'' seront analysés et ordonnés suivant l'ordre \lexico.
