@@ -4,5 +4,4 @@ abrev::
 
 // We do not want to increase the section level.
 input::
-    \content/python.txt   ????
-    \content/latex.txt    ??
+    \content/latex.txt

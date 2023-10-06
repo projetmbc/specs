@@ -2,7 +2,7 @@
 
 
 ==
-06
+06  (0.10.0-alpha)
 ==
 
 --------
@@ -10,7 +10,7 @@
 --------
 
 [[:doc:]]
-General - Workflow: explanations about the \readme file inside the \std structure.
+\latex: all specific \latex \specs have been integrated and more general ones moved to the general \specs.
 
 
 // ---------- //

@@ -1,0 +1,16 @@
+abrev::
+    content = :this.name:
+
+
+===============
+Macros et \envs
+===============
+
+content::
+    \content/naming.txt
+    \content/nostar.txt
+    \content/args.txt
+    \content/options.txt
+    \content/local-2-global.txt
+    \content/redef-std.txt
+    \content/auto-tasks.txt

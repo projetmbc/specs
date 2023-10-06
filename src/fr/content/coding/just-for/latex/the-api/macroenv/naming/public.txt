@@ -1,0 +1,13 @@
+this::
+    date = 2023-10-06
+
+
+==================
+Côté "utilisateur"
+==================
+
+Deux types de casse de police sont employés suivant le contexte d'utilisation.
+
+    1) Pour les macros utilitaires destinées à produire du contenu, ou de la donnée, les noms seront tout en minuscules à de très rares exceptions prêt.
+
+    1) Les macros de réglage au sens large useront \tjrs de la casse en dos de chameau comme dans ''\SetMypack'' où ''mypack'' est un package.
