@@ -1,5 +1,5 @@
 this::
-    date = 2023-04-18
+    date = 2023-10-07
 
 
 abrev::
@@ -10,7 +10,7 @@ abrev::
 Généralités liées aux \maths
 ============================
 
-Avant de passer aux règles générales, voyons quelques points très spécifiques aux \maths.
+Avant de passer aux règles générales, voyons quelques \pts spécifiques aux \maths.
 
 
 content::

@@ -18,4 +18,4 @@ Avant toute chose, il faut absolument savoir que le \syst de ponctuation retenu 
 
 
 note::
-    Suivant la langue choisie, les macros et \envs fournis par \tnstex useront de la ponctuation associée lors de la \mef.
+    Suivant la langue choisie, les macros et \envs fournis useront de la ponctuation associée lors de la \mef.

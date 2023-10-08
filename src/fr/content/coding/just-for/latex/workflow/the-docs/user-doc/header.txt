@@ -1,12 +1,12 @@
 this::
-    date = 2023-10-06
+    date = 2023-10-08
 
 
 ===============================================
 En-tête pour le fichier ext::''tex'' de la \doc
 ===============================================
 
-Par défaut, l'en-tête minimaliste suivant est ajouté au début du code \latex utilisé pour fabriquer la \doc.
+Par défaut, l'en-tête minimaliste suivant est ajouté au début du code \latex utilisé pour fabriquer une \doc écrite en français par exemple.
 
 latex::
     \documentclass[12pt, a4paper]{article}
@@ -14,13 +14,13 @@ latex::
     \usepackage[utf8]{inputenc}
     \usepackage[T1]{fontenc}
 
-    \usepackage{bcdoc}
+    \usepackage[lang = french]{bcdoc}
 
 
-Si cela ne vous convient pas, il suffit d'ajouter un fichier là où vous le souhaitez avec l'\ens de votre en-tête. Imaginons faire ceci via un fichier path::''doc-header.tex'' dans le dossier du code \src comme suit.
+Si cela ne vous convient pas, il suffit d'ajouter un fichier là où vous le souhaitez avec l'\ens de votre en-tête. Imaginons faire ceci via un fichier path::''doc-header.tex'' dans le dossier du code \src organisé comme suit.
 
 dirtree::
-    + tnsfictive
+    + fictipack
         * about.yaml
         + src
             * about.yaml
@@ -29,7 +29,7 @@ dirtree::
         + [...]
 
 
-Pour indiquer l'en-tête, il faut passer via le bloc yaml::''texfacto'' du fichier path::''src/about.yaml'' où l'on donne un chemin relatif
+Pour indiquer l'en-tête, il faut passer via le bloc yaml::''texfacto'' du fichier path::''src/about.yaml'' en fournissant un chemin relatif
 ((
     Rien n'empêche de placer le fichier hors du code \src, tant que le chemin indiqué permet de le retrouver relativement au code \src.
 )).
@@ -52,5 +52,5 @@ warning::
     il faut penser à utiliser un ''\documentclass''.
 
 
-info::
-    Lors du \dev, on peut utiliser ''\input{../doc-header.tex}'' au tout début des fichiers employés pour rédiger la \doc morceau par morceau tout en validant localement que tout semble correct.
+tip::
+    Lors du \dev, on peut utiliser ''\input{../doc-header.tex}'' au tout début des fichiers employés pour rédiger la \doc morceau par morceau.

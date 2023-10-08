@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-06
+    date = 2023-10-08
 
 
 ===================================
@@ -14,15 +14,6 @@ Ceci se fait au même niveau que les fichiers ext::''sty'' : pour cela, il suffi
 Nous allons voir ici comment seront réunis ces fichiers pour produire la \doc finale au complet.
 
 
-info::
-    Tout contenu d'un fichier \latex non ignoré sera intégré \auto^t à la \doc du projet final (se reporter à cf::''?/user-doc.txt'' pour savoir comment rédiger le contenu de cette \doc).
-    Si cela n'est pas souhaité, il est possible d'indiquer localement des fichiers à ignorer : voir cf::''ignore.txt''.
-
-
-info::
-    Bien entendu, on ignore tout fichier \pdf associé à un fichier \latex intégré \auto^t à la \doc.
-
-
 Globalement, nous avons vu comment imposer un ordre d'analyse des dossiers du code \src : voir la section cf::''about-for-dirs.txt''. Voyons maintenant comment cela se passe pour un dossier particulier comme le suivant sans fichier path::''about.yaml''.
 
 dirtree::
@@ -34,7 +25,10 @@ dirtree::
 
 
 Dans le cas ci-dessus, ce sera tout simplement l'ordre \lexico qui sera utilisé : le contenu de path::''alpha.tex'' apparaîtra avant celui de path::''omega3.tex''.
-Par contre, pour le dossier ci-dessous, le contenu de path::''about.yaml'' peut imposer les fichiers à garder et les ordonner.
+L'exemple qui va suivre explique comment scinder un fichier \ext::''tex'' destiné à la \doc "utilisateur" : cette \tech est valable quelque soit le contexte.
+
+
+Pour le dossier ci-dessous, le contenu de path::''about.yaml'' permet d'imposer les fichiers à garder en les ordonnant.
 
 dirtree::
     + poor-lonesome-cowboy
@@ -67,6 +61,9 @@ Aucune \ref n'étant faite aux fichiers ext::''tex'', les règles suivantes sont
     1) S'il reste des fichiers ext::''tex'', ils seront ignorés !
 
 
+Rien n'empêche d'indiquer à la fois des fichiers ext::''sty'' et ext::''tex'' dans un ordre souhaité.
+Ceci peut s'avérer utile pour un document ext::''tex'' non associé à un code ext::''sty'' mais présentant rapidement différentes fonctionnalités, un tel fichier devant être traité avant tout le reste, il suffit de le mettre au début de la liste yaml::''toc''.
+
+
 info::
-    Rien n'empêche d'indiquer à la fois des fichiers ext::''sty'' et ext::''tex'' dans un ordre souhaité.
-    Ceci peut s'avérer utile pour un document ext::''tex'' non associé à un code ext::''sty'' mais présentant rapidement différentes fonctionnalités, un tel fichier devant être traité avant tout le reste, il suffit de le mettre au début de la liste yaml::''toc''.
+    Bien entendu, on ignore tout fichier \pdf associé à un fichier \ext::``tex`` intégré \auto^t à la \doc.

@@ -1,5 +1,5 @@
 this::
-    date = 2023-03-05
+    date = 2023-10-07
 
 
 ===============================
@@ -8,6 +8,6 @@ this::
 
 En coulisse, la \mef se fait via des macros dédiées mais personnalisables. Ceci facilite les actions suivantes.
 
-    1) Mise en place d'un \syst de thèmes sélectionables.
-
     1) Personnalisation de certaines \mefs au cas par cas.
+
+    1) Mise en place d'un \syst de thèmes sélectionables.

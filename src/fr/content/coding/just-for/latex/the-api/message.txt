@@ -6,7 +6,6 @@ abrev::
 Messages destinés à l'utilisateur
 =================================
 
-
 content::
     \content/meaning.txt
     \content/about.txt

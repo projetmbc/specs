@@ -1,0 +1,15 @@
+this::
+    date = 2023-10-08
+
+
+==================
+Deux \docs et demi
+==================
+
+Chaque projet propose les \docs suivantes.
+
+    1) Une \doc de type tutoriel est destinée aux utilisateurs.
+
+    1) Une \doc \tech s'adresse juste aux codeurs. Elle regroupe \ttes les fiches \techs des \envs et macros : \sign, signification et usage des options, \args \etou contenus... \etc.
+
+    1) Une version ciblée de la \doc \tech sert d'aide-mémoire aux utilisateurs.

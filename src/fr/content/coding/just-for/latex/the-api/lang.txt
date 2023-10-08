@@ -6,7 +6,7 @@ this::
 Gestion des langues
 ===================
 
-Par défaut, l'anglais et le français sont toujours pris en compte, le choix de la langue se faisant via une option de package du type verb::''lang = french'' ou verb::''lang = english'' en reprenant les noms des langues proposés par le package \babel.
+Par défaut, l'anglais et le français sont \tjrs pris en compte, le choix de la langue se faisant via une option de \pack du type verb::''lang = french'' ou verb::''lang = english'' en reprenant les noms des langues proposés par le \pack \babel.
 
 
 info::

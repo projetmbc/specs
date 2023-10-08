@@ -1,16 +1,15 @@
 this::
-    date = 2023-10-06
+    date = 2023-10-09
 
 
 ===============
 Pour les \trads
 ===============
 
-La syntaxe est la même que celle des \chgts \techs vue dans la section cf::''tech-doc.txt''.
-On pourrait ainsi avoir les fichiers suivants gérés uniquement par le codeur du \pack.
+La syntaxe est la même que celle des \chgts \techs vue dans la section cf::''tech-doc.txt''. On pourrait ainsi avoir les fichiers suivants.
 
 dirtree::
-    + tnsfictive
+    + fictipack
         + changes [...]
         + contribute
             + api
@@ -28,7 +27,7 @@ dirtree::
         + [...]
 
 
-Par contre, il est important de n'indiquer que les \chgts pertinents pour les \trads. Voici des exemples et contre-exemples possibles.
+Il est important de n'indiquer que les \chgts pertinents pour les \trads. Voici des exemples et contre-exemples possibles.
 
 
 pros::

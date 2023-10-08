@@ -19,4 +19,4 @@ Voici quelques écueils à éviter, le mot d'ordre étant de ne pas anticiper tr
         On achètera des bouquins sur un sujet sur lequel on bosse actuellement pour le lire au plus vite.
     )).
 
-    1) On fera de la veille \techno uniquement sur un domaine que l'on utilise. Rien n'empêche de se tenir au courant sur plusieurs langages de \prog de façon générale mais pour ce qui est plus spécifique, à quoi bon tout savoir car les évolutions sont très rapides.
+    1) On fera de la veille technologique uniquement sur un domaine que l'on utilise. Rien n'empêche de se tenir au courant sur plusieurs langages de \prog de façon générale mais pour ce qui est plus spécifique, à quoi bon tout savoir car les évolutions sont très rapides.

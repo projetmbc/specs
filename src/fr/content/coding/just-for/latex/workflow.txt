@@ -11,6 +11,6 @@ Comment coder...
 content::
     \content/metainfos.txt
     \content/coding.txt
-    \content/the-doc.txt
+    \content/the-docs.txt
     \content/translate.txt
     \content/changes.txt

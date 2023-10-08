@@ -1,12 +1,12 @@
 this::
-    date = 2023-09-30
+    date = 2023-10-08
 
 
 ====================
 Organiser les \trads
 ====================
 
-Considérons comme exemple le cas du package \bdoc. Le \bdocdate, son code \src contient un dossier de \dev path::''main'' où l'on trouve les fichiers et dossiers suivants permettant d'avoir des macros gérant le français.
+Considérons comme exemple le cas du package \bdoc. Le \bdocdate, son code \src contenait un dossier de \dev path::''main'' où l'on trouvait les fichiers et dossiers suivants permettant d'avoir des macros gérant le français.
 
 dirtree::
     + main
@@ -26,9 +26,9 @@ latex::
     ---
 
 
-Toutes les macros dans l'horreur précédente ont été produites \auto^t
+\Ttes les macros dans l'horreur précédente ont été produites \auto^t
 ((
-    Noter les préfixes utilisés dans le fichier path::''FR.sty'' afin d'éviter des conflits de noms avec d'autres packages (quitte à répéter du code dans différents endroits mais ceci est un moindre mal).
+    Noter les préfixes utilisés dans le fichier path::''french.sty'' afin d'éviter des conflits de noms avec d'autres packages (quitte à répéter du code dans différents endroits mais ceci est un moindre mal).
 ))
 à partir des deux fichiers suivants très simples à modifier par un non codeur (la section suivante va préciser la syntaxe utilisée).
 
@@ -46,7 +46,7 @@ verb::
 
 
 info::
-    Autant de fichiers ext::''txt'' que nécessaire pourront être mis à l'intérieur d'un dossier pour une langue comme path::''french'' ci-dessus.
+    Autant de fichiers ext::''txt'' que nécessaire pourront être mis à l'intérieur d'un dossier pour une langue.
 
 
 info::

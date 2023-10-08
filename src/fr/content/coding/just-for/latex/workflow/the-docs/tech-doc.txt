@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-01
+    date = 2023-10-08
 
 
 abrev::
@@ -10,7 +10,7 @@ abrev::
 \Docs \techs : une pour l'utilisateur et une pour le hackeur
 ============================================================
 
-Le code \src est documenté \tech^t via des commentaires, en anglais uniquement, qui s'appuie sur la syntaxe stricte du projet \tnsdoc
+Le code \src est documenté \tech^t via des commentaires, en anglais uniquement. La syntaxe employée est celle du projet \tnsdoc
 ((
     Cette syntaxe très intuitive est lisible directement sans aucune connaissance particulière.
 )) ;

@@ -1,4 +1,4 @@
-this::
+sthis::
     date = 2023-10-01
 
 
@@ -24,7 +24,7 @@ warning::
 De façon automatisée, un dossier path::''contribute/api/locale/french/main'', comme ci-dessous, contiendra la dernière version des \trads utiles au fonctionnement du \pack \bdoc.
 
 dirtree::
-    + tnsfictive
+    + fictipack
         + contribute
             + api
                 + locale

@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-06
+    date = 2023-10-08
 
 
 ==========================
@@ -7,10 +7,10 @@ Un exemple comme fil rouge
 ==========================
 
 L'automatisation se fait en respectant un style de codage et une organisation "commune" des dossiers et des fichiers.
-Pour la suite, nous allons travailler avec l'exemple suivant d'un \pack fictif nommé ''tnsfictive''.
+Pour la suite, nous allons travailler avec l'exemple suivant d'un \pack fictif nommé ''fictipack''.
 
 dirtree::
-    + tnsfictive
+    + fictipack
         * about.yaml
         + src
             * about.yaml
@@ -42,9 +42,9 @@ Voici des choses importantes à connaître et à respecter.
 
     1) Il est possible de rédiger des fichiers ext::''tex'' pour documenter des fonctionnalités.
     Dans ce cas, il faut aussi respecter une profondeur de `1` comme pour les fichiers ext::''sty''.
-    Dans notre exemple fictif, path::''intro/intro.tex'' est considéré comme étant une \doc écrite dans la langue indiquée dans le fichier path:''src/about.yaml'', voir cf::''?/metainfos/allpacks.txt'' à ce propos.
+    Dans notre exemple fictif, path::''intro/intro.tex'' est considéré comme étant une \doc écrite dans la langue indiquée dans le fichier path:''src/about.yaml'' : voir cf::''?/metainfos/allpacks.txt'' à ce propos.
 
-    1) Des fichiers ressources peuvent être utilisés : voir cf::''?/resource.txt'' pour en savoir plus.
+    1) Des fichiers ressources pour le code \etou la \doc "utilisateur" peuvent être utilisés : voir cf::''?/resource.txt'' pour en savoir plus.
 
     1) Deux types de lecture ordonnée des dossiers et fichiers sont possibles
     ((
@@ -58,5 +58,5 @@ Voici des choses importantes à connaître et à respecter.
 
 
 warning::
-    Le dossier path::''tnsfictive'' ne peut pas contenir un sous-dossier path::''tnsfictive'' où seront codées des fonctionnalités.
-    Cela vient tout simplement du fait que le projet final sera créé \auto^t dans le sous-dossier path::''tnsfictive/tnsfictive'' en écrasant au préalable un éventuel sous-dossier path::''tnsfictive/tnsfictive'' existant.
+    Le dossier path::''fictipack'' ne peut pas contenir un sous-dossier path::''fictipack'' où seront codées des fonctionnalités.
+    Cela vient tout simplement du fait que le projet final sera créé \auto^t dans le sous-dossier path::''fictipack/fictipack'' en écrasant au préalable un éventuel sous-dossier path::''fictipack/fictipack'' existant.

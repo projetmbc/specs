@@ -14,7 +14,7 @@ Ce type de \packs agrégateurs proposent tous une \api répondant aux \specs sui
 
     * On importe les \packs en ne fabriquant pas un \pack qui reprendrait les codes des différents sous-\packs. Ceci simplifie grandement les \majs.
 
-    * Les options de chaque sous-\pack restent accessibles depuis le \pack agrégateur.
+    * Les options de chaque sous-\pack restent accessibles depuis le \pack agrégateur.
 
     * Côté utilisateur, il est possible de choisir une importation ciblée de certains \packs, \etou d'en exclure d'autres.
 

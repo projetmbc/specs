@@ -1,5 +1,5 @@
 ﻿this::
-    date = 2023-10-02
+    date = 2023-10-06
 
 
 ==================================
@@ -13,5 +13,5 @@ Il ne faut jamais travailler sur des fichiers trop gros afin d'en faciliter la m
 
 
 note::
-    Rien n'empêche de fournir au final un unique fichier monstrueux mais pratique pour l'utilisateur : penser par exemple à un fichier \latex unique directement compilable en un \pdf, ou bien à un fichier ext::''sty'' unique développé via des fichiers ext::''sty'' petits et faciles à maintenir.
+    Rien n'empêche de fournir au final un unique fichier monstrueux mais pratique pour l'utilisateur : penser par exemple à un fichier \latex unique directement compilable en un \pdf, ou bien à un fichier ext::''sty'' unique développé via de petits fichiers ext::''sty'' faciles à maintenir.
     Dans ce genre de situation, la fabrication du gros fichier "tout-en-un" sera automatisée.

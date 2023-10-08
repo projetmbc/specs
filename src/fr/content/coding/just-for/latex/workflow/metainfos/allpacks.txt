@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-06
+    date = 2023-10-08
 
 
 ====================
@@ -24,9 +24,9 @@ yaml::
 
 Le contenu du fichier path::''about.yaml'' peut sembler minimal, mais c'est suffisant car les outils automatisés "devinent" certaines choses.
 
-    1) Le nom du \pack est juste celui du dossier du code \src.
+    1) Le nom du \pack est juste celui du dossier du code \src éventuellement modifié pour le rendre conforme à ce qu'accepte \latex.
 
-    1) La date de création et le numéro de la version en cours, lui aussi daté, sont des \infos déjà indiquées dans les journaux des \chgts \techs
+    1) La date de création et le \num de la version en cours, lui aussi daté, sont des \infos déjà indiquées dans les journaux des \chgts \techs
     ((
         Voir cf::''?/changes/tech-doc.txt''.
     )).
@@ -42,19 +42,19 @@ Le contenu du fichier path::''about.yaml'' peut sembler minimal, mais c'est suff
 Avec toutes ces \infos utiles découvertes, les lignes suivantes seront produites \auto^t dans le fichier ext::''sty'' final.
 
 latex::
-    % ---------------------------------------------------------- %
-    % - This is file `tnsfictive.sty' generated automatically. - %
-    % -                                                        - %
-    % - Copyright (C) 2023 by Christophe BAL                   - %
-    % -                                                        - %
-    % - This file may be distributed and/or modified under     - %
-    % - the conditions of the GNU 3 License.                   - %
-    % ---------------------------------------------------------- %
+    % --------------------------------------------------------- %
+    % - This is file `fictipack.sty' generated automatically. - %
+    % -                                                       - %
+    % - Copyright (C) 2023 by Christophe BAL                  - %
+    % -                                                       - %
+    % - This file may be distributed and/or modified under    - %
+    % - the conditions of the GNU 3 License.                  - %
+    % --------------------------------------------------------- %
 
     \NeedsTeXFormat{LaTeX2e}
 
     \ProvidesPackage%
-      {tnsfictive}  %
+      {fictipack} %
       {2023-09-07}  % Creation: 2018-05-01
       {1.2.3}       %
       {Fictional package for this example.}

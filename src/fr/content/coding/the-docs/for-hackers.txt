@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-06
+    date = 2023-10-07
 
 
 abrev::
@@ -15,8 +15,11 @@ Beaucoup de langages de \prog proposent des outils pour documenter son code dire
 Cette idée est excellente à condition de se limiter à la rédaction d'une \doc \tech donnant des caractéristiques telles que la \sign d'une \fonc par exemple, mais ceci ne doit surtout pas servir à rédiger une \doc au complet comme nous le verrons dans la section suivante.
 
 
-Voyons ce que cela donne avec \tnsdoc (rien n'empêche d'utiliser un autre outil bien entendu).
-Ce qui est important dans les exemples proposés c'est de noter le minimalisme des \infos fournies.
+Voyons ce que cela donne avec \tnsdoc
+((
+    Rien n'empêche d'utiliser un autre outil bien entendu.
+    Ce qui est important dans les exemples proposés c'est de noter le minimalisme des \infos fournies.
+)).
 Pour un code \js, on procèderait comme suit où l'on détourne les commentaires multilignes js::''/* ... */'' en js::''/*** ... ***/'' afin d'indiquer l'usage de la syntaxe proposée par \tnsdoc
 ((
     Noter dans cet exemple et le suivant que la syntaxe de \tnsdoc ne nuit en rien à la compréhension des codes.
@@ -48,7 +51,7 @@ js::
     }
 
 
-Voici un autre exemple via \tnsdoc pour \latex. Ce dernier ne propose que latex::''%'' pour commenter ligne par ligne, ce système de commentaires est ici détourné en latex::''%%%'' pour aiguiller \tnsdoc.
+Voici un autre exemple via \tnsdoc pour \latex. Ce dernier ne propose que latex::''%'' pour commenter ligne par ligne ; ce système de commentaires est ici détourné en latex::''%%%'' pour aiguiller \tnsdoc.
 
 latex::
     %%%
@@ -70,5 +73,5 @@ latex::
 warning::
     Rappelons qu'il faut bien veiller à ne donner que des \infos \techs minimales pour ne pas noyer le code dans la \doc, tout en gardant les détails pour la \doc non \tech "amicale"
     ((
-        Toutes mes excuses aux adeptes de la \prog littérale que l'auteur trouve catastrophique du point de vue d'un utiliseur peu aguerri.
+        Toutes mes excuses aux adeptes de la \prog littéraire que l'auteur trouve catastrophique du point de vue d'un utiliseur peu aguerri.
     )).

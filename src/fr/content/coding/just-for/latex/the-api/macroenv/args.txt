@@ -11,7 +11,7 @@ Les \args des macros
 ====================
 
 Les méthodes présentées ci-dessous peuvent être utilisées conjointement si besoin.
-A priori, il ne sera pas faot usage de \systs de type ''clés-valeurs'', ces derniers étant destinés aux options.
+A priori, il ne sera pas fait usage de \systs de type ''clés-valeurs'', ces derniers étant destinés aux options.
 
 
 content::

@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-06
+    date = 2023-10-07
 
 
 =============================
@@ -36,20 +36,21 @@ Voici ce que sont ces composants.
 
     Rien n'empêche d'utiliser une autre syntaxe s'appuyant sur le format \json ou \toml par exemple, mais ce qui importe est de rendre les \infos facilement accessibles via un programme informatique.
 
-    1) Pour donner une vue globale d'un projet informatique, il est d'usage de fournir un fichier \readme décrivant en anglais et succinctement le dit projet
+    1) Pour donner une vue globale d'un projet informatique, il est d'usage de fournir un fichier \readme décrivant succinctement en anglais le dit projet
     ((
         \multimd permet la rédaction du \readme morceau par morceau.
     )).
 
     1) Le dossier path::''changes'' accueille les \chgts rédigés comme expliqué dans cf::''changelog.txt''.
 
-    1) Le dossier path::''src'' est le code \src du projet à développer en suivant les règles indiquées dans cf::''?/archi.txt''. A partir d'un tel dossier, on construira le produit fini dans un sous-dossier dédié éponyme ou presque du dossier path::''my-new-project'' : dans notre exemple, ce pourrait être path::''mynewproject''.
+    1) Le dossier path::''src'' est le code \src du projet à développer en suivant les règles indiquées dans cf::''?/archi.txt''.
+    À partir d'un tel dossier, on construira le produit fini dans un sous-dossier dédié éponyme, ou presque, du dossier path::''my-new-project'' : dans notre exemple, ce pourrait être path::''mynewproject'' ou path::''my_new_project''.
 
     1) Le dossier facultatif path::''contribute'' permet d'accueillir des contributions extérieures comme des \trads : voir cf::''translate.txt'' à ce propos.
 
 
 info::
-    Le fichier de type path::''about.yaml'' pourrait aussi être complété avec un numéro de version, un date de création et une date de dernier \chgt. Dans ce cas, il est conseillé de faire ceci de façon automatisée via l'analyse du dossier path::''changes''.
+    Le fichier de type path::''about.yaml'' pourrait aussi être complété avec un numéro de version et les dates de création et de dernier \chgt. Dans ce cas, il est conseillé de faire ceci de façon automatisée via l'analyse du dossier path::''changes''.
 
 
 info::

@@ -6,7 +6,7 @@
 \Intro
 ======
 
-Ce \docu réunit un \ens de règles utiles pour bâtir des projets informatiques tels que des programmes, mais aussi plus généralement des créations textuelles comme un \docu écrit via \latex ou encore un site \web s'appuyant sur \html.
+Ce \docu réunit un \ens de règles utiles pour bâtir des projets informatiques tels que des \progs, mais aussi plus généralement des créations textuelles comme un \docu écrit via \latex, ou encore un site \web s'appuyant sur \html.
 Ces choix sont nés d'habitudes personnelles, de recommandations diverses et d'une forme appuyée de pragmatisme.
 
 

@@ -1,12 +1,12 @@
 this::
-    date = 2023-09-30
+    date = 2023-10-08
 
 
 ==============================
 Noms des macros "traductrices"
 ==============================
 
-Les noms sont \tjrs construits suivant le même schéma. Voici un exemple éclairant qui vient du package \bdoc le \bdocdate.
+Les noms sont \tjrs construits suivant le même schéma. Voici un exemple éclairant qui vient du package \bdoc daté du \bdocdate.
 
     * Considérons verb::''exa_title = Exemple'' présent dans un fichier de traductions pour le français.
 

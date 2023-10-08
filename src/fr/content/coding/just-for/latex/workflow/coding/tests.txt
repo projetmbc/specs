@@ -6,7 +6,7 @@ this::
 Tester
 ======
 
-Même si la \doc "utilisateur" est l'ocassion d'un test assez complet des fonctionnalités proposées, ceci repose sur le facteur humain pour la partie vérification, et ceci n'est pas bon.
+Même si la \doc "utilisateur" est l'ocassion d'un test assez complet des fonctionnalités proposées, ceci repose sur le facteur humain pour la partie vérification, ce qui n'est pas bon.
 C'est pour cette raison que le projet \l3build est utilisé pour tester à la fois la non régression du rendu, mais aussi la validité de données produites.
 Au cas par cas, ceci peut ête complété par les \techs suivantes
 ((

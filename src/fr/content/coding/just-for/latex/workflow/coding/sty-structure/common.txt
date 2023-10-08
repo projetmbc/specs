@@ -1,5 +1,5 @@
 this::
-    date = 2023-09-30
+    date = 2023-10-08
 
 
 ============================================================
@@ -20,7 +20,7 @@ latex::
 
     % == OPTIONS == %
 
-    % Lignes codant les options.
+    % Lignes codant les options du package.
 
 
     % == TOOLS == %
@@ -28,7 +28,8 @@ latex::
     % Lignes codant les fonctionnalités.
 
 
-Les sections spéciales sont facultatives, mais il doit y en avoir au moins une de présente.
+info::
+    Les sections spéciales sont facultatives.
 
 
 warning::

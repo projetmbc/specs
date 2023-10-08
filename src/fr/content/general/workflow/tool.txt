@@ -1,18 +1,18 @@
 this::
-    date = 2023-10-02
+    date = 2023-10-06
 
 
-=======================================
-Automatiser ! Je répète : automatiser !
-=======================================
+=========================================
+Automatiser ! Je répète : "Automatiser !"
+=========================================
 
 Tout tâche que vous faites régulièrement, \cad au moins deux fois, mérite d'être automatisée ! Voici des exemples typiques.
 
     1) Pour l'\ens de ses projets, l'auteur s'appuie sur \cookiecuter pour la création initiale de tout ce dont il a besoin.
 
-    1) Bien entendu il faut arriver à avoir le maximum de tests automatisés (on en reparle dans la section cf::''test.txt'').
+    1) Il faut avoir un maximum de tests automatisés (on en reparle dans la section cf::''test.txt'').
 
-    1) Quand on code, faire de l'intégration continue est un plus : l'idée consiste à mettre un \docu ou un code en ligne \etou en \prod
+    1) Faire de l'intégration continue est un plus : l'idée consiste à mettre un \docu ou un code en ligne \etou en \prod
     ((
         Pour un \docu, être en \prod peut signifier être mis à disposition sur une site.
     ))

@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-06
+    date = 2023-10-08
 
 
 ====================================
@@ -7,7 +7,7 @@ Ignorer des dossiers et des fichiers
 ====================================
 
 Via la \pyglob et un bloc yaml::''ignore'' mis dans le fichier path::''src/about.yaml'', il est possible d'indiquer des dossiers et des fichiers à ignorer en plus de ceux indiqués à \git via un fichier \gitignore.
-Par défaut, \texfacto ignore les dossiers et fichiers ayant un nom commençant par path::''test_'', path::''tests_'', path::''tool_'' ou path::''tolls_'' ; ceci se ferait à la main comme suit.
+Par défaut, \texfacto ignore les dossiers et fichiers ayant un nom commençant par path::''test_'', path::''tests_'', path::''tool_'' ou path::''tools_'' ; ceci se ferait à la main comme suit.
 
 yaml::
     ---

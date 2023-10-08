@@ -2,6 +2,27 @@
 
 
 ==
+08  (0.11.0-alpha)
+==
+
+--------
+:update:
+--------
+
+[[:doc:]]
+\latex.
+
+    1) Maths.
+        * Delimiters: the option ``auto`` was missing...
+        * Font-shape: all kind of shape can be used.
+
+    1) \Docs: one more indication about the "friendly" \tech \doc.
+
+
+// ---------- //
+
+
+==
 06  (0.10.0-alpha)
 ==
 
