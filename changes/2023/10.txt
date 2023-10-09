@@ -2,6 +2,16 @@
 
 
 ==
+10  (0.13.0-beta)
+==
+
+General - Version: the incremental process has been explained.
+
+
+// ---------- //
+
+
+==
 09  (0.12.0-beta)
 ==
 

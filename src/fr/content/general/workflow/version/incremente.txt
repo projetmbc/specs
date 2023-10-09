@@ -1,0 +1,49 @@
+﻿this::
+    date = 2023-10-10
+
+
+===========
+Incrémenter
+===========
+
+Nous allons voir maintenant ce que signifie chaque partie de version::''MAJ.MIN.COR'' et  version::''MAJ.MIN.COR-EXTRA''; ceci nous permettra de finir cette section par la méthode retenue pour incrémenter les \numvers. Indiquons que dans les exemples proposés sous forme de notes de bas de page, pour les \docus, "section" désignera de façon indifférente une partie, un chapitre, une section, une sous-section ou une sous-sous-section.
+
+    1) Le \num version::''MAJ'' est à modifier dès qu'un \chgt non rétrocompatible majeur apparaît
+    ((
+        **\Chgt majeur :**
+        pour un \docu ceci correspond à l'organisation visible du contenu (sections supprimées \etou déplacées),
+        et pour un \prog à un \chgt important d'\api (le \prog s'utilise différemment).
+    )).
+
+    1) Le \num version::''MIN'' évolue lorsque de \nelles fonctionnalités apparaissent avec éventuellement de très minimes \chgts non rétrocompatibles
+    ((
+        **\Chgt mineur :**
+        pour un \docu ceci correspond à un enrichissement du contenu (\nelles sections \etou mises à jour de sections précédemment existantes),
+        et pour un \prog à un enrichissement de l'\api sans modifier ce qu'elle proposait avant (le \prog s'utilise de la même façon, sauf peut-être à la marge, mais il a été enrichi de \nelles fonctionnalités).
+    )).
+
+    1) Le \num version::''COR'' change à chaque correction rétrocompatible d’anomalies
+    ((
+        **Correctifs :**
+        pour un \docu ceci correspond à des corrections à la marge (erreurs orthographiques, grammaticales \etou syntaxiques, mais aussi une modification purement visuelle du contenu sans toucher à son organisation),
+        et pour un \prog à la correction de bogues sans toucher à l'\api (le \prog s'utilise de la même façon).
+    )).
+
+    1) Pour finir, voici l'utilité des différentes valeurs de version::''EXTRA''.
+
+        a) version::''alpha'' indique que les fonctionnalités sont incomplètes ou partiellement terminées.
+        Ce type de projet est à destination uniquement des concepteurs.
+
+        a) version::''beta'' s'utilise lorsque les fonctionnalités, bien que terminées, peuvent contenir des bogues et des \pbs de \perf.
+        Ce type de projet s'adresse aux utilisateurs testeurs.
+
+        a) version::''rc'', pour "release candidate", indique une version bêta avancée susceptible d'être un produit stable et prêt à être publiée à moins que des bogues importants n'apparaissent.
+        Ce type de projet s'adresse aux utilisateurs "lambda" mais qui sont avertis que le projet contient peut-être quelques bogues mineurs à signaler.
+
+        a) Pour les versions stables, c'est à dire celles considérées comme finies, à un moment donné bien entendu, nous n'utilisons pas version::''EXTRA'' tout simplement.
+
+
+Le choix retenu pour incrémenter les \numvers est de garder un historique de l'évolution. Concrètement, ceci signifie par exemple que l'on passera de version::''0.12.3-alpha'' à version::''0.13.0-beta'', mais pas de version::''0.12.3-alpha'' à version::''0.0.0-beta''
+((
+    Le 2\nd choix est correct mais non retenu dans le cadre des présentes \specs.
+)).
