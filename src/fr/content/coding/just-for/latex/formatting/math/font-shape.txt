@@ -1,8 +1,8 @@
 this::
-    date = 2023-10-08
+    date = 2023-10-09
 
 
-# False def of some math objects while waiting for `tns` to evolve
+# Fake def of some math objects while waiting for `tns` to evolve
 # on this subject.
 math::
     P   := proba(P)
@@ -51,7 +51,7 @@ Commençons par les usages normalisés
         * Les \enss avec une structure algébrique simple comme un groupe `G` ou un anneau `A`.
 
 
-\latex propose aussi les outils suivants qui pour le moment n'ont pas d'usages normalisés. L'usage montrera si ceci doit évoluer.
+\latex propose aussi les outils suivants qui pour le moment n'ont pas d'usages normalisés. L'avenir montrera si ceci doit évoluer.
 
     1) **"À la fraktur" via ''\mathfrak''.**
 
