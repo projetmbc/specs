@@ -1,34 +1,19 @@
 this::
-    date = 2023-10-08
+    date = 2023-10-11
 
 
 ===================================
 Fichiers pour la \doc "utilisateur"
 ===================================
 
-Le codeur se charge de rédiger une \doc "utilisateur" dans la langue indiquée via le fichier path::''about.yaml'' du projet
+Le codeur se charge de rédiger une \doc "utilisateur" dans la langue indiquée via le fichier path::''about.yaml'' spécifique au projet
 ((
     Voir cf::''?/metainfos/allpacks.txt''.
 )).
-Ceci se fait au même niveau que les fichiers ext::''sty'' : pour cela, il suffit de rédiger des fichiers ext::''tex''.
-Nous allons voir ici comment seront réunis ces fichiers pour produire la \doc finale au complet.
+Ceci se fait au même niveau que les fichiers ext::''sty'' : pour cela, il suffit de rédiger des fichiers ext::''tex'' en respectant des règles de nommage que nous allons expliquer via deux cas d'utilisation possibles.
 
 
-Globalement, nous avons vu comment imposer un ordre d'analyse des dossiers du code \src : voir la section cf::''about-for-dirs.txt''. Voyons maintenant comment cela se passe pour un dossier particulier comme le suivant sans fichier path::''about.yaml''.
-
-dirtree::
-    + alpha-et-omega3
-        * alpha.tex
-        * alpha.sty
-        * omega3.tex
-        * omega3.sty
-
-
-Dans le cas ci-dessus, ce sera tout simplement l'ordre \lexico qui sera utilisé : le contenu de path::''alpha.tex'' apparaîtra avant celui de path::''omega3.tex''.
-L'exemple qui va suivre explique comment scinder un fichier \ext::''tex'' destiné à la \doc "utilisateur" : cette \tech est valable quelque soit le contexte.
-
-
-Pour le dossier ci-dessous, le contenu de path::''about.yaml'' permet d'imposer les fichiers à garder en les ordonnant.
+Pour commencer, considérons le dossier suivant où un fichier path::''about.yaml'' permet de choisir l'ordre d'utilisation des fichiers.
 
 dirtree::
     + poor-lonesome-cowboy
@@ -40,7 +25,7 @@ dirtree::
         * rantanplan.sty
 
 
-Supposons que le fichier path::''about.yaml'' ait le contenu suivant.
+Le fichier path::''about.yaml'' admet le contenu suivant afin de considérer le fichier path::''rantanplan.sty'' avant path::''lucky.sty''.
 
 yaml::
     ---
@@ -54,16 +39,21 @@ yaml::
 
 Aucune \ref n'étant faite aux fichiers ext::''tex'', les règles suivantes sont appliquées.
 
-    1) Les fichiers ext::''tex'' commençant par path::''rantanplan-'', \etou le fichier path::''rantanplan.tex'' forment une liste qui sera ordonnée de façon \lexico pour être intégrés dans la \doc finale en première position.
+    1) Les fichiers ext::''tex'' commençant par path::''rantanplan-'' \etou le fichier path::''rantanplan.tex'' forment une liste qui sera ordonnée de façon \lexico pour l'intégration des fichiers ext::''tex'' dans la \doc finale.
 
-    1) Viennent ensuite les fichiers commençant par path::''lucky-'', \etou le fichier path::''lucky.tex'' ordonnés de façon \lexico pour être intégrés dans la \doc finale en deuxième position.
-
-    1) S'il reste des fichiers ext::''tex'', ils seront ignorés !
-
-
-Rien n'empêche d'indiquer à la fois des fichiers ext::''sty'' et ext::''tex'' dans un ordre souhaité.
-Ceci peut s'avérer utile pour un document ext::''tex'' non associé à un code ext::''sty'' mais présentant rapidement différentes fonctionnalités, un tel fichier devant être traité avant tout le reste, il suffit de le mettre au début de la liste yaml::''toc''.
+    1) Viennent ensuite les fichiers commençant par path::''lucky-'' \etou le fichier path::''lucky.tex'' ordonnés de façon \lexico pour l'intégration dans la \doc finale.
 
 
 info::
-    Bien entendu, on ignore tout fichier \pdf associé à un fichier \ext::``tex`` intégré \auto^t à la \doc.
+    Rien n'empêche d'indiquer à la fois des fichiers ext::''sty'' et ext::''tex'' dans un ordre souhaité. Ceci peut s'avérer utile pour un document ext::''tex'' non associé à un code ext::''sty'' mais présentant rapidement différentes fonctionnalités ; un tel fichier devant être traité avant tout le reste, il suffit de le mettre au début de la liste yaml::''toc'' du fichier path::''about.yaml''.
+
+
+Des règles similaires s'appliquent au dossier sans fichier path::''about.yaml'' comme ci-après, un cas pour lequel l'intégration dans la \doc se fera avec path::''alpha.tex'' suivi de path::''omega3-a.tex'' puis de path::''omega3-b.tex''.
+
+dirtree::
+    + alpha-et-omega3
+        * alpha.tex
+        * alpha.sty
+        * omega3-a.tex
+        * omega3-b.tex
+        * omega3.sty

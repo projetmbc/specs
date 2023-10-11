@@ -43,7 +43,7 @@ Nous allons voir maintenant ce que signifie chaque partie de version::''MAJ.MIN.
         a) Pour les versions stables, c'est à dire celles considérées comme finies, à un moment donné bien entendu, nous n'utilisons pas version::''EXTRA'' tout simplement.
 
 
-Le choix retenu pour incrémenter les \numvers est de garder un historique de l'évolution. Concrètement, ceci signifie par exemple que l'on passera de version::''0.12.3-alpha'' à version::''0.13.0-beta'', mais pas de version::''0.12.3-alpha'' à version::''0.0.0-beta''
+Le choix retenu pour incrémenter les \numvers est de garder un historique de l'évolution : concrètement, ceci signifie par exemple que l'on passera de version::''0.12.3-alpha'' à version::''0.13.0-beta'', mais pas de version::''0.12.3-alpha'' à version::''0.0.0-beta''
 ((
     Le 2\nd choix est correct mais non retenu dans le cadre des présentes \specs.
 )).

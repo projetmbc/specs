@@ -2,9 +2,33 @@
 
 
 ==
+11  (0.14.0-beta)
+==
+
+--------
+:update:
+--------
+
+[[:doc:]]
+\latex - Ignore.
+
+    1) path::''about.yaml'': this type of file can just indicate how to sort the files or folders to be analysed. It is no longer possible to use an path::''about.yaml'' file to locally ignore files and folders.
+
+    1) Tests and tools: the new \specs are more flexible for the names of the test and tool files.
+
+
+// ---------- //
+
+
+==
 10  (0.13.0-beta)
 ==
 
+--------
+:update:
+--------
+
+[[:doc:]]
 General - Version: the incremental process has been explained.
 
 
