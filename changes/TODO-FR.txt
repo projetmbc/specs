@@ -1,0 +1,297 @@
+==============
+specifications - TODO
+==============
+
+
+> ---------------------------- <
+
+structure imposée de codage et du coup ordre des sty tjrs indique soit implicitement via nom des dossierfs soit via un about.yaml qui ne doit oublié aucun sty
+On garde association des tex à un sty car c'est pratique et flexibnle
+un etex à ajoutéer au début  se fera via  prems.tex suivi de *.tex
+
+sdi que des tex, on utilise ordre implicite des sty car utile justement dans le cas précédent d'un tex introudctif
++ src
+    * les sty
+    * les tex éventuels
+    * des test et tools si besdoin lmocalemnt
+    + des dossiers ressource aux noms livbres
+
+indiquer aussi que si be soin d'un sorte de sous-dossier de fonctionanlirté c'est qu'il est temps de faire un package dédié
+
+> ---------------------------- <
+
+gestion de fichiers cls pour des classes
+
+
+> ---------------------------- <
+
+glob + ignore dans general ???
+
+
+> ---------------------------- <
+
+LATEX - info::  COMMENT ?
+
+    Les tests sont implémentés au plus proche, \cad pour chaque bout de code afin de faciliter d'éventuels déboguages.
+    Des outils se chargent ensuite d'intégrer ces tests dans un test d'intégration pour chaque package non agrégateur et enfin d'autres pour ceux agrégateurs.
+    Enfin il est possible dans le \src \latex de la \doc utilisateur d'indiquer des exemples à intégrer au jeu des tests fournis à \l3build.
+
+
+> ---------------------------- <
+
+LATEX - FBI ?
+
+ Ceci permet de proposer facilement des réglages comme suit où ''tnsagregpack'' agrège des packages dont l'un est ''tnssubpack''.
+
+    latex::
+        \SetTnsAgregpack{
+            subpack = {
+                % Réglages disponibles via \SetTnsSubpack{ ... }
+                % dans ''tnssubpack'' utilisé seul.
+            }
+        }
+
+
+> ---------------------------- <
+
+LATEX - utile ???
+
+note::
+    Le système retenu pour intégrer les fichiers utiles à la \doc finale s'appuie sur l'option term::''-recorder'' des compilateurs de la famille \tex.
+    Cette commande permet, entre autres choses, de connaître les fichiers externes utilisés pour compiler un document \latex.
+
+ET
+
+warning::
+    Que faire si par un très improbable hasard vous souhaitez utiliser ''{chemin/vers/ce/superbe/fichier}'' dans une commande sans lien avec l'utilisation d'une resource alors que path::''chemin/vers/ce/superbe/fichier'' est bien une resource ?
+    Une astuce un peu "sâle" consiste à taper ''{ chemin/vers/ce/superbe/fichier }'' avec des espaces inutiles
+    ((
+        Attendons de voir si ce cas se présentera, ou non, pour trouver une vraie parade...
+    )).
+
+
+> ---------------------------- <
+
+LATEX - gestiond es oncflits avec d'autres packages !
+
+
+> ---------------------------- <
+
+LATEX
+
+adte + version auto via texfacto mais à la demande uniquement : un mode de maj qui se fait avant une publication
+
+% new:
+...
+
+deviendra
+
+
+\bdocversion{...}{...}
+...
+
+
+un git a permet ensuite de valider les chgts autos : indiquer à l'utilisateu de faire ceci à l amin, mais aussi autorisé auto si confiance en lieu
+
+
+> ---------------------------- <
+
+LATEX - spécification des macros modifiables via CSS/Font !!!!!
+
+    --> on automatise alors le syst de CSS via un package avec du formatting semantic !!!! et non juste un fichier CSS
+
+    --> on ne met que ce qui est pertiennt pporur les chgts + création d'un doc avec TOUS les chgts
+
+
+> ---------------------------- <
+
+LATEX - test AUTO
+
+    --> bonne mef (a priori simple car tout est fixé mais prévoir un syst souple magré tout) : faire un outil dans dev-latex
+
+            * on produit à la main des formules en standalone que l'on valide huaminement
+
+            * on test et compare automatiquement (quel outil ?)
+
+            * besoin d'une GUI simple (de type WEB ?) pour initier le bons cas et aussi pour valider une erreur détectée de
+
+
+> ---------------------------- <
+
+LATEX - traduction de la doc pour les non codeurs      TOP !!!!
+
+    --> noter les trads non mis à jour (cf le log ou autre)
+
+            + besoin dans ce cas d'associer une trad à une date du chnagelog !
+
+
+> ---------------------------- <
+
+LATEX
+
+nelle versio de macroenvsign
+
+    --> maj de la doc coder-doc...
+
+
+> ---------------------------- <
+
+LATEX
+
+la partie sur le coding déplacé vers TeXfactory
+
+    ---> copier coller les change logs
+
+
+> ---------------------------- <
+
+LATEX - agregation : traitement des options des packages importés !
+
+\usepackage{../main/main}
+\PassOptionsToPackage{lang = EN}{../main/main}
+
+
+> ---------------------------- <
+
+LATEX
+
+update/build des packages autonomos  via git a : du coup y faire gaffe mais on peut tout de mpme frcer à la main un update ou bien juste virer à la main le pdf d'une doc à la main par exempel
+
+de plus ceci travaille sur la branche en cours
+    --> si branch de dev d'un package, on ne touche pas à l'agrégate du main dans ce case
+
+branche main/master : que des produits fiis !!!!
+    --> possibilité de forcer ???
+
+commit de version après le update et non avant du coup
+
+
+> ---------------------------- <
+
+LATEX - color
+
+    ---> comment montrer des différences ????
+
+    toujours faire donc avec et sans couleur uniquement si l'option col existe
+
+
+    ---> penser à ne pass chnager les espacement car sinon compile peut dtout modifier
+
+
+    ---> on passe vie fichier à la CSS qui prennent en compte tout ce qui doit être modifié
+
+    par exemple pour ruler des showcase de bdoc, on gère aussi la dimension laissé libre
+
+
+> ---------------------------- <
+
+LATEX
+
+make, cmake ou ninja ( https://ninja-build.org/ ) ?
+
+
+fichier makefile qui permet de lancer facilment la factory
+    --> TB !!!
+
+    latexmk -shell-escape -pdf version-n-change-FR.tex
+
+
+> ---------------------------- <
+
+LATEX
+
+????   forcer l'intégration dans le projet fini : par exemple prise en compte d'un script python ou lua non impirté
+
+    ---> about.peuf
+
+    ---> maj de small-code si fait !
+
+
+> ---------------------------- <
+
+LATEX - tools
+    ---> règle de lancement automatisé (du coup liste de ce qu'il faut lancer dans about.peuf)
+
+> ---------------------------- <
+
+LATEX - bdoc@cnt@exa
+
+
+> ---------------------------- <
+
+LATEX - EXTRA dans doc
+
+
+> ---------------------------- <
+
+LATEX - nommer les messages d'erreur  TOP !!!!
+
+\msg_set:nnnn { bdoc } { options-unknown-lang }
+
+
+> ---------------------------- <
+
+LATEX - on peut indiquer de fichiers externes via infos.peuf comme par exemple des scripts python ou lua (soit ciblé soit tout le contenu d'un dossier)
+
+
+> ---------------------------- <
+
+LATEX - Ignorer  ?????
+    ---> out
+    ---> si fait en oarler dans small-code !!
+
+
+> ---------------------------- <
+
+LATEX
+
+une branche de dev par projet autonome
+
++
+
+???? virer pdfs doc avant tout merge vers la branche main
+
+
+> ---------------------------- <
+
+LATEX - pour section comment passer vai tnscom quicontient tout et ua passage au parle de ce package factorisant les points communs
+
+
+> ---------------------------- <
+
+LATEX - no-conflict
+    --> ajouter exemple de CSV
+
+
+> ---------------------------- <
+
+LATEX - UTILE ???  options
+
+Les noms des options ont toutes une forme longue \etou une courte.
+Par exemple, on pourra utiliser verb::''arrow'' ou verb::''arw'', ou bien aussi au choix verb::''loop'' ou verb::''lp''.
+
+
+info::
+    Si le contexte est clair, certaines options courtes sont réduites à une seule lettre.
+    Sinon il suffit de prendre le nom au complet en supprimant les voyelles tout en ignorant les répétitions consécutives de consonnes.
+    Par exemple, verb::''anticonstitutionnellement'' serait raccourci en verb::''ntcnstnlmnt''
+    ((
+        Toute ressemblance avec des options existantes ou ayant existé est purement fortuite.
+    )).
+
+
+> ---------------------------- <
+
+builder: tjrs mettre en commentaire que travail fait par tel builder (utile en cas de souci !)
+
+
+> ---------------------------- <
+
+FBI = fausses bonnes idées
+
+
+> ---------------------------- <
+
+pas de maj pércipipté syst ; tester avant mise en prod (cf histoire perso du prob de memoir avec latex qui avait poser pb la veille de la compilation d'un cours !!!)
+
+passer via virtuel env avant de maj syst au complet !!!
