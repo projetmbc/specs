@@ -1,31 +1,40 @@
 this::
-    date = 2023-10-06
+    date = 2023-10-23
 
 
 ======================================
 Nécessaire pour les \packs agrégateurs
 ======================================
 
-Dans le fichier path::''about.yaml'' d'un \pack agrégateur, en plus des \infos générales propres à tout \pack, il faut employer un bloc "autonome" yaml::''agregate'' afin d'indiquer les dossiers des codes \src des sous-\packs à agréger. Voici un exemple possible où l'ordre utilisé est celui retenu pour produire \auto^t les \docs.
+Dans le fichier path::''about.yaml'' d'un \pack agrégateur, en plus des \infos générales propres à tout \pack, il faut employer un bloc "autonome" yaml::''agregate'' afin d'indiquer les dossiers des codes \src des sous-\packs à agréger.
+Voici un exemple possible
+((
+    L'ordre utilisé sera aussi celui retenu pour produire \auto^t les \docs.
+))
+où sont employés des chemins relatifs
+((
+    L'usage de chemins absolus est possible mais fortement déconséeillé !
+)).
 
 yaml::
     # project:
     #   ...
 
     agregate:
-      - src/fictipack_1/
-      - src/fictipack_2/
-      - src/fictipack_3/
+      - ../upfolder/fictipack_1/
+      - ../upfolder/fictipack_2/
+      - ../upfolder/fictipack_3/
 
 
-Il est possible de s'appuyer sur \pyglob quand cela est possible. Si dans l'exemple précédent il n'y a que les dossiers indiqués dans le dossier path::''src'', on peut plus rapidement faire comme suit où les dossiers repérés seront ordonnés de façon \lexico.
+info::
+    Il est possible de s'appuyer sur \pyglob. Si dans l'exemple précédent il n'y a que les dossiers indiqués dans le dossier path::''upfolder'', on peut plus rapidement faire comme suit où les dossiers repérés seront ordonnés de façon \lexico.
 
-yaml::
-    # project:
-    #   ...
+    yaml::
+        # project:
+        #   ...
 
-    agregate:
-      - src/fictipack_*/
+        agregate:
+          - ../upfolder/fictipack_*/
 
 
 warning::

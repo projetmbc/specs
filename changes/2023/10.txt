@@ -2,6 +2,21 @@
 
 
 ==
+23
+==
+
+--------
+:update:
+--------
+
+[[:doc:]]
+\latex - Agregate: the possibility to work with relative paths has been explained.
+
+
+// ---------- //
+
+
+==
 11  (0.14.0-beta)
 ==
 

@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-08
+    date = 2023-10-23
 
 
 ====================
@@ -24,9 +24,9 @@ yaml::
 
 Le contenu du fichier path::''about.yaml'' peut sembler minimal, mais c'est suffisant car les outils automatisés "devinent" certaines choses.
 
-    1) Le nom du \pack est juste celui du dossier du code \src éventuellement modifié pour le rendre conforme à ce qu'accepte \latex.
+    1) Le nom du \pack est juste celui du dossier contenant le code \src : si besoin, certaines modifications seront faites pour obtenir un nom conforme à ce qu'accepte \latex.
 
-    1) La date de création et le \num de la version en cours, lui aussi daté, sont des \infos déjà indiquées dans les journaux des \chgts \techs
+    1) La date de création et le \numver en cours, lui aussi daté, sont des \infos déjà indiquées dans les journaux des \chgts \techs
     ((
         Voir cf::''?/changes/tech-doc.txt''.
     )).
@@ -54,7 +54,7 @@ latex::
     \NeedsTeXFormat{LaTeX2e}
 
     \ProvidesPackage%
-      {fictipack} %
+      {fictipack}   %
       {2023-09-07}  % Creation: 2018-05-01
       {1.2.3}       %
       {Fictional package for this example.}
