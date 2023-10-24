@@ -15,7 +15,7 @@ The integration of \latex \specs has shown the necessity to simplify and clarify
 Here is what was done that day.
 
     * \Intro rewritten.
-    * \Gene rules rethought: let's get to work.
+    * \Gene rules rethought: let's get to work...
 
 
 // ---------- //
