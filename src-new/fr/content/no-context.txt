@@ -1,0 +1,11 @@
+abrev::
+    content = :this.name:
+
+
+========================
+Dans un contexte général
+========================
+
+content::
+    \content/learn-n-pass-on.txt
+//    \content/how-to-produce.txt

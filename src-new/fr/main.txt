@@ -1,5 +1,5 @@
 this::
-    title  = Spécifications pour des projets informatiques
+    title  = \Specs pour des projets informatiques
     author = Christophe, BAL
     mail   = projetmbc@gmail.com
     lang   = fr
@@ -14,6 +14,7 @@ abrev::
     cookiecuter = cf::''Cookiecutter ;
                         https://github.com/cookiecutter/cookiecutter''
 
+
     glob   = verb::''glob''
     pyglob = cf::''syntaxe \glob à la \python;
                    https://docs.python.org/3/library/glob.html''
@@ -21,13 +22,4 @@ abrev::
 
 content::
     \content/intro.txt
-    \content/general.txt
-    \content/coding.txt
-
-
-// TODO : Just for writing !
-// préciser qu'iic  c'est pour écrit technique
-// ne pas hesiter à proposer des approches différentes voire imagées
-// (graphique ou schéma)
-// parer de la posivilité de 'écriture pour web dya et papier en simultanée'
-//    \content/writing.txt         ????
+    \content/no-context.txt

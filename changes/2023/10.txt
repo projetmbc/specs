@@ -2,6 +2,26 @@
 
 
 ==
+24
+==
+
+-------
+:break:
+-------
+
+[[:doc:]]
+The integration of \latex \specs has shown the necessity to simplify and clarify a lot of things. Work starts today on the verb::''dev'' branch, and will result in a major \numver change.
+
+Here is what was done that day.
+
+    * \Intro rewritten.
+    * \Gene rules rethought: let's get to work.
+
+
+// ---------- //
+
+
+==
 23
 ==
 

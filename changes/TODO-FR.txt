@@ -8,7 +8,7 @@ NOW
 
 > ---------------------------- <
 
-    [??] voir si donc simplifiables car c'est un vraui merdier!
+    [??] simplifier en ciblant mieux mainternant que l'on fait du tout dansd un
 
     [??] on précise packager, class, et pack agrégateur
 
@@ -23,6 +23,15 @@ NOW
 -----
 LATER
 -----
+
+> ---------------------------- <
+
+// TODO : Just for writing !
+// préciser qu'iic  c'est pour écrit technique
+// ne pas hesiter à proposer des approches différentes voire imagées
+// (graphique ou schéma)
+// parer de la posivilité de 'écriture pour web dya et papier en simultanée'
+
 
 > ---------------------------- <
 

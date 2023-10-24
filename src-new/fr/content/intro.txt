@@ -1,0 +1,16 @@
+﻿this::
+    date = 2023-10-24
+
+
+======
+\Intro
+======
+
+Ce \docu réunit un \ens de règles utiles pour bâtir des projets "textuels" : par exemple, cela peut être un \prog codé au clavier, un \docu écrit via \latex ou \md, ou encore un site \web rédigé en \html ou bien via un générateur de site usant de fichiers "textuels".
+
+
+note::
+    Pourquoi des projets "textuels" ? Pour des raisons évidentes d'efficacité, mais aussi pour permettre un suivi fin des \chgts via \git.
+
+
+Les règles retenues sont nées d'habitudes personnelles, de recommandations diverses et d'une forme appuyée de pragmatisme. Elles casseront parfois des habitudes propres à certains courants de programmation ; ceci est assumé même si l'auteur de ce \docu n'est qu'un codeur amateur !
