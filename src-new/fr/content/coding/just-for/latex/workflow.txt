@@ -10,3 +10,7 @@ Coder efficacement
 
 content::
     \content/metainfos.txt
+    \content/coding.txt         ????
+    \content/the-docs.txt       ???
+    \content/changes.txt        ??
+    \content/translate.txt      ?

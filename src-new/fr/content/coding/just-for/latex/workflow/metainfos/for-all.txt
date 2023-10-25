@@ -7,7 +7,7 @@ Pour tous les \packs \etou \ttes les classes
 ============================================
 
 info::
-    Le "\etou" dans le titre n'est pas une faute de frappe. Il est en fait de possible de développer trois types de projet \latex.
+    Le "\etou" dans le titre n'est pas une faute de frappe. Il est en fait possible de développer trois types de projet \latex.
 
         1) Un \pack.
 
@@ -43,13 +43,13 @@ Le contenu du fichier path::''about.yaml'' peut sembler minimal, mais c'est suff
 
     1) Les dépendances sont repérées \auto^t dans les codes des fichiers ext::''sty'' \etou ext::''cls''
     ((
-        Voir cf::''?/sty-structure/common.txt'' et  cf::''?/cls-structure/common.txt''.
+        Voir cf::''?/sty-cls-structure/common.txt''.
     )).
 
     1) La langue par défaut est l'anglais ; ceci nous évite ici d'indiquer la langue utilisée pour le fichier \readme et la \doc \tech.
 
 
-Avec toutes ces \infos utiles découvertes, les lignes suivantes seront produites \auto^t dans le fichier ext::''sty'' final (rappelons que nous avons supposé que notre exemple ficif ne contenait pas de fichier ext::''cls'', mais bien entendu un travail similaire sera fait pour classe \latex).
+Avec toutes ces \infos utiles découvertes, les lignes suivantes seront produites \auto^t dans le fichier ext::''sty'' final (rappelons que nous avons supposé que notre exemple ficif ne contenait pas de fichier ext::''cls'', mais bien entendu un travail similaire sera fait pour une classe \latex).
 
 latex::
     % --------------------------------------------------------- %

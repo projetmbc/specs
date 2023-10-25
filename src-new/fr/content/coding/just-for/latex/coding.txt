@@ -7,9 +7,14 @@ Méthodes de codage
 ==================
 
 content::
+
+
+    ????
+
     \content/small-code.txt
     \content/resource.txt
     \content/sty-structure.txt
+    \content/cls-structure.txt
     \content/no-conflict.txt
     \content/lang-api.txt
     \content/breaking.txt
