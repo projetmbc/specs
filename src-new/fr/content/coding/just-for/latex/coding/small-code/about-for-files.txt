@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-11
+    date = 2023-10-25
 
 
 ===========================================
@@ -7,7 +7,7 @@ path::''about.yaml'' pour les fichiers \src
 ===========================================
 
 Dans chaque sous-dossier \src peut être mis un fichier path::''about.yaml'' permettant de choisir l'ordre d'analyse des fichiers.
-Dans cette section, nous allons nous concentrer sur les fichiers ext::''sty'' liés au code (nous reviendrons sur les fichiers ext::''tex'' pour la \doc "utilisateur" dans la section suivante).
+Dans cette section, nous allons nous concentrer sur les fichiers ext::''sty'' liés au code de notre exemple, mais soulignons que l'on peut aussi, si besoin, indiquer des fichiers ext::''cls'' (nous reviendrons sur les fichiers ext::''tex'' pour la \doc "utilisateur" dans la section suivante).
 Imaginons que l'on ait le code suivant pour notre exemple ficitf.
 
 yaml::

@@ -1,13 +1,13 @@
 this::
-    date = 2023-10-08
+    date = 2023-10-25
 
 
 ==================
 Les grandes lignes
 ==================
 
-Afin d'avoir une maintenance facile au long cours, les \packs sont codés "morceau par morceau" en respectant certaines conventions.
-Des outils se chargent ensuite de produire le \pack à destination de l'utilisateur avec sa \doc "utilisateur".
+Afin d'avoir une maintenance facile au long cours, les \packs et les classes de \mef sont codés "morceau par morceau" en respectant certaines conventions.
+Des outils se chargent ensuite de produire le \pack ou la classe à destination de l'utilisateur tout en produisant des \docs "utilisateur" et \techs.
 
 
 info::

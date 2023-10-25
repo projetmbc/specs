@@ -7,11 +7,11 @@ Méthodes de codage
 ==================
 
 content::
+    \content/small-code.txt
 
 
     ????
 
-    \content/small-code.txt
     \content/resource.txt
     \content/sty-structure.txt
     \content/cls-structure.txt
