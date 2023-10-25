@@ -1,0 +1,16 @@
+﻿abrev::
+    content = :this.name:
+
+
+=============================================
+Gestion générale des fichiers et des dossiers
+=============================================
+
+content::
+    \content/structure.txt
+    \content/file-size.txt
+    \content/modularity.txt
+    \content/gather.txt
+
+// Always finish with the naming rules.
+    \content/naming.txt

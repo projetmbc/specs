@@ -1,12 +1,12 @@
 this::
-    date = 2021-04-07
+    date = 2023-10-25
 
 
 ============================
 Modularité ou l'art du \lego
 ============================
 
-Produire du contenu réutilisable ou adaptable à d'autres contextes que celui d'origine permet de faciliter grandement la tâche de création. Voici deux exemples concrets.
+Produire du contenu réutilisable ou adaptable à d'autres contextes que celui d'origine permet de faciliter grandement la tâche de création, et aussi la maintenance. Voici des exemples concrets.
 
     1) Un code doit être le plus facile à maintenir possible. Ceci ne peut se faire qu'en isolant les fonctionnalités et donc en organisant son code en modules ayant des champs d'action bien délimités. Du classique pour un codeur...
 

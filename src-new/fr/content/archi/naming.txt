@@ -1,0 +1,18 @@
+﻿this::
+    date = 2023-10-25
+
+
+abrev::
+    content = :this.name:
+
+
+==============================
+Bien nommé, je deviens visible
+==============================
+
+Finissons cette section sur l'\archi par le nommage des objets d'un projet, un sujet important et loin d'être futile...
+
+
+content::
+    \content/content.txt
+    \content/file-n-folder.txt

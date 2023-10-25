@@ -1,14 +1,14 @@
 this::
-    date = 2023-05-19
+    date = 2023-10-25
 
 
 abrev::
     content = :this.name:
 
 
-=====================
-Comment bien nommer ?
-=====================
+======================
+Bien nommer du contenu
+======================
 
 Avant de voir quelques exemples concrets, expliquons rapidement ce que nous pensons être de bons noms. Les principes suivants doivent être respectés le plus possible.
 
@@ -18,7 +18,7 @@ Avant de voir quelques exemples concrets, expliquons rapidement ce que nous pens
 
     1) Un nom ne doit pas contenir d'\infos superflues.
 
-    1) Un nom peut utiliser des règles sémantiques d'écriture.
+    1) Un nom peut utiliser des règles sémantiques d'écriture, même si elles sont implicites.
 
 
 content::

@@ -2,9 +2,9 @@ abrev::
     content = :this.name:
 
 
-=====================
-Processus de création
-=====================
+=============================
+Processus général de création
+=============================
 
 content::
     \content/std-structure.txt

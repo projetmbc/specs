@@ -1,5 +1,5 @@
 this::
-    date = 2023-05-19
+    date = 2023-10-25
 
 
 ============================
@@ -11,7 +11,7 @@ Entre "\Specs pour des projets informatiques" et "\Specs utiles voire indispensa
 
 
 [[Être expressif.]]
-Même si l'acronyme "S.p.d.P.I." vous parle et vous semble sympa, il vaut mieux utiliser "\Specs pour des projets informatiques" pour le titre d'un \docu.
+Même si l'acronyme "S.p.d.P.I." vous parle et vous semble sympa, il vaut mieux utiliser "\Specs pour des Projets Informatiques" pour le titre d'un \docu.
 
 
 [[Pas d'\infos superflues.]]

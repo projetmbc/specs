@@ -1,5 +1,5 @@
 ﻿this::
-    date = 2023-10-06
+    date = 2023-10-25
 
 
 abrev::
@@ -12,4 +12,4 @@ Bien organiser les dossiers
 ===========================
 
 On oublie parfois que l'organisation d'un dossier est porteuse de sens. Structurer les dossiers et fichiers de façon logique, mais aussi sémantique, est une très bonne chose.
-Ce principe s'applique aussi à des écrits comme pour la présente \doc : reportez-vous par exemple au \myspec_source_fr que vous êtes en train de lire.
+Ce principe, bien connu des codeurs, s'applique aussi à des écrits comme pour la présente \doc : reportez-vous par exemple au \myspec_source_fr que vous êtes en train de lire.

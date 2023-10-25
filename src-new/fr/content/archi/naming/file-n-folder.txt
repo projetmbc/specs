@@ -1,5 +1,5 @@
 ﻿this::
-    date = 2023-10-06
+    date = 2023-10-25
 
 
 ========================================
@@ -8,12 +8,12 @@ Bien nommer les dossiers et les fichiers
 
 Les fichiers et les dossiers seront nommés sous la forme path::''changelog.txt'' ou path::''var-and-func.txt'' dans la mesure du possible
 ((
-    On parle de "kebab case".
+    Dans le \2nd cas, on parle de "kebab case".
 )).
-Sinon on pourra utiliser path::''var_and_func.py'' si l'emploi du caractère ''-'' est interdit
+En cas d'emploi impossible du caractère ''-'', on pourra utiliser path::''var_and_func.py''
 ((
     On parle de "snake case".
-))
+)),
 comme cela est le cas pour les modules et les packages \python par exemple.
 **Dans tous les cas, on utilisera uniquement des lettres minuscules !**
 
@@ -25,7 +25,7 @@ warning::
 
         1) Une mauvaise gestion des majuscules dans path::''varAndFunc.txt'' rendra le fichier inexistant pour votre projet sur des \os_frs prenant en compte la casse dans les noms de fichier
         ((
-            C'est le cas des \os_frs de type \linux et \macos, et aussi de \win à partir de la version 10 via l'activation d'une option.
+            C'est le cas des \os_frs de type \linux et \macos, et aussi de \win à partir de la version 10 (via l'activation d'une option).
         )).
 
 

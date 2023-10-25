@@ -21,6 +21,14 @@ abrev::
 
 
 content::
+// -------------------- //
+// -- OUT OF CONTEXT -- //
+// -------------------- //
     \content/intro.txt
     \content/survival-guide.txt
     \content/workflow.txt
+    \content/archi.txt
+
+// ------------------------ //
+// -- SPECIFIC TO CODING -- //
+// ------------------------ //

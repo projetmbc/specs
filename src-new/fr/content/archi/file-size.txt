@@ -1,0 +1,21 @@
+﻿this::
+    date = 2023-10-25
+
+
+==================================
+Des fichiers de taille raisonnable
+==================================
+
+Il ne faut jamais travailler sur des fichiers trop gros afin d'en faciliter la maintenance : par exemple, il vaut mieux utiliser un fichier par section lorsque l'on écrit un \docu \latex ou \md.
+
+
+L'emploi de petits fichiers s'accompagne des conséquences intéressantes suivantes.
+
+    1) Il devient nécessaire de structurer logiquement les dossiers du code \src d'un projet : voir cf::''structure.text''.
+
+    1) Il devient facile de repérer des fonctionnalités communes : voir cf::''modularity.text''.
+
+
+note::
+    Rien n'empêche de fournir au final un unique fichier monstrueux, mais pratique pour l'utilisateur : par exemple, dans le monde \latex, il peut être demandé de fournir un unique fichier ext::''tex'' directement compilable au format \pdf, ou bien un fichier autonome ext::''sty'' même si celui a été développé via de petits fichiers ext::''sty'' faciles à maintenir.
+    Dans ce genre de situation, la fabrication du gros fichier "tout-en-un" sera automatisée.
