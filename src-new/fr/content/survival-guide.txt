@@ -1,0 +1,13 @@
+abrev::
+    content = :this.name:
+
+
+===========================
+Guide survie intellectuelle
+===========================
+
+content::
+    \content/learn-n-pass-on.txt
+    \content/do-for-need.txt
+    \content/now-or-never.txt
+    \content/pragmatic.txt

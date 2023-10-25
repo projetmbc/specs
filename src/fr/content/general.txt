@@ -7,7 +7,6 @@ Quelques généralités
 ====================
 
 content::
-    \content/beingaware.txt
     \content/how-to-name.txt
     \content/archi.txt
     \content/workflow.txt

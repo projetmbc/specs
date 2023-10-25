@@ -7,9 +7,6 @@ Processus de création
 =====================
 
 content::
-    \content/do-for-need.txt
-    \content/now-or-never.txt
-    \content/pragmatic.txt
     \content/tool.txt
     \content/test.txt
     \content/changelog.txt

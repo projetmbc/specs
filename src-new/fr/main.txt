@@ -22,4 +22,4 @@ abrev::
 
 content::
     \content/intro.txt
-    \content/no-context.txt
+    \content/survival-guide.txt

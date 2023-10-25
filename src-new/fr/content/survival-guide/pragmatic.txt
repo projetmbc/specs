@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-06
+    date = 2023-10-25
 
 
 ================================
@@ -20,4 +20,4 @@ Il faut \tjrs être un maximum pragmatique.
 
     1) Regrouper ce qui peut l'être par la suite. Si différents petits écrits ont un point commun, on pourra les réunir.
     On peut aussi s'organiser en amont en produisant différents projets qui ont un point commun, mais que l'on ne met pas directement dans un unique gros projet.
-    De façon générale, il ne faut pas chercher à écrire un livre car un livre n'est pas un but, mais juste une conséquence !
+    De façon générale, il ne faut pas chercher à écrire un livre car un livre est plus une conséquence qu'un but.

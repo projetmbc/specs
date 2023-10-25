@@ -2,6 +2,23 @@
 
 
 ==
+25
+==
+
+-------
+:break:
+-------
+
+[[:doc:]]
+Here is what was done that day.
+
+    * The \gene rules have been replaced by a survival guide.
+
+
+// ---------- //
+
+
+==
 24
 ==
 
