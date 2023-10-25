@@ -29,6 +29,7 @@ content::
     \content/workflow.txt
     \content/archi.txt
 
-// ------------------------ //
-// -- SPECIFIC TO CODING -- //
-// ------------------------ //
+// --------------------- //
+// -- SPECIFIC TO ... -- //
+// --------------------- //
+    \content/coding.txt

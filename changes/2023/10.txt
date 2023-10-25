@@ -16,8 +16,7 @@ Here is what was done that day.
 
     * The \gene workflow section contains technical tips only.
 
-    * ????
-    The \gene \archi section has been factorized.
+    * The \gene \archi section has been factorized.
 
 
 // ---------- //

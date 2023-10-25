@@ -14,6 +14,6 @@ Le choix retenu est de produire deux \docs. L'une, très \tech, s'adresse au cod
 
 
 content::
-    \content/for-hackers.txt
     \content/for-users.txt
+    \content/for-hackers.txt
     \content/update.txt

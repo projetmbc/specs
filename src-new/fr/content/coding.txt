@@ -1,0 +1,12 @@
+abrev::
+    content = :this.name:
+
+
+============================
+Pour la \prog spécifiquement
+============================
+
+content::
+    \content/the-docs.txt
+    \content/naming.txt
+    \content/typing.txt

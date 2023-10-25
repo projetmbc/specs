@@ -1,10 +1,9 @@
 abrev::
     content = :this.name:
 
-
-===========================
-Bien nommer dans un fichier
-===========================
+=================================
+Bien nommer pour mieux se repérer
+=================================
 
 content::
     \content/chars-set.txt

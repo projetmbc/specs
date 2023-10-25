@@ -7,9 +7,6 @@ Pour la \prog
 =============
 
 content::
-    \content/naming.txt
-    \content/typing.txt
-    \content/the-docs.txt
 
 // Just to ease the maintenance.
     \content/just-for.txt

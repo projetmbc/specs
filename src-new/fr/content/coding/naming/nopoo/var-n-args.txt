@@ -1,0 +1,9 @@
+this::
+    date = 2023-10-25
+
+
+======================
+Les \vars et les \args
+======================
+
+Pour les langages de \prog impérative, les noms des \vars, ainsi que ceux des \args des fonctions, sont de \pref du type ''shortname'', et si besoin de la forme ''exceptionnal_longname''.

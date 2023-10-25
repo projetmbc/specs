@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-07
+    date = 2023-10-25
 
 
 ===============
@@ -7,7 +7,7 @@ Les énumérables
 ===============
 
 Pour les structures énumérables de type tableau, liste, dictionnaire, ... \etc, on utilise un nom au pluriel.
-Pour un \elt particulier pris dans la structure énumérable, on utilise alors une version singulière "longue" du nom de l'énumérable comme dans l'exemple suivant.
+Pour un \elt particulier pris dans la structure énumérable, on utilisera une version singulière "longue" du nom de l'énumérable comme dans l'exemple suivant.
 
 python::
 	# Usage du pluriel sans article.
