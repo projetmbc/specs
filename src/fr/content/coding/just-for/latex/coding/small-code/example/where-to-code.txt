@@ -1,0 +1,20 @@
+this::
+    date = 2023-10-25
+
+
+=========================
+Zone principale de codage
+=========================
+
+Le \dev "morceau par morceau" se fait dans le sous-dossier path::''src'', chaque fichier ext::''sty'' codant un morceau du \pack doit se trouver dans un sous-dossier de profondeur `1` de path::''src''.
+
+
+note::
+    Bien retenir que l'on travaille directement dans un sous-dossier sans passer via des "sous-sous-dossiers" contenant le fichier ext::''sty''.
+
+
+Pour une classe, ce seront des fichiers ext::''cls'' qui seront codés en suivant des règles similaires à celles explicitées ci-dessus.
+
+
+info::
+    Rappelons que l'on peut développer en parallèle une classe et un \pack ayant le même nom.

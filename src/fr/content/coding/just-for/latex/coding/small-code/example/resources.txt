@@ -1,16 +1,17 @@
 this::
-    date = 2023-10-11
+    date = 2023-10-25
 
 
-==========================
-Ressources supplémentaires
-==========================
+=======================
+Des fichiers ressources
+=======================
+
 
 Il est très fréquent qu'un projet et sa \doc nécessitent l'emploi de ressources supplémentaires : fichiers de \conf, images, graphiques \tikz... \etc.
 Ceci se fait très naturellement lors du codage à condition de savoir comment seront recollés les différents morceaux dans le projet final pour éviter certaines déconvenues.
 
 
-Pour expliquer ce qu'il se passe, considérons le projet fictif ci-après où les dossiers path::''images'' et path::''graphics'' sont juste utilisés par les fichiers ext::''tex'' pour la \doc "humaine", rédigée en français dans ce cas, tandis que les fichiers de \config path::''stdval.sty'' et path::''speval.sty'' ne sont utiles qu'au code \src du package.
+Pour expliquer ce qu'il se passe, considérons le projet fictif plus complet ci-après où les dossiers path::''images'' et path::''graphics'' sont juste utilisés par les fichiers ext::''tex'' pour la \doc "humaine", rédigée en français dans ce cas, tandis que les fichiers de \config path::''stdval.sty'' et path::''speval.sty'' ne sont utiles qu'au code \src du package.
 
 dirtree::
     + fictipack

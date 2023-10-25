@@ -21,13 +21,14 @@ Here is what was done that day.
     * The \gene coding \specs have been reviewed.
 
     * ???
-    Here's what's been done for the \latex coding \specs.
+    Here are the main changes to the \latex coding \specs.
 
         1) ???
         A careful analysis was carried out in search of repetitions and generalizable rules.
 
         1) ???
         The class management has been added.
+
 
 
 // ---------- //

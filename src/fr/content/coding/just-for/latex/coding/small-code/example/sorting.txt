@@ -1,0 +1,29 @@
+this::
+    date = 2023-10-25
+
+
+========================
+Ranger avant d'assembler
+========================
+
+Deux types de lecture ordonnée des dossiers et des fichiers sont possibles
+((
+    Ceci est important pour la \doc finale à destination des utilisateurs, ou bien pour organiser du code si cela est nécessaire.
+)).
+
+    1) Un dossier sans fichier path::''about.yaml'' sera analysé en utilisant l'ordre \lexico usuel.
+    Dans notre exemple fictif, le dossier path::''alpha-et-omega3'' sera analysé dans l'ordre suivant pour les fichiers ext::''sty''.
+
+        * path::''alpha.sty''
+
+        * path::''omega3.sty''
+
+    Pour la \doc "utilisateur", l'ordre sera analogue ; on aura ce qui suit.
+
+        * path::''alpha.tex''
+
+        * path::''omega3-a.tex''
+
+        * path::''omega3-b.tex''
+
+    1) Dans un dossier \src, l'ajout d'un fichier path::''about.yaml'' permet d'imposer un ordre à suivre. Nous reviendrons sur ceci dans les sections cf::''?/about-for-files.txt'' et cf::''?/about-for-dirs.txt''.

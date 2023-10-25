@@ -1,0 +1,35 @@
+this::
+    date = 2023-10-25
+
+
+==========================
+Pour la \doc "utilisateur"
+==========================
+
+
+Il est possible de rédiger des fichiers ext::''tex'' pour documenter des fonctionnalités.
+Dans ce cas, il faut respecter une profondeur de `1` comme pour les fichiers ext::''sty'' et  ext::''cls''.
+Ainsi dans notre exemple fictif, path::''intro/intro.tex'' est considéré comme étant une \doc écrite dans la langue indiquée dans le fichier path:''src/about.yaml'' des \metafinos du projet : voir cf::''?/metainfos/for-all.txt'' à ce propos.
+
+
+Dans le cas d'un \dev en parallèle d'une classe et d'un \pack ayant le même nom, \texfacto va produire une unique \doc sauf si l'on utilise les préfixes verb::''sty'' et verb::''cls'' pour cibler les partie de la \doc pour le \pack et celles pour la classe \resp comme dans l'exemple suivant.
+
+dirtree::
+    + fictipackwithclass
+        * about.yaml
+        + src
+            * about.yaml
+            + intro
+                * intro-cls.tex
+                * intro-sty.tex
+            + beta-le-lambda
+                * beta-cls.tex
+                * beta.cls
+                * omega3-a-sty.tex
+                * omega3-b-sty.tex
+                * omega3.sty
+        + [...]
+
+
+
+info::

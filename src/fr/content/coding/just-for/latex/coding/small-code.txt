@@ -11,10 +11,10 @@ content::
     \content/example.txt
     \content/about-for-dirs.txt
 
-// Two files to keep as it.   START.
+// 2 files to keep as it.   START.
     \content/about-for-files.txt
     \content/files-for-doc.txt          ???
-// Two files to keep as it.   END.
+// 2 files to keep as it.   END.
 
     ????
 
