@@ -9,4 +9,7 @@ Pour la \prog spécifiquement
 content::
     \content/the-docs.txt
     \content/naming.txt
-    \content/typing.txt
+    \content/typing.txtcontent::
+
+// Just to ease the maintenance.
+    \content/just-for.txt

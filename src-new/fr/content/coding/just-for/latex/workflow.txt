@@ -1,0 +1,12 @@
+abrev::
+    content = :this.name:
+
+    bdocdate = date::''2023-09-30''
+
+
+==================
+Coder efficacement
+==================
+
+content::
+    \content/metainfos.txt

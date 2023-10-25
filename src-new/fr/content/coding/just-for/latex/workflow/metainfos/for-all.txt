@@ -1,0 +1,72 @@
+this::
+    date = 2023-10-25
+
+
+============================================
+Pour tous les \packs \etou \ttes les classes
+============================================
+
+info::
+    Le "\etou" dans le titre n'est pas une faute de frappe. Il est en fait de possible de développer trois types de projet \latex.
+
+        1) Un \pack.
+
+        1) Une classe de \mef.
+
+        1) Un \pack et une classe ayant le même nom.
+
+
+Tout \pack \etou classe doit **obligatoirement** indiquer un certain \nbre d'\infos générales via un fichier path::''about.yaml'' au format \texfacto. Pour un codeur français, il est conseillé d'indiquer le contenu minimal suivant en supposant ici que le code \src ne contient pas de fichier ext::''cls'', et donc que le projet est destiné à produire un \pack.
+
+yaml::
+    project:
+      desc   : Fictional package for this example.
+      author : Christophe, BAL [projetmbc@gmail.com]
+      licence: gnu 3
+
+      lang:
+        doc:
+          - user: fr
+
+      require:
+        - latex2e
+
+
+Le contenu du fichier path::''about.yaml'' peut sembler minimal, mais c'est suffisant car les outils automatisés "devinent" certaines choses.
+
+    1) Le nom du \pack \etou de la classe est juste celui du dossier contenant le code \src : si besoin, certaines modifications seront faites pour obtenir un nom conforme à ce qu'accepte \latex.
+
+    1) La date de création et le \numver en cours, lui aussi daté, sont des \infos déjà indiquées dans les journaux des \chgts \techs
+    ((
+        Voir cf::''?/changes/tech-doc.txt''.
+    )).
+
+    1) Les dépendances sont repérées \auto^t dans les codes des fichiers ext::''sty'' \etou ext::''cls''
+    ((
+        Voir cf::''?/sty-structure/common.txt'' et  cf::''?/cls-structure/common.txt''.
+    )).
+
+    1) La langue par défaut est l'anglais ; ceci nous évite ici d'indiquer la langue utilisée pour le fichier \readme et la \doc \tech.
+
+
+Avec toutes ces \infos utiles découvertes, les lignes suivantes seront produites \auto^t dans le fichier ext::''sty'' final (rappelons que nous avons supposé que notre exemple ficif ne contenait pas de fichier ext::''cls'', mais bien entendu un travail similaire sera fait pour classe \latex).
+
+latex::
+    % --------------------------------------------------------- %
+    % - This is file `fictipack.sty' generated automatically. - %
+    % -                                                       - %
+    % - Copyright (C) 2023 by Christophe BAL                  - %
+    % -                                                       - %
+    % - This file may be distributed and/or modified under    - %
+    % - the conditions of the GNU 3 License.                  - %
+    % --------------------------------------------------------- %
+
+    \NeedsTeXFormat{LaTeX2e}
+
+    \ProvidesPackage%
+      {fictipack}   %
+      {2023-10-25}  % Creation: 2018-05-01
+      {1.2.3}       %
+      {Fictional package for this example.}
+
+    % Le reste du code...

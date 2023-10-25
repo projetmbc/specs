@@ -1,0 +1,14 @@
+this::
+    lexic = latex
+
+
+abrev::
+    content = :this.name:
+
+
+===================
+\latex et compagnie
+===================
+
+content::
+    \content/workflow.txt

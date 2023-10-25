@@ -13,4 +13,3 @@ abrev::
 content::
     \content/the-api.txt
     \content/formatting.txt
-    \content/workflow.txt
