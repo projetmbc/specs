@@ -1,14 +1,14 @@
 this::
-    date = 2023-10-07
+    date = 2023-10-25
 
 
 ==================
 Journal des \chgts
 ==================
 
-La tenue d'un journal des \chgts est une pratique extrêmement répandu dans les projets de programmation. Cette pratique est en fait aussi très pertinente pour un écrit. Dans ce dernier cas, ceci permet d'aider un lecteur acharné à ne pas perdre son temps lors de \chgts n'affectant pas le fond
+La tenue d'un journal des \chgts est une pratique extrêmement répandu dans les projets de programmation ; cette pratique est en fait aussi très pertinente pour un écrit. Dans ce dernier cas, ceci permet d'aider un lecteur acharné à ne pas perdre son temps lors de \chgts n'affectant pas le fond
 ((
-    Penser par exemple à des corrections de syntaxe et d'orthographe, ou encore juste à un \chgt de \mef comme la réorganisation des sections, ou bien de simples \modifs esthétiques.
+    Penser par exemple à des corrections de syntaxe et d'orthographe, ou encore à un \chgt de \mef comme la réorganisation des sections, ou bien de simples \modifs esthétiques.
 )).
 
 
@@ -23,3 +23,7 @@ Ce choix présente les avantages suivants.
     1) Centraliser à un endroit précis tout ce qui concerne les \modifs faites permet à la longue une utilisation et une maintenance très faciles.
 
     1) Enfin, il est aisé d'extraire d'un fichier "textuel" bien structuré des \infos telles que la date de création du projet, sa dernière date de \modif et sa dernière version.
+
+
+note::
+    La langue retenue pour le journal des \chgts est l'anglais.

@@ -1,12 +1,12 @@
 this::
-    date = 2023-10-06
+    date = 2023-10-25
 
 
 =========================================
 \Maj et fichiers ignorés - \git is a gift
 =========================================
 
-L'utilisation de \git pour des projets de type textuel n'est plus à justifier. Voici pourquoi.
+L'utilisation de \git pour des projets de type textuel n'est plus à justifier ; voici pourquoi.
 
     1) Les \modifs textuelles apportées d'une version à la suivante sont clairement repérables, et en cas de conflit de \chgts, il est facile de prendre la bonne décision
     ((
@@ -18,3 +18,5 @@ L'utilisation de \git pour des projets de type textuel n'est plus à justifier. 
     1) On peut utiliser localement certains dossiers et fichiers sans pour autant les mettre en ligne.
 
     1) Les outils \autos peuvent s'appuyer sur \git pour faire des mises à jours ciblées du produit fini.
+
+    1) On peut modifier son projet sur différents \ordis via des term::''git pull'' et des term::''git push''.

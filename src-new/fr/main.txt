@@ -23,3 +23,4 @@ abrev::
 content::
     \content/intro.txt
     \content/survival-guide.txt
+    \content/workflow.txt

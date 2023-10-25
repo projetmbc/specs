@@ -12,7 +12,9 @@
 [[:doc:]]
 Here is what was done that day.
 
-    * The \gene rules have been replaced by a survival guide.
+    * The \gene rules have been replaced by a general survival guide.
+
+    * The \gene workflow section contains technical tips only.
 
 
 // ---------- //

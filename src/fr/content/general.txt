@@ -9,4 +9,3 @@ Quelques généralités
 content::
     \content/how-to-name.txt
     \content/archi.txt
-    \content/workflow.txt

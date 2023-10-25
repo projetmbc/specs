@@ -10,6 +10,8 @@ NOW
 
     [??] simplifier en ciblant mieux mainternant que l'on fait du tout dansd un
 
+    [??] trads ???
+
     [??] on précise packager, class, et pack agrégateur
 
     [??] m^mem nom pour un package et une, class OK mais dans ce cas, soit doc unique, soit doc via preefiox pack et class, 2nde solution à privilégier

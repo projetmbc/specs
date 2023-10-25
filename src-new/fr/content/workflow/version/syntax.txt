@@ -1,0 +1,73 @@
+﻿this::
+    date = 2023-10-25
+
+
+=======
+Syntaxe
+=======
+
+Commençons par voir ce qui est accepté comme \numver d'un simple point de vue syntaxique.
+
+    1) Un \numver est de l'un des types suivants.
+
+        * version::''MAJ.MIN.COR''
+
+        * version::''MAJ.MIN.COR-EXTRA''.
+
+    Aucun \num ne s'écrira version::''MAJ.MIN'', ni version::''MAJ'' !
+
+    1) Chaque sous-\num commence à version::''0'', donc la toute première version sera version::''0.0.0'' obligatoirement.
+    Attention car ni version::''0.0'', ni version::''0'' ne sont des \nums initiaux valides.
+
+    1) Les différentes valeurs possibles pour version::''EXTRA'' sont les suivantes sans possibilité d'ajouter en suffixe un \num additionnel.
+
+        * version::''alpha''
+
+        * version::''beta''
+
+        * version::''rc''
+
+        * version::''EXTRA'' n'est pas utilisé.
+
+    Ainsi version::''1.2.0'' et version::''1.2.0-alpha'' sont autorisés contrairement à version::''1.2.0-alpha.2''.
+
+
+Avant d'apprendre dans la section suivante à incrémenter les \numvers, il reste à savoir comment ces derniers sont ordonnés.
+
+    1) Avec la même partie version::''EXTRA'', un ordre "naturel" est employé : par exemple, nous avons dans l'ordre croissant :
+
+        * version::''0.0.0-alpha''
+
+        * version::''0.0.1-alpha''
+
+        * version::''0.0.2-alpha''
+
+        * version::''0.1.0-alpha''
+
+        * version::''1.0.0-alpha''
+
+    Noter qu'un \chgt de sous-\num remet à zéro tous les sous-\nums qui sont situés plus à droite du sous-\num modifié.
+
+    1) Avec différentes parties version::''EXTRA'', il faut procéder comme suit.
+
+        * On commence par ranger les \numvers suivant leurs parties version::''EXTRA'' non numérotées, celles-ci étant ordonnées de la plus grande à la plus petite comme suit :
+
+            + Pas de partie version::''EXTRA''.
+
+            + version::''rc''
+
+            + version::''beta''
+
+            + version::''alpha''.
+
+        * Au sein d'une catégorie version::''EXTRA'', on applique les règles vues dans le premier point.
+
+    Par exemple, nous avons dans l'ordre croissant :
+
+        * version::''0.3.0-alpha''
+
+        * version::''0.2.0-beta''
+
+        * version::''0.1.0-rc''
+
+        * version::''0.0.0''.
