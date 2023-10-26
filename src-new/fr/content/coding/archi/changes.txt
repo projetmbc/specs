@@ -6,7 +6,13 @@ this::
 Journal des \chgts pou les codeurs
 ==================================
 
-Les \chgts liés à l'\ens du projet sont rédigés en anglais dans le dossier path::''changes'' via des fichiers ext::''txt'' organisés comme dans l'exemple fictif suivant ! pour chaque année, un dossier bien nommé est employé, et pour chaque mois un fichier bien nommé lui aussi est utilisé. A ces fichiers s'ajoute un fichier path::''TODO-FR.txt'', ou juste path::''TODO.txt'' si l'on le rédige en angalis, pour y répertorier des choses à faire plus tard éventuellement.
+Les \chgts liés à l'\ens du projet sont rédigés en anglais dans le dossier path::''changes'' via des fichiers ext::''txt'' organisés comme dans l'exemple fictif suivant !
+Pour chaque année, un dossier bien nommé est employé, et pour chaque mois un fichier bien nommé lui aussi est utilisé.
+De plus, pour répertorier des choses à faire plus tard éventuellement, on utilisera un fichier path::''TODO-FR.txt'' pour une saisie efficace dans sa langue maternelle
+((
+    Il n'est pas indispensable de rendre accessible ce que l'on souhaite faire ou explorer.
+)),
+ici le français, ou juste path::''TODO.txt'' si on rédige directement en anglais.
 
 
 dirtree::
@@ -19,7 +25,7 @@ dirtree::
             * 07.txt
 
 
-Voici un contenu possible pour le fichier path::''2020/06.txt'' où est utilisée la syntaxe très intuitive proposée par le projet \tnschges.
+Voici un contenu possible pour le fichier path::''2020/06.txt'' ; la syntaxe très intuitive utilisée est celle proposée par le projet \tnschges.
 
 
 tnschges::
@@ -36,4 +42,4 @@ tnschges::
 
 
 Noter que la date est indiquée via le titre tns::''01'' entouré par des tnschges::''=='', et le \chgt de version ajouté simplement via tnschges::''(0.0.0-beta)'' après la date.
-Pour le reste, cela permet ici d'indiquer une nouveauté au niveau de l'\api. Se reporter à la \doc de \tnschges pour découvrir tout ce qui est disponible.
+Pour le reste, cela permet ici d'indiquer une nouveauté dans l'\api. Se reporter à la \doc de \tnschges pour découvrir tout ce qui est disponible.

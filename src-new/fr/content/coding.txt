@@ -8,8 +8,6 @@ Pour la \prog spécifiquement
 
 content::
     \content/archi.txt              ?????
-
-
     \content/the-docs.txt           ????
     \content/naming.txt             ???
     \content/typing.txt             ??
