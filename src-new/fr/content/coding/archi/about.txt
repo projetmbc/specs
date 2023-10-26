@@ -42,7 +42,7 @@ Voici comment cela fonctionne.
 
 
 info::
-    Si le nom normalisé ne vous convient pas, il est possible d'indiquer le votre comme suit.
+    Si le nom normalisé ne convient pas, il est possible de le modifier comme suit.
 
     yaml::
         project:

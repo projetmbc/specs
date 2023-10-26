@@ -6,4 +6,4 @@ this::
 Le code \src
 ============
 
-C'est dans le dossier path::''src'' que sera développé le projet. Le contenu de ce dossier dépendra grandement du langage de \prog utilisé.
+C'est dans le dossier path::''src'' que sera développé le projet. Le contenu de ce dossier dépendant grandement du langage de \prog utilisé, nous n'en dirons pas plus ici.
