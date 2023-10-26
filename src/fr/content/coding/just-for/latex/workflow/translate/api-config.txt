@@ -24,7 +24,7 @@ warning::
 De façon automatisée, un dossier path::''contribute/api/locale/french/main'', comme ci-dessous, contiendra la dernière version des \trads utiles au fonctionnement du \pack \bdoc.
 
 dirtree::
-    + fictipack
+    + fictiproj
         + contribute
             + api
                 + locale

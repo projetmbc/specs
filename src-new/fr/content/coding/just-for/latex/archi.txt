@@ -9,4 +9,7 @@ Coder efficacement
 ==================
 
 content::
-    \content/metainfos.txt
+    \content/example.txt        ??????
+    \content/structure.txt      ????
+    \content/metainfos.txt      ??
+    \content/coding-location.txt  ?

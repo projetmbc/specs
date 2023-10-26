@@ -1,0 +1,22 @@
+dirtree::
+    + fictiproj
+        * about.yaml
+        + changes
+        + src
+            * about.yaml
+            + intro
+                * intro.tex
+            + alpha-et-omega3
+                * alpha.tex
+                * alpha.sty
+                * omega3-a.tex
+                * omega3-b.tex
+                * omega3.sty
+            + poor-lonesome-cowboy
+                * about.yaml
+                * lucky-1.tex
+                * lucky-2.tex
+                * lucky.sty
+                * rantanplan.tex
+                * rantanplan.sty
+        + [...]
