@@ -17,11 +17,11 @@ dirtree::
     + fict-proj
         * about.yaml
         * README.md
-        + changes [...]
-        + contribute [...]
-        + src [...]
-        + tests [...]
-        + tools [...]
+        + changes     [...]
+        + contribute  [...]
+        + src         [...]
+        + tests       [...]
+        + tools       [...]
 
 
 Avant d'expliquer l'utilité de chaque composant, il faut savoir que le \prod fini sera placé dans un sous-dossier nommé en normalisant ''ficti-proj''. Voici des exemples possibles de normalisations \autos (il reste possible de choisir son nom normalisé comme nous le verrons dans cf::''about.txt'').
@@ -44,5 +44,5 @@ content::
     \content/changes.txt
     \content/src.txt
     \content/contribute.txt     ???
-    \content/tests.txt          ??
     \content/tools.txt          ?
+    \content/tests.txt          ??

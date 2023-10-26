@@ -10,7 +10,7 @@ Il est important de décrire rapidement, mais de façon explicite, son projet. C
 
     1) Pour un \docu court, on tapera tout directement dans le fichier path::''README.md''.
 
-    1) Pour un \docu plus long, on utilisera un dossier parth::''readme'' placé à la racine du dossier du projet, ce dossier contenant de petis fichiers \md faciles à maintenir. In utilisera alors le moment venu le projet \multimd pour tout recoller
+    1) Pour un \docu plus long, on utilisera un dossier parth::''readme'' placé à la racine du projet : ce dossier accueillera de petits fichiers \md faciles à maintenir. On délèguera, le moment venu, la \fabric d'un unique fichier path::''README.md'' au projet \multimd
     ((
         \src2prod appelle \multimd en coulisse.
     )).
