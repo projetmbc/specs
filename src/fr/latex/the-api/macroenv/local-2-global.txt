@@ -14,4 +14,4 @@ Dans ce cas, le réglage est disponible comme option de \pack, mais aussi via un
 
 
 info::
-    Les réglages globaux de certaines options locales se font via des clés usant de "chemins" faisant \ref aux macros ou aux \envs concernés. Un exemple fictif pourrait être ''\Setfictiprojage{macroname/optionname = mychoice}''.
+    Les réglages globaux de certaines options locales se font via des clés usant de "chemins" faisant \ref aux macros ou aux \envs concernés. Un exemple fictif pourrait être ''\Setfict-projage{macroname/optionname = mychoice}''.

@@ -15,7 +15,7 @@ Ainsi dans notre exemple fictif, path::''intro/intro.tex'' est considéré comme
 Dans le cas d'un \dev en parallèle d'une classe et d'un \pack ayant le même nom, \texfacto va produire une unique \doc sauf si l'on utilise les préfixes verb::''sty'' et verb::''cls'' pour cibler les partie de la \doc pour le \pack et celles pour la classe \resp comme dans l'exemple suivant.
 
 dirtree::
-    + fictiprojwithclass
+    + fict-projwithclass
         * about.yaml
         + src
             * about.yaml

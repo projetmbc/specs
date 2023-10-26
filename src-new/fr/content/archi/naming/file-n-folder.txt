@@ -1,5 +1,5 @@
 ﻿this::
-    date = 2023-10-25
+    date = 2023-10-26
 
 
 ========================================
@@ -14,7 +14,7 @@ En cas d'emploi impossible du caractère ''-'', on pourra utiliser path::''var_a
 ((
     On parle de "snake case".
 )),
-comme cela est le cas pour les modules et les packages \python par exemple.
+comme cela est nécessaire pour les modules et les packages \python par exemple.
 **Dans tous les cas, on utilisera uniquement des lettres minuscules !**
 
 

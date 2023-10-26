@@ -1,0 +1,50 @@
+this::
+    date = 2023-10-26
+
+
+==============================================
+\Metainfos via le fichier path::''about.yaml''
+==============================================
+
+Les outils d'automatisation s'appuie sur le projet \src2prod qui permet d'utiliser un fichier de \metainfos à situer à la racine du dossier du projet. Voici un contenu standard
+((
+    Se repporter à la \doc de \src2prod pour connaître tous les réglages disponibles.
+)),
+quelques explications étant données juste après.
+
+
+yaml::
+    project:
+      acronym: [Fict]ive [proj]ect
+      desc   : Just one fictive project used as an example.
+      author : John , Marcus Jr , Doe [john.doe@myrovider.org]
+      licence: gnu 3
+
+      require:
+        - python
+        - latex
+
+      optional:
+        - lua
+
+      lang:
+        doc:
+          - user: fr
+
+
+Voici comment cela fonctionne.
+
+    1) L'emploi de l'anglais sert à élargir l'audience possible et éventuelle.
+
+    1) Les blocs yaml::''require'' et yaml::''optional'' servent à indiquer les langages de \prog nécessaires et optionnels au fonctionnement du projet.
+
+    1) La langue par défaut étant l'anglais, si l'on développe une \doc "utilisateur" en français, il faut l'indiquer via la séquence yaml::''lang: doc: user: fr''.
+
+
+info::
+    Si le nom normalisé ne vous convient pas, il est possible d'indiquer le votre comme suit.
+
+    yaml::
+        project:
+          name: better_normalized_name
+          # ...

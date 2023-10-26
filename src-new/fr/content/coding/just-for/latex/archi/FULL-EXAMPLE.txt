@@ -1,5 +1,5 @@
 dirtree::
-    + fictiproj
+    + fict-proj
         * about.yaml
         + changes
         + src

@@ -1,0 +1,48 @@
+this::
+    date = 2023-10-26
+
+
+abrev::
+    content = :this.name:
+
+
+============================
+Structure générale du projet
+============================
+
+Chaque projet informatique s'appuiera sur la structure suivante qui est ici celle d'un projet fictif nommé ''ficti-proj''.
+
+
+dirtree::
+    + fict-proj
+        * about.yaml
+        * README.md
+        + changes [...]
+        + contribute [...]
+        + src [...]
+        + tests [...]
+        + tools [...]
+
+
+Avant d'expliquer l'utilité de chaque composant, il faut savoir que le \prod fini sera placé dans un sous-dossier nommé en normalisant ''ficti-proj''. Voici des exemples possibles de normalisations \autos (il reste possible de choisir son nom normalisé comme nous le verrons dans cf::''about.txt'').
+
+    1) Pour un \prog \python ou \lua, on utilisera ''ficti_proj''.
+
+    1) Pour un \prog \latex, on utilisera ''fictproj''.
+
+
+warning::
+    Compte tenu de ce qui vient d'être dit, le dossier path::''ficti-proj'' ne peut pas contenir un sous-dossier de nom obtenu en normalisant ''ficti-proj''.
+
+
+Passons maintenant à la signification de chaque composant de la structure de départ d'un projet.
+
+
+content::
+    \content/about.txt
+    \content/readme.txt
+    \content/changes.txt
+    \content/src.txt
+    \content/contribute.txt     ???
+    \content/tests.txt          ??
+    \content/tools.txt          ?

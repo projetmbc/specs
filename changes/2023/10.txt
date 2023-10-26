@@ -27,6 +27,8 @@ Here is what was done that day.
     * ???
     Here are the \gene coding \specs have been reviewed.
 
+        1) ???
+        \Archi section added.
 
 
 // ---------- //

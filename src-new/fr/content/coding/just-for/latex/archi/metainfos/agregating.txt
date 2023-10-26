@@ -25,9 +25,9 @@ yaml::
     #   ...
 
     agregate:
-      - ../upfolder/fictiproj_1/
-      - ../upfolder/fictiproj_2/
-      - ../upfolder/fictiproj_3/
+      - ../upfolder/fict-proj_1/
+      - ../upfolder/fict-proj_2/
+      - ../upfolder/fict-proj_3/
 
 
 info::
@@ -38,7 +38,7 @@ info::
         #   ...
 
         agregate:
-          - ../upfolder/fictiproj_*/
+          - ../upfolder/fict-proj_*/
 
 
 warning::

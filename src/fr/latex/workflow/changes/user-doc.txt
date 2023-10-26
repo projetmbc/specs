@@ -14,7 +14,7 @@ Noter les noms utilisés pour les dossiers "année" et "mois" ainsi que ceux pou
 )).
 
 dirtree::
-    + fictiproj
+    + fict-proj
         + changes [...]
         + src
             + changelog

@@ -1,0 +1,39 @@
+this::
+    date = 2023-10-26
+
+
+==================================
+Journal des \chgts pou les codeurs
+==================================
+
+Les \chgts liés à l'\ens du projet sont rédigés en anglais dans le dossier path::''changes'' via des fichiers ext::''txt'' organisés comme dans l'exemple fictif suivant ! pour chaque année, un dossier bien nommé est employé, et pour chaque mois un fichier bien nommé lui aussi est utilisé. A ces fichiers s'ajoute un fichier path::''TODO-FR.txt'', ou juste path::''TODO.txt'' si l'on le rédige en angalis, pour y répertorier des choses à faire plus tard éventuellement.
+
+
+dirtree::
+    + changes
+        * TODO-FR.txt
+        + 2020
+            * 06.txt
+        + 2021
+            * 03.txt
+            * 07.txt
+
+
+Voici un contenu possible pour le fichier path::''2020/06.txt'' où est utilisée la syntaxe très intuitive proposée par le projet \tnschges.
+
+
+tnschges::
+    ==
+    01  (0.0.0-beta)
+    ==
+
+    -----
+    :new:
+    -----
+
+    [[:api:]]
+    This package provides a lot of new fictive features.
+
+
+Noter que la date est indiquée via le titre tns::''01'' entouré par des tnschges::''=='', et le \chgt de version ajouté simplement via tnschges::''(0.0.0-beta)'' après la date.
+Pour le reste, cela permet ici d'indiquer une nouveauté au niveau de l'\api. Se reporter à la \doc de \tnschges pour découvrir tout ce qui est disponible.

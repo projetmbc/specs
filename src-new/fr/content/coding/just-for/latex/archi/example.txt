@@ -10,10 +10,10 @@ abrev::
 Un exemple comme fil rouge
 ==========================
 
-Pour les explications, nous utiliserons l'exemple d'un projet fictif nommé ''fictiproj'' qui dvera être développé dans un dossier éponyme ayant la structure minimale et globale suivante.
+Pour les explications, nous utiliserons l'exemple d'un projet fictif nommé ''fict-proj'' qui dvera être développé dans un dossier éponyme ayant la structure minimale et globale suivante.
 
 dirtree::
-    + fictiproj
+    + fict-proj
         * about.yaml
         * README.md
         + changes [...]
@@ -22,9 +22,9 @@ dirtree::
 
 
 warning::
-    Le dossier path::''fictiproj'' ne peut pas contenir un sous-dossier path::''fictiproj'' où seront codées des fonctionnalités.
-    Cela vient tout simplement du fait que le projet final sera créé \auto^t dans le sous-dossier path::''fictiproj/fictiproj'' en écrasant au préalable un éventuel sous-dossier path::''fictiproj/fictiproj'' existant.
+    Le dossier path::''fict-proj'' ne peut pas contenir un sous-dossier path::''fict-proj'' où seront codées des fonctionnalités.
+    Cela vient tout simplement du fait que le projet final sera créé \auto^t dans le sous-dossier path::''fict-proj/fict-proj'' en écrasant au préalable un éventuel sous-dossier path::''fict-proj/fict-proj'' existant.
 
 
 note::
-    Le nom du dossier est en fait normalisé pour rendre le \prod final distribuable : par exemple, un dossier nommé path::''ficti-proj'' donnera naissance au package \etou à la classe de nom ''fictiproj''.
+    Le nom du dossier est en fait normalisé pour rendre le \prod final distribuable : par exemple, un dossier nommé path::''ficti-proj'' donnera naissance au package \etou à la classe de nom ''fict-proj''.

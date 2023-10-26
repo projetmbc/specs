@@ -1,0 +1,9 @@
+srcthis::
+    date = 2023-10-26
+
+
+============
+Le code \src
+============
+
+C'est dans le dossier path::''src'' que doit être développé le projet. Le contenu de ce dossier dépendra de type de langauge de \prog.
