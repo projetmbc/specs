@@ -39,7 +39,7 @@ Here is what was done that day.
 [[:doc:]]
 Here is what was done that day.
 
-    * \Facto of the \gene coding \specs.
+    * \Facto of the \gene coding \specs: sections for the \archi, the \docs and the \tech norms created.
 
 
 // ---------- //
