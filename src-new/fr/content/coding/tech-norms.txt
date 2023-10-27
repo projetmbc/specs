@@ -1,0 +1,11 @@
+abrev::
+    content = :this.name:
+
+
+====================
+Quelques conventions
+====================
+
+content::
+    \content/naming.txt
+    \content/typing.txt

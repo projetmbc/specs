@@ -9,11 +9,7 @@ Pour la \prog spécifiquement
 content::
     \content/archi.txt
     \content/the-docs.txt
-
-
-
-    \content/naming.txt             ???
-    \content/typing.txt             ??
+    \content/tech-norms.txt
 
 // Just to ease the maintenance.
     \content/just-for.txt           ?
