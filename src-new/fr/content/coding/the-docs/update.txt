@@ -1,15 +1,13 @@
 this::
-    date = 2023-10-07
+    date = 2023-10-27
 
 
 ============================
 \Majs, comment s'y prendre ?
 ============================
 
-Nous avons proposé dans cf::''?:changelog.txt'' que le journal de bord des \chgts soit géré via un dossier dédié. C'est sur ce journal de bord qu'il faut donc s'appuyer pour bien mettre à jour la \doc amicale
-((
-    L'auteur de ce \docu s'appuie sur \tnschges afin de semi-automatiser la \maj de l'amicale \doc sans oublier un \chgt rendu nécessaire suite à la \modif du \src.
-)).
+Nous avons proposé dans cf::''?/archi/changes.txt'' que le journal de bord des \chgts soit géré via un dossier dédié en utilisant la syntaxe de \tnschges ; c'est sur ce journal de bord qu'il faut s'appuyer pour bien mettre à jour la \doc amicale.
+De plus, l'intégration des exemples dans le jeu de tests permet aussi de noter certains soucis.
 
 
 info::
@@ -17,4 +15,4 @@ info::
 
 
 info::
-    Un \chgt du \src ne nécessite pas \tjrs de toucher aux \docs : par exemple, la correction d'un bug ne touchant pas à l'\api ne nécessite généralement pas de \modif des \docs.
+    Un \chgt du \src ne nécessite pas \tjrs de toucher aux \docs : par exemple, la correction d'un bug mineur ne touchant pas à l'\api ne nécessite généralement pas de \modif des \docs.
