@@ -20,4 +20,6 @@ Ceci nécessite de respecter un style de codage et une \orga "commune" des dossi
 
 
 content::
-    \content/archi.txt     ???
+    \content/archi.txt        ???
+    \content/the-docs.txt     ??
+    \content/tech-norms.txt   ?
