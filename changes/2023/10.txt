@@ -2,7 +2,7 @@
 
 
 ==
-26
+???
 ==
 
 -------
@@ -24,11 +24,22 @@ Here is what was done that day.
         1) ???
         The \orga of content has been simplified.
 
-    * ???
-    Here are the \gene coding \specs have been reviewed.
 
-        1) ???
-        \Archi section added.
+// ---------- //
+
+
+==
+27
+==
+
+-------
+:break:
+-------
+
+[[:doc:]]
+Here is what was done that day.
+
+    * \Facto of the \gene coding \specs.
 
 
 // ---------- //
