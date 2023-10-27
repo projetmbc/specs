@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-26
+    date = 2023-10-27
 
 
 abrev::
@@ -10,21 +10,33 @@ abrev::
 Un exemple comme fil rouge
 ==========================
 
-Pour les explications, nous utiliserons l'exemple d'un projet fictif nommé ''fict-proj'' qui dvera être développé dans un dossier éponyme ayant la structure minimale et globale suivante.
+Pour les explications, nous utiliserons l'exemple d'un projet fictif nommé ''fict-proj'' développé dans un dossier éponyme ayant la structure suivante
+((
+    Nous nous concentrons sur ce qui est spécifique à \latex. En cas de besoins, se reporter à cf::''?/coding/archi.txt''.
+)).
 
 dirtree::
     + fict-proj
         * about.yaml
         * README.md
-        + changes [...]
-        + contributions [...]
-        + src [...]
-
-
-warning::
-    Le dossier path::''fict-proj'' ne peut pas contenir un sous-dossier path::''fict-proj'' où seront codées des fonctionnalités.
-    Cela vient tout simplement du fait que le projet final sera créé \auto^t dans le sous-dossier path::''fict-proj/fict-proj'' en écrasant au préalable un éventuel sous-dossier path::''fict-proj/fict-proj'' existant.
-
-
-note::
-    Le nom du dossier est en fait normalisé pour rendre le \prod final distribuable : par exemple, un dossier nommé path::''ficti-proj'' donnera naissance au package \etou à la classe de nom ''fict-proj''.
+        + changes     [...]
+        + contribute  [...]
+        + src
+            * about.yaml
+            + intro
+                * intro.tex
+            + alpha-et-omega3
+                * alpha.tex
+                * alpha.sty
+                * omega3-a.tex
+                * omega3-b.tex
+                * omega3.sty
+            + poor-lonesome-cowboy
+                * about.yaml
+                * lucky-1.tex
+                * lucky-2.tex
+                * lucky.sty
+                * rantanplan.tex
+                * rantanplan.sty
+        + tests  [...]
+        + tools  [...]
