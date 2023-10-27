@@ -19,6 +19,9 @@ abrev::
     pyglob = cf::''syntaxe \glob à la \python;
                    https://docs.python.org/3/library/glob.html''
 
+    isolang = cf::''norme ISO 639-1 ;
+                    https://fr.wikipedia.org/wiki/Liste_des_codes_ISO_639-1#Liste_des_codes_ISO_639-1/2/3''
+
 
 content::
 // -------------------- //

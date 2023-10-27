@@ -1,0 +1,9 @@
+this::
+    date = 2023-10-27
+
+
+=============================
+Parties modulables d'une \api
+=============================
+
+Certains projets peuvent s'appuyer sur un \syst de \config plus ou moins complexe. Dans de tels cas, il est loisible de travailler à la mise en place d'un \syst offant la possibilité d'obtenir des \contribs extérieures car plus on est de fou, plus on rit. Ceci a aussi l'avantage de faciliter la maintenance côté "hackeur".

@@ -1,9 +1,15 @@
 this::
-    date = 2023-10-26
+    date = 2023-10-27
 
 
 =====================
 Outils d'aide au \dev
 =====================
 
-????
+L'usage d'outils d'automatisation spécifiques à un \proj se fera via le dossier dédié path::''tools''. Voici des cas possibles d'utilisation.
+
+    1) Intégration de contributions peu \techs comme des fichiers de \configs ou des \trads ; voir cf::''contribute.txt'' à ce sujet.
+
+    1) Création de tests à partir d'exemples utilisés dans les \docs "utilisateur" et \techs ; voir cf::''?/the-docs.txt'' à ce sujet.
+
+    1) Production de jeux de données.

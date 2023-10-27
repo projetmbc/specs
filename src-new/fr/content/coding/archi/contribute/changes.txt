@@ -1,0 +1,29 @@
+this::
+    date = 2023-10-27
+
+
+===================
+Des \chgts à cibler
+===================
+
+Les dossiers path::''api/changes'', path::''doc/manual/changes'' et path::''doc/tech/changes'' s'utilisent de la même façon que celui du projet
+((
+    Revoir cf::''?/archi/changes.txt'' si besoin.
+)).
+Par contre, il faut éviter de créer des doublons avec le journal des \chgts du projet. Voici des exemples et contre-exemples possibles.
+
+
+pros::
+    Voici ce qu'il est bon de faire.
+
+        1) Indiquer une réorganisation de certaines sections de la \doc "utilisateur".
+
+        1) Indiquer que des fonctions, ou des modules ont changé leur \api et donc leur \doc \tech.
+
+
+cons::
+    Voici ce qu'il ne faut surtout pas faire.
+
+        1) Indiquer des corrections orthographiques, grammaticales ou stylistiques pour une \trad spécifique.
+
+        1) Parler de \nelles fonctionnalités de l'\api qui n'offrent pas de \syst de \contrib.

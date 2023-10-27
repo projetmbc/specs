@@ -1,23 +1,21 @@
 this::
-    date = 2023-10-26
+    date = 2023-10-27
 
 
-============
-???
-============
+===================
+Tests programmables
+===================
 
-????
-
-
-Même si la \doc "utilisateur" est l'ocassion d'un test assez complet des fonctionnalités proposées, ceci repose sur le facteur humain pour la partie vérification, ce qui n'est pas bon.
-
-
-C'est pour cette raison que le projet \l3build est utilisé pour tester à la fois la non régression du rendu, mais aussi la validité de données produites.
-Au cas par cas, ceci peut ête complété par les \techs suivantes
+Les tests programmables se feront dans le dossier dédié path::''tests'' hors du dossier path::''src''
 ((
-    Dans chacun des cas, les fichiers et dossiers utilisés ne seront pas incorporés au produit final.
+    On veut se mettre dans une situation réelle d'utilisation.
 )).
+La construction de ces tests utilisera les principes suivants.
 
-    1) Des données de test à destination de \l3build peuvent être fabriquées via des outils de confiance externes en utilisant des dossiers nommés path::''tool'' ou path::''tools'' \etou des fichiers de noms préfixés par path::''tool_'' ou path::''tools_''.
+    1) Utilisation du retour d'expérience.
 
-    1) Des tests "faits maison" sont possibles en utilisant des dossiers nommés path::''test'' ou path::''tests'' \etou des fichiers de noms préfixés par path::''test_'' ou path::''tests_''.
+    1) Construction de tests fonctionnels sans connaître les arcanes du code \src.
+
+    1) Comme indiqué dans cf::''tools'', intégration des exemples utilisés dans les \docs "utilisateur" et \techs.
+
+    1) Utilisation de tests intégrés dans les contributions peu \techs.

@@ -43,6 +43,6 @@ content::
     \content/readme.txt
     \content/changes.txt
     \content/src.txt
-    \content/contribute.txt     ???
-    \content/tools.txt          ???????
-    \content/tests.txt          ??????
+    \content/contribute.txt
+    \content/tools.txt
+    \content/tests.txt

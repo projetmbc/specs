@@ -1,0 +1,9 @@
+this::
+    date = 2023-10-27
+
+
+===============================
+Codage pour indiquer une langue
+===============================
+
+Les dossiers liés à une langue sont nommés en suivant la \isolang : par exemple, ''fr'', ''en'' et ''es'' servent à indiquer \resp du français, de l'anglais et de l'espagnol.

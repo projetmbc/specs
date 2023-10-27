@@ -38,7 +38,7 @@ dirtree::
 
 Il ne reste plus qu'à un traducteur allemand, par exemple, à créer un dossier path::''german'' avec le même contenu que celui du dossier path::''french''
 ((
-    Le choix de \bdoc est de reprendre les noms de langue utilisables avec le \pack ''babel'', et non de suivre la \isolangnorme.
+    Le choix de \bdoc est de reprendre les noms de langue utilisables avec le \pack ''babel'', et non de suivre la \isolang.
 )).
 Le processus de \trad des mots et des phrases "fixes" est simple comme le montre le contenu du fichier path::''sentences.txt'' donné ci-après.
 

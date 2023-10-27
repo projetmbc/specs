@@ -8,10 +8,10 @@ Codage des langues
 
 Les dossiers avec du contenu traduisible seront nommés suivant deux conventions.
 
-    1) Soit on fait appel à la \isolangnorme : par exemple, ''fr'', ''en'' et ''es'' servent à indiquer \resp du français, de l'anglais et de l'espagnol.
+    1) dans codage gene _!!!! Soit on fait appel à la \isolang : par exemple, ''fr'', ''en'' et ''es'' servent à indiquer \resp du français, de l'anglais et de l'espagnol.
 
     1) Soit on suit les conventions du \pack \babel : par exemple, ''french'', ''english'' et ''german'' servent à indiquer \resp du français, de l'anglais et de l'allemand.
 
 
 info::
-    La \isolangnorme est employée hors champ d'utilisation \latex, tandis que la convention \babel s'applique aux \apis \latex proposées par des projets.
+    La \isolang est employée hors champ d'utilisation \latex, tandis que la convention \babel s'applique aux \apis \latex proposées par des projets.

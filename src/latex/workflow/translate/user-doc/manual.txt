@@ -28,7 +28,7 @@ dirtree::
 
 
 Chacun des fichiers de path::''contribute/doc/manual/fr'' est directement compilable, une fois le \pack visible par \latex. Ceci permet de partager simplement le dossier pour une \nelle \trad.
-Concrètement, un traducteur espagnol copiera et collera le contenu de path::''contribute/doc/manual/fr'' dans un dossier de son choix, mais nommé path::''es'' où ''es'' vient du codage de la \isolangnorme.
+Concrètement, un traducteur espagnol copiera et collera le contenu de path::''contribute/doc/manual/fr'' dans un dossier de son choix, mais nommé path::''es'' où ''es'' vient du codage de la \isolang.
 Une fois le travail fini, deux méthodes sont possibles pour proposer la \nelle \trad.
 
     1) **Le traducteur ne connaît pas \github.**
