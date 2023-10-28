@@ -14,7 +14,7 @@ en plus des \infos générales propres à tout \pack, il faut employer un bloc "
 ((
     L'ordre utilisé sera aussi celui retenu pour produire \auto^t les \docs.
 ))
-où sont employés des chemins relatifs
+où sont employés des chemins relatifs toujours à la sauce \unix avec une oblique et non une onctre-oblique
 ((
     L'usage de chemins absolus est possible mais fortement déconseillé ! Vous voilà prévenu.
 )).
@@ -30,8 +30,8 @@ yaml::
       - ../upfolder/fict-proj_3/
 
 
-note::
-    Il est possible de s'appuyer sur \pyglob. Pour l'exemple précédent, s'il n' y a dans le dossier path::''upfolder'' que les dossiers indiqués dans le bloc yaml::''agregate'', on peut plus rapidement faire comme suit où les dossiers repérés seront ordonnés de façon \lexico.
+tip::
+    Il est possible de s'appuyer sur \pyglob. Pour l'exemple précédent, s'il n' y a dans le dossier path::''upfolder'' que les dossiers indiqués dans le bloc yaml::''agregate'', on peut plus rapidement faire comme suit où les dossiers repérés seront ordonnés de façon \lexico comme souhaité.
 
     yaml::
         # project:
@@ -41,5 +41,5 @@ note::
           - ../upfolder/fict-proj_*/
 
 
-warning::
+caution::
     Ne pas oublier l'oblique final path::''/'' qui indique que les chemins sont ceux de dossiers et non de fichiers.

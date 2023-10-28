@@ -1,9 +1,0 @@
-abrev::
-    content = :this.name:
-
-
-========
-XXX
-========
-
-content::
