@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-27
+    date = 2023-10-28
 
     lexic = latex
 
@@ -12,11 +12,8 @@ abrev::
 \latex et compagnie
 ===================
 
-Pour pouvoir coder par petites touches, il faut pouvoir automatiser la \fabric d'un "unique" \pack \etou d'une "unique" classe de \mef que l'on souhaite distribuer
-((
-    Cela n'empêche pas de faire usage de fichiers ressources situés dans des sous-dossiers comme nous le verrons plus tard.
-)).
-Ceci nécessite de respecter un style de codage et une \orga "commune" des dossiers et des fichiers, ainsi qu'un cycle de \dev. Nous allons parler de ceci dans les sections à venir.
+Pour pouvoir coder par petites touches, il faut pouvoir automatiser la \fabric d'un "unique" \pack \etou d'une "unique" classe de \mef que l'on souhaite distribuer.
+Ceci nécessite de respecter un style de codage et une \orga "commune" des dossiers et des fichiers, ainsi qu'un cycle de \dev spécialement pour les \projs \latex. Nous allons parler de ceci dans les sections à venir.
 
 
 content::
