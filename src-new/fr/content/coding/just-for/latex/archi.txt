@@ -27,7 +27,7 @@ dirtree::
 
 
 note::
-    Se reporter à cf::''?/coding/archi.txt'' pour des explications à propos des composants suivants.
+    Se reporter à cf::''?/coding/archi.txt'' pour des explications à propos des composants généralistes suivants.
 
         * Fichier \readme.
 
@@ -36,9 +36,11 @@ note::
         * Outils spécifiques d'automatisation mis dans le dossier path::''tools''.
 
 
-Trois types de \proj sont développables.
+Quatre types de \proj sont possibles.
 
-    1) Un package.
+    1) Un package autonome.
+
+    1) Un package "agrégateur" qui réunissant différents packages.
 
     1) Une classe de \mef.
 

@@ -18,6 +18,7 @@ Nous allons parler de ceci dans les sections à venir.
 
 
 content::
-    \content/archi.txt        ???
-    \content/the-docs.txt     ??
-    \content/tech-norms.txt   ?
+    \content/archi.txt        ????
+    \content/the-docs.txt     ???
+    \content/tech-norms.txt   ??
+    \content/workflow.txt     ?
