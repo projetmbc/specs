@@ -1,3 +1,7 @@
+this::
+    date = 2023-10-28
+
+
 abrev::
     content = :this.name:
 
@@ -8,8 +12,47 @@ abrev::
 Coder efficacement
 ==================
 
+Pour les explications, nous utiliserons des exemples de projets fictifs ayant tous une structure globale similaire à la suivante comme indiqué dans cf::''?/coding/archi.txt''.
+
+
+dirtree::
+    + fict-proj
+        * about.yaml
+        * README.md
+        + changes     [...]
+        + contribute  [...]
+        + src         [...]
+        + tests       [...]
+        + tools       [...]
+
+
+note::
+    Se reporter à cf::''?/coding/archi.txt'' pour des explications à propos des composants suivants.
+
+        * Fichier \readme.
+
+        * Journal des \chgts \techs dans le dossier path::''changes''.
+
+        * Outils spécifiques d'automatisation mis dans le dossier path::''tools''.
+
+
+Trois types de \proj sont développables.
+
+    1) Un package.
+
+    1) Une classe de \mef.
+
+    1) Un package et une classe de \mef portant le même nom
+    ((
+        \latex permet cela, et dans certains cas ceci fait totalement sens.
+    )).
+
+
+Il est \tmps de passer à des explications détaillées.
+
+
 content::
-    \content/example.txt        ??????
-    \content/structure.txt      ????
-    \content/metainfos.txt      ??
-    \content/coding-location.txt  ?
+    \content/about.txt          ????
+    \content/src.txt            ???
+    \content/contribute.txt     ??
+    \content/tests.txt          ?

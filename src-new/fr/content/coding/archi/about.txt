@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-26
+    date = 2023-10-28
 
 
 ==============================================
@@ -40,9 +40,11 @@ Voici comment cela fonctionne.
 
     1) La langue par défaut étant l'anglais, si l'on développe une \doc "utilisateur" en français, il faut l'indiquer via la séquence yaml::''lang: doc: user: fr''.
 
+    1) Suivant le type de \proj, le fichier path::''about.yaml'' sera enrichi d'autres blocs pour fournir d'autres \metainfos.
+
 
 info::
-    Si le nom normalisé ne convient pas, il est possible de le modifier comme suit.
+    Si le nom normalisé ne convient pas, il est possible de le modifier manuellement comme suit.
 
     yaml::
         project:
