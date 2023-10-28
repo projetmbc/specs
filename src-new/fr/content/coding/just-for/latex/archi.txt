@@ -12,7 +12,10 @@ abrev::
 Coder efficacement
 ==================
 
-Pour les explications, nous utiliserons des exemples de projets fictifs ayant tous une structure globale similaire à la suivante comme indiqué dans cf::''?/coding/archi.txt''.
+Pour les explications, nous utiliserons des exemples de projets fictifs ayant tous une structure globale similaire à la suivante comme indiqué dans cf::''?/coding/archi.txt''
+((
+    L'absence de dossier path::''doc'' pour la \doc "utilisateur" vient d'un processus de rédaction de cette dernière très particulier pour les \projs \latex.
+)).
 
 
 dirtree::

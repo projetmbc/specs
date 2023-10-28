@@ -1,0 +1,9 @@
+this::
+    date = 2023-10-28
+
+
+================================
+Où taper la \doc "utilisateur" ?
+================================
+
+Comme expliqué dans cf::''?/the-docs.txt'', il faut produire deux types de \docs dont l'une est destiné aux "utilisateurs". Dans la majorité des cas, cette \doc sera rédigée dans le dossier path::''doc'' au format \tns.

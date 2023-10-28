@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-26
+    date = 2023-10-28
 
 
 abrev::
@@ -19,6 +19,7 @@ dirtree::
         * README.md
         + changes     [...]
         + contribute  [...]
+        + doc         [...]
         + src         [...]
         + tests       [...]
         + tools       [...]
@@ -43,6 +44,7 @@ content::
     \content/readme.txt
     \content/changes.txt
     \content/src.txt
+    \content/user-doc.txt
     \content/contribute.txt
     \content/tools.txt
     \content/tests.txt
