@@ -6,4 +6,4 @@ this::
 Où taper la \doc "utilisateur" ?
 ================================
 
-Comme expliqué dans cf::''?/the-docs.txt'', il faut produire deux types de \docs dont l'une est destiné aux "utilisateurs". Dans la majorité des cas, cette \doc sera rédigée dans le dossier path::''doc'' au format \tns.
+Comme expliqué dans cf::''?/the-docs.txt'', deux types de \docs sont rédigées dont l'une est destinée aux "utilisateurs". Dans la majorité des cas, cette \doc sera rédigée dans le dossier path::''doc'' au format \tns.

@@ -13,7 +13,7 @@ Ceci implique que les noms utilisent des lettres non accentuées auxquelles on a
 )).
 
 
-info::
+note::
     On emploiera le moins possible la casse en "BoSsEs De ChAmEaU" qui demande de jouer avec la touche key::''MAJ'' du clavier ce qui peut vite causer des erreurs de frappe.
 
 

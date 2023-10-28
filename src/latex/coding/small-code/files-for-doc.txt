@@ -44,7 +44,7 @@ Aucune \ref n'étant faite aux fichiers ext::''tex'', les règles suivantes sont
     1) Viennent ensuite les fichiers commençant par path::''lucky-'' \etou le fichier path::''lucky.tex'' ordonnés de façon \lexico pour l'intégration dans la \doc finale.
 
 
-info::
+note::
     Rien n'empêche d'indiquer à la fois des fichiers ext::''sty'' et ext::''tex'' dans un ordre souhaité. Ceci peut s'avérer utile pour un document ext::''tex'' non associé à un code ext::''sty'' mais présentant rapidement différentes fonctionnalités ; un tel fichier devant être traité avant tout le reste, il suffit de le mettre au début de la liste yaml::''toc'' du fichier path::''about.yaml''.
 
 

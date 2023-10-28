@@ -45,9 +45,9 @@ verb::
     ---
 
 
-info::
+note::
     Autant de fichiers ext::''txt'' que nécessaire pourront être mis à l'intérieur d'un dossier pour une langue.
 
 
-info::
+note::
     L'intégration de \nelles langues est expliquée dans la section cf::''?/translate/api-config.txt''.

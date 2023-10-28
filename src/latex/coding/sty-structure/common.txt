@@ -28,7 +28,7 @@ latex::
     % Lignes codant les fonctionnalités.
 
 
-info::
+note::
     Les sections spéciales sont facultatives.
 
 

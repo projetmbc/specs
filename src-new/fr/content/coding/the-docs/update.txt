@@ -10,9 +10,9 @@ Nous avons proposé dans cf::''?/archi/changes.txt'' que le journal de bord des 
 De plus, l'intégration des exemples dans le jeu de tests permet aussi de noter certains soucis.
 
 
-info::
+note::
     La \doc \tech est facilement mise à jour en même temps que le \src en cas de besoin.
 
 
-info::
+note::
     Un \chgt du \src ne nécessite pas \tjrs de toucher aux \docs : par exemple, la correction d'un bug mineur ne touchant pas à l'\api ne nécessite généralement pas de \modif des \docs.

@@ -13,5 +13,5 @@ Les dossiers avec du contenu traduisible seront nommés suivant deux conventions
     1) Soit on suit les conventions du \pack \babel : par exemple, ''french'', ''english'' et ''german'' servent à indiquer \resp du français, de l'anglais et de l'allemand.
 
 
-info::
+note::
     La \isolang est employée hors champ d'utilisation \latex, tandis que la convention \babel s'applique aux \apis \latex proposées par des projets.

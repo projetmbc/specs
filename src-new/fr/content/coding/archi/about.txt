@@ -43,7 +43,7 @@ Voici comment cela fonctionne.
     1) Suivant le type de \proj, le fichier path::''about.yaml'' sera enrichi d'autres blocs pour fournir d'autres \metainfos.
 
 
-info::
+note::
     Si le nom normalisé ne convient pas, il est possible de le modifier manuellement comme suit.
 
     yaml::

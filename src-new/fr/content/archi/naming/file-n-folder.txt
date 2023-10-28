@@ -29,6 +29,6 @@ warning::
         )).
 
 
-info::
+note::
     Il vaut mieux éviter d'utiliser des fichiers numérotés car cela reflète généralement l'organisation d'un dossier, or des problèmes arrivent vite si l'on souhaite ajouter de nouveaux dossiers \etou fichiers car il faudra faire des renumérotations en chaîne.
     Ceci étant dit, numéroter les fichiers \etou les dossiers est parfois utile.

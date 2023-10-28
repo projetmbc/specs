@@ -28,5 +28,5 @@ warning::
     Ne pas oublier l'oblique final path::''/'' pour indiquer des dossiers et non des fichiers.
 
 
-info::
+note::
     Sans fichier path::''src/about.yaml'', tous les sous-dossiers directs de path::''src'' seront analysés et ordonnés suivant l'ordre \lexico.

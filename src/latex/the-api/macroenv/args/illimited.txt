@@ -13,5 +13,5 @@ warning::
     Rappelons que le \syst de ponctuation des \packs \tnstex est celui à l'anglaise. Voir  cf::''?/math/punctuations'' à ce sujet.
 
 
-info::
+note::
     Si le besoin se présente de proposer une liste de listes, alors on utilisera le point-virgule pour regrouper des valeurs séparées par des virgules comme dans ''\unemacro{arg1 , avec_arg1 ; arg2 , avec_arg2 , aussi_avec_arg2 ; arg3 , avec_arg3}''.

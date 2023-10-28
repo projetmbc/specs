@@ -21,5 +21,5 @@ python::
 		print(oneword)
 
 
-info::
+note::
     L'usage d'une version singulière "longue" évite les erreurs de saisie et d'analyse du code !

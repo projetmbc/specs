@@ -1,17 +1,16 @@
 this::
-    date = 2023-10-25
+    date = 2023-10-28
 
 
-======================================
-Nécessaire pour les \packs agrégateurs
-======================================
+===================================
+En plus pour les \packs agrégateurs
+===================================
 
 Dans le fichier path::''about.yaml'' d'un \pack agrégateur
 ((
-    Cela n'aurait aucun sens que de faire une classe agrégatrice de différentes classes puisque la gestion de la \mef de \docus apporte un lot de complications rendant vite impossible la gestion conjointe de différentes \mefs.
+    Cela n'aurait aucun sens de faire une classe agrégatrice de différentes classes puisque la gestion de la \mef de \docus apporte un lot de complications rendant vite impossible la gestion conjointe de différentes \mefs.
 )),
-en plus des \infos générales propres à tout \pack, il faut employer un bloc "autonome" yaml::''agregate'' indiquant les dossiers des codes \src des sous-\packs à agréger.
-Voici un exemple possible
+en plus des \infos générales propres à tout \pack, il faut employer un bloc "autonome" yaml::''agregate'' indiquant les dossiers des codes \src des sous-\packs à agréger. Voici un exemple possible
 ((
     L'ordre utilisé sera aussi celui retenu pour produire \auto^t les \docs.
 ))
@@ -19,6 +18,7 @@ où sont employés des chemins relatifs
 ((
     L'usage de chemins absolus est possible mais fortement déconseillé ! Vous voilà prévenu.
 )).
+
 
 yaml::
     # project:
@@ -30,7 +30,7 @@ yaml::
       - ../upfolder/fict-proj_3/
 
 
-info::
+note::
     Il est possible de s'appuyer sur \pyglob. Pour l'exemple précédent, s'il n' y a dans le dossier path::''upfolder'' que les dossiers indiqués dans le bloc yaml::''agregate'', on peut plus rapidement faire comme suit où les dossiers repérés seront ordonnés de façon \lexico.
 
     yaml::

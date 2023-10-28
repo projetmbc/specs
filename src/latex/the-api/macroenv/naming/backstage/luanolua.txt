@@ -13,5 +13,5 @@ Pour les \packs proposant des fonctionnalités codées en \lua
 les principes suivis pour \latex3 sont adaptés : pour les macros et les \envs privés en \lua, les conventions de nommage ressemblent à celles suivies majoritairement pour coder en \python.
 
 
-info::
+note::
     En cas de non-utilisation de \lualatex, les \packs concernés ne "râleront" pas avant l'emploi d'une fonctionnalité codée en \lua.

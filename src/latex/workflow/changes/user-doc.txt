@@ -63,7 +63,7 @@ Voici ce qu'il faut absolument savoir.
     1) Les macros ''\bdocmacro'' et ''\bdocenv'' permettent d'indiquer \resp des macros et des \envs.
 
 
-info::
+note::
     Un fichier path::''test_one_date.tex''
     ((
         Ce fichier ne fera pas partie du produit final.

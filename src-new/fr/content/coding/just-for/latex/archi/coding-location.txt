@@ -16,5 +16,5 @@ note::
 Pour une classe, ce seront des fichiers ext::''cls'' qui seront codés en suivant des règles similaires à celles explicitées ci-dessus.
 
 
-info::
+note::
     Rappelons que l'on peut développer en parallèle une classe et un \pack ayant le même nom.

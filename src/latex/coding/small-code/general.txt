@@ -10,5 +10,5 @@ Afin d'avoir une maintenance facile au long cours, les \packs et les classes de 
 Des outils se chargent ensuite de produire le \pack ou la classe à destination de l'utilisateur tout en produisant des \docs "utilisateur" et \techs.
 
 
-info::
+note::
     Les tabulations relatives au code \src seront de deux espaces et non quatre afin de limiter l'espace perdu.

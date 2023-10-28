@@ -13,5 +13,5 @@ Certaines options de macros, ou d'\envs, peuvent être modifiables globalement :
 Dans ce cas, le réglage est disponible comme option de \pack, mais aussi via une macro généraliste pour une modification à partir d'un point donné.
 
 
-info::
+note::
     Les réglages globaux de certaines options locales se font via des clés usant de "chemins" faisant \ref aux macros ou aux \envs concernés. Un exemple fictif pourrait être ''\Setfict-projage{macroname/optionname = mychoice}''.
