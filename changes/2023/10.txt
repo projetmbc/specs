@@ -2,7 +2,7 @@
 
 
 ==
-???
+28
 ==
 
 -------
@@ -12,17 +12,15 @@
 [[:doc:]]
 Here is what was done that day.
 
-    * ???
-    Here are the main changes to the \latex coding \specs.
+    * \Gene coding \specs: a path::''doc'' folder for the user doc.
 
-        1) ???
-        A careful analysis was carried out in search of repetitions and \gene~izable rules.
+    * \latex coding \specs.
 
-        1) ???
-        The class management has been added.
+        1) A careful analysis was carried out in search of repetitions and \gene~izable rules.
 
-        1) ???
-        The \orga of content has been simplified.
+        1) The \orga of content has been simplified.
+
+        1) path::''about.yaml'' explained also for classes.
 
 
 // ---------- //
