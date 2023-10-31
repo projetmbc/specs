@@ -1,7 +1,0 @@
-===================
-\latex et compagnie
-===================
-
-content::
-    \content/the-api.txt
-    \content/formatting.txt
