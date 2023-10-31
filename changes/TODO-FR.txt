@@ -10,20 +10,7 @@ NOW
 
     [??] cas des agrégateurs !!
 
-    [??] exemple as test
-
-    [??] simplifier en ciblant mieux mainternant que l'on fait du tout dansd un
-
-    [??] trads ???
-
-    [??] on précise packager, class, et pack agrégateur
-
-    [??] m^mem nom pour un package et une, class OK mais dans ce cas, soit doc unique, soit doc via preefiox pack et class, 2nde solution à privilégier
-
-    [??] gestion de fichiers cls pour des classes
-
-        ---> besoin d'indiquer cela dans la about.yaml ! on peut avoir un nom pour une classe et un autre pour le package, si c'est le m^me on ppasse vai project, sinon via class: ... et package: ... mais dans ce cas project non utilisable car conflit d'info !
-
+    [??] magic comment pour class : est-ce ok ce qui existe déjà
 
 
 -----
