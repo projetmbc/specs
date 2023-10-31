@@ -18,12 +18,12 @@ Nous allons parler de ceci dans les sections à venir.
 
 
 note::
-    L'outil d'automatisation de la conception de \projs \latex est \textfacto
+    L'outil d'automatisation retenu pour concevoir les \projs \latex est \textfacto.
 
 
 content::
     \content/archi.txt
     \content/the-docs.txt
     \content/tech-norms.txt
-    \content/testing.txt         ????
+    \content/testing.txt
     \content/contribute.txt

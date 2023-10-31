@@ -10,6 +10,8 @@ NOW
 
     [??] cas des agrégateurs !!
 
+    [??] exemple as test
+
     [??] simplifier en ciblant mieux mainternant que l'on fait du tout dansd un
 
     [??] trads ???

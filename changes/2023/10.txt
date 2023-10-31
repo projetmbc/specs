@@ -2,7 +2,7 @@
 
 
 ==
-31
+31  (1.0.0-beta)
 ==
 
 -------
@@ -10,7 +10,7 @@
 -------
 
 [[:doc:]]
-Here is what was done that day.
+Here is what was finished today to obtain an acceptable new version. Phew!
 
     * \latex coding \specs.
 
@@ -18,11 +18,15 @@ Here is what was done that day.
 
         1) Using resources.
 
-        1) docs
-        1) gene tech norms for api
-        1) Translate
+        1) Writing the docs.
 
-        #) ignore in src folder
+        1) \Tech norms for the \apis.
+
+        1) Translate the \api or the \docs.
+
+        1) Testing a project.
+
+        1) Ignored \dirs and files in the path::''src'' folder.
 
 
 // ---------- //
