@@ -11,11 +11,11 @@ Imaginons le petit \chgt suivant du code \src de notre \pack fictif (les contenu
 
 dirtree::
     ---
-    path = ?/archi/example/pack/dirtree-about-dir.txt
+    path = ?/example/pack/dirtree-about-dir.txt
     ---
 
 
-Pour imposer un ordre d'analyse des dossiers, il suffit que le fichier path::''about.yaml'' ait le contenu suivant où c'est le bloc yaml::''toc'' qui indique un choix personnalisé.
+Pour imposer un ordre d'analyse des dossiers, il suffit que le fichier path::''about.yaml'' ait le contenu suivant où c'est le sous-bloc yaml::''src'' du bloc yaml::''toc'' qui indique un choix personnalisé lié au code \src.
 
 yaml::
     ---
@@ -23,9 +23,10 @@ yaml::
     ---
 
     toc:
-      - intro/
-      - poor-lonesome-cowboy/
-      - alpha-et-omega3/
+      src:
+        - intro/
+        - poor-lonesome-cowboy/
+        - alpha-et-omega3/
 
 
 Plus finement, on peut aussi imposer l'ordre d'analayse des fichiers d'un sous-dossier \src via l'ajout d'un fichier path::''about.yaml'' de fonctionnement similaire à celui proposé ci-dessus.
@@ -33,7 +34,7 @@ Par exemple, on pourrait ajouter un fichier dans le dossier path::''poor-lonesom
 
 dirtree::
     ---
-    path = ?/archi/example/pack/dirtree-about-files.txt
+    path = ?/example/pack/dirtree-about-files.txt
     ---
 
 
@@ -45,9 +46,14 @@ yaml::
     ---
 
     toc:
-      - rantanplan.sty
-      - lucky.sty
+      src:
+        - rantanplan.sty
+        - lucky.sty
 
 
 warning::
     Ne pas oublier l'oblique final path::''/'' pour indiquer des dossiers et non des fichiers.
+
+
+warning::
+    Dans un fichier path::''about.yaml'', en cas d'oubli d'un dossier \etou d'un fichier ext::''sty'' dans un sous-bloc yaml::''src'' du bloc tyaml::''toc'', \texfacto émettra un message d'erreur.

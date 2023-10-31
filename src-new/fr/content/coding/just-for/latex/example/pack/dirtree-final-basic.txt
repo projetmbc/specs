@@ -1,0 +1,7 @@
++ fict-proj
+    * about.yaml
+    * README.md
+    + fictproj
+        * fictproj-doc-FR.pdf
+        * fictproj.sty
+    + [...]

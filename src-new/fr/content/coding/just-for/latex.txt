@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-28
+    date = 2023-10-31
 
     lexic = latex
 
@@ -17,8 +17,13 @@ Ceci nécessite de respecter un style de codage et une \orga "commune" des dossi
 Nous allons parler de ceci dans les sections à venir.
 
 
+note::
+    L'outil d'automatisation de la conception de \projs \latex est \textfacto
+
+
 content::
-    \content/archi.txt        ????
-    \content/the-docs.txt     ???
-    \content/tech-norms.txt   ??
+    \content/archi.txt
+    \content/the-docs.txt
+    \content/tech-norms.txt   ???
+    \content/tests.txt        ??
     \content/workflow.txt     ?

@@ -10,7 +10,7 @@ Considérons le projet suivant destiné à produire un \pack (l'usage des fichie
 
 dirtree::
     ---
-    path = ?/archi/example/pack/dirtree.txt
+    path = ?/example/pack/dirtree.txt
     ---
 
 

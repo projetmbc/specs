@@ -18,7 +18,7 @@ tandis que les fichiers de \config path::''stdval.sty'' et path::''speval.sty'' 
 
 dirtree::
     ---
-    path = ?/archi/example/resource/dirtree-init.txt
+    path = ?/example/resource/dirtree-init.txt
     ---
 
 
@@ -33,7 +33,7 @@ et path::''fict-proj/.tmpdoc'' seront créés, ou mis à jour ; nous aurons alor
 
 dirtree::
     ---
-    path = ?/archi/example/resource/dirtree-final-no-doc.txt
+    path = ?/example/resource/dirtree-final-no-doc.txt
     ---
 
 

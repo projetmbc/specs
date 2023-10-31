@@ -1,0 +1,42 @@
+this::
+    date = 2023-10-31
+
+
+====================================
+Utiliser des ressources pour la \doc
+====================================
+
+Considérons l'exemple fictif suivant où les dossiers path::''images'' et path::''graphics'' sont juste utilisés par les fichiers ext::''tex'' pour la \doc "humaine", rédigée en français dans ce cas
+((
+    Rappelons que cette \info est donnée dans le fichier path::''about.yaml'' à la racine du \proj : voir cf::''about-main.txt''.
+)),
+tandis que les fichiers de \config path::''stdval.sty'' et path::''speval.sty'' ne sont utiles qu'au code \src du \pack
+((
+    Ce sujet a déjà été abordé dans cf::''?/the-src/resources.txt''.
+)).
+
+dirtree::
+    ---
+    path = ?/example/resource/dirtree-init.txt
+    ---
+
+
+\texfacto va alors produire ou mettre à jour les deux dossiers path::''fict-proj/fictproj''
+((
+    verb::''fict-proj'' est normalisé en verb::''fictproj'', ce dernier nom étant accepté par \latex.
+)),
+et path::''fict-proj/.tmpdoc'', ce qui donnera le contenu suivant.
+
+dirtree::
+    ---
+    path = ?/example/resource/dirtree-final.txt
+    ---
+
+
+Ce qui nous intéresse ici c'est surtout le dossier path::''.tmpdoc''. Voici donc ce qu'il faut savoir à son sujet.
+
+    1) Comme le nom du dossier commence par un point, nous avons un dossier qui n'apparaîtra jamais dans le dépôt \git en ligne.
+
+    1) L'utilité de  path::''.tmpdoc'' est de proposer une \doc au format \ext::''tex'' dans chaque langue supportée. Ceci permet, en cas de souci, de compiler à la main l'\ens de la \doc pour faire un correctif, ou bien débusquer un bug de \texfacto.
+
+    1) Concernant la structure des ressources pour la \doc "humaine", ce qui a été dit pour le code \src dans cf::''?/the-src/resources.txt'' s'adpate mot pour mot aux fichiers pour la \doc.

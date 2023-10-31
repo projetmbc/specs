@@ -1,0 +1,18 @@
+this::
+    date = 2023-10-31
+
+
+abrev::
+    content = :this.name:
+
+
+=========
+Les \docs
+=========
+
+Comme indiqué dans cf::''?/coding/the-docs.txt'', deux \docs sont produites : l'une, très \tech est gérée directement dans le code \src, l'autre, plus fonctionnelle, s'attarde sur des cas d'utilisation pertinents et éclairants. Nous allons précisé comment cela se gère dans le cas d'un \proj \latex.
+
+
+content::
+    \content/for-hackers.txt
+    \content/for-users.txt

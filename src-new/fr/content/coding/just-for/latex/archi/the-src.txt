@@ -21,6 +21,14 @@ caution::
     On travaille dans des sous-dossiers directs de path::''src'' sans passer via des "sous-sous-dossiers".
 
 
+Le travail de \textfacto sera de produire un dossier contenant le minimum de fichiers avant distribution via \ctan. Dans le cas le plus basique, on obtiendra un dossier comme le suivant. Noter au passage le \chgt de nom du projet pour obtenir un nom acceptable pour un \pack \latex.
+
+dirtree::
+    ---
+    path = ?/example/pack/dirtree-final-basic.txt
+    ---
+
+
 Comme nous allons le voir, l'ordre suivant lequel les morceaux seront recollées est paramétrable, et de plus il est possible de s'appuyer sur des resources nécessaires au fonctionnement du \pack \etou de la classe.
 
 

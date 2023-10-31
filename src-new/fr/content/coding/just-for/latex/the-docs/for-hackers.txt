@@ -1,0 +1,20 @@
+this::
+    date = 2023-10-31
+
+
+============================================
+Efficacité anglaise requise pour le "hacker"
+============================================
+
+L'outil retenu est \tnsdoc qui est développé par l'auteur de cette \spec. Voici ce que cela peut donner dans le cas d'un \proj réel, à savoir ici un extrait du code \src du \proj \bdoc daté du \bdocdate.
+
+latex::
+    ---
+    title   = Un extrait du fichier path::''showcase.sty''
+    path    = ?/example/bdoc/showcase.sty
+    extract = 79 .. 96
+    ---
+
+
+note::
+    \tnsdoc est capable d'extraire de la \sign de l'\env latex::''bdoc@showcase@basic'' qu'il attend trois \args non optionnels.
