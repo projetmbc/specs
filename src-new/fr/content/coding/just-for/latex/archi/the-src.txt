@@ -14,17 +14,16 @@ Le \dev "morceau par morceau" se fait dans le sous-dossier path::''src'' comme s
 ((
     Rappelons que l'on peut développer en parallèle une classe et un \pack ayant le même nom.
 ))
-sont à placer onligatoirement dans des sous-dossiers de path::''src''.
-Ces différents morceaux seront recollés \auto^t pour bâtire le \pack \etou la classe à distribuer.
+sont à placer obligatoirement dans des sous-dossiers directs de path::''src'', ces différents morceaux seront recollés \auto^t pour bâtir le \pack \etou la classe à distribuer.
 
 
 caution::
-    On travaille dans des sous-dossiers de path::''src'' sans passer via des "sous-sous-dossiers".
+    On travaille dans des sous-dossiers directs de path::''src'' sans passer via des "sous-sous-dossiers".
 
 
-L'ordre suivant lequel els morceaux seront recollées est paramétrables, et de plus il est possible s'appuyer sur des resources nécessaires au fonctionemnt comme nous allons le voir.
+Comme nous allons le voir, l'ordre suivant lequel les morceaux seront recollées est paramétrable, et de plus il est possible de s'appuyer sur des resources nécessaires au fonctionnement du \pack \etou de la classe.
 
 
 content::
     \content/sorting.txt
-    \content/resources.txt      ??
+    \content/resources.txt

@@ -1,0 +1,11 @@
++ fict-proj
+    * about.yaml
+    * README.md
+    + fictproj
+        * fictproj-doc-FR.pdf
+        * fictproj.sty
+        + config
+            * stdval.sty
+            * speval.sty
+    + .tmpdoc [...]
+    + [...]

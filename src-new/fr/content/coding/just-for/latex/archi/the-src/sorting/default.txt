@@ -6,7 +6,7 @@ this::
 Le rangement par défaut
 =======================
 
-Considérons le projet suivant destiné à produire un \pack.
+Considérons le projet suivant destiné à produire un \pack (l'usage des fichiers ext::''tex'' est abordé dans cf::''?/archi/the-docs.txt'').
 
 dirtree::
     ---

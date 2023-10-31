@@ -8,6 +8,40 @@ NOW
 
 > ---------------------------- <
 
+user doc
+
+
+Considérons l'exemple fictif suivant où les dossiers path::''images'' et path::''graphics'' sont juste utilisés par les fichiers ext::''tex'' pour la \doc "humaine"
+((
+    On aborde ce sujet dans cf::''?/archi/the-docs.txt''.
+)),
+rédigée en français dans ce cas, tandis que les fichiers de \config path::''stdval.sty'' et path::''speval.sty'' ne sont utiles qu'au code \src du package.
+
+
+((
+    Le dossier path::''.tmpdoc'', non mis sur le dépôt \git, est utilisé pour produire les \docs au format \pdf.
+    Ceci permet, en cas de souci, de compiler à la main l'\ens de la \doc pour faire un correctif, ou bien débusquer un bug de \texfacto.
+))
+
+
+
+    1) La structure des ressources pour le fichier final path::''fict-proj.sty'' imite celle du dossier \src.
+    Ceci implique d'éviter d'utiliser deux fois le même nom. Une bonne pratique consiste à utiliser un préfixe faisant \ref au bout de code implémenté.
+
+    1) Le fonctionnement pour la \doc est similaire. Ceci implique, de nouveau, de faire en sorte de ne pas avoir deux fichiers ressources pour la \doc finale ayant le même nom.
+
+
+caution::
+    Bien importer les ressources via des chemins relatifs
+    ((
+        Mais normalement nous le faisons tous... Non ?
+    )).
+
+
+
+
+
+
     [??] simplifier en ciblant mieux mainternant que l'on fait du tout dansd un
 
     [??] trads ???

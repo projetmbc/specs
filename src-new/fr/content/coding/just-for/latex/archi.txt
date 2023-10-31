@@ -58,6 +58,7 @@ Il est \tmps de passer à des explications détaillées.
 
 content::
     \content/about-main.txt
-    \content/the-src.txt            ???
+    \content/the-src.txt
+    \content/the-docs.txt       ????
     \content/contribute.txt     ??
     \content/tests.txt          ?

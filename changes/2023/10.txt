@@ -2,6 +2,27 @@
 
 
 ==
+31
+==
+
+-------
+:break:
+-------
+
+[[:doc:]]
+Here is what was done that day.
+
+    * \latex coding \specs.
+
+        1) Where to code.
+
+        1) Using resources.
+
+
+// ---------- //
+
+
+==
 28
 ==
 

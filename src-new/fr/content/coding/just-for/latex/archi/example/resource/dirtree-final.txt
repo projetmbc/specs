@@ -1,0 +1,25 @@
++ fict-proj
+    * about.yaml
+    * README.md
+    + fictproj
+        * fictproj-doc-FR.pdf
+        * fictproj.sty
+        + config
+            * stdval.sty
+            * speval.sty
+    + .tmpdoc
+        + fr
+            * fictproj-doc.pdf
+            * fictproj-doc.tex
+            + images
+                * picture.png
+                * picture-1.png
+                * picture-2.png
+            + graphics
+                * curve-a.tkz
+                * curve-b.tkz
+                * geometry.tkz
+    + src  [...]
+
+
+    + [...]

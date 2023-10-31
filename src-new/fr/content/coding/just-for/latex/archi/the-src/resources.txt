@@ -1,84 +1,52 @@
 this::
-    date = 2023-10-25
+    date = 2023-10-31
 
 
 =======================
 Des fichiers ressources
 =======================
 
-
-Il est très fréquent qu'un projet et sa \doc nécessitent l'emploi de ressources supplémentaires : fichiers de \conf, images, graphiques \tikz... \etc.
-Ceci se fait très naturellement lors du codage à condition de savoir comment seront recollés les différents morceaux dans le projet final pour éviter certaines déconvenues.
-
-
-Pour expliquer ce qu'il se passe, considérons le projet fictif plus complet ci-après où les dossiers path::''images'' et path::''graphics'' sont juste utilisés par les fichiers ext::''tex'' pour la \doc "humaine", rédigée en français dans ce cas, tandis que les fichiers de \config path::''stdval.sty'' et path::''speval.sty'' ne sont utiles qu'au code \src du package.
-
-dirtree::
-    + fict-proj
-        * about.yaml
-        + src
-            * about.yaml
-            + intro
-                * intro.tex
-                + images
-                    * picture-1.png
-                    * picture-2.png
-                + graphics
-                    * curve-a.tkz
-                    * curve-b.tkz
-            + alpha-et-omega3
-                * alpha.tex
-                * alpha.sty
-                + config
-                    * stdval.sty
-                    * speval.sty
-                + images
-                    * picture.png
-                + graphics
-                    * geometry.tkz
-        + [...]
+Il est très fréquent qu'un \proj nécessite l'emploi de ressources supplémentaires : fichiers de \conf, images, graphiques \tikz... \etc.
+Ceci se fait très naturellement lors du codage à condition de savoir comment seront recollés les différents morceaux dans le \proj final afin d'éviter certaines déconvenues.
 
 
-Dans ce cas, \texfacto va automatiquement créer, ou mettre à jour, les deux dossiers path::''fict-proj/fict-proj'' et path::''fict-proj/.tmpdoc/fr''
+Considérons l'exemple fictif suivant où les dossiers path::''images'' et path::''graphics'' sont juste utilisés par les fichiers ext::''tex'' pour la \doc "humaine"
 ((
-    Le dossier path::''.tmpdoc'', non mis sur le dépôt \git, est utilisé pour produire les \docs au format \pdf.
-    Ceci permet, en cas de souci, de compiler à la main l'\ens de la \doc pour faire un correctif, ou bien débusquer un bug de \texfacto.
-)).
-Nous aurons alors un contenu du type suivant.
+    On aborde ce sujet dans cf::''?/archi/the-docs.txt''.
+)),
+tandis que les fichiers de \config path::''stdval.sty'' et path::''speval.sty'' ne sont utiles qu'au code \src du package.
 
 dirtree::
-    + fict-proj
-        + fict-proj
-            * fict-proj-doc-FR.pdf
-            * fict-proj.sty
-            + config
-                * stdval.sty
-                * speval.sty
-        + .tmpdoc
-            + fr
-                * fict-proj-doc.pdf
-                * fict-proj-doc.tex
-                + images
-                    * picture.png
-                    * picture-1.png
-                    * picture-2.png
-                + graphics
-                    * curve-a.tkz
-                    * curve-b.tkz
-                    * geometry.tkz
-        + [...]
+    ---
+    path = ?/archi/example/resource/dirtree-init.txt
+    ---
+
+
+Après analyse de \texfacto, deux dossiers path::''fict-proj/fictproj''
+((
+    Noter la normalisation du nom verb::''fict-proj'' en verb::''fictproj'', ce dernier étant accepté par \latex.
+)),
+et path::''fict-proj/.tmpdoc'' seront créés, ou mis à jour ; nous aurons alors un contenu partiel du type suivant
+((
+    Le contenu et l'utilité du dossier path::''.tmpdoc'' sont donnés dans cf::''?/archi/the-docs.txt''.
+)).
+
+dirtree::
+    ---
+    path = ?/archi/example/resource/dirtree-final-no-doc.txt
+    ---
 
 
 Voici les pièges tendus par la procédure d'automatisation (heureusement en cas de souci, \texfacto lèvera un message d'erreur).
 
     1) \Ttes les ressources sont à placer dans des sous-dossiers de niveau `2` du dossier de \dev path::''src''.
 
-    1) La structure des ressources pour le fichier final path::''fict-proj.sty'' imite celle du dossier \src.
-    Ceci implique d'éviter d'utiliser deux fois le même nom. Une bonne pratique consiste à utiliser un préfixe faisant \ref au bout de code implémenté.
+    1) La structure des ressources pour le fichier final path::''fictproj.sty'' imite celle du dossier \src.
+    Ceci implique d'éviter d'utiliser deux fois le même nom. Une bonne pratique consiste à utiliser un préfixe ou un dossier faisant \ref au bout de code implémenté.
 
-    1) Le fonctionnement pour la \doc est similaire. Ceci implique, de nouveau, de faire en sorte de ne pas avoir deux fichiers ressources pour la \doc finale ayant le même nom.
 
-    1) Dans chacun des deux cas précédents, il faudra bien importer les ressources via des chemins relatifs
+caution::
+    Bien importer les ressources via des chemins relatifs
     ((
         Mais normalement nous le faisons tous... Non ?
     )).

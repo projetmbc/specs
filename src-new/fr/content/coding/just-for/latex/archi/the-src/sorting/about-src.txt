@@ -11,7 +11,7 @@ Imaginons le petit \chgt suivant du code \src de notre \pack fictif (les contenu
 
 dirtree::
     ---
-    path = ?/pack/dirtree-about-dir.txt
+    path = ?/archi/example/pack/dirtree-about-dir.txt
     ---
 
 
@@ -33,7 +33,7 @@ Par exemple, on pourrait ajouter un fichier dans le dossier path::''poor-lonesom
 
 dirtree::
     ---
-    path = ?/pack/dirtree-about-files.txt
+    path = ?/archi/example/pack/dirtree-about-files.txt
     ---
 
 
