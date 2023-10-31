@@ -1,0 +1,62 @@
+this::
+    date = 2023-10-09
+
+
+# Fake def of some math objects while waiting for `tns` to evolve
+# on this subject.
+math::
+    P   := proba(P)
+    L_2 := set(L, function, integrable, 2)
+    G   := set(G, grp)
+    A   := set(A, ring)
+
+
+================================
+Forme de la police de caractères
+================================
+
+Commençons par les usages normalisés
+((
+    Les \mefs proposées ne tiennent pas compte de choix très spécifiques de polices de caractères.
+)).
+
+    1) **Forme droite via ''\mathrm''.**
+    Ceci concerne les objets standards à l'exception des \enss.
+
+        * Les \foncs réelles ou complexes classiques comme `ln` ou `exp`.
+
+        * Les \ctes réelles ou complexes classiques telles que `pi`, `e` ou `i`.
+
+        * Les opérateurs classiques comme une probabilité `P` ou le noyau d'une \appli linéaire `ker`.
+
+    1) **Italique via ''\mathit''.**
+    Ceci concerne les objets modifiables dans un contexte donné à l'exception des \enss.
+
+        * Les \vars dans une formule.
+
+        * Les noms de \pts, de vecteurs, de suites, de \vars \aleas... \etc.
+
+    1) **Calligraphié via ''\mathcal''.**
+    Ceci concerne des \enss particuliers.
+
+        * Les \enss géométriques tels qu'une droite ou un cercle.
+
+        * Les espaces d'intégration comme `L_2` l'\ens des \foncs de carré intégrable.
+
+    1) **"Doublement barré" via ''\mathbb''.**
+    Ceci concerne des \enss classiques.
+
+        * Les \enss classiques tels que `RR` et `CC`.
+
+        * Les \enss avec une structure algébrique simple comme un groupe `G` ou un anneau `A`.
+
+
+\latex propose aussi les outils suivants qui pour le moment n'ont pas d'usages normalisés. L'avenir montrera si ceci doit évoluer.
+
+    1) **"À la fraktur" via ''\mathfrak''.**
+
+    1) **Gras via ''\mathbf''.**
+
+    1) **Absence d'empattement via ''\mathsf''.**
+
+    1) **Comme une "machine à écrire" via ''\mathtt''.**

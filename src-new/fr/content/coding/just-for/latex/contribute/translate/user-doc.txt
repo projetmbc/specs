@@ -7,5 +7,5 @@ Langues de la \doc "utilisateur"
 ================================
 
 content::
-    \content/manual.txt
-    \content/changelog.txt
+    \content/manual.txt      ??
+    \content/changelog.txt   ?

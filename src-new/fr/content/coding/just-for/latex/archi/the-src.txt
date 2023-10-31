@@ -21,6 +21,11 @@ caution::
     On travaille dans des sous-dossiers directs de path::''src'' sans passer via des "sous-sous-dossiers".
 
 
+warning::
+    Un sous-dossier spécial path::''changelog'' est utilisé pour le journal des \chgts destiné aux utilisateurs : voir cf::''?/latex/the-docs.txt'' à ce propos.
+    Ceci rend impossible le codage de fonctionnalités dans un sous-dossier nommé path::''changelog''.
+
+
 Le travail de \textfacto sera de produire un dossier contenant le minimum de fichiers avant distribution via \ctan. Dans le cas le plus basique, on obtiendra un dossier comme le suivant. Noter au passage le \chgt de nom du projet pour obtenir un nom acceptable pour un \pack \latex.
 
 dirtree::

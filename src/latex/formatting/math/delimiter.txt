@@ -1,0 +1,14 @@
+this::
+    date = 2023-09-08
+
+
+=================================
+Délimiteurs étirables... ou pas !
+=================================
+
+Certaines situations nécessitent l'emploi de délimiteurs "étirables" : c'est le cas pour des matrices ou des coordonnées écrites verticalement.
+Pour ce type de macros, il sera \tjrs laissé la possibilité à l'utilisateur de choisir la taille des délimiteurs via ''big'', ''Big'', ''bigg'', ''Bigg'' de ''amsmath'', une liste complétée par les deux tailles suisvantes.
+
+    1) ''asit'' demande de n'opérer à aucun \chgt d'échelle.
+
+    1) ''auto'' permet d'utiliser des délimiteurs "étirables" obtenus via ''\left'' et ''\right''.

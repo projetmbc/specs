@@ -1,0 +1,11 @@
+abrev::
+    content = :this.name:
+
+
+======
+\Maths
+======
+
+content::
+    \content/delimiter.txt
+    \content/font-shape.txt
