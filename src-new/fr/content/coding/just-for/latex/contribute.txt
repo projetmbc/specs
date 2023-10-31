@@ -11,7 +11,7 @@ Les contributions
 =================
 
 note::
-    Se reporter à cf::''?/coding/archi/contribute/changes.txt'' pour la bonne gestion du journal des \chtgs des contributions.
+    Se reporter à cf::''?/coding/archi/contribute/changes.txt'' pour la bonne gestion du journal des \chtgs pour les contributions.
 
 
 content::

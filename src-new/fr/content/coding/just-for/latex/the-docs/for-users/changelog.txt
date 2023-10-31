@@ -11,12 +11,7 @@ Le codeur doit aussi maintenir un journal des \chgts dans le même esprit que ce
     La langue des \chgts est celle de la \doc.
 )),
 \cad sans entrer dans certains détails très \techs.
-Ce journal se tape dans le sous-dossier path::''changelog'' du dossier path::''src'' qui admet la structure suivante où un dossier par année contiendra les \chgts au jour le jour.
-Noter au passage les noms utilisés pour les dossiers "année" et "mois" ainsi que ceux pour les fichiers "jour" où les deux fichiers path::''18-a.tex'' et path::''18-b.tex'' correspondent à deux versions différentes publiées le même jour
-((
-    Il arrive quelques fois qu'une version soit publiée un peu hâtivement à tors...
-)).
-
+Ce journal se tape dans le sous-dossier path::''changelog'' du dossier path::''src'' qui admet la structure suivante où un dossier par année contiendra les \chgts au jour le jour stockés dans des dossiers mensuels.
 
 dirtree::
     ---
@@ -25,6 +20,10 @@ dirtree::
 
 
 À la date du \bdocdate, le dossier path::''changelog'' du projet \bdoc avait la contenu suivant.
+Noter au passage les noms utilisés pour les dossiers "année" et "mois" ainsi que ceux pour les fichiers "jour" où les deux fichiers path::''18-a.tex'' et path::''18-b.tex'' correspondent à deux versions différentes publiées le même jour
+((
+    Il arrive quelques fois qu'une version soit publiée un peu hâtivement à tors...
+)).
 
 dirtree::
     ---
