@@ -10,6 +10,5 @@ Coder efficacement
 
 content::
     \content/coding.txt
-    \content/the-docs.txt
     \content/changes.txt
     \content/translate.txt

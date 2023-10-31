@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-06
+    date = 2023-10-31
 
 
 =========================================
@@ -14,4 +14,4 @@ Dans ce cas, le réglage est disponible comme option de \pack, mais aussi via un
 
 
 note::
-    Les réglages globaux de certaines options locales se font via des clés usant de "chemins" faisant \ref aux macros ou aux \envs concernés. Un exemple fictif pourrait être ''\Setfict-projage{macroname/optionname = mychoice}''.
+    Les réglages globaux de certaines options locales se font via des clés usant de "chemins" faisant \ref aux macros ou aux \envs concernés. Un exemple fictif pourrait être ''\SetFictProj{macroname/optionname = mychoice}''.

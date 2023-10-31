@@ -1,0 +1,15 @@
+this::
+    date = 2023-10-XXX
+
+
+abrev::
+    content = :this.name:
+
+
+============================
+Des points \techs importants
+============================
+
+content::
+    \content/formatting.txt
+    \content/the-api.txt

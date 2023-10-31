@@ -1,0 +1,11 @@
+abrev::
+    content = :this.name:
+
+
+================================
+Concernant les \maths uniquement
+================================
+
+content::
+    \content/punctuation.txt
+    \content/graph-tikz.txt

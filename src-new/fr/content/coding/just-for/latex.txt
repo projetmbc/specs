@@ -24,6 +24,6 @@ note::
 content::
     \content/archi.txt
     \content/the-docs.txt
-    \content/tech-norms.txt   ???
+    \content/tech-norms.txt
     \content/tests.txt        ??
     \content/workflow.txt     ?
