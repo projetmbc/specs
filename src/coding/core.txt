@@ -1,9 +1,0 @@
-this::
-    date = 2023-10-08
-
-
-=======================
-\Packs communs utilisés
-=======================
-
-Si au sein d'un projet, des fonctionnalités communes à plusieurs outils appraissent alors elles seront regroupées dans des \packs généralistes.

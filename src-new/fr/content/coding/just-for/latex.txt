@@ -25,6 +25,5 @@ content::
     \content/archi.txt
     \content/the-docs.txt
     \content/tech-norms.txt
-    \content/tests.txt          ???
+    \content/testing.txt
     \content/contribute.txt
-    \content/workflow.txt       ?

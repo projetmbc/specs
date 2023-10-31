@@ -29,6 +29,10 @@ yaml::
         - alpha-et-omega3/
 
 
+tip::
+    On peut utiliser la \pyglob : par exemple, glob::''*-keep-me.tex'' indique tout fichier d'extension ext::''tex'' et de nom se finissant par path::''-keep-me''.
+
+
 Plus finement, on peut aussi imposer l'ordre d'analayse des fichiers d'un sous-dossier \src via l'ajout d'un fichier path::''about.yaml'' de fonctionnement similaire à celui proposé ci-dessus.
 Par exemple, on pourrait ajouter un fichier dans le dossier path::''poor-lonesome-cowboy'' comme suit.
 

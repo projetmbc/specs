@@ -10,6 +10,6 @@ content::
     \content/math.txt
     \content/archi.txt
     \content/macroenv.txt
-    \content/lang.txt
+    \content/localize.txt
     \content/how-to-format.txt
     \content/message.txt

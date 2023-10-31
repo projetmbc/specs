@@ -14,13 +14,15 @@ Here is what was done that day.
 
     * \latex coding \specs.
 
-        1) Where to code.
+        1) Where and how to code.
 
         1) Using resources.
 
         1) docs
         1) gene tech norms for api
         1) Translate
+
+        #) ignore in src folder
 
 
 // ---------- //

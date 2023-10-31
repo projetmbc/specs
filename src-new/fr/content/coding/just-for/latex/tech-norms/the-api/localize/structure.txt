@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-08
+    date = 2023-10-31
 
 
 ====================
@@ -9,19 +9,16 @@ Organiser les \trads
 Considérons comme exemple le cas du package \bdoc. Le \bdocdate, son code \src contenait un dossier de \dev path::''main'' où l'on trouvait les fichiers et dossiers suivants permettant d'avoir des macros gérant le français.
 
 dirtree::
-    + main
-        + locale
-            * french.sty
-            + french
-                * macros.txt
-                * sentences.txt
+    ---
+    path = ?/example/translate/api-config/dirtree-src.txt
+    ---
 
 
 Voici l'affreux code utilisé en interne pour le français.
 
 latex::
     ---
-    path  = example/french.sty
+    path = ?/example/translate/api-config/bdoc/french.sty
     title = Contenu du fichier path::''french.sty'' le \bdocdate
     ---
 
@@ -30,24 +27,16 @@ latex::
 ((
     Noter les préfixes utilisés dans le fichier path::''french.sty'' afin d'éviter des conflits de noms avec d'autres packages (quitte à répéter du code dans différents endroits mais ceci est un moindre mal).
 ))
-à partir des deux fichiers suivants très simples à modifier par un non codeur (la section suivante va préciser la syntaxe utilisée).
+à partir des deux fichiers suivants très simples à modifier par un non codeur : voir cf::''?/translate/api-config.txt'' à ce sujet.
 
 verb::
     ---
-    path  = example/macros.txt
+    path = ?/example/translate/api-config/bdoc/macros.txt
     title = Contenu du fichier path::''french/macros.txt'' le \bdocdate
     ---
 
 verb::
     ---
-    path  = example/sentences.txt
+    path = ?/example/translate/api-config/bdoc/sentences.txt
     title = Contenu du fichier path::''french/sentences.txt'' le \bdocdate
     ---
-
-
-note::
-    Autant de fichiers ext::''txt'' que nécessaire pourront être mis à l'intérieur d'un dossier pour une langue.
-
-
-note::
-    L'intégration de \nelles langues est expliquée dans la section cf::''?/translate/api-config.txt''.
