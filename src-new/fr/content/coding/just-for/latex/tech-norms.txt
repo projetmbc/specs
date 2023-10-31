@@ -9,3 +9,4 @@ Des points \techs importants
 content::
     \content/formatting.txt
     \content/the-api.txt
+    \content/magic-comments.txt

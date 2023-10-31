@@ -14,8 +14,8 @@ dirtree::
     ---
 
 
-warning::
-    Dans le dossier de \dev du code \src, les trads sont \tjrs à placer dans un sous-dossier nommé path::''locale''.
+note::
+    Rappelons que dans le dossier de \dev du code \src, les trads sont \tjrs placées dans un sous-dossier nommé path::''locale''.
 
 
 De façon automatisée, un dossier path::''contribute/api/locale/french/main'', comme ci-dessous, contiendra la dernière version des \trads utiles au fonctionnement du \pack \bdoc.

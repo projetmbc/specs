@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-08
+    date = 2023-10-31
 
 
 ============================================================
@@ -10,7 +10,7 @@ Tous les codes \srcs
 ((
     Nous parlons ici de chaque petit morceau de code.
 ))
-s'appuient sur le modèle suivant pour permettre aux outils automatiques de repérer les \packs importés, les options attendues et enfin les codes des macros et \envs proposés. **L'ordre est imposé !**
+s'appuient sur le modèle suivant pour permettre aux outils automatiques de repérer les \packs importés, les options attendues et enfin le coeur du code \src.
 
 latex::
     % == PACKAGES == %
@@ -28,9 +28,9 @@ latex::
     % Lignes codant les fonctionnalités.
 
 
-note::
-    Les sections spéciales sont facultatives.
-
-
 warning::
+    Bien que les sections spéciales soient facultatives, leur ordre d'utilisation est imposé !
+
+
+caution::
     Penser à utiliser ''\RequirePackage{packfictif}[2021/07/05]'' en indiquant la date attendue pour chaque package importé.
