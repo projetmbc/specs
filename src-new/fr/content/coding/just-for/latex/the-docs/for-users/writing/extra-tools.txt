@@ -1,12 +1,12 @@
 this::
-    date = 2023-10-08
+    date = 2023-10-31
 
 
-========================================
-Des outils \latex pour la \doc "humaine"
-========================================
+============================================
+Des outils \latex pour la \doc "utilisateur"
+============================================
 
-Considérons comme exemple le code source de \bdoc du \bdocdate : on y trouvait le fichier path::''listing.tex'' avec la structure suivante utilisant le commentaire spécial ''% == FORDOC == %''.
+Considérons comme exemple le code \src de \bdoc du \bdocdate : on y trouvait le fichier path::''listing.tex'' avec la structure suivante utilisant le commentaire spécial ''% == FORDOC == %''.
 
 latex::
     \documentclass[12pt, a4paper]{article}

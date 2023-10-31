@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-01
+    date = 2023-10-31
 
 
 ==============
@@ -8,7 +8,7 @@ this::
 
 Le nommage des \refs internes suit le schéma ci-dessous afin d'éviter tout conflit.
 
-    1) Un premier préfixe est utilisé pour indiquer le nom du \pack comme dans ''fict-proj-...'' par exemple.
+    1) Un premier préfixe est utilisé pour indiquer le nom du \proj comme dans ''fict-proj-...'' par exemple.
 
     1) Si la \ref est relative à une macro spéciale comme ''\eval'', ou un \env spécifique tel que ''\begin{bdoclatex} ... \end{bdoclatex}`, alors un \2e préfixe est utilisé comme dans ''fict-proj-macro-eval-...'' et ''fict-proj-env-bdoclatex-...'' par exemple.
 

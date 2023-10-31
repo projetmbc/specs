@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-08
+    date = 2023-10-31
 
 
 ===============================================
@@ -17,7 +17,7 @@ latex::
     \usepackage[lang = french]{bcdoc}
 
 
-Si cela ne vous convient pas, il suffit d'ajouter un fichier là où vous le souhaitez avec l'\ens de votre en-tête. Imaginons faire ceci via un fichier path::''doc-header.tex'' dans le dossier du code \src organisé comme suit.
+Si cela ne convient pas, le plus propre est d'ajouter un fichier path::''doc-header.tex'' dans le dossier du code \src comme suit.
 
 dirtree::
     + fict-proj

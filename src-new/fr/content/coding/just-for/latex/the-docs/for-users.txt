@@ -22,3 +22,4 @@ content::
     \content/resources.txt
     \content/pack-n-class.txt
     \content/changelog.txt
+    \content/writing.txt
