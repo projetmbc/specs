@@ -12,6 +12,10 @@ NOW
 
     [??] magic comment pour class : est-ce ok ce qui existe déjà
 
+    [??] builder: tjrs mettre en commentaire que travail fait par tel builder (utile en cas de souci !)
+
+
+
 
 -----
 LATER
@@ -19,43 +23,18 @@ LATER
 
 > ---------------------------- <
 
-// TODO : Just for writing !
-// préciser qu'iic  c'est pour écrit technique
-// ne pas hesiter à proposer des approches différentes voire imagées
-// (graphique ou schéma)
-// parer de la posivilité de 'écriture pour web dya et papier en simultanée'
+LATEX - agregation : traitement des options des packages importés !
+
+\usepackage{../main/main}
+\PassOptionsToPackage{lang = EN}{../main/main}
 
 
-> ---------------------------- <
++
 
-structure imposée de codage et du coup ordre des sty tjrs indique soit implicitement via nom des dossierfs soit via un about.yaml qui ne doit oublié aucun sty
-On garde association des tex à un sty car c'est pratique et flexibnle
-un etex à ajoutéer au début  se fera via  prems.tex suivi de *.tex
-
-sdi que des tex, on utilise ordre implicite des sty car utile justement dans le cas précédent d'un tex introudctif
-+ src
-    * les sty
-    * les tex éventuels
-    * des test et tools si besdoin lmocalemnt
-    + des dossiers ressource aux noms livbres
-
-indiquer aussi que si be soin d'un sorte de sous-dossier de fonctionanlirté c'est qu'il est temps de faire un package dédié
-
-
-> ---------------------------- <
-
-LATEX - note::  COMMENT ?
-
-    Les tests sont implémentés au plus proche, \cad pour chaque bout de code afin de faciliter d'éventuels déboguages.
-    Des outils se chargent ensuite d'intégrer ces tests dans un test d'intégration pour chaque package non agrégateur et enfin d'autres pour ceux agrégateurs.
-    Enfin il est possible dans le \src \latex de la \doc utilisateur d'indiquer des exemples à intégrer au jeu des tests fournis à \l3build.
-
-
-> ---------------------------- <
 
 LATEX - FBI ?
 
- Ceci permet de proposer facilement des réglages comme suit où ''tnsagregpack'' agrège des packages dont l'un est ''tnssubpack''.
+Ceci permet de proposer facilement des réglages comme suit où ''tnsagregpack'' agrège des packages dont l'un est ''tnssubpack''.
 
     latex::
         \SetTnsAgregpack{
@@ -74,7 +53,10 @@ note::
     Le système retenu pour intégrer les fichiers utiles à la \doc finale s'appuie sur l'option term::''-recorder'' des compilateurs de la famille \tex.
     Cette commande permet, entre autres choses, de connaître les fichiers externes utilisés pour compiler un document \latex.
 
-ET
+
+> ---------------------------- <
+
+LATEX - utile ???
 
 warning::
     Que faire si par un très improbable hasard vous souhaitez utiliser ''{chemin/vers/ce/superbe/fichier}'' dans une commande sans lien avec l'utilisation d'une resource alors que path::''chemin/vers/ce/superbe/fichier'' est bien une resource ?
@@ -82,11 +64,6 @@ warning::
     ((
         Attendons de voir si ce cas se présentera, ou non, pour trouver une vraie parade...
     )).
-
-
-> ---------------------------- <
-
-LATEX - gestiond es oncflits avec d'autres packages !
 
 
 > ---------------------------- <
@@ -115,54 +92,6 @@ LATEX - spécification des macros modifiables via CSS/Font !!!!!
     --> on automatise alors le syst de CSS via un package avec du formatting semantic !!!! et non juste un fichier CSS
 
     --> on ne met que ce qui est pertiennt pporur les chgts + création d'un doc avec TOUS les chgts
-
-
-> ---------------------------- <
-
-LATEX - test AUTO
-
-    --> bonne mef (a priori simple car tout est fixé mais prévoir un syst souple magré tout) : faire un outil dans dev-latex
-
-            * on produit à la main des formules en standalone que l'on valide huaminement
-
-            * on test et compare automatiquement (quel outil ?)
-
-            * besoin d'une GUI simple (de type WEB ?) pour initier le bons cas et aussi pour valider une erreur détectée de
-
-
-> ---------------------------- <
-
-LATEX - traduction de la doc pour les non codeurs      TOP !!!!
-
-    --> noter les trads non mis à jour (cf le log ou autre)
-
-            + besoin dans ce cas d'associer une trad à une date du chnagelog !
-
-
-> ---------------------------- <
-
-LATEX
-
-nelle versio de macroenvsign
-
-    --> maj de la doc coder-doc...
-
-
-> ---------------------------- <
-
-LATEX
-
-la partie sur le coding déplacé vers TeXfactory
-
-    ---> copier coller les change logs
-
-
-> ---------------------------- <
-
-LATEX - agregation : traitement des options des packages importés !
-
-\usepackage{../main/main}
-\PassOptionsToPackage{lang = EN}{../main/main}
 
 
 > ---------------------------- <
@@ -214,67 +143,20 @@ fichier makefile qui permet de lancer facilment la factory
 
 LATEX
 
-????   forcer l'intégration dans le projet fini : par exemple prise en compte d'un script python ou lua non impirté
+????   forcer l'intégration dans le projet fini : par exemple prise en compte d'un script python ou lua non importé
 
     ---> about.peuf
 
     ---> maj de small-code si fait !
 
+    ---> on peut indiquer de fichiers externes via infos.peuf comme par exemple des scripts python ou lua (soit ciblé soit tout le contenu d'un dossier)
+
 
 > ---------------------------- <
 
 LATEX - tools
+
     ---> règle de lancement automatisé (du coup liste de ce qu'il faut lancer dans about.peuf)
-
-> ---------------------------- <
-
-LATEX - bdoc@cnt@exa
-
-
-> ---------------------------- <
-
-LATEX - EXTRA dans doc
-
-
-> ---------------------------- <
-
-LATEX - nommer les messages d'erreur  TOP !!!!
-
-\msg_set:nnnn { bdoc } { options-unknown-lang }
-
-
-> ---------------------------- <
-
-LATEX - on peut indiquer de fichiers externes via infos.peuf comme par exemple des scripts python ou lua (soit ciblé soit tout le contenu d'un dossier)
-
-
-> ---------------------------- <
-
-LATEX - Ignorer  ?????
-    ---> out
-    ---> si fait en oarler dans small-code !!
-
-
-> ---------------------------- <
-
-LATEX
-
-une branche de dev par projet autonome
-
-+
-
-???? virer pdfs doc avant tout merge vers la branche main
-
-
-> ---------------------------- <
-
-LATEX - pour section comment passer vai tnscom quicontient tout et ua passage au parle de ce package factorisant les points communs
-
-
-> ---------------------------- <
-
-LATEX - no-conflict
-    --> ajouter exemple de CSV
 
 
 > ---------------------------- <
@@ -296,16 +178,15 @@ note::
 
 > ---------------------------- <
 
-builder: tjrs mettre en commentaire que travail fait par tel builder (utile en cas de souci !)
-
-
-> ---------------------------- <
-
-FBI = fausses bonnes idées
-
-
-> ---------------------------- <
-
 pas de maj pércipipté syst ; tester avant mise en prod (cf histoire perso du prob de memoir avec latex qui avait poser pb la veille de la compilation d'un cours !!!)
 
 passer via virtuel env avant de maj syst au complet !!!
+
+
+> ---------------------------- <
+
+// TODO : Just for writing !
+// préciser qu'iic  c'est pour écrit technique
+// ne pas hesiter à proposer des approches différentes voire imagées
+// (graphique ou schéma)
+// parer de la posivilité de 'écriture pour web dya et papier en simultanée'
