@@ -1,5 +1,4 @@
 + src
-    * about.yaml
     + intro
         * intro.tex
     + alpha-et-omega3
@@ -9,7 +8,6 @@
         * omega3-b.tex
         * omega3.sty
     + poor-lonesome-cowboy
-        * about.yaml
         * lucky-1.tex
         * lucky-2.tex
         * lucky.sty

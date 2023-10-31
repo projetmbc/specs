@@ -1,0 +1,30 @@
+this::
+    date = 2023-10-31
+
+
+abrev::
+    content = :this.name:
+
+
+==========
+Où coder ?
+==========
+
+Le \dev "morceau par morceau" se fait dans le sous-dossier path::''src'' comme suit : les bouts de fichiers ext::''sty'' \etou ext::''cls''
+((
+    Rappelons que l'on peut développer en parallèle une classe et un \pack ayant le même nom.
+))
+sont à placer onligatoirement dans des sous-dossiers de path::''src''.
+Ces différents morceaux seront recollés \auto^t pour bâtire le \pack \etou la classe à distribuer.
+
+
+caution::
+    On travaille dans des sous-dossiers de path::''src'' sans passer via des "sous-sous-dossiers".
+
+
+L'ordre suivant lequel els morceaux seront recollées est paramétrables, et de plus il est possible s'appuyer sur des resources nécessaires au fonctionemnt comme nous allons le voir.
+
+
+content::
+    \content/sorting.txt
+    \content/resources.txt      ??

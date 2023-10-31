@@ -14,7 +14,7 @@ en plus des \infos générales propres à tout \pack, il faut employer un bloc "
 ((
     L'ordre utilisé sera aussi celui retenu pour produire \auto^t les \docs.
 ))
-où sont employés des chemins relatifs toujours à la sauce \unix avec une oblique et non une onctre-oblique
+où sont employés des chemins relatifs **toujours à la sauce \unix avec une oblique** et non une onctre-oblique
 ((
     L'usage de chemins absolus est possible mais fortement déconseillé ! Vous voilà prévenu.
 )).

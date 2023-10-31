@@ -57,7 +57,7 @@ Il est \tmps de passer à des explications détaillées.
 
 
 content::
-    \content/about.txt
-    \content/src.txt            ???
+    \content/about-main.txt
+    \content/the-src.txt            ???
     \content/contribute.txt     ??
     \content/tests.txt          ?
