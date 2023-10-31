@@ -1,0 +1,11 @@
++ fict-proj
+    + contribute
+        + api
+            + changes [...]
+            + locale
+                + french
+                    + main
+                        * macros.txt
+                        * sentences.txt
+        + [...]
+    + [...]

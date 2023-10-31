@@ -20,6 +20,7 @@ Here is what was done that day.
 
         1) docs
         1) gene tech norms for api
+        1) Translate
 
 
 // ---------- //

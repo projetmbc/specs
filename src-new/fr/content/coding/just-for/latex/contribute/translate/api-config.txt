@@ -1,5 +1,5 @@
 sthis::
-    date = 2023-10-01
+    date = 2023-10-31
 
 
 =====================================
@@ -9,12 +9,9 @@ Langues pour les \macros et les \envs
 Prenons le cas du \pack \bdoc dont le code \src à la date du \bdocdate contient le dossier de \dev path::''main'' suivant.
 
 dirtree::
-    + main
-        + locale
-            * french.sty
-            + french
-                * macros.txt
-                * sentences.txt
+    ---
+    path = ?/example/translate/api-config/dirtree-src.txt
+    ---
 
 
 warning::
@@ -24,27 +21,20 @@ warning::
 De façon automatisée, un dossier path::''contribute/api/locale/french/main'', comme ci-dessous, contiendra la dernière version des \trads utiles au fonctionnement du \pack \bdoc.
 
 dirtree::
-    + fict-proj
-        + contribute
-            + api
-                + locale
-                    + french
-                        + main
-                            * macros.txt
-                            * sentences.txt
-            + [...]
-        + [...]
+    ---
+    path = ?/example/translate/api-config/dirtree-contribute.txt
+    ---
 
 
 Il ne reste plus qu'à un traducteur allemand, par exemple, à créer un dossier path::''german'' avec le même contenu que celui du dossier path::''french''
 ((
-    Le choix de \bdoc est de reprendre les noms de langue utilisables avec le \pack ''babel'', et non de suivre la \isolang.
+    Pour les \apis \latex, il a été retenu de reprendre les noms de langue utilisables avec le \pack ''babel'', et non de suivre la \isolang.
 )).
 Le processus de \trad des mots et des phrases "fixes" est simple comme le montre le contenu du fichier path::''sentences.txt'' donné ci-après.
 
 verb::
     ---
-    path = ?/coding/lang-api/example/sentences.txt
+    path = ?/example/translate/api-config/bdoc/sentences.txt
     ---
 
 
@@ -52,7 +42,7 @@ Pour les phrases "paramétrables", ceci se fait comme suit où les lignes commen
 
 verb::
     ---
-    path = ?/coding/lang-api/example/macros.txt
+    path = ?/example/translate/api-config/bdoc/macros.txt
     ---
 
 

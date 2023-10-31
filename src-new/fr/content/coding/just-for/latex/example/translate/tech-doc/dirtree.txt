@@ -1,9 +1,9 @@
-    + fict-proj
-        + contribute
-            + doc
-                + tech
-                    + en [...]
-                    + fr [...]
-                + [...]
++ fict-proj
+    + contribute
+        + doc
+            + tech
+                + changes  [...]
+                + en       [...]
             + [...]
         + [...]
+    + [...]

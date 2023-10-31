@@ -10,10 +10,11 @@ abrev::
 Les contributions
 =================
 
-note::
+caution::
     Se reporter à cf::''?/coding/archi/contribute/changes.txt'' pour la bonne gestion du journal des \chtgs pour les contributions.
 
 
 content::
-    \content/translate.txt  ??
-    \content/the-api.txt    ?
+    \content/translate.txt
+    \content/the-api.txt    ??
+    \content/submit.txt

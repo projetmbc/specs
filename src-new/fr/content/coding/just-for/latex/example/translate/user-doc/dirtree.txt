@@ -1,7 +1,8 @@
-    + fict-proj
-        + contribute
-            + doc
-                + manual
-                    + fr [...]
-                + [...]
++ fict-proj
+    + contribute
+        + doc
+            + manual
+                + changes  [...]
+                + fr       [...]
             + [...]
+        + [...]

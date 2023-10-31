@@ -8,6 +8,6 @@ Comment traduire ?
 
 content::
     \content/isolang.txt
-    \content/user-doc.txt     ???
-    \content/api-config.txt   ??
-    \content/tech-doc.txt     ?
+    \content/user-doc.txt
+    \content/api-config.txt
+    \content/tech-doc.txt
