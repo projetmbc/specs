@@ -16,5 +16,4 @@ caution::
 
 content::
     \content/translate.txt
-    \content/the-api.txt    ??
     \content/submit.txt
