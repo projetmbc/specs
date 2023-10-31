@@ -1,7 +1,3 @@
-this::
-    date = 2023-10-XXX
-
-
 abrev::
     content = :this.name:
 
