@@ -8,6 +8,22 @@ NOW
 
 > ---------------------------- <
 
+// ---------- //
+
+
+==
+08  (1.2.0-beta)    ?????
+==
+
+--------
+:update:
+--------
+
+[[:doc:]]     ?????
+\latex - \Archi: explanations added about the use of "inputing" code like ''\input{../subfolder/sometools.cfg}'' during the coding process.
+
+
+
     [??] cas des agrégateurs !!
 
     [??] magic comment pour class : est-ce ok ce qui existe déjà
