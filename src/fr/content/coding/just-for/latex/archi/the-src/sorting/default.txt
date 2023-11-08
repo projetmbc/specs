@@ -1,12 +1,12 @@
 this::
-    date = 2023-10-31
+    date = 2023-11-08
 
 
 =======================
 Le rangement par défaut
 =======================
 
-Considérons le projet suivant destiné à produire un \pack (l'usage des fichiers ext::''tex'' est abordé dans cf::''?/archi/the-docs.txt'').
+Considérons le \proj suivant destiné à produire un \pack (l'usage des fichiers ext::''tex'' est abordé dans cf::''?/archi/the-docs.txt'').
 
 dirtree::
     ---
@@ -16,14 +16,14 @@ dirtree::
 
 Dans ce cas, le code \src du \pack final sera fabriqué comme suit.
 
-    1) Les dossiers sont analysés en utilisant un orde naturel, soit l'ordre \lexico
+    1) Les dossiers sont analysés en utilisant un ordre "naturel"
     ((
-        L'odre naturel est celui utilisé pour affiché la structure du dossier.
+        L'ordre "naturel" est celui proposé par défaut par \natsort qui est un \pack \python.
     )).
 
-    1) Ensuite, dans chaque sous-dossier direct de path::''src'', les fichiers ext::''sty'' sont lus en utilisant de nouveau un orde naturel.
+    1) Ensuite, dans chaque sous-dossier direct de path::''src'', les fichiers ext::''sty'' sont lus en utilisant de nouveau un ordre "naturel".
     Dans notre exemple fictif, le dossier path::''alpha-et-omega3'' sera donc analysé dans l'ordre suivant.
 
         i) path::''alpha.sty''
 
-        ii) path::''omega3.sty''
+        i) path::''omega3.sty''
