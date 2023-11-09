@@ -1,5 +1,5 @@
 this::
-    date = 2023-11-09    ?????
+    date = 2023-11-09
 
 
 ================
@@ -50,7 +50,14 @@ Voici les pièges tendus par la procédure d'automatisation (en cas de souci, \t
     ((
         Se souvenir que \tex utilise une \struct virtuelle plate.
     )).
-    Même pour du code \latex, il est conseillé d'utiliser une extension autre que ext::''sty'' pour ne pas créer de conflit avec des \packs existants.
+    Même pour du code \latex, il faut utiliser l'extension ext:''cfg''
+    ((
+        C'est imposé par \texfacto.
+    )),
+    ainsi que le préfixe path::''fictproj-''
+    ((
+        Ceci sert à éviter des conflits de noms du point de vue "platiste" de \tex. \texfacto vous laisse libre de suivre, ou non, cette \2nde règle. De grâce, soyez responsable !
+    )).
 
     1) L'import des fichiers de \cfg est un peu particulier. Par exemple, dans le fichier path::''alpha.sty'', on pourrait avoir besoin de ''\input{../alpha-et-omega3/speval.cfg}''.
     Ceci permet de produire localement sans danger

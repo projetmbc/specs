@@ -15,14 +15,8 @@
         + alpha-et-omega3
             * alpha.tex
             * alpha.sty
-
             * fictproj-alpha-et-omega3-speval.cfg
             * fictproj-alpha-et-omega3-stdval.cfg
-
-            + fictproj-cfg
-                + alpha-et-omega3-speval.cfg
-                * alpha-et-omega3-stdval.cfg
-
             + images
                 + alpha-et-omega3
                     * picture.png

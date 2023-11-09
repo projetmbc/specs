@@ -1,0 +1,24 @@
+exemplethis::
+    date = 2023-11-09
+
+
+==================================
+Application à notre exemple fictif
+==================================
+
+Le code \src avec les bonnes pratiques devient le suivant.
+
+
+dirtree::
+    ---
+    path = ?/example/resource/dirtree-init-good-practice.txt
+    ---
+
+
+\texfacto fabriquera alors ce qui suit où toute ambiguïté est levée côté ressources utilisées.
+
+
+dirtree::
+    ---
+    path = ?/example/resource/dirtree-final-good-practice.txt
+    ---

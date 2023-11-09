@@ -1,84 +1,22 @@
 this::
-    date = 2023-11-09    ?????
+    date = 2023-11-09
+
+
+abrev::
+    content = :this.name:
 
 
 ================
 Bonnes pratiques
 ================
 
-Lorsqu'un \proj devient conséquent, éviter les doublons de noms peut devebnir caucvhemardesque. C'est pour cela qu'il est proposé de suivre les bonnes pratiques suivantes.
-
-
-
-
-
-
-Pour certains \projs, il est nécessaire de faire appel à des fichiers ressources : fichiers de \conf pour localiser du texte, images, graphiques \tikz... \etc.
-Ceci se fait très naturellement lors du codage à condition de savoir comment seront recollés les différents morceaux dans le \proj final afin d'éviter certaines déconvenues.
-
-
-Considérons l'exemple fictif suivant où les dossiers path::''images'' et path::''graphics'' sont utilisés par les fichiers ext::''tex'' destinés à fabriquer la \doc "humaine"
+Lorsqu'un \proj devient conséquent, éviter les doublons de noms devient vite cauchemardesque
 ((
-    On aborde ce sujet dans cf::''?/archi/the-docs.txt''.
-)),
-tandis que les fichiers de \cfg path::''fictproj-speval.cfg'' et path::''fictproj-stdval.cfg''
-((
-    Contrairement à ce que laisse penser leur extension, ces fichiers peuvent contenir du code \latex. On en reparle juste après.
-))
-ne sont utiles qu'au code \src du \pack.
-
-dirtree::
-    ---
-    path = ?/example/resource/dirtree-init.txt
-    ---
-
-
-Après analyse de \texfacto, deux dossiers path::''fict-proj/fictproj''
-((
-    Noter la normalisation du nom verb::''fict-proj'' en verb::''fictproj'', ce dernier étant accepté par \latex.
-)),
-et path::''fict-proj/.tmpdoc'' seront créés, ou mis à jour ; nous aurons alors un contenu partiel du type suivant
-((
-    Le contenu et l'utilité du dossier path::''.tmpdoc'' sont donnés dans cf::''?/archi/the-docs.txt''.
+    \texfacto ne fera que râler en cas de doublons repérés sans proposer de procédure de réparation. Que c'est méchant...
 )).
-
-dirtree::
-    ---
-    path = ?/example/resource/dirtree-final-no-doc.txt
-    ---
+C'est pour cela qu'il est proposé de suivre scrupuleusement les bonnes pratiques suivantes.
 
 
-Voici les pièges tendus par la procédure d'automatisation (en cas de souci, \texfacto lèvera un message d'erreur).
-
-    1) \Ttes les ressources sont à placer au même niveau que les fichiers ext::''sty'' \etou ext::''cls'' du code \src
-    ((
-        Se souvenir que \tex utilise une \struct virtuelle plate.
-    )).
-    Même pour du code \latex, il est conseillé d'utiliser une extension autre que ext::''sty'' pour ne pas créer de conflit avec des \packs existants.
-    Il est aussi vivement conseiller d'utiliser le nom du \pack comme préfixe, c'est pour cela que nous avons utilisé path::''fictproj-speval.cfg'' et path::''fictproj-stdval.cfg'' au lieu de path::''speval.cfg'' et path::''stdval.cfg''.
-
-    1) L'import des fichiers de \cfg est un peu particulier. Par exemple, dans le fichier path::''alpha.sty'', on pourrait avoir besoin de ''\input{../alpha-et-omega3/fictproj-speval.cfg}''.
-    Ceci permet de produire localement sans danger
-    ((
-        Nous sommes tous des codeurs résponsables... Enfin, je l'espère.
-    ))
-    des bouts de code important de façon relative d'autres bouts de code.
-    Dans le code final, une importation comme ''\input{../alpha-et-omega3/fictproj-speval.cfg}'' sera transformée en ''\input{fictproj-speval.cfg}''
-    ((
-        Comme \tex utilise une \struct virtuelle plane, l'emploi de ''..'' dans un ''\input'' ouvre une brèche de \secu.
-        En effet, le ''..'' est relatif au processus \tex sur la machine de l'utilisateur final. Aïe !
-    )).
-
-    1) Enfin, la \struct des ressources pour le fichier final path::''fictproj.sty'', ainsi que celles du dossier permettant de construire la \doc "humaine" imitent \ttes les deux celle du dossier du code \src. Ceci implique d'éviter d'utiliser deux fois le même nom de fichier pour le même contexte d'utilisation.
-    Voici deux bonnes pratiques.
-
-        * Pour les fichiers de \cfg utilisés par du code ext::''sty'' ou ext::''cls'', il faut utiliser un préfixe faisant \ref au bout de code implémenté. Par exemple, il serait plus prudent d'utiliser path::''fictproj-alpha-et-omega3-speval.cfg'' au lieu de path::''fictproj-speval.cfg''.
-
-        * ????
-        Pour les ressources utiles à la \doc "humaine", il est autorisé d'organiser son code via une \struct arborescente. Dans ce cas, il est donc conseillé de passer via des dossiers faisant \ref au type de code, puis au bout de code implémenté.
-
-caution::
-    Bien importer les ressources via des chemins relatifs
-    ((
-        Mais normalement nous le faisons tous... Non ?
-    )).
+content::
+    \content/for-user-doc.txt
+    \content/for-cfg.txt
