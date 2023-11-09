@@ -2,6 +2,21 @@
 
 
 ==
+08  (1.2.0-beta)
+==
+
+--------
+:update:
+--------
+
+[[:doc:]]
+\latex - \Archi: clear explanations added about the use of "inputing" \cfg like code as in ''\input{../subfolder/sometools.cfg}'' during the coding process.
+
+
+// ---------- //
+
+
+==
 08  (1.1.0-beta)
 ==
 
@@ -10,4 +25,4 @@
 --------
 
 [[:doc:]]
-\latex - \Archi: the flat \dir tree spirit of \ctan is followed now.
+\latex - \Archi: the flat \dir tree spirit of \tex is followed now (we have no choice).

@@ -4,8 +4,8 @@
     + fictproj
         * fictproj-doc-FR.pdf
         * fictproj.sty
-        * fictproj-speval.cfg
-        * fictproj-stdval.cfg
+        * speval.cfg
+        * stdval.cfg
     + .tmpdoc
         + fr
             * fictproj-doc.pdf

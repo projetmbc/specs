@@ -1,5 +1,5 @@
 this::
-    date = 2023-11-08
+    date = 2023-11-09
 
 
 abrev::
@@ -18,7 +18,7 @@ sont à placer obligatoirement dans des sous-dossiers directs de path::''src'', 
 
 
 caution::
-    On travaille dans des sous-dossiers directs de path::''src'' sans passer via des "sous-sous-dossiers" car \ctan travaille avec une \struct virtuelle plate, c'est donc une contrainte \tech forte qui nous est imposée.
+    On travaille dans des sous-dossiers directs de path::''src'' sans passer via des "sous-sous-dossiers" car \tex travaille avec une \struct virtuelle plate, c'est donc une contrainte \tech forte qui nous est imposée.
 
 
 warning::

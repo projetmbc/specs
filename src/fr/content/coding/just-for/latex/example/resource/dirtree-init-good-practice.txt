@@ -1,0 +1,32 @@
++ fict-proj
+    * about.yaml
+    * README.md
+    + src
+        + intro
+            * intro.tex
+            + images
+                + intro
+                    * picture-1.png
+                    * picture-2.png
+            + graphics
+                + intro
+                    * curve-a.tkz
+                    * curve-b.tkz
+        + alpha-et-omega3
+            * alpha.tex
+            * alpha.sty
+
+            * fictproj-alpha-et-omega3-speval.cfg
+            * fictproj-alpha-et-omega3-stdval.cfg
+
+            + fictproj-cfg
+                + alpha-et-omega3-speval.cfg
+                * alpha-et-omega3-stdval.cfg
+
+            + images
+                + alpha-et-omega3
+                    * picture.png
+            + graphics
+                + alpha-et-omega3
+                    * geometry.tkz
+    + [...]
