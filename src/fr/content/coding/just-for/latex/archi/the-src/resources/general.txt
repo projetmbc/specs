@@ -2,6 +2,10 @@ this::
     date = 2023-11-12
 
 
+abrev::
+    content = :this.name:
+
+
 ================
 Principe général
 ================
@@ -10,77 +14,8 @@ Pour certains \projs, il est nécessaire de faire appel à des fichiers ressourc
 Ceci se fait très naturellement lors du codage à condition de savoir comment seront utilisés les différents morceaux pour produire le \proj final, et ceci afin d'éviter certaines déconvenues.
 
 
-Considérons l'exemple fictif suivant où les dossiers path::''images'' et path::''graphics'' sont utilisés par les fichiers ext::''tex'' destinés à fabriquer la \doc "humaine"
-((
-    On aborde ce sujet dans cf::''?/archi/the-docs.txt''.
-)),
-tandis que les fichiers de \cfg path::''fictproj-speval.cfg.sty'' et path::''fictproj-stdval.cfg.sty'' ne sont utiles qu'au code \src du \pack.
-
-
-dirtree::
-    ---
-    path = ?/example/resource/dirtree-init.txt
-    ---
-
-
-Après analyse de \texfacto, dans un \1er temps, un dossier temporaire "caché" path::''fict-proj/.fictproj''
-((
-    Noter la normalisation du nom verb::''fict-proj'' en verb::''fictproj'', ce dernier étant accepté par \latex.
-))
-est créé avec le contenu temporaire suivant pour un \proj avec une \doc "humaine" tapée en français qui compile sans \pb.
-
-
-dirtree::
-    ---
-    path = ?/example/resource/dirtree-intermediate.txt
-    ---
-
-
-Voici les pièges tendus par cette étape intermédiaire "cachée" de la procédure d'automatisation.
-
-    1) \Ttes les ressources sont à placer au même niveau que les fichiers ext::''sty'' \etou ext::''cls'' du code \src
-    ((
-        Se souvenir que \tex utilise une \struct virtuelle plate.
-    )).
-    Pour les fichiers de \cfg d'\ext ext::''sty'' ou ext::''tex'', il faut utiliser la pré-extension ext:''cfg''
-    ((
-        Ceci indique à \texfacto de garder le fichier tel qu'il est.
-    )).
-    Pour tous les fichiers de \config, on emploiera le préfixe path::''fictproj-''
-    ((
-        Ceci sert à éviter des conflits de noms du point de vue "platiste" de \tex. \texfacto vous laisse libre de suivre, ou non, cette \2nde règle. De grâce, soyez responsable !
-    )).
-
-    1) L'import des fichiers de \cfg est un peu particulier. Par exemple, dans le fichier path::''alpha.sty'', on pourrait avoir besoin de ''\input{../alpha-et-omega3/fictproj-speval.cfg.sty}''.
-    Ceci permet de produire localement et sans danger
-    ((
-        Nous sommes tous des codeurs résponsables... Enfin, je l'espère.
-    ))
-    des bouts de code important de façon relative d'autres bouts de code.
-    Dans le code final, une importation comme ''\input{../alpha-et-omega3/fictproj-speval.cfg.sty}'' sera transformée en ''\input{fictproj-speval.cfg.sty}''
-    ((
-        Comme \tex utilise une \struct virtuelle plane, l'emploi de ''..'' dans un ''\input'' ouvre une brèche de \secu.
-        En effet, le ''..'' est relatif au processus lançant \tex sur la machine de l'utilisateur final. Aïe !
-    )).
-
-    1) Enfin, la \struct des ressources pour le fichier final path::''fictproj.sty'', ainsi que celles du dossier permettant de construire la \doc "humaine" imitent \ttes les deux celle du dossier du code \src. Ceci implique de ne jamais utiliser deux fois le même nom de fichier pour le même contexte d'utilisation.
-
-
-caution::
-    Bien importer les ressources via des chemins relatifs
-    ((
-        Mais normalement nous le faisons tous... Non ?
-    )).
-
-
-\textfacto finira le travail en supprimant le dossier "caché" intermédiaire, puis en produisant un unique dossier path::''fictproj'' comme ci-dessous.
-
-
-dirtree::
-    ---
-    path = ?/example/resource/dirtree-final.txt
-    ---
-
-
-note::
-    Si la \doc n'est pas compilable, \textfacto stoppera le processus d'automatisation en indiquant le \pb rencontré, et en laissant le dossier "caché" \inter afin de laisser la possibilité au codeur de mener l'enquête tranquillement.
+content::
+    \content/example.txt
+    \content/the-place-to-be.txt
+    \content/import.txt
+    \content/final-result.txt
