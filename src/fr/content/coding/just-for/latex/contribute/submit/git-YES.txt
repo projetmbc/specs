@@ -1,0 +1,15 @@
+this::
+    date = 2023-10-31
+
+
+==========================
+Via le dépôt \git en ligne
+==========================
+
+Dans ce cas, les étapes à suivre sont les suivantes.
+
+    1) Clonage du projet.
+
+    1) Ajout de la \trad dans le dossier path::''contribute/doc/manual'' en renseignant intelligemment les \chgts dans le dossier dédié path::''changes''.
+
+    1) Utilisation d'un git::''git merge requests''.

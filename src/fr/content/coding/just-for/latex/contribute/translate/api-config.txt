@@ -1,5 +1,5 @@
 sthis::
-    date = 2023-10-31
+    date = 2023-11-12
 
 
 =====================================
@@ -26,7 +26,7 @@ dirtree::
     ---
 
 
-Il ne reste plus qu'à un traducteur allemand, par exemple, à créer un dossier path::''german'' avec le même contenu que celui du dossier path::''french''
+Il ne reste plus qu'à un traducteur allemand, par exemple, à créer un dossier path::''german'' avec le même contenu que celui du dossier path::''french'' ou path::''english''
 ((
     Pour les \apis \latex, il a été retenu de reprendre les noms de langue utilisables avec le \pack ''babel'', et non de suivre la \isolang.
 )).

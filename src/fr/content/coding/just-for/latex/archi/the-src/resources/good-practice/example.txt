@@ -1,4 +1,4 @@
-exemplethis::
+this::
     date = 2023-11-09
 
 
@@ -11,7 +11,7 @@ Le code \src avec les bonnes pratiques devient le suivant.
 
 dirtree::
     ---
-    path = ?/example/resource/dirtree-init-good-practice.txt
+    path = ?/example/resource/dirtree-good-practice-init.txt
     ---
 
 
@@ -20,5 +20,5 @@ dirtree::
 
 dirtree::
     ---
-    path = ?/example/resource/dirtree-final-good-practice.txt
+    path = ?/example/resource/dirtree-good-practice-final.txt
     ---

@@ -7,5 +7,9 @@
                     + main
                         * macros.txt
                         * sentences.txt
+                + english
+                    + main
+                        * macros.txt
+                        * sentences.txt
         + [...]
     + [...]

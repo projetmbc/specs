@@ -1,6 +1,12 @@
 + main
+    * bdoc-locale-english.cfg
+    * bdoc-locale-french.cfg
+    * ...
     + locale
-        * french.sty
+        * ...
+        + english
+            * macros.txt
+            * sentences.txt
         + french
             * macros.txt
             * sentences.txt

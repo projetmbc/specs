@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-31
+    date = 2023-11-12
 
 
 ==============================
@@ -25,4 +25,4 @@ latex::
 
 
 caution::
-    Comme nous l'avons vu dans la section précédente, les titres pour les tâches automatisées sont fixés suivant les cas d'utilisation, donc ils ne peuvent pas être modifiés.
+    Comme nous l'avons vu dans la section précédente, les titres pour les tâches automatisées sont fixés suivant les cas d'utilisation, donc ils ne peuvent pas être créés par le codeur.

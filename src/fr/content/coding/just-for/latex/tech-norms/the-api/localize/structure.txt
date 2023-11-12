@@ -1,12 +1,12 @@
 this::
-    date = 2023-10-31
+    date = 2023-11-12
 
 
 ====================
 Organiser les \trads
 ====================
 
-Considérons comme exemple le cas du package \bdoc. Le \bdocdate, son code \src contenait un dossier de \dev path::''main'' où l'on trouvait les fichiers et dossiers suivants permettant d'avoir des macros gérant le français.
+Considérons comme exemple le cas du package \bdoc. Le \bdocdate, son code \src contenait un dossier de \dev path::''main'' où l'on trouvait les fichiers et dossiers suivants permettant d'avoir des macros gérant le français et l'anglais.
 
 dirtree::
     ---
@@ -18,14 +18,14 @@ Voici l'affreux code utilisé en interne pour le français.
 
 latex::
     ---
-    path = ?/example/translate/api-config/bdoc/french.sty
-    title = Contenu du fichier path::''french.sty'' le \bdocdate
+    path = ?/example/translate/api-config/bdoc/bdoc-locale-french.cfg
+    title = Contenu de path::''bdoc-locale-french.cfg'' le \bdocdate
     ---
 
 
 \Ttes les macros dans l'horreur précédente ont été produites \auto^t
 ((
-    Noter les préfixes utilisés dans le fichier path::''french.sty'' afin d'éviter des conflits de noms avec d'autres packages (quitte à répéter du code dans différents endroits mais ceci est un moindre mal).
+    Noter les préfixes utilisés dans le fichier path::''bdoc-locale-french.cfg'' afin d'éviter des conflits de noms avec d'autres packages (quitte à répéter du code dans différents endroits mais ceci est un moindre mal).
 ))
 à partir des deux fichiers suivants très simples à modifier par un non codeur : voir cf::''?/translate/api-config.txt'' à ce sujet.
 

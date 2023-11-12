@@ -10,7 +10,7 @@ NOW
 
     [??] cas des agrégateurs !!
 
-    [??] magic comment pour class : est-ce ok ce qui existe déjà
+    [??] magic comment pour class : est-ce ok ce qui existe déjà ?
 
     [??] builder: tjrs mettre en commentaire que travail fait par tel builder (utile en cas de souci !)
 
@@ -20,6 +20,16 @@ NOW
 -----
 LATER
 -----
+
+> ---------------------------- <
+
+LATEX - ALL : on déménagé les explications vers la doc de texfacto, et ici on se limite à faire ce renvoi
+
+
+> ---------------------------- <
+
+PYTHON - ALL : on déménagé les explications vers la doc de src2prod via une partie de type "cas d'utilisation" car src2prod est géénraliste
+
 
 > ---------------------------- <
 

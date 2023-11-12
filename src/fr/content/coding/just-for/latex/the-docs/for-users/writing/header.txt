@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-31
+    date = 2023-11-12
 
 
 ===============================================
@@ -17,14 +17,14 @@ latex::
     \usepackage[lang = french]{bcdoc}
 
 
-Si cela ne convient pas, le plus propre est d'ajouter un fichier path::''doc-header.tex'' dans le dossier du code \src comme suit.
+Si cela ne convient pas, le plus propre est d'ajouter un fichier path::''doc-header.cfg'' dans le dossier du code \src comme suit.
 
 dirtree::
     + fict-proj
         * about.yaml
         + src
             * about.yaml
-            * doc-header.tex
+            * doc-header.cfg
             + [...]
         + [...]
 
@@ -41,11 +41,11 @@ yaml::
     ---
     texfacto:
       doc:
-        header: doc-header.tex
+        header: doc-header.cfg
 
 
 warning::
-    Le contenu de path::''doc-header.tex'' étant ce qui se trouvera avant le ''\begin{document}''
+    Le contenu de path::''doc-header.cfg'' étant ce qui se trouvera avant le ''\begin{document}''
     ((
         Modulo quelques outils supplémentaires juste pour la \doc : voir cf::''extra-tools.txt'' à ce sujet.
     )),
@@ -53,4 +53,4 @@ warning::
 
 
 tip::
-    Lors du \dev, on peut utiliser ''\input{../doc-header.tex}'' au tout début des fichiers employés pour rédiger la \doc morceau par morceau.
+    Lors du \dev, il suffit d'utiliser ''\input{../doc-header.cfg}'' au tout début des fichiers employés pour rédiger la \doc morceau par morceau.

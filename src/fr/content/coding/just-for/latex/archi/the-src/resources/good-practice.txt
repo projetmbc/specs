@@ -20,3 +20,4 @@ C'est pour cela qu'il est proposé de suivre scrupuleusement les bonnes pratique
 content::
     \content/for-user-doc.txt
     \content/for-cfg.txt
+    \content/example.txt

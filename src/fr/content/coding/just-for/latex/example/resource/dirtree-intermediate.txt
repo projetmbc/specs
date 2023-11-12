@@ -1,0 +1,22 @@
++ fict-proj
+    * ...
+    + .fictproj
+        * fictproj.sty
+        * fictproj-speval.cfg
+        * fictproj-stdval.cfg
+    + .tmpdoc
+        + fr
+            * fictproj-doc.pdf
+            * fictproj-doc.tex
+            + images
+                * picture.png
+                * picture-1.png
+                * picture-2.png
+            + graphics
+                * curve-a.tkz
+                * curve-b.tkz
+                * geometry.tkz
+    + src  [...]
+
+
+    + [...]

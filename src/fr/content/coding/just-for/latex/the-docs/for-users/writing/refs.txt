@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-31
+    date = 2023-11-12
 
 
 ==============
@@ -12,4 +12,4 @@ Le nommage des \refs internes suit le schéma ci-dessous afin d'éviter tout con
 
     1) Si la \ref est relative à une macro spéciale comme ''\eval'', ou un \env spécifique tel que ''\begin{bdoclatex} ... \end{bdoclatex}`, alors un \2e préfixe est utilisé comme dans ''fict-proj-macro-eval-...'' et ''fict-proj-env-bdoclatex-...'' par exemple.
 
-    1) Pour finir, un \id laissé au libre choix du codeur est ajouté.
+    1) Pour finir, un \id laissé au libre choix du codeur est ajouté. À ce stade, les éventuels conflits ne seront plus que très locaux, et donc faciles à résoudre.

@@ -1,13 +1,13 @@
 this::
-    date = 2023-10-31
+    date = 2023-11-12
 
 
 ===================================================
 De la \tech pour l'utilisateur ou pour le hackeur ?
 ===================================================
 
-\tnsdoc propose un mécanisme simple pour produire une \doc \tech réduite proposant l'essentiel. Ceci se fait en utilisant tnsdoc::''prototype*::'', avec un astérisque final au lieu de tnsdoc::''prototype::'', on indique ainsi de ne pas faire apparaître l'\env ou la \macro dans la \doc \tech allégée.
-Voici un exemple fictif.
+\tnsdoc propose un mécanisme simple pour produire une \doc \tech réduite proposant l'essentiel. Ceci se fait en utilisant tnsdoc::''prototype*::'', avec un astérisque final au lieu de tnsdoc::''prototype::'' afin d'indiquer de ne pas faire apparaître le \proto dans la \doc \tech allégée.
+Voici un exemple fictif où seule la \macro sera dans la \doc \tech allégée.
 
 latex::
     %%%

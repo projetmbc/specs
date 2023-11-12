@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-31
+    date = 2023-11-12
 
 
 =====================
@@ -35,9 +35,8 @@ Voici le contenu de l'un des fichiers rédigés en s'appuyant sur le \proj \bdoc
 
 latex::
     ---
-    title   = Fichier path::''2021/09/09.tex''
-    path    = ?/example/changelog/bdoc/2021-09-09.tex
-    extract = 4 .. 6
+    title = Fichier path::''2021/09/09.tex''
+    path  = ?/example/changelog/bdoc/2021-09-09.tex
     ---
 
 
