@@ -25,7 +25,7 @@ Avant de produire le dossier final path::''fict-proj/fictproj''
 ((
     verb::''fict-proj'' est normalisé en verb::''fictproj'', ce dernier nom étant accepté par \latex.
 )),
-\texfacto fabrique deux dossiers \inters "cachés" path::''fict-proj/.fictproj'' et path::''fict-proj/.tmpdoc'' comme suit.
+\texfacto fabrique le dossier \inter "caché" path::''fict-proj/.fictproj'' comme suit.
 
 dirtree::
     ---
@@ -33,13 +33,13 @@ dirtree::
     ---
 
 
-Ce qui nous intéresse ici c'est juste le dossier path::''.tmpdoc''. Voici ce qu'il faut savoir à son sujet.
+Voici ce qu'il faut savoir à propos de cette étape \inter "cachée".
 
-    1) L'utilité de path::''.tmpdoc'' est de proposer une \doc au format \ext::''tex'' dans chaque langue supportée. Ceci permet, en cas de souci, de compiler à la main l'\ens de la \doc pour faire un correctif, ou bien débusquer un bug de \texfacto
+    1) L'utilité de path::''.fictproj'' est de proposer une \doc au format \ext::''tex'' dans chaque langue supportée. Ceci permet, en cas de souci, de compiler à la main l'\ens d'une \doc pour faire un correctif, ou bien débusquer un bug de \texfacto
     ((
         Rappelons que si la \doc n'est pas compilable, \textfacto stoppera le processus d'automatisation en indiquant le \pb rencontré sans détruire les deux dossiers "cachés".
     )).
 
     1) Concernant la structure des ressources pour la \doc "humaine", se reporter à cf::''?/the-src/resources.txt''.
 
-    1) Si tout fonctionne, le dossier path::''.tmpdoc'' sera détruit par \textfacto.
+    1) Si tout fonctionne, le dossier path::''.fictproj'' sera détruit par \textfacto.

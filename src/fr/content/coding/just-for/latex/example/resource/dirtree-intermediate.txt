@@ -4,10 +4,9 @@
         * fictproj.sty
         * fictproj-speval.cfg
         * fictproj-stdval.cfg
-    + .tmpdoc
+        * fictproj-doc-FR.pdf
+        * fictproj-doc-FR.tex
         + fr
-            * fictproj-doc.pdf
-            * fictproj-doc.tex
             + images
                 * picture.png
                 * picture-1.png
