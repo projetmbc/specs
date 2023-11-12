@@ -16,7 +16,4 @@
                 * curve-a.tkz
                 * curve-b.tkz
                 * geometry.tkz
-    + src  [...]
-
-
     + [...]
