@@ -3,6 +3,6 @@
     + fictproj
         * fictproj-doc-FR.pdf
         * fictproj.sty
-        * fictproj-speval.cfg
-        * fictproj-stdval.cfg
+        * fictproj-speval.cfg.sty
+        * fictproj-stdval.cfg.sty
     + [...]

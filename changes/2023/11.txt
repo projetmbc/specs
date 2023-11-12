@@ -2,6 +2,21 @@
 
 
 ==
+12  (1.5.0-beta)
+==
+
+-----
+:fix:
+-----
+
+[[:doc:]]
+\latex - \Archi: ext::''sty'' and ext::''tex'' \config files can be used with an extra prefix \ext like in path::''somemacros.cfg.tex''.
+
+
+// ---------- //
+
+
+==
 12  (1.4.0-beta)
 ==
 

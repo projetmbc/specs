@@ -14,11 +14,7 @@ Considérons l'exemple fictif suivant où les dossiers path::''images'' et path:
 ((
     On aborde ce sujet dans cf::''?/archi/the-docs.txt''.
 )),
-tandis que les fichiers de \cfg path::''fictproj-speval.cfg'' et path::''fictproj-stdval.cfg''
-((
-    Contrairement à ce que laisse penser leur extension, ces fichiers peuvent contenir du code \latex. On en reparle juste après.
-))
-ne sont utiles qu'au code \src du \pack.
+tandis que les fichiers de \cfg path::''fictproj-speval.cfg.sty'' et path::''fictproj-stdval.cfg.sty'' ne sont utiles qu'au code \src du \pack.
 
 
 dirtree::
@@ -46,22 +42,22 @@ Voici les pièges tendus par cette étape intermédiaire "cachée" de la procéd
     ((
         Se souvenir que \tex utilise une \struct virtuelle plate.
     )).
-    Même pour du code \latex, il faut utiliser l'extension ext:''cfg''
+    Pour les fichiers de \cfg d'\ext ext::''sty'' ou ext::''tex'', il faut utiliser la pré-extension ext:''cfg''
     ((
-        C'est imposé par \texfacto.
-    )),
-    ainsi que le préfixe path::''fictproj-''
+        Ceci indique à \texfacto de garder le fichier tel qu'il est.
+    )).
+    Pour tous les fichiers de \config, on emploiera le préfixe path::''fictproj-''
     ((
         Ceci sert à éviter des conflits de noms du point de vue "platiste" de \tex. \texfacto vous laisse libre de suivre, ou non, cette \2nde règle. De grâce, soyez responsable !
     )).
 
-    1) L'import des fichiers de \cfg est un peu particulier. Par exemple, dans le fichier path::''alpha.sty'', on pourrait avoir besoin de ''\input{../alpha-et-omega3/fictproj-speval.cfg}''.
+    1) L'import des fichiers de \cfg est un peu particulier. Par exemple, dans le fichier path::''alpha.sty'', on pourrait avoir besoin de ''\input{../alpha-et-omega3/fictproj-speval.cfg.sty}''.
     Ceci permet de produire localement et sans danger
     ((
         Nous sommes tous des codeurs résponsables... Enfin, je l'espère.
     ))
     des bouts de code important de façon relative d'autres bouts de code.
-    Dans le code final, une importation comme ''\input{../alpha-et-omega3/fictproj-speval.cfg}'' sera transformée en ''\input{fictproj-speval.cfg}''
+    Dans le code final, une importation comme ''\input{../alpha-et-omega3/fictproj-speval.cfg.sty}'' sera transformée en ''\input{fictproj-speval.cfg.sty}''
     ((
         Comme \tex utilise une \struct virtuelle plane, l'emploi de ''..'' dans un ''\input'' ouvre une brèche de \secu.
         En effet, le ''..'' est relatif au processus lançant \tex sur la machine de l'utilisateur final. Aïe !

@@ -3,6 +3,6 @@
     + fictproj
         * fictproj-doc-FR.pdf
         * fictproj.sty
-        * fictproj-alpha-et-omega3-speval.cfg
-        * fictproj-alpha-et-omega3-stdval.cfg
+        * fictproj-alpha-et-omega3-speval.cfg.sty
+        * fictproj-alpha-et-omega3-stdval.cfg.sty
     + [...]

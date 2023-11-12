@@ -1,6 +1,6 @@
 + main
-    * bdoc-locale-english.cfg
-    * bdoc-locale-french.cfg
+    * bdoc-locale-english.cfg.sty
+    * bdoc-locale-french.cfg.sty
     * ...
     + locale
         * ...

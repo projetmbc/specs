@@ -13,8 +13,8 @@
         + alpha-et-omega3
             * alpha.tex
             * alpha.sty
-            * fictproj-speval.cfg
-            * fictproj-stdval.cfg
+            * fictproj-speval.cfg.sty
+            * fictproj-stdval.cfg.sty
             + images
                 * picture.png
             + graphics

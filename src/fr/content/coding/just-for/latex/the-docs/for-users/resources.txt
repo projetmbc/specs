@@ -10,7 +10,7 @@ Considérons l'exemple fictif suivant où les dossiers path::''images'' et path:
 ((
     Rappelons que cette \info est donnée dans le fichier path::''about.yaml'' à la racine du \proj : voir cf::''about-main.txt''.
 )),
-tandis que les fichiers de \config path::''fictproj-speval.cfg'' et path::''fictproj-stdval.cfg'' ne sont utiles qu'au code \src du \pack
+tandis que les fichiers de \config path::''fictproj-speval.cfg.sty'' et path::''fictproj-stdval.cfg.sty'' ne sont utiles qu'au code \src du \pack
 ((
     Ce sujet a déjà été abordé dans cf::''?/the-src/resources.txt''.
 )).
