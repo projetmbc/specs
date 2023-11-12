@@ -10,7 +10,7 @@
 -----
 
 [[:doc:]]
-\latex - \Archi: clarification of where to place the resource files.
+\latex - \Archi: clarification about the location of resource files.
 
 
 // ---------- //
