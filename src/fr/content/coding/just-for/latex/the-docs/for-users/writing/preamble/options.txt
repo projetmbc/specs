@@ -1,0 +1,29 @@
+this::
+    date = 2023-11-16
+
+
+=================================
+Options du \pack \etou de la \cls
+=================================
+
+Pour indiquer des options spécifiques au \pack \etou à la \cls dévéloppé, il suffit de passe
+
+yaml::
+    ---
+    extract = yes
+    title   = Le fichier path::''src/about.yaml''
+    ---
+    texfacto:
+      doc:
+        options:
+            pack: french
+            class: color, asy
+
+latex::
+    % Préambule pour la doc. comme vu avant.
+
+% Documented package.
+\usepackage{fictproj}
+
+note::
+    Il est bien entendu possible d'utiliser conjointement les clés yaml::''preamble'' et yaml::''options'' du bloc yaml::''doc''.

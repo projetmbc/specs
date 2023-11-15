@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-31
+    date = 2023-11-???
 
 
 abrev::
@@ -10,13 +10,13 @@ abrev::
 Rédiger la \doc "utilisateur"
 =============================
 
-note::
-    La \doc "utilisateur" s'appuie sur le \proj \bdoc.
+note::    ????
+    La \doc "utilisateur" s'appuie sur le \proj \bdoc auquel il faudra se reporter pour des détails \techs.
 
 
 content::
     \content/style.txt
-    \content/use-case.txt
+    \content/use-case.txt         ?????
     \content/refs.txt
-    \content/header.txt
     \content/extra-tools.txt
+    \content/preamble.txt         ??

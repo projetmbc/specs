@@ -8,12 +8,11 @@ NOW
 
 > ---------------------------- <
 
-    [??] cas des agrégateurs !!
+    [??] LATEX - cas des agrégateurs !!
 
-    [??] magic comment pour class : est-ce ok ce qui existe déjà ?
+    [??] LATEX - magic comment pour class : est-ce ok ce qui existe déjà ?
 
-    [??] builder: tjrs mettre en commentaire que travail fait par tel builder (utile en cas de souci !)
-
+    [??] CODE - builder: tjrs mettre en commentaire que travail fait par tel builder (utile en cas de souci !)
 
 
 
@@ -23,7 +22,7 @@ LATER
 
 > ---------------------------- <
 
-LATEX - ALL : on déménagé les explications vers la doc de texfacto, et ici on se limite à faire ce renvoi
+LATEX - ALL : on déménagé les explications vers la doc de texfacto, et ici on se limite à faire une desc très rapide et à faire un renvoi pour les curieux
 
 
 > ---------------------------- <

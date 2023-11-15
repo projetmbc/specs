@@ -11,7 +11,7 @@ L'outil retenu est \tnsdoc qui est développé par l'auteur de cette \spec. Voic
 latex::
     ---
     title = Un extrait du fichier path::''showcase.sty''
-    path  = ?/example/bdoc/showcase-extract.sty
+    path  = ?/example/tnsdoc/bdoc/showcase-extract.sty
     ---
 
 

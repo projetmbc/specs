@@ -79,8 +79,8 @@ tip::
         title   = Le fichier path::''src/about.yaml''
         ---
         ignore: |
-            test[!a-zA-Z]*
-            tests[!a-zA-Z]*
+          test[!a-zA-Z]*
+          tests[!a-zA-Z]*
 
-            tool[!a-zA-Z]*
-            tools[!a-zA-Z]*
+          tool[!a-zA-Z]*
+          tools[!a-zA-Z]*

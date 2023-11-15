@@ -1,0 +1,51 @@
+this::
+    date = 2023-11-16
+
+
+=====================
+Un préambule "maison"
+=====================
+
+Pour utiliser son propre préambule, il suffit de créer un fichier nommé par exemple path::''preamble.cfg.tex''
+((
+    Il est possible d'utiliser path::''preamble.tex'' sans la pré-extension ext::''cfg'', mais il est déconseillé de le faire par cohérence avec ce qu'il se passe lors du \dev du code \src, et de plus car le fichier n'est pas compilable.
+)),
+puis de choisir de le déposer dans le dossier du code \src comme suit.
+
+dirtree::
+    + fict-proj
+        * about.yaml
+        + src
+            * about.yaml
+            * preamble.cfg.tex
+            + [...]
+        + [...]
+
+
+Pour indiquer que path::''preamble.cfg.tex'' donne le préambule de la \doc "humaine", il faut passer via le bloc yaml::''texfacto'' du fichier path::''src/about.yaml'' comme suit
+((
+    La section suivante va expliquer la nécessité de la clé yaml::''main''.
+)).
+
+yaml::
+    ---
+    extract = yes
+    title   = Le fichier path::''src/about.yaml''
+    ---
+    texfacto:
+      doc:
+        preamble:
+            pack: preamble-pack.cfg.tex
+            class: preamble-class.cfg.tex
+
+
+warning::
+    Comme le contenu de path::''preamble.cfg.tex'' étant ce qui se trouvera avant le ''\begin{document}'', modulo quelques outils supplémentaires juste pour la \doc, il faut penser à utiliser un ''\documentclass''.
+
+
+tip::
+    Lors du \dev, ''\input{../preamble.cfg.tex}'' au tout début des fichiers employés permet de rédiger la \doc morceau par morceau avec l'préambule final.
+
+
+note::
+    Rien n'empêche de placer le fichier préambule hors du code \src, tant que le chemin indiqué permet de retrouver ce fichier préambule relativement au code \src.

@@ -2,6 +2,21 @@
 
 
 ==
+16  (1.6.0-beta)
+==
+
+--------
+:update:
+--------
+
+[[:api:]]   ?????   pb document class si lasse : calarifier ce qui est doc et ce qui est utilisé tjrs envisagé pack et cl pour les exemples car
+\latex - User \doc : a main and/or an extra header files can be used.
+
+
+// ---------- //
+
+
+==
 12  (1.5.1-beta)
 ==
 
@@ -10,7 +25,7 @@
 -----
 
 [[:doc:]]
-\latex - \Archi: clarification about the location of resource files.
+\latex - \Archi: clarification on the permitted locations for resource files.
 
 
 // ---------- //
