@@ -6,8 +6,7 @@ this::
 Résultat final
 ==============
 
-\textfacto finira le travail en supprimant le dossier "caché" intermédiaire, puis en produisant un unique dossier path::''fictproj'' comme suit.
-
+\texfacto finira le travail en supprimant le dossier "caché" intermédiaire, puis en produisant un unique dossier path::''fictproj'' comme suit.
 
 dirtree::
     ---
@@ -16,4 +15,4 @@ dirtree::
 
 
 note::
-    Si la \doc n'est pas compilable, \textfacto stoppera le processus d'automatisation en indiquant le \pb rencontré, et en laissant le dossier "caché" \inter afin de laisser la possibilité au codeur de mener l'enquête tranquillement.
+    Si la \doc n'est pas compilable, \texfacto stoppera le processus d'automatisation en indiquant le \pb rencontré, et en laissant le dossier "caché" \inter afin de laisser la possibilité au codeur de mener l'enquête tranquillement.

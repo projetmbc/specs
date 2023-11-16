@@ -26,7 +26,7 @@ warning::
     Ceci rend impossible le codage de fonctionnalités dans un sous-dossier nommé path::''changelog''.
 
 
-Le travail de \textfacto sera de produire un dossier contenant le minimum de fichiers avant distribution via \ctan. Dans le cas le plus basique, on obtiendra un dossier comme le suivant. Noter au passage le \chgt de nom du projet pour obtenir un nom acceptable pour un \pack \latex.
+Le travail de \texfacto sera de produire un dossier contenant le minimum de fichiers avant distribution via \ctan. Dans le cas le plus basique, on obtiendra un dossier comme le suivant. Noter au passage le \chgt de nom du projet pour obtenir un nom acceptable pour un \pack \latex.
 
 dirtree::
     ---

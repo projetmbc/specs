@@ -14,7 +14,6 @@ De plus, pour répertorier des choses à faire plus tard éventuellement, on uti
 )),
 ici le français, ou juste path::''TODO.txt'' si on rédige directement en anglais.
 
-
 dirtree::
     + changes
         * TODO-FR.txt
@@ -26,7 +25,6 @@ dirtree::
 
 
 Voici un contenu possible pour le fichier path::''2020/06.txt'' ; la syntaxe très intuitive utilisée est celle proposée par le projet \tnschges.
-
 
 tnschges::
     ==

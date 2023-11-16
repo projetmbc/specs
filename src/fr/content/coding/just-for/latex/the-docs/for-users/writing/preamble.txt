@@ -6,21 +6,7 @@ abrev::
 Préambule du fichier ext::''tex'' de la \doc
 ============================================
 
-on indique preamble et classe de la doc afin de permtettre l'emploi de la classe dev pour la doc elle memême
-
-
-preemble vide ok si la classe fait tout (penser à bdoc par exemple)
-
-class vide ok, dans ce cas on emploie par défaut on a, ce qui est minimal
-
-latex::
-    \documentclass[12pt, a4paper]{article}
-
-    \usepackage[utf8]{inputenc}
-    \usepackage[T1]{fontenc}
-
-
 content::
-    \content/default.txt            ????
-    \content/must-be-done.txt       ???
-    \content/options.txt            ??
+    \content/default.txt
+    \content/homemade.txt
+    \content/options.txt

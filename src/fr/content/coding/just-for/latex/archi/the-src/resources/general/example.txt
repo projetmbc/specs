@@ -12,7 +12,6 @@ Considérons l'exemple fictif suivant où les dossiers path::''images'' et path:
 )),
 tandis que les fichiers de \cfg path::''fictproj-speval.cfg.sty'' et path::''fictproj-stdval.cfg.sty'' ne sont utiles qu'au code \src du \pack.
 
-
 dirtree::
     ---
     path = ?/example/resource/dirtree-init.txt
@@ -24,7 +23,6 @@ Après analyse de \texfacto, dans un \1er temps, un dossier temporaire "caché" 
     Noter la normalisation du nom verb::''fict-proj'' en verb::''fictproj'', ce dernier étant accepté par \latex.
 ))
 est créé avec le contenu temporaire suivant pour un \proj avec une \doc "humaine" tapée en français qui compile sans \pb.
-
 
 dirtree::
     ---

@@ -18,7 +18,7 @@ Nous allons parler de ceci dans les sections à venir.
 
 
 note::
-    L'outil d'automatisation retenu pour concevoir les \projs \latex est \textfacto.
+    L'outil d'automatisation retenu pour concevoir les \projs \latex est \texfacto.
 
 
 content::

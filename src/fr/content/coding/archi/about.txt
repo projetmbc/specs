@@ -12,12 +12,11 @@ Les outils d'automatisation s'appuie sur le projet \src2prod qui permet d'utilis
 )),
 quelques explications étant données juste après.
 
-
 yaml::
     project:
       acronym: [Fict]ive [proj]ect
       desc   : Just one fictive project used as an example.
-      author : John , Marcus Jr , Doe [john.doe@myrovider.org]
+      author : John , Marcus Jr , Doe [john.doe@myprovider.org]
       licence: gnu 3
 
       require:

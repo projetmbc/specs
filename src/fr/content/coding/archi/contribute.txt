@@ -16,7 +16,6 @@ Pour certaines parties d'un \proj, des contributions ne demandant aucune connais
 )).
 Nous allons considérer un \proj proposant de contribuer à l'\api et aux \docs "utilisateur" et \techs d'un prog. Dans un tel cas, le dossier path::''contribute'' sera organisé comme suit.
 
-
 dirtree::
     + contribute
         + api
@@ -32,6 +31,7 @@ dirtree::
 
 
 Les sections suivantes expliquent le fonctionnement du dossier path::''contribute''.
+
 
 content::
     \content/auto-main.txt

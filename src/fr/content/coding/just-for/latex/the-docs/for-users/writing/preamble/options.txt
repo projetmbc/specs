@@ -1,23 +1,27 @@
 this::
-    date = 2023-11-16     ?????
+    date = 2023-11-16
 
 
-=================================
-Options du \pack \etou de la \cls
-=================================
+================
+Options du \pack
+================
 
-Pour indiquer des options spécifiques au \pack \etou à la \cls en cours de \dev, il suffit de faire comme suit où l'on indique l'option ''french'' pour le \pack, et les options
+Pour indiquer à \texfacto des options spécifiques lors de l'ajout \auto du \pack dévéloppé au préambule de la \doc, il faut faire comme suit.
 
 yaml::
     ---
-    extract = yes
     title   = Le fichier path::''src/about.yaml''
+    extract = yes
     ---
     texfacto:
       doc:
-        options:
-          pack: french
-          class: color, graph=asy
+        pack:
+          options : french, color=no
+          preamble:
+            ...
 
-        preamble:
-          ...
+
+La clé yaml::''options'' est aussi utilisable dans le bloc yaml::''both'', mais pas avec le bloc yaml::''class''
+((
+    Rappelons que l'usage d'une \cls développée comme \cls de \mef de la \doc est de la responsabilité du codeur, ceci se faisant via la clé yaml::''class'' en choisissant des options éventuelles.
+)).

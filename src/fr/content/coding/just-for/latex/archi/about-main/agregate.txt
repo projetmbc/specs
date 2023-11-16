@@ -19,7 +19,6 @@ où sont employés des chemins relatifs **toujours à la sauce \unix avec une ob
     L'usage de chemins absolus est possible mais fortement déconseillé ! Vous voilà prévenu.
 )).
 
-
 yaml::
     # project:
     #   ...

@@ -8,7 +8,6 @@ Pour tous les \packs \etou classes
 
 Tout \pack \etou classe doit **obligatoirement** indiquer un certain \nbre d'\infos générales via un fichier path::''about.yaml'' au format \texfacto. Pour un codeur français, il est conseillé d'indiquer le contenu minimal suivant.
 
-
 yaml::
     project:
       desc   : Fictional package for this example.
@@ -46,7 +45,6 @@ Avec toutes ces \infos utiles découvertes, et en supposant que le code \src ne 
 ((
     Bien entendu, un travail similaire sera fait pour une classe \latex.
 )).
-
 
 latex::
     % --------------------------------------------------------- %

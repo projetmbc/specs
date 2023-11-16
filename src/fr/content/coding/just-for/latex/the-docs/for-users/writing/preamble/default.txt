@@ -1,19 +1,15 @@
 this::
-    date = 2023-11-16     ?????
-
-
-this::
-    date = 2023-11-15
+    date = 2023-11-16
 
 
 ===================
 Réglages par défaut
 ===================
 
-Pour une \doc rédigée en français, \texfacto utilisera par défaut le préambule minimaliste suivant juste avant les outils \latex spécifiques indiqués via la procédure décrite dans cf::''extra-tools.txt''.
-
+\texfacto utilise par défaut le préambule très minimaliste suivant complété par d'éventuels outils \latex spécifiques indiqués via la procédure décrite dans cf::''?/extra-tools.txt''.
 
 latex::
     ---
-    path = ?/example/tnsdoc/preamble/full-default.cfg.tex
+    title = Préambule par défaut
+    path  = ?/example/tnsdoc/preamble/full-default.cfg.tex
     ---

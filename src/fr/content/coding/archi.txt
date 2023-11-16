@@ -12,7 +12,6 @@ Structure générale du projet
 
 Chaque projet informatique s'appuiera sur la structure suivante qui est ici celle d'un projet fictif nommé ''fict-proj''.
 
-
 dirtree::
     + fict-proj
         * about.yaml
