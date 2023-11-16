@@ -12,7 +12,8 @@
 [[:api:]]
     ?????   pb document class si lasse : calarifier ce qui est doc et ce qui est utilisé tjrs envisagé pack et cl pour les exemples car
 
-    ???? bdoc plsu par défaut
+    ???? bdoc plsu par défaut, et nin non plus tnsdoc
+
 \latex - User \doc : a main and/or an extra header files can be used.
 
 
