@@ -1,12 +1,12 @@
 this::
-    date = 2023-11-12
+    date = 2023-11-16
 
 
 ============================================
 Efficacité anglaise requise pour le "hacker"
 ============================================
 
-L'outil retenu est \tnsdoc qui est développé par l'auteur de cette \spec. Voici ce que cela peut donner dans le cas d'un \proj réel, à savoir ici un extrait du code \src du \proj \bdoc daté du \bdocdate.
+Voici ce que cela peut donner dans le cas d'un \proj réel, à savoir ici un extrait du code \src du \proj \bdoc, daté du \bdocdate, où est utilisée la syntaxe de \tnsdoc.
 
 latex::
     ---
@@ -17,7 +17,7 @@ latex::
 
 note::
     \tnsdoc est capable d'extraire des \infos de la \sign de l'\env latex::''bdoc@showcase@basic''.
-    Ainsi, ici l'utilisation de trois \args non optionnels n'a pas beesoin d'être indiquée dans le commentaire fournissant le \proto de l'\env latex::''bdoc@showcase@basic''.
+    Ainsi, ici l'utilisation de trois \args non optionnels n'a pas besoin d'être indiquée dans le commentaire fournissant le \proto de l'\env latex::''bdoc@showcase@basic''.
 
 
 warning::

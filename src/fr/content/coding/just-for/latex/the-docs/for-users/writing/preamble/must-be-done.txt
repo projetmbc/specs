@@ -1,0 +1,68 @@
+this::
+    date = 2023-11-16     ?????
+
+
+=====================
+Un préambule "maison"
+=====================
+
+
+
+????
+
+Imaginons un \pack fictif nommé ''fictproj'' avec une \doc "humaine" rédigée en français. Pour cette dernière, il faut indiquer à \tefacto le préambule à employer via un fichier comme le suivant sans indiquer latex::''\usepackage{fictproj}'' car \texfacto le fera de lui-même.
+
+latex::
+    ---
+    path = ?/example/preamble/example.cfg.tex
+    ---
+
+
+caution::
+    Dans le cas d'une classe, \textfacto ne pourra pas faire le choixi d'utiliser ou non la classe dans le cas de la \doc.
+
+
+warning::
+    Comme le contenu de path::''preamble.cfg.tex'' étant ce qui se trouvera avant le ''\begin{document}'', modulo quelques outils supplémentaires juste pour la \doc, il faut penser à utiliser un ''\documentclass''.
+
+
+Il est conseillé d'utiliser un fichier nommé path::''preamble.cfg.tex''
+((
+    Il est possible d'utiliser path::''preamble.tex'' sans la pré-extension ext::''cfg'', mais il est déconseillé de le faire par cohérence avec ce qu'il se passe lors du \dev du code \src, et de plus car le fichier n'est pas compilable.
+)),
+et situé dans le dossier path::''src'' du code \src.
+
+dirtree::
+    + fict-proj
+        * about.yaml
+        + src
+            * about.yaml
+            * preamble.cfg.tex
+            + [...]
+        + [...]
+
+
+Pour finir, c'est via le bloc yaml::''texfacto'' du fichier path::''src/about.yaml'' que l'on informe \textfacto du préambule à employer.
+
+yaml::
+    ---
+    extract = yes
+    title   = Le fichier path::''src/about.yaml''
+    ---
+    texfacto:
+      doc:
+        pack:
+          class   : article, 12pt, a4paper
+          preamble: preamble-pack.cfg.tex
+
+
+note::
+    Pour une classe que l'on développe, on emploiera le bloc yaml::''class'' avec les clés  yaml::''class'' et  yaml::''preamble''.
+
+
+tip::
+    Lors du \dev, ''\input{../preamble.cfg.tex}'' au tout début des fichiers employés permet de rédiger la \doc morceau par morceau avec le préambule final.
+
+
+note::
+    Rien n'empêche de placer le fichier préambule hors du code \src, tant que le chemin indiqué permet de retrouver ce fichier préambule relativement au code \src.

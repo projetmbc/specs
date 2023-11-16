@@ -1,4 +1,8 @@
 this::
+    date = 2023-11-16     ?????
+
+
+this::
     date = 2023-11-15
 
 
@@ -11,5 +15,5 @@ Pour une \doc rédigée en français, \texfacto utilisera par défaut le préamb
 
 latex::
     ---
-    path = ?/example/tnsdoc/preamble/default.cfg.tex
+    path = ?/example/tnsdoc/preamble/default-full.cfg.tex
     ---

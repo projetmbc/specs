@@ -1,5 +1,5 @@
 this::
-    date = 2023-11-12
+    date = 2023-11-16
 
 
 =====================
@@ -47,10 +47,3 @@ La méthodologie à suivre est la suivante.
     1) Si plusieurs versions sont publiées le même jour, il faudra suffixer le numéro du jour avec quelque chose du type path::''-a'', path::''-b'', path::''-c''... \etc.
 
     1) Le \numver n'est jamais indiqué puisque cette \info est connue via les \chgts \techs.
-
-    1) Un \chgt court se tape directement via ''\begin{bdoctopic}[...] ... \end{bdoctopic}'' qui prend en argument un titre court entre des crochets et dont le contenu détaille les nouveautés.
-
-    1) Pour des \chgts plus longs, il suffit d'utiliser ''\begin{bdoctopic}<...> ... \end{bdoctopic}'' en plaçant le titre entre des chevrons et non des crochets.
-    Ici un retour à la ligne est fait \auto^t.
-
-    1) Les macros ''\bdocmacro'' et ''\bdocenv'' permettent d'indiquer \resp des macros et des \envs.
