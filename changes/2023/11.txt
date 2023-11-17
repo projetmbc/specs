@@ -2,6 +2,21 @@
 
 
 ==
+17  (1.7.0-beta)
+==
+
+--------
+:update:
+--------
+
+[[:api:]]   ????
+\latex - Showcase: a folder devoted to \demos in real-life situations.
+
+
+// ---------- //
+
+
+==
 16  (1.6.0-beta)
 ==
 

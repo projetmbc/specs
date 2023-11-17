@@ -8,8 +8,6 @@ NOW
 
 > ---------------------------- <
 
-    [??] LATEX - doc exemple; comment faire ? utile pour une classe par exemple ! dosseire a part et on intègre au test pour re^érer des chgts voulsu ou non    TOPPPPPPP !!!!!
-
     [??] LATEX - cas des agrégateurs !!
 
     [??] LATEX - magic comment pour class : est-ce ok ce qui existe déjà ?
