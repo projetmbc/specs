@@ -9,7 +9,7 @@
 :update:
 --------
 
-[[:api:]]   ????
+[[:api:]]
 \latex - Showcase: a folder devoted to \demos in real-life situations.
 
 
