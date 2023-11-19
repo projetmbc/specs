@@ -1,11 +1,11 @@
 + fict-proj
     * ...
-    + .fictproj
-        * fictproj.sty
-        * fictproj-speval.cfg.sty
-        * fictproj-stdval.cfg.sty
-        * fictproj-doc-FR.pdf
-        * fictproj-doc-FR.tex
+    + .fict-proj
+        * fict-proj.sty
+        * fict-proj-speval.cfg.sty
+        * fict-proj-stdval.cfg.sty
+        * fict-proj-doc-FR.pdf
+        * fict-proj-doc-FR.tex
         + fr
             + images
                 * picture.png

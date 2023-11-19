@@ -20,7 +20,7 @@ yaml::
           preamble: preamble-pack.cfg.tex
 
         class:
-          class   : fictproj, template=bw
+          class   : fict-proj, template=bw
           preamble: none
 
         both:

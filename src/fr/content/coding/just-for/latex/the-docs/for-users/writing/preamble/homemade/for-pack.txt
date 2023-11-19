@@ -6,7 +6,7 @@ this::
 Juste pour un \pack
 ===================
 
-Imaginons un \pack fictif nommé ''fictproj'' avec une \doc "humaine" rédigée en français. Pour cette dernière, nous voulons indiquer à \texfacto le préambule suivant.
+Imaginons un \pack fictif nommé ''fict-proj'' avec une \doc "humaine" rédigée en français. Pour cette dernière, nous voulons indiquer à \texfacto le préambule suivant.
 
 latex::
     ---

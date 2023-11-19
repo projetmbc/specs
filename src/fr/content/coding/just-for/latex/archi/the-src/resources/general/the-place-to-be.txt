@@ -15,7 +15,7 @@ Où placer les ressources ?
 
     1) Pour les fichiers ressources d'\ext ext::''sty'' ou ext::''tex'', il faut utiliser la pré-extension ext:''cfg'' pour indiquer à \texfacto de les garder tels qu'ils sont.
 
-    1) Pour tous les fichiers ressources, on emploiera le préfixe path::''fictproj-''
+    1) Pour tous les fichiers ressources, on emploiera le préfixe path::''fict-proj-''
     ((
         Ceci sert à éviter des conflits de noms du point de vue "platiste" de \tex. \texfacto vous laisse libre de suivre, ou non, cette \2nde règle. De grâce, soyez responsable !
     )).
@@ -27,4 +27,4 @@ La règle est simple : on passe via des sous-dossiers que l'on organise comme on
 
 
 caution::
-    La \struct des ressources pour le fichier final path::''fictproj.sty'', ainsi que celles du dossier permettant de construire la \doc "humaine" imitent \ttes les deux celle du dossier du code \src. Ceci implique de ne jamais utiliser deux fois le même nom de fichier pour le même contexte d'utilisation.
+    La \struct des ressources pour le fichier final path::''fict-proj.sty'', ainsi que celles du dossier permettant de construire la \doc "humaine" imitent \ttes les deux celle du dossier du code \src. Ceci implique de ne jamais utiliser deux fois le même nom de fichier pour le même contexte d'utilisation.

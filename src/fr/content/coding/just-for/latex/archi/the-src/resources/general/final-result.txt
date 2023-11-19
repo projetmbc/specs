@@ -6,7 +6,7 @@ this::
 Résultat final
 ==============
 
-\texfacto finira le travail en supprimant le dossier "caché" intermédiaire, puis en produisant un unique dossier path::''fictproj'' comme suit.
+\texfacto finira le travail en supprimant le dossier "caché" intermédiaire, puis en produisant un unique dossier path::''fict-proj'' comme suit.
 
 dirtree::
     ---

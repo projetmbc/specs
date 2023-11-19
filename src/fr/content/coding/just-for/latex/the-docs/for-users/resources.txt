@@ -10,7 +10,7 @@ Considérons l'exemple fictif suivant où les dossiers path::''images'' et path:
 ((
     Rappelons que cette \info est donnée dans le fichier path::''about.yaml'' à la racine du \proj : voir cf::''about-main.txt''.
 )),
-tandis que les fichiers de \config path::''fictproj-speval.cfg.sty'' et path::''fictproj-stdval.cfg.sty'' ne sont utiles qu'au code \src du \pack
+tandis que les fichiers de \config path::''fict-proj-speval.cfg.sty'' et path::''fict-proj-stdval.cfg.sty'' ne sont utiles qu'au code \src du \pack
 ((
     Ce sujet a déjà été abordé dans cf::''?/the-src/resources.txt''.
 )).
@@ -21,11 +21,11 @@ dirtree::
     ---
 
 
-Avant de produire le dossier final path::''fict-proj/fictproj''
+Avant de produire le dossier final path::''fict-proj/fict-proj''
 ((
-    verb::''fict-proj'' est normalisé en verb::''fictproj'', ce dernier nom étant accepté par \latex.
+    verb::''fict-proj'' est normalisé en verb::''fict-proj'', ce dernier nom étant accepté par \latex.
 )),
-\texfacto fabrique le dossier \inter "caché" path::''fict-proj/.fictproj'' comme suit.
+\texfacto fabrique le dossier \inter "caché" path::''fict-proj/.fict-proj'' comme suit.
 
 dirtree::
     ---
@@ -35,11 +35,11 @@ dirtree::
 
 Voici ce qu'il faut savoir à propos de cette étape \inter "cachée".
 
-    1) L'utilité de path::''.fictproj'' est de proposer une \doc au format \ext::''tex'' dans chaque langue supportée. Ceci permet, en cas de souci, de compiler à la main l'\ens d'une \doc pour faire un correctif, ou bien débusquer un bug de \texfacto
+    1) L'utilité de path::''.fict-proj'' est de proposer une \doc au format \ext::''tex'' dans chaque langue supportée. Ceci permet, en cas de souci, de compiler à la main l'\ens d'une \doc pour faire un correctif, ou bien débusquer un bug de \texfacto
     ((
         Rappelons que si la \doc n'est pas compilable, \texfacto stoppera le processus d'automatisation en indiquant le \pb rencontré sans détruire les deux dossiers "cachés".
     )).
 
     1) Concernant la structure des ressources pour la \doc "humaine", se reporter à cf::''?/the-src/resources.txt''.
 
-    1) Si tout fonctionne, le dossier path::''.fictproj'' sera détruit par \texfacto.
+    1) Si tout fonctionne, le dossier path::''.fict-proj'' sera détruit par \texfacto.

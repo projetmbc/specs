@@ -28,7 +28,7 @@ Avant d'expliquer l'utilité de chaque composant, il faut savoir que le \prod fi
 
     1) Pour un \prog \python ou \lua, on utilisera ''ficti_proj''.
 
-    1) Pour un \prog \latex, on utilisera ''fictproj''.
+    1) Pour un \prog \latex, on utilisera ''fict-proj''.
 
 
 warning::

@@ -10,7 +10,7 @@ Considérons l'exemple fictif suivant où les dossiers path::''images'' et path:
 ((
     On aborde ce sujet dans cf::''?/archi/the-docs.txt''.
 )),
-tandis que les fichiers de \cfg path::''fictproj-speval.cfg.sty'' et path::''fictproj-stdval.cfg.sty'' ne sont utiles qu'au code \src du \pack.
+tandis que les fichiers de \cfg path::''fict-proj-speval.cfg.sty'' et path::''fict-proj-stdval.cfg.sty'' ne sont utiles qu'au code \src du \pack.
 
 dirtree::
     ---
@@ -18,9 +18,9 @@ dirtree::
     ---
 
 
-Après analyse de \texfacto, dans un \1er temps, un dossier temporaire "caché" path::''fict-proj/.fictproj''
+Après analyse de \texfacto, dans un \1er temps, un dossier temporaire "caché" path::''fict-proj/.fict-proj''
 ((
-    Noter la normalisation du nom verb::''fict-proj'' en verb::''fictproj'', ce dernier étant accepté par \latex.
+    Noter la normalisation du nom verb::''fict-proj'' en verb::''fict-proj'', ce dernier étant accepté par \latex.
 ))
 est créé avec le contenu temporaire suivant pour un \proj avec une \doc "humaine" tapée en français qui compile sans \pb.
 

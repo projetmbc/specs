@@ -1,8 +1,8 @@
 + fict-proj
     * ...
-    + fictproj
-        * fictproj-doc-FR.pdf
-        * fictproj.sty
-        * fictproj-speval.cfg.sty
-        * fictproj-stdval.cfg.sty
+    + fict-proj
+        * fict-proj-doc-FR.pdf
+        * fict-proj.sty
+        * fict-proj-speval.cfg.sty
+        * fict-proj-stdval.cfg.sty
     + [...]
