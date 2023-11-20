@@ -1,0 +1,13 @@
+this::
+    date = 2023-11-20
+
+
+==================
+Proposer des démos
+==================
+
+Via le sous-dossier path::''demos'' du dossier path::''rollout'', il est possible de proposer des \demos d'utilisation en situation réelle
+((
+    Ceci fait aussi office de tests.
+))
+comme par exemple des résultats de \mef par une classe.

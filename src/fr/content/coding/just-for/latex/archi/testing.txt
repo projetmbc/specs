@@ -1,0 +1,9 @@
+this::
+    date = 2023-11-20
+
+
+===============
+Tests unitaires
+===============
+
+Dans le sous-dossier path::''testfiles'' du dossier path::''rollout'', on utilise des tests à la sauce \l3build.

@@ -1,5 +1,5 @@
 this::
-    date = 2023-11-12
+    date = 2023-11-20
 
 
 =================
@@ -20,13 +20,13 @@ dirtree::
 
 Après analyse de \texfacto, dans un \1er temps, un dossier temporaire "caché" path::''fict-proj/.fict-proj''
 ((
-    Noter la normalisation du nom verb::''fict-proj'' en verb::''fict-proj'', ce dernier étant accepté par \latex.
+    Si besoin, une normalisation du nom du \proj pourra être faite afin d'utiliser un nom accepté par \latex.
 ))
 est créé avec le contenu temporaire suivant pour un \proj avec une \doc "humaine" tapée en français qui compile sans \pb.
 
 dirtree::
     ---
-    path = ?/example/resource/dirtree-intermediate.txt
+    path = ?/example/resource/dirtree-temp.txt
     ---
 
 

@@ -1,8 +1,9 @@
 + fict-proj
     * ...
-    + fict-proj
+    + rollout
         * fict-proj-doc-FR.pdf
         * fict-proj.sty
         * fict-proj-speval.cfg.sty
         * fict-proj-stdval.cfg.sty
+        * ...
     + [...]

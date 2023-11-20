@@ -1,9 +1,0 @@
-this::
-    date = 2023-11-17
-
-
-======================
-Une galerie d'exemples
-======================
-
-Le processus de rédaction en parallèle du code \src et de sa \doc "humaine" impose l'utilisation d'un dossier path::''showcase'' dédié aux \demos d'utilisation en situation réelle comme des résultats de \mef par une classe.

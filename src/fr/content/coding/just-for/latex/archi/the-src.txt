@@ -1,5 +1,5 @@
 this::
-    date = 2023-11-09
+    date = 2023-11-20
 
 
 abrev::
@@ -10,11 +10,11 @@ abrev::
 Où coder ?
 ==========
 
-Le \dev "morceau par morceau" se fait dans le sous-dossier path::''src'' comme suit : les bouts de fichiers ext::''sty'' \etou ext::''cls''
+Le \dev "morceau par morceau" se fait dans le sous-dossier path::''src'' via des "bouts" de fichiers ext::''sty'' \etou ext::''cls''
 ((
     Rappelons que l'on peut développer en parallèle une classe et un \pack ayant le même nom.
 ))
-sont à placer obligatoirement dans des sous-dossiers directs de path::''src'', ces différents morceaux seront recollés \auto^t pour bâtir le \pack \etou la classe à distribuer.
+placés obligatoirement dans des sous-dossiers directs de path::''src'', ces différents morceaux seront recollés \auto^t pour bâtir le \pack \etou la classe à distribuer.
 
 
 caution::
@@ -26,7 +26,14 @@ warning::
     Ceci rend impossible le codage de fonctionnalités dans un sous-dossier nommé path::''changelog''.
 
 
-Le travail de \texfacto sera de produire un dossier contenant le minimum de fichiers avant distribution via \ctan. Dans le cas le plus basique, on obtiendra un dossier comme le suivant. Noter au passage le \chgt de nom du projet pour obtenir un nom acceptable pour un \pack \latex.
+Le travail de \texfacto sera de produire le dossier path::''rollout'' contenant le minimum de fichiers avant les tests, puis la distribution via \ctan
+((
+    Ces deux sujets seront abordés plus tard.
+)).
+Dans le cas le plus basique, on obtiendra un dossier comme le suivant
+((
+    Si besoin, un \chgt de nom du projet pourra être fait afin d'obtenir un nom acceptable pour un \pack \latex.
+)).
 
 dirtree::
     ---

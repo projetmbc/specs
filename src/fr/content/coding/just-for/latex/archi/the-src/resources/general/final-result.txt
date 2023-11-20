@@ -1,12 +1,12 @@
 this::
-    date = 2023-11-12
+    date = 2023-11-20
 
 
 ==============
 Résultat final
 ==============
 
-\texfacto finira le travail en supprimant le dossier "caché" intermédiaire, puis en produisant un unique dossier path::''fict-proj'' comme suit.
+\texfacto finira le travail en supprimant le dossier "caché" intermédiaire, puis en mettant à jour le dossier path::''rollout'' comme suit.
 
 dirtree::
     ---

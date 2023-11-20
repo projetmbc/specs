@@ -1,7 +1,8 @@
 + fict-proj
     * about.yaml
     * README.md
-    + fict-proj
+    + rollout
         * fict-proj-doc-FR.pdf
         * fict-proj.sty
+        * ...
     + [...]

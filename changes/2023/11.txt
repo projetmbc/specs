@@ -14,7 +14,7 @@
 
     1) The path::''tests'' folder does not longer exist.
 
-    1) A path::''rollout'' folder is dedicated to the \l3build workflow.
+    1) A path::''rollout'' folder is dedicated to the \l3build workflow (test and deploy).
 
 
 // ---------- //

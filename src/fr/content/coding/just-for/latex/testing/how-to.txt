@@ -1,12 +1,12 @@
 this::
-    date = 2023-10-31
+    date = 2023-11-20
 
 
 ===============
 \Methodo suivie
 ===============
 
-Pour tester à la fois la non régression du rendu, mais aussi la validité des données produites, le projet \l3build est utilisé dans le sous-dossier path::''tests'' à la racine du projet.
+Pour tester à la fois la non régression du rendu, mais aussi la validité des données produites, le projet \l3build est utilisé dans le sous-dossier path::''rollout'' à la racine du projet.
 Cette approche pourra être complétée via les \techs suivantes
 ((
     Dans chacun des cas, les fichiers et dossiers utilisés ne seront pas incorporés au produit final.
