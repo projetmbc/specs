@@ -2,6 +2,25 @@
 
 
 ==
+17  (1.8.0-beta)   ????
+==
+
+--------
+:update:
+--------
+
+[[:api:]]
+\latex - \Archi: the use of \l3build needs to follow some rules.
+
+    1) The path::''tests'' folder does not longer exist.
+
+    1) A path::''rollout'' folder is dedicated to the \l3build workflow.
+
+
+// ---------- //
+
+
+==
 17  (1.7.0-beta)
 ==
 
