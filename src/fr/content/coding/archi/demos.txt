@@ -1,0 +1,9 @@
+this::
+    date = 2023-11-21
+
+
+=========================
+Promouvoir via des \demos
+=========================
+
+Le dossier path::''demos'' sert à proposer des cas d'utilisation du \proj qui sont non triviaux et directement utilisables.

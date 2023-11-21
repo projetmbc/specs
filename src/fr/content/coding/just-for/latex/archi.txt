@@ -1,5 +1,5 @@
 this::
-    date = 2023-11-20
+    date = 2023-11-21
 
 
 abrev::
@@ -22,11 +22,14 @@ dirtree::
     + fict-proj
         * about.yaml
         * README.md
-        + changes     [...]
-        + contribute  [...]
-        + rollout     [...]
-        + src         [...]
-        + tools       [...]
+        + changes        [...]
+        + contribute     [...]
+        + demos          [...]
+        + rollout
+            * build.lua
+            + testfiles  [...]
+        + src            [...]
+        + tools          [...]
 
 
 note::

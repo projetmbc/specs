@@ -2,7 +2,25 @@
 
 
 ==
-17  (1.8.0-beta)
+21  (1.9.0-beta)
+==
+
+--------
+:update:
+--------
+
+[[:api:]]
+\Demos for coding project.
+
+    1) General - \Archi: addding a folder for the \demos.
+
+    1) \latex - \Archi: the path::''demos'' folder has moved from the \l3build path::''rollout'' folder to the project folder.
+
+// ---------- //
+
+
+==
+20  (1.8.0-beta)
 ==
 
 --------
