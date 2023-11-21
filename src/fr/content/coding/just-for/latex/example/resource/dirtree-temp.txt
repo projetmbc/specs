@@ -4,8 +4,8 @@
         * fict-proj.sty
         * fict-proj-speval.cfg.sty
         * fict-proj-stdval.cfg.sty
-        * fict-proj-doc-FR.pdf
-        * fict-proj-doc-FR.tex
+        * fict-proj-doc-fr.pdf
+        * fict-proj-doc-fr.tex
         + fr
             + images
                 * picture.png
