@@ -8,6 +8,8 @@ NOW
 
 > ---------------------------- <
 
+    [??] LATEX - rollout canevas + asbtract pour doc imposé
+
     [??] LATEX - cas des agrégateurs !!
 
     [??] LATEX - magic comment pour class : est-ce ok ce qui existe déjà ?

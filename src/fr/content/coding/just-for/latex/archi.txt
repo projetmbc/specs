@@ -25,9 +25,7 @@ dirtree::
         + changes        [...]
         + contribute     [...]
         + demos          [...]
-        + rollout
-            * build.lua
-            + testfiles  [...]
+        + rollout        [...]
         + src            [...]
         + tools          [...]
 
