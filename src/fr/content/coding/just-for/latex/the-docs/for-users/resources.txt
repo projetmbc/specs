@@ -1,5 +1,5 @@
 this::
-    date = 2023-11-20
+    date = 2023-11-22
 
 
 ====================================
@@ -42,4 +42,4 @@ Voici ce qu'il faut savoir à propos de cette étape \inter "cachée".
 
     1) Concernant la structure des ressources pour la \doc "humaine", se reporter à cf::''?/the-src/resources.txt''.
 
-    1) Si tout fonctionne, le dossier path::''.fict-proj'' sera détruit par \texfacto.
+    1) Si tout fonctionne, le dossier path::''.fict-proj'' sera utilisé par \texfacto pour mettre à jour les dossiers path::''code'' et path::''doc'' du dossier path::''rollout'' destiné à \l3build.

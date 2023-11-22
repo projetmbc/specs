@@ -1,0 +1,4 @@
++ fict-proj
+    * about.yaml
+    + src
+        * abstract.tex

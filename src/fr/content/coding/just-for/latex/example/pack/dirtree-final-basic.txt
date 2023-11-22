@@ -2,7 +2,10 @@
     * about.yaml
     * README.md
     + rollout
-        * fict-proj-doc-fr.pdf
-        * fict-proj.sty
-        * ...
+        * build.lua
+        * README.md
+        + code
+            * fict-proj.sty
+        + doc
+            * fict-proj-doc-fr.tex
     + [...]

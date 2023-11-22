@@ -1,5 +1,5 @@
 this::
-    date = 2023-11-21
+    date = 2023-11-22
 
 
 ================
@@ -10,9 +10,9 @@ Le but du dossier path::''demos'' est de proposer des \demos d'utilisation en si
 ((
     Ceci peut aussi faire office de tests.
 ))
-comme par exemple des résultats de \mef par une classe.
+comme par exemple différents résultats de \mef par une classe.
 
 
 warning::
     La rédaction de ces fichiers se fera en s'appuyant sur une installation locale du \pack \etou de la \cls codée.
-    Il faudra valider ces exemples une fois les tests validés par \l3build.
+    Il faudra valider ces exemples après validation des tests par \l3build.

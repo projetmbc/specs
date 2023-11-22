@@ -1,6 +1,5 @@
 + src
-    + intro
-        * intro.tex
+    * abstract.tex
     + alpha-et-omega3
         * alpha.tex
         * alpha.sty

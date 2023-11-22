@@ -1,9 +1,12 @@
 + fict-proj
     * ...
     + rollout
-        * fict-proj-doc-fr.pdf
-        * fict-proj.sty
-        * fict-proj-speval.cfg.sty
-        * fict-proj-stdval.cfg.sty
-        * ...
+        * build.lua
+        * README.md
+        + code
+            * fict-proj.sty
+            * fict-proj-speval.cfg.sty
+            * fict-proj-stdval.cfg.sty
+        + doc
+            * fict-proj-doc-fr.tex
     + [...]

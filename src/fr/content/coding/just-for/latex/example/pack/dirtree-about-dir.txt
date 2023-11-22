@@ -1,5 +1,5 @@
 + src
     * about.yaml
-    + intro                 [...]
+    * abstract.tex
     + alpha-et-omega3       [...]
     + poor-lonesome-cowboy  [...]

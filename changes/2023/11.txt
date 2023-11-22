@@ -2,6 +2,25 @@
 
 
 ==
+22  (1.10.0-beta)
+==
+
+--------
+:update:
+--------
+
+[[:api:]]
+\latex - \Archi.
+
+    1) New mandatory path::''src/abstract.tex'' file.
+
+    1) Content of path::''rollout'' build by \texfacto.
+
+
+// ---------- //
+
+
+==
 21  (1.9.0-beta)
 ==
 
