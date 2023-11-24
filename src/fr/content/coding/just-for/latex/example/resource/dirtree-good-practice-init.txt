@@ -2,7 +2,8 @@
     * about.yaml
     * README.md
     + src
-        * abstract.tex
+        + abstract
+            * abstract.tex
         + intro
             * intro.tex
             + listings

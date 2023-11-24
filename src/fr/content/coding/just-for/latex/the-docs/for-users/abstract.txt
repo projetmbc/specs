@@ -1,12 +1,12 @@
 this::
-    date = 2023-11-22
+    date = 2023-11-24
 
 
 ===================
 Présentation courte
 ===================
 
-Tout \proj devra renseigner un fichier path::''abstract.tex'' donne une présenattion courte. En particulier, la structure minimale d'un \proj sera la suivante.
+Tout \proj se présentera rapidement via le fichier path::''src/abstract/abstract.tex''. La structure minimale d'un \proj est donc la suivante.
 
 dirtree::
     ---

@@ -2,6 +2,21 @@
 
 
 ==
+24  (1.11.1-beta)
+==
+
+--------
+:update:
+--------
+
+[[:api:]]
+\latex - \Doc: path::''abstract.tex'' must be inside the path::''src/abstract'' folder.
+
+
+// ---------- //
+
+
+==
 24  (1.11.0-beta)
 ==
 
