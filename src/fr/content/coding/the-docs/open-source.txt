@@ -1,0 +1,13 @@
+this::
+    date = 2023-11-24
+
+
+====================
+Une \doc "open \src"
+====================
+
+Les règles du monde numérique libre sont drastiques : par exemple, la \distrib \linux \debian impose qu'un projet libre fournisse une \doc compilable librement. Il faut donc veiller à cela lorsque l'on rédige sa \doc. Ainsi, en cas d'utilisation d'images produites via des outils libres, il faudra fournir le fichier utilisé pour produire l'image.
+
+
+tip::
+    Le plus simple est de garder les explications s'appuyant sur des images pour les \demos.

@@ -2,6 +2,21 @@
 
 
 ==
+24  (1.11.0-beta)
+==
+
+--------
+:update:
+--------
+
+[[:api:]]
+\latex - \Doc: an open-source \proj needs to produce a compilable \doc.
+
+
+// ---------- //
+
+
+==
 22  (1.10.0-beta)
 ==
 

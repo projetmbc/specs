@@ -10,9 +10,9 @@ NOW
 
     Ugly backup #1
 
-    [??] LATEX - doc : que du compilable, plus simple à gérer et cf open source contrainte, et du coup pour l3build, on met tout dans un affreux tex, ceci impose donc de ne retenir que certains extension ok pour la doc !!!!
+    [??] LATEX - doc open source : rq sur les iamges et les virere des exemples !!!
 
-    [??] LATEX - rollout canevas + asbtract pour doc imposé
+    [??] LATEX - rollout canevas imposé
 
     [??] CODE - DOC : que du compilable, cf DEbian and co qui exige cela des projest open source, Donc image doivent être compilables, et sinon les garder pour les démos
 

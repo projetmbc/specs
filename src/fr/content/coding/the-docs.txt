@@ -1,5 +1,5 @@
 this::
-    date = 2023-05-19
+    date = 2023-11-24
 
 
 abrev::
@@ -17,3 +17,4 @@ content::
     \content/for-users.txt
     \content/for-hackers.txt
     \content/update.txt
+    \content/open-source.txt
