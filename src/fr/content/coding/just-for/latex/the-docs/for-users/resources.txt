@@ -25,11 +25,7 @@ dirtree::
     ---
 
 
-Avant de produire le dossier final path::''fict-proj/fict-proj''
-((
-    Un nom de \proj pourra être normalisé afin d'obtenir un nom accepté par \latex.
-)),
-\texfacto fabrique le dossier temporaire "caché" path::''fict-proj/.fict-proj'' comme suit.
+Avant de produire les dossiers déstinés à \l3build, \texfacto fabrique un dossier temporaire "caché" path::''fict-proj/.fict-proj'' comme suit.
 
 dirtree::
     ---
