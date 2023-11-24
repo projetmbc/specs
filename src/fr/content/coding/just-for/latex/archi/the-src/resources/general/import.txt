@@ -1,12 +1,12 @@
 this::
-    date = 2023-11-12
+    date = 2023-11-24
 
 
-===============================
-Importer, comment s'y prendre ?
-===============================
+=============================
+Importer. Oui, mais comment ?
+=============================
 
-Imaginons que path::''fict-proj-speval.cfg.sty'' soit importé par path::''alpha.sty''. Ceci se fera via ''\input{../alpha-et-omega3/fict-proj-speval.cfg.sty}'' et non via le plus simple ''\input{fict-proj-speval.cfg.sty}''.
+Pour importer path::''fict-proj-speval.cfg.sty'' dans path::''alpha.sty'', on utilisera ''\input{../alpha-et-omega3/fict-proj-speval.cfg.sty}'', et non via ''\input{fict-proj-speval.cfg.sty}''.
 Pourquoi ? Ceci permet de produire localement, et sans danger
 ((
     Nous sommes tous des codeurs résponsables... Enfin, je l'espère.
