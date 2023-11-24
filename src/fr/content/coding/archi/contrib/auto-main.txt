@@ -10,4 +10,4 @@ Voici comment s'emploie chacun des sous-dossiers path::''api'', path::''doc/manu
 
     1) Des versions principales des parties "contribuables" sont produites de façon automatisée à chaque \nelle version majeure du projet. Comme \git est utilisé, il est facile de noter les \chgts ciblés à indiquer aux contributeurs en cas de besoin : voir cf::''changes.txt'' à ce sujet.
 
-    1) Via des fichiers \readme rédigés en anglais, des explications sont fournies quant à la démarche à suivre suivant le type de contribution.
+    1) Via des fichiers \readme rédigés en anglais, des explications sont fournies quant à la démarche à suivre suivant le type de \contrib.

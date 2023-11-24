@@ -5,9 +5,9 @@
         * abstract.tex
         + intro
             * intro.tex
-            + images
-                * picture-1.png
-                * picture-2.png
+            + listings
+                * use-case-1.tex
+                * use-case-2.tex
             + graphics
                 * curve-a.tkz
                 * curve-b.tkz
@@ -16,8 +16,8 @@
             * alpha.sty
             * fict-proj-speval.cfg.sty
             * fict-proj-stdval.cfg.sty
-            + images
-                * picture.png
+            + listings
+                * use-case.tex
             + graphics
                 * geometry.tkz
     + [...]

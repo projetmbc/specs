@@ -1,0 +1,41 @@
+this::
+    date = 2023-11-24
+
+
+abrev::
+    content = :this.name:
+
+
+====================
+\Contribs peu \techs
+====================
+
+Pour certaines parties d'un \proj, des \contribs ne demandant aucune connaissance particulière peuvent être faites, c'est à cela que sert le dossier path::''\contrib''
+((
+    Les hackeurs peuvent \contribuer classiquement via un lieu de dépôt en ligne du \proj en suivant la "méthodologie \git".
+)).
+Nous allons considérer un \proj proposant de \contribuer à l'\api et aux \docs "utilisateur" et \techs d'un prog. Dans un tel cas, le dossier path::''\contrib'' sera organisé comme suit.
+
+dirtree::
+    + \contrib
+        + api
+            + changes
+            + [...]
+        + doc
+            + manual
+                + changes
+                + [...]
+            + tech
+                + changes
+                + [...]
+
+
+Les sections suivantes expliquent le fonctionnement du dossier path::''\contrib''.
+
+
+content::
+    \content/auto-main.txt
+    \content/api.txt
+    \content/the-docs.txt
+    \content/isolang.txt
+    \content/changes.txt

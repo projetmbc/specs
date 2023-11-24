@@ -1,12 +1,16 @@
 this::
-    date = 2023-11-22
+    date = 2023-11-24
 
 
 ====================================
 Utiliser des ressources pour la \doc
 ====================================
 
-Considérons l'exemple fictif suivant où les dossiers path::''images'' et path::''graphics'' sont juste utilisés par les fichiers ext::''tex'' pour la \doc "humaine", rédigée en français dans ce cas
+warning::
+    Comme indiqué dans cf::''?/coding/the-docs/open-source.txt'', la \doc doit être compilable librement. C'est une contrainte très forte qui limite les types de ressources qui seront utilisées.
+
+
+Considérons l'exemple fictif suivant où les dossiers path::''listings'' et path::''graphics'' sont juste utilisés par les fichiers ext::''tex'' pour la \doc "humaine", rédigée en français dans ce cas
 ((
     Rappelons que cette \info est donnée dans le fichier path::''about.yaml'' à la racine du \proj : voir cf::''about-main.txt''.
 )),

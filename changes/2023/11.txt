@@ -10,7 +10,11 @@
 --------
 
 [[:api:]]
-\latex - \Doc: an open-source \proj needs to produce a compilable \doc.
+Two things done.
+
+    1) Coding - \Contrib: the path::''contribute'' folder becomes path::''contrib''.
+
+    1) \latex - \Doc: an open-source \proj needs to produce a compilable \doc.
 
 
 // ---------- //

@@ -26,4 +26,4 @@ content::
     \content/the-docs.txt
     \content/tech-norms.txt
     \content/testing.txt
-    \content/contribute.txt
+    \content/contrib.txt

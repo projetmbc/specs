@@ -8,9 +8,9 @@
         * fict-proj-doc-fr.tex
         + fr
             + images
-                * picture.png
-                * picture-1.png
-                * picture-2.png
+                * use-case.tex
+                * use-case-1.tex
+                * use-case-2.tex
             + graphics
                 * curve-a.tkz
                 * curve-b.tkz

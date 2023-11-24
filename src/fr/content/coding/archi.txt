@@ -1,5 +1,5 @@
 this::
-    date = 2023-11-21
+    date = 2023-11-24
 
 
 abrev::
@@ -16,13 +16,13 @@ dirtree::
     + fict-proj
         * about.yaml
         * README.md
-        + changes     [...]
-        + contribute  [...]
-        + demos       [...]
-        + doc         [...]
-        + src         [...]
-        + tests       [...]
-        + tools       [...]
+        + changes  [...]
+        + contrib  [...]
+        + demos    [...]
+        + doc      [...]
+        + src      [...]
+        + tests    [...]
+        + tools    [...]
 
 
 Avant d'expliquer l'utilité de chaque composant, il faut savoir que le \prod fini sera généralement placé dans un sous-dossier nommé en normalisant ''fict-proj'' si besoin.
@@ -39,6 +39,6 @@ content::
     \content/src.txt
     \content/user-doc.txt
     \content/demos.txt
-    \content/contribute.txt
+    \content/contrib.txt
     \content/tools.txt
     \content/tests.txt

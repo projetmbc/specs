@@ -10,7 +10,7 @@ Dans ce cas, les étapes à suivre sont les suivantes servant à automatiser une
 
     1) Compression au format \zip du dossier de la \contrib.
 
-    1) Envoi du dossier compressé à l'adresse email::''projetmbc@gmail.com'' en indiquant bien "fict-proj - Contribute - WHAT" comme sujet du courriel, avec bien entendu le bon nom du \pack au lieu de ''fict-proj'', et pour "WHAT" le chemin du sous-dossier de la contribution : par exemple, cela pourrait être "doc/manual/es" pour une \trad en espagnol de la \doc "utilisateur".
+    1) Envoi du dossier compressé à l'adresse email::''projetmbc@gmail.com'' en indiquant bien "fict-proj - Contribute - WHAT" comme sujet du courriel, avec bien entendu le bon nom du \pack au lieu de ''fict-proj'', et pour "WHAT" le chemin du sous-dossier de la \contrib : par exemple, cela pourrait être "doc/manual/es" pour une \trad en espagnol de la \doc "utilisateur".
 
     1) Le contenu du mail devra indiquer les \chgts effectués sous la forme imposée "Changes - 2023-11-20 : what I have done in one single line".
     Cette syntaxe pourra être utilisé plusieurs fois si besoin mais avec parcimonie.

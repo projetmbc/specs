@@ -10,4 +10,4 @@ Les règles du monde numérique libre sont drastiques : par exemple, la \distrib
 
 
 tip::
-    Le plus simple est de garder les explications s'appuyant sur des images pour les \demos.
+    Le plus simple est de garder les explications s'appuyant sur des images pour des \demos accessibles via le \web.

@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-31
+    date = 2023-11-24
 
 
 ================================
@@ -10,7 +10,7 @@ La \doc "utilisateur" rédigée par le codeur sert de point de départ aux \trad
 ((
     Ceci s'indique via le fichier path::''about.yaml'' à la racine du projet.
 )).
-Dans ce cas, le dossier path::''contribute/doc/manual/fr'', comme ci-dessous, contiendra la dernière version
+Dans ce cas, le dossier path::''contrib/doc/manual/fr'', comme ci-dessous, contiendra la dernière version
 ((
     Le processus de \maj est automatisé.
 ))
@@ -22,8 +22,8 @@ dirtree::
     ---
 
 
-Concrètement, un traducteur espagnol copiera et collera le contenu de path::''contribute/doc/manual/fr'' dans un dossier de son choix, mais nommé path::''es'' où ''es'' vient du codage de la \isolang.
+Concrètement, un traducteur espagnol copiera et collera le contenu de path::''contrib/doc/manual/fr'' dans un dossier de son choix, mais nommé path::''es'' où ''es'' vient du codage de la \isolang.
 
 
 note::
-    Chacun des fichiers de path::''contribute/doc/manual/fr'' est directement compilable, une fois le \pack visible par \latex. Ceci permet de partager simplement le dossier pour une \nelle \trad.
+    Chacun des fichiers de path::''contrib/doc/manual/fr'' est directement compilable, une fois le \pack visible par \latex. Ceci permet de partager simplement le dossier pour une \nelle \trad.

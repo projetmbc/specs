@@ -1,5 +1,5 @@
 this::
-    date = 2023-11-12
+    date = 2023-11-24
 
 
 =====================================
@@ -18,11 +18,11 @@ note::
     Rappelons que dans le dossier de \dev du code \src, les trads sont \tjrs placées dans un sous-dossier nommé path::''locale''.
 
 
-De façon automatisée, un dossier path::''contribute/api/locale/french/main'', comme ci-dessous, contiendra la dernière version des \trads utiles au fonctionnement du \pack \bdoc.
+De façon automatisée, un dossier path::''contrib/api/locale/french/main'', comme ci-dessous, contiendra la dernière version des \trads utiles au fonctionnement du \pack \bdoc.
 
 dirtree::
     ---
-    path = ?/example/translate/api-config/dirtree-contribute.txt
+    path = ?/example/translate/api-config/dirtree-contrib.txt
     ---
 
 

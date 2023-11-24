@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-25
+    date = 2023-11-24
 
 
 =============================
@@ -13,14 +13,14 @@ dirtree::
         * README.md
         * about.yaml
         * versions.yaml
-        + changes    [...]
-        + contribute [...]
-        + src        [...]
+        + changes  [...]
+        + contrib  [...]
+        + src      [...]
 
 
 Expliquons l'utilité de chaque composant.
 
-    1) Commencer par noter l'emploi de l'anglais même si le produit final sera en français. Pourquoi ? Ceci permet d'élargir l'audience, voire d'obtenir des contributions extérieures. Ne nous en privons pas par simple chauvinisme.
+    1) Commencer par noter l'emploi de l'anglais même si le produit final sera en français. Pourquoi ? Ceci permet d'élargir l'audience, voire d'obtenir des \contribs extérieures. Ne nous en privons pas par simple chauvinisme.
 
     1) Pour donner une vue globale d'un projet informatique, il est d'usage de fournir un fichier \readme décrivant succinctement en anglais le dit projet
     ((
@@ -86,4 +86,4 @@ Expliquons l'utilité de chaque composant.
 
         * path::''MyNewProject''
 
-    1) Le dossier facultatif path::''contribute'' permet d'accueillir des contributions extérieures comme par exemple des \trads.
+    1) Le dossier facultatif path::''contrib'' permet d'accueillir des \contribs extérieures comme par exemple des \trads.
