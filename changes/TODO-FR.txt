@@ -6,9 +6,14 @@ specs - TODO
 NOW
 ---
 
-> ---------------------------- <
+début via 0.0.0-alpha.0
+      puis 0.0.0-beta.0
+      et   1.0.0-rc ou 1.0.0
+      puis 1.0.0-beta.0 etc   PLUS SIMPLE !
 
-    Ugly backup #1
+
+
+> ---------------------------- <
 
     [??] LATEX - doc open source : rq sur les iamges et les virere des exemples !!!
 

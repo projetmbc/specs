@@ -20,9 +20,9 @@
 25
 ==
 
----------
-:updates:
----------
+--------
+:update:
+--------
 
 [[:doc:]]
 \latex: three things have been clarified.
@@ -56,9 +56,9 @@
 21
 ==
 
----------
-:updates:
----------
+--------
+:update:
+--------
 
 [[:api:]]
 \latex: two things have changed.
@@ -72,16 +72,8 @@
 
 
 ==
-20
+20  (0.0.0-alpha.8)
 ==
-
---------
-:update:
---------
-
-[[:doc:]]
-\latex - Metainfos: the \specs are clearer now.
-
 
 -----
 :new:
@@ -91,16 +83,24 @@
 \latex - Keep or ignore: clear rules to keep or ignore \latex and/or \sty files have been added.
 
 
+--------
+:update:
+--------
+
+[[:doc:]]
+\latex - Metainfos: the \specs are clearer now.
+
+
 // ---------- //
 
 
 ==
-19
+19  (0.0.0-alpha.7)
 ==
 
-------
-:news:
-------
+-----
+:new:
+-----
 
 [[:api:]]
 \latex - New \specs.
@@ -122,12 +122,12 @@
 
 
 ==
-15
+15  (0.0.0-alpha.6)
 ==
 
-------
-:news:
-------
+-----
+:new:
+-----
 
 [[:api:]]
 \latex - New \specs added.
@@ -159,7 +159,7 @@
 
 
 ==
-12
+12  (0.0.0-alpha.5)
 ==
 
 --------
@@ -170,9 +170,9 @@
 \latex - \Tech \signs: in the user \doc, the more general title verb::'':tech-sign:'' must be used such as to manage easily different languages.
 
 
-------
-:news:
-------
+-----
+:new:
+-----
 
 [[:api:]]
 \latex - New \specs added.

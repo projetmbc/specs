@@ -2,7 +2,7 @@
 
 
 ==
-07  (0.4.0-alpha)
+07  (0.0.0-alpha.4)
 ==
 
 -----
@@ -22,19 +22,8 @@ General: two new \specs have been added.
 --------
 
 [[:doc:]]
-General: \infos about the use of short \tech \docs in codes have been modified a lot.
+General.
 
+    1) \Infos about the use of short \tech \docs in codes have been modified a lot.
 
-// ---------- //
-
-
-==
-07  (0.3.2-alpha)
-==
-
---------
-:update:
---------
-
-[[:doc:]]
-General: some minor errors have been seen and corrected.
+    1) Some minor errors have been seen and corrected.

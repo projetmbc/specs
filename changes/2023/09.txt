@@ -2,7 +2,7 @@
 
 
 ==
-19
+19  (0.0.0-alpha.28)
 ==
 
 -----
@@ -17,7 +17,7 @@
 
 
 ==
-14
+14  (0.0.0-alpha.27)
 ==
 
 -----
@@ -32,7 +32,7 @@
 
 
 ==
-08
+08  (0.0.0-alpha.26)
 ==
 
 -----
@@ -71,14 +71,14 @@
 
 
 ==
-03
+03  (0.0.0-alpha.25)
 ==
 
 -----
 :new:
 -----
 
-[[:tests:]]
+[[:test:]]
 \latex - Tests fom the user's \doc: we can use meta-comments to indicate that an example should be used to test certain features of the package.
 
 

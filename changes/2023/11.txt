@@ -2,7 +2,7 @@
 
 
 ==
-24  (1.11.1-beta)
+24
 ==
 
 --------
@@ -10,33 +10,22 @@
 --------
 
 [[:api:]]
-\latex - \Doc: path::''abstract.tex'' must be inside the path::''src/abstract'' folder.
-
-
-// ---------- //
-
-
-==
-24  (1.11.0-beta)
-==
-
---------
-:update:
---------
-
-[[:api:]]
-Two things done.
+Here are the \chges.
 
     1) Coding - \Contrib: the path::''contribute'' folder becomes path::''contrib''.
 
-    1) \latex - \Doc: an open-source \proj needs to produce a compilable \doc.
+    1) \latex - \Doc.
+
+        * path::''abstract.tex'' must be inside the path::''src/abstract'' folder.
+
+        * An open-source \proj needs to produce a compilable \doc.
 
 
 // ---------- //
 
 
 ==
-22  (1.10.0-beta)
+22
 ==
 
 --------
@@ -55,7 +44,7 @@ Two things done.
 
 
 ==
-21  (1.9.0-beta)
+21
 ==
 
 --------
@@ -69,11 +58,12 @@ Two things done.
 
     1) \latex - \Archi: the path::''demos'' folder has moved from the \l3build path::''rollout'' folder to the project folder.
 
+
 // ---------- //
 
 
 ==
-20  (1.8.0-beta)
+20
 ==
 
 --------
@@ -92,7 +82,7 @@ Two things done.
 
 
 ==
-17  (1.7.0-beta)
+17
 ==
 
 --------
@@ -107,7 +97,7 @@ Two things done.
 
 
 ==
-16  (1.6.0-beta)
+16
 ==
 
 --------
@@ -126,7 +116,7 @@ Two things done.
 
 
 ==
-12  (1.5.1-beta)
+12  (0.0.0-beta.9)
 ==
 
 -----
@@ -141,7 +131,7 @@ Two things done.
 
 
 ==
-12  (1.5.0-beta)
+12  (0.0.0-beta.8)
 ==
 
 -----
@@ -156,7 +146,7 @@ Two things done.
 
 
 ==
-12  (1.4.0-beta)
+12  (0.0.0-beta.7)
 ==
 
 -----
@@ -171,7 +161,7 @@ Two things done.
 
 
 ==
-12  (1.3.1-beta)
+12  (0.0.0-beta.6)
 ==
 
 -----
@@ -181,13 +171,6 @@ Two things done.
 [[:doc:]]
 \latex: some \dir tree examples were a little wrong.
 
-
-// ---------- //
-
-
-==
-12  (1.3.0-beta)
-==
 
 --------
 :update:
@@ -205,7 +188,7 @@ Two things done.
 
 
 ==
-08  (1.2.0-beta)
+08
 ==
 
 --------
@@ -213,19 +196,8 @@ Two things done.
 --------
 
 [[:doc:]]
-\latex - \Archi: clear explanations added about the use of "inputing" \cfg like code as in ''\input{../subfolder/sometools.cfg}'' during the coding process.
+\latex - \Archi.
 
+    1) Clear explanations added about the use of "inputing" \cfg like code as in ''\input{../subfolder/sometools.cfg}'' during the coding process.
 
-// ---------- //
-
-
-==
-08  (1.1.0-beta)
-==
-
---------
-:update:
---------
-
-[[:doc:]]
-\latex - \Archi: the flat \dir tree spirit of \tex is followed now (we have no choice).
+    1) The flat \dir tree spirit of \tex is followed now (we have no choice).

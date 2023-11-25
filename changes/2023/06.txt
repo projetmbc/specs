@@ -2,12 +2,12 @@
 
 
 ==
-11  (0.8.0-alpha)
+11  (0.0.0-alpha.22)
 ==
 
-------
-:news:
-------
+-----
+:new:
+-----
 
 [[:doc:]]
 General: here are the new features.
