@@ -1,5 +1,5 @@
 ﻿this::
-    date = 2023-10-25
+    date = 2023-11-26
 
 
 =======
@@ -12,12 +12,9 @@ Commençons par voir ce qui est accepté comme \numver d'un simple point de vue 
 
         * version::''MAJ.MIN.COR''
 
-        * version::''MAJ.MIN.COR-EXTRA''.
+        * version::''MAJ.MIN.COR-EXTRA.NUM''.
 
-    Aucun \num ne s'écrira version::''MAJ.MIN'', ni version::''MAJ'' !
-
-    1) Chaque sous-\num commence à version::''0'', donc la toute première version sera version::''0.0.0'' obligatoirement.
-    Attention car ni version::''0.0'', ni version::''0'' ne sont des \nums initiaux valides.
+    1) Chaque sous-\num commence à version::''0''.
 
     1) Les différentes valeurs possibles pour version::''EXTRA'' sont les suivantes sans possibilité d'ajouter en suffixe un \num additionnel.
 
@@ -25,26 +22,28 @@ Commençons par voir ce qui est accepté comme \numver d'un simple point de vue 
 
         * version::''beta''
 
-        * version::''rc''
+        * version::''rc'' avec dans ce cas une sous-numérotation commençant à `1` et non à `0`.
 
-        * version::''EXTRA'' n'est pas utilisé.
+    1) Les premières versions seront version::''0.0.0'',  version::''0.0.0-rc.1'',  version::''0.0.0-beta.0'' et version::''0.0.0-alpha.0'' suivant le \ctx.
 
-    Ainsi version::''1.2.0'' et version::''1.2.0-alpha'' sont autorisés contrairement à version::''1.2.0-alpha.2''.
+
+warning::
+    Aucun \num ne s'écrira version::''MAJ.MIN'', ni version::''MAJ'', ni version::''MAJ.MIN.COR-EXTRA''.
 
 
 Avant d'apprendre dans la section suivante à incrémenter les \numvers, il reste à savoir comment ces derniers sont ordonnés.
 
-    1) Avec la même partie version::''EXTRA'', un ordre "naturel" est employé : par exemple, nous avons dans l'ordre croissant :
+    1) Avec la même partie version::''EXTRA'', un ordre "naturel" est employé. Par exemple, nous avons dans l'ordre croissant :
 
-        * version::''0.0.0-alpha''
+        * version::''0.0.0-alpha.0''
 
-        * version::''0.0.1-alpha''
+        * version::''0.0.0-alpha.2''
 
-        * version::''0.0.2-alpha''
+        * version::''0.0.2-alpha.0''
 
-        * version::''0.1.0-alpha''
+        * version::''0.1.0-alpha.0''
 
-        * version::''1.0.0-alpha''
+        * version::''1.0.0-alpha.0''
 
     Noter qu'un \chgt de sous-\num remet à zéro tous les sous-\nums qui sont situés plus à droite du sous-\num modifié.
 
@@ -64,10 +63,10 @@ Avant d'apprendre dans la section suivante à incrémenter les \numvers, il rest
 
     Par exemple, nous avons dans l'ordre croissant :
 
-        * version::''0.3.0-alpha''
+        * version::''0.3.0-alpha.3''
 
-        * version::''0.2.0-beta''
+        * version::''0.2.0-beta.2''
 
-        * version::''0.1.0-rc''
+        * version::''0.1.0-rc.1''
 
         * version::''0.0.0''.

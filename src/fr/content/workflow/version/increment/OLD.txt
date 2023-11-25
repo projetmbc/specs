@@ -1,12 +1,16 @@
 ﻿this::
-    date = 2023-10-25
+    date = 2023-11-26    ???
 
 
 ===========
 Incrémenter
 ===========
 
-Commençons par expliquer la signification des  parties de version::''MAJ.MIN.COR'' et  version::''MAJ.MIN.COR-EXTRA''. Indiquons que dans les exemples proposés, pour les \docus, "section" désignera de façon indifférente une partie, un chapitre, une section, une sous-section ou une sous-sous-section.
+Commençons par expliquer la signification des parties de version::''MAJ.MIN.COR'' et version::''MAJ.MIN.COR-EXTRA.NUM''.
+
+????
+
+Indiquons que dans les exemples proposés, pour les \docus, "section" désignera de façon indifférente une partie, un chapitre, une section, une sous-section ou une sous-sous-section.
 
     1) Le \num version::''MAJ'' est à modifier dès qu'un \chgt non rétrocompatible majeur apparaît.
 

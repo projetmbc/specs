@@ -1,5 +1,5 @@
 ﻿this::
-    date = 2023-10-10
+    date = 2023-11-26
 
 
 abrev::
@@ -16,7 +16,7 @@ abrev::
 Versionner
 ==========
 
-Un \numver est un moyen efficace d'indiquer une évolution importante d'un projet.
+Un \numver est un moyen efficace d'indiquer aux utilisateurs, mais aussi aux codeurs, une évolution importante d'un projet.
 Pour ce faire, le \syst de numérotation des versions s'appuie sur les deux standards "\semversion" et "\softwarelife" afin de proposer des règles réduites, mais largement suffisantes pour des projets non professionnels.
 
 

@@ -1,0 +1,17 @@
+﻿this::
+    date = 2023-11-26    ???
+
+
+abrev::
+    content = :this.name:
+
+
+===========
+Incrémenter
+===========
+
+content::
+    content/XXXX.txt
+    content/XXXX.txt
+    content/XXXX.txt
+    content/XXXX.txt
