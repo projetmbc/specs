@@ -1,14 +1,9 @@
-﻿this::
-    date = 2023-11-26    ???
-
-
-===========
-Incrémenter
-===========
-
-Commençons par expliquer la signification des parties de version::''MAJ.MIN.COR'' et version::''MAJ.MIN.COR-EXTRA.NUM''.
+﻿Commençons par expliquer la signification des parties de version::''MAJ.MIN.COR'' et version::''MAJ.MIN.COR-EXTRA.NUM''.
 
 ????
+
+Noter qu'un \chgt de sous-\num remet à zéro tous les sous-\nums qui sont situés plus à droite du sous-\num modifié.
+
 
 Indiquons que dans les exemples proposés, pour les \docus, "section" désignera de façon indifférente une partie, un chapitre, une section, une sous-section ou une sous-sous-section.
 

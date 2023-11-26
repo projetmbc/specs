@@ -1,8 +1,4 @@
-﻿this::
-    date = 2023-11-26    ???
-
-
-abrev::
+﻿abrev::
     content = :this.name:
 
 
@@ -11,7 +7,6 @@ Incrémenter
 ===========
 
 content::
-    content/XXXX.txt
-    content/XXXX.txt
-    content/XXXX.txt
-    content/XXXX.txt
+    content/start.txt
+    content/publish.txt     ???
+    content/maintain.txt    ?????

@@ -1,0 +1,22 @@
+﻿this::
+    date = 2023-11-26    ???
+
+
+abrev::
+    content = :this.name:
+
+
+=====================================
+Publier - Les versions \rc et stables
+=====================================
+
+
+????
+
+
+content::
+    content/XXXX.txt
+    content/XXXX.txt
+    content/XXXX.txt
+    content/XXXX.txt
+    content/XXXX.txt

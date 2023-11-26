@@ -1,0 +1,9 @@
+﻿this::
+    date = 2023-11-26
+
+
+============================
+Quand modifie-t-on un \num ?
+============================
+
+Lors d'une phase de \dev, on cherche juste à marquer les grands \chgts de façon grossière, \cad lors d'ajout de nouveautés, ou de \modifs non rétrocompatibles, et non de petites \opes de maintenance.

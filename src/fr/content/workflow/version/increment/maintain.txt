@@ -1,0 +1,15 @@
+﻿this::
+    date = 2023-11-26
+
+
+==============================
+Maintenir - Les versions \beta
+==============================
+
+La \num^o des versions \beta est similaire à celle des versions \alpha, voir cf::''start.txt'', mais le \ctx d'utilisation est très différent. Voici les usages prévus pour les versions \beta.
+
+    1) Correction de bugs ou d'erreurs.
+
+    1) Pour un \prog, \maj de la \doc sans toucher aux fonctionnalités.
+
+    1) Préparer la prochaine version publique.

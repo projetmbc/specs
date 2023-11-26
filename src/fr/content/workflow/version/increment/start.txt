@@ -1,0 +1,22 @@
+﻿this::
+    date = 2023-11-26
+
+
+abrev::
+    content = :this.name:
+
+
+================================================
+Débuter, ou tout reprendre - Les versions \alpha
+================================================
+
+Lorsque l'on commence un \proj, les idées bouillonnent et rien ne semblent être figé par avance. Cette phase est traditionnellement qualifiée de \alpha.
+Ceci peut aussi correspondre à une période de refonte complète d'un \proj sans pour autant en créer un nouveau
+((
+    Typiquement, ceci intervient lorsque l'on change de langage de \prog.
+)).
+
+
+content::
+    content/how.txt
+    content/when.txt

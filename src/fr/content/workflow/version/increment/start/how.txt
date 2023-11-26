@@ -1,0 +1,39 @@
+﻿this::
+    date = 2023-11-26
+
+
+=======================
+Comment numérote-t-on ?
+=======================
+
+Voici ce qu'il faut faire.
+
+    1) La \tte \1ere version porte \tjrs le \num version::''0.0.0-alpha.0'' quoiqu'il arrive.
+
+    1) Si par exemple version::''1.2.3'' est la version publique actuelle d'un \proj que l'on souhaite totalement reprendre, alors la refonte sera initialement numérotée version::''1.2.3-alpha.0''.
+    Autrement dit, on suffixe le \numver par version::''-alpha.0''.
+
+    1) L'incrémentation des \numvers est alors des plus simples car seul change la \num^o du suffixe \alpha.
+    Voici par exemple, les \ts \1ers \numvers d'un nouveau \proj.
+
+        * version::''0.0.0-alpha.0''
+
+        * version::''0.0.0-alpha.1''
+
+        * version::''0.0.0-alpha.2''
+
+        * version::''0.0.0-alpha.3''
+
+        * ...
+
+
+warning::
+    L'auteur ou le développeur doit à la fois maintenir un journal des \chgts internes, et un autre à propos des \modifs apportées à la future \nelle version publique, le \2nd journal ne devant pas être noyé dans un excès de détails : voir cf::''?/change-log.txt'' à ce sujet.
+
+
+note::
+    Pour quoi ce \syst de \num^o ?
+
+        1) Il ne sert à rien d'être précis dans une phase de \dev en interne.
+
+        1) Il faut garder une \info sur la version publique en cours de \modif.

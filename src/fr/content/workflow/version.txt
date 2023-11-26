@@ -11,13 +11,17 @@ abrev::
     softwarelife = cf::''Software release life cycle ;
                         https://en.wikipedia.org/wiki/Software_release_life_cycle''
 
+    alpha = version::''alpha''
+    beta  = version::''beta''
+    rc    = version::''rc''
+
 
 ==========
 Versionner
 ==========
 
-Un \numver est un moyen efficace d'indiquer aux utilisateurs, mais aussi aux codeurs, une évolution importante d'un projet.
-Pour ce faire, le \syst de numérotation des versions s'appuie sur les deux standards "\semversion" et "\softwarelife" afin de proposer des règles réduites, mais largement suffisantes pour des projets non professionnels.
+Un \numver est un moyen efficace d'indiquer aux utilisateurs, mais aussi aux codeurs ou aux auteurs, une évolution importante d'un projet.
+Pour ce faire, le \syst de \num^o des versions s'appuie sur les deux standards "\semversion" et "\softwarelife" afin de proposer des règles réduites, mais largement suffisantes pour des projets non professionnels.
 
 
 content::

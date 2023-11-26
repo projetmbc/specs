@@ -2,11 +2,11 @@
     date = 2023-11-26
 
 
-=======
-Syntaxe
-=======
+================
+Syntaxe utilisée
+================
 
-Commençons par voir ce qui est accepté comme \numver d'un simple point de vue syntaxique.
+Commençons par voir comme écrire un \numver.
 
     1) Un \numver est de l'un des types suivants.
 
@@ -14,21 +14,21 @@ Commençons par voir ce qui est accepté comme \numver d'un simple point de vue 
 
         * version::''MAJ.MIN.COR-EXTRA.NUM''.
 
-    1) Chaque sous-\num commence à version::''0''.
+    1) Chacun des sous-\nums verb::''MAJ'', verb::''MIN'', verb::''COR'' et verb::''NUM'' commence à partir de version::''0''.
 
     1) Les différentes valeurs possibles pour version::''EXTRA'' sont les suivantes sans possibilité d'ajouter en suffixe un \num additionnel.
 
-        * version::''alpha''
+        * \alpha
 
-        * version::''beta''
+        * \beta
 
-        * version::''rc'' avec dans ce cas une sous-numérotation commençant à `1` et non à `0`.
+        * \rc
 
-    1) Les premières versions seront version::''0.0.0'',  version::''0.0.0-rc.1'',  version::''0.0.0-beta.0'' et version::''0.0.0-alpha.0'' suivant le \ctx.
+    1) Les premières versions seront version::''0.0.0'',  version::''0.0.0-rc.0'',  version::''0.0.0-beta.0'' et version::''0.0.0-alpha.0'' suivant le \ctx.
 
 
 warning::
-    Aucun \num ne s'écrira version::''MAJ.MIN'', ni version::''MAJ'', ni version::''MAJ.MIN.COR-EXTRA''.
+    Aucun \num ne s'écrira version::''MAJ.MIN'', ni version::''MAJ'', ni même version::''MAJ.MIN.COR-EXTRA''.
 
 
 Avant d'apprendre dans la section suivante à incrémenter les \numvers, il reste à savoir comment ces derniers sont ordonnés.
@@ -45,19 +45,17 @@ Avant d'apprendre dans la section suivante à incrémenter les \numvers, il rest
 
         * version::''1.0.0-alpha.0''
 
-    Noter qu'un \chgt de sous-\num remet à zéro tous les sous-\nums qui sont situés plus à droite du sous-\num modifié.
-
     1) Avec différentes parties version::''EXTRA'', il faut procéder comme suit.
 
         * On commence par ranger les \numvers suivant leurs parties version::''EXTRA'' non numérotées, celles-ci étant ordonnées de la plus grande à la plus petite comme suit :
 
             + Pas de partie version::''EXTRA''.
 
-            + version::''rc''
+            + \rc pour "Release Candidate", soit "Candidat à la Publication" en anglais.
 
-            + version::''beta''
+            + \beta.
 
-            + version::''alpha''.
+            + \alpha.
 
         * Au sein d'une catégorie version::''EXTRA'', on applique les règles vues dans le premier point.
 
