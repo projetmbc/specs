@@ -1,5 +1,5 @@
 this::
-    date = 2023-11-24
+    date = 2023-11-26
 
 
 abrev::
@@ -35,7 +35,7 @@ note::
 
         * Fichier \readme.
 
-        * Journal des \chgts \techs dans le dossier path::''changes''.
+        * Journaux des \chgts \techs et publiques dans le dossier path::''changes''.
 
         * Outils spécifiques d'automatisation mis dans le dossier path::''tools''.
 

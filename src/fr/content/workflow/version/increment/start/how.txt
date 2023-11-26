@@ -28,7 +28,7 @@ Voici ce qu'il faut faire.
 
 
 warning::
-    L'auteur ou le développeur doit à la fois maintenir un journal des \chgts internes, et un autre à propos des \modifs apportées à la future \nelle version publique, le \2nd journal ne devant pas être noyé dans un excès de détails : voir cf::''?/change-log.txt'' à ce sujet.
+    Le concepteur doit à la fois maintenir un journal des \chgts internes, et un autre à propos des \modifs apportées à la future \nelle version publique, le \2nd journal ne devant pas être noyé dans un excès de détails : voir cf::''?/change-log.txt'' à ce sujet.
 
 
 note::

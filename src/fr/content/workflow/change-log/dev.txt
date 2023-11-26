@@ -1,0 +1,9 @@
+this::
+    date = 2023-10-26
+
+
+====================
+Pour les concepteurs
+====================
+
+Il est utile de garder une trace précise de ce qui a été fait lors de la maintenance ou de la fabrication d'un \proj : un journal dédié à la conception est donc utilisé.

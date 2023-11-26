@@ -7,3 +7,7 @@ Candidat à la publication - La version \rc
 ==========================================
 
 La \num^o des versions \rc est similaire à celle des versions \alpha, voir cf::''start.txt''.
+
+
+warning::
+    Le concepteur ne doit pas modifier le journal des \chgts de la future \nelle version publique. Si cela devient une nécessité, il faut généralement repasser en mode "version \beta".

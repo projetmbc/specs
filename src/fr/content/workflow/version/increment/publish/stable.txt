@@ -1,9 +1,54 @@
 ﻿this::
-    date = 2023-11-26   ????
+    date = 2023-11-26
 
 
-=======================
-????
-=======================
+==============================
+Numéroter une version publique
+==============================
 
-????
+Une version publique est numérotée au format version::''MAJ.MIN.COR'' où chacun des morceaux version::''MAJ'', version::''MIN'' et version::''COR'' a une signification particulière comme nous allons l'expliquer via des exemples.
+Indiquons que ci-après, pour les \docus, "section" désignera de façon indifférente une partie, un chapitre, une section, une sous-section ou une sous-sous-section.
+
+    1) Le \num version::''MAJ'' est à modifier dès qu'un \chgt non rétrocompatible majeur apparaît.
+
+        * Pour un \docu, ceci correspond à l'organisation visible du contenu : sections supprimées, déplacées ou profondément reprises.
+
+        * Pour un \prog, ceci correspond à un \chgt important d'\api: le \prog s'utilise différemment.
+
+    1) Le \num version::''MIN'' évolue lorsque de \nelles fonctionnalités apparaissent avec éventuellement de très minimes \chgts non rétrocompatibles.
+
+        * Pour un \docu, ceci correspond à un enrichissement du contenu : \nelles sections, mises à jour de sections précédemment existantes.
+
+        * Pour un \prog, ceci correspond à un enrichissement de l'\api sans modifier ce qu'elle proposait avant : le \prog s'utilise de la même façon, sauf peut-être à la marge, mais il a été enrichi de \nelles fonctionnalités.
+
+    1) Le \num version::''COR'' change à chaque correction rétrocompatible d’anomalies.
+
+        * Pour un \docu, ceci correspond à des corrections à la marge : erreurs orthographiques, grammaticales \etou syntaxiques, modifications purement visuelles du contenu sans toucher à son organisation.
+
+        * Pour un \prog, ceci correspond à la correction de bogues sans toucher à l'\api : le \prog s'utilise de la même façon.
+
+
+Quel \num choisir ? C'est assez simple car les versions \alpha, \beta et \rc utilisent le \num de la dernière version publique. Voici une séquence possible de \numvers.
+
+    * version::''1.12.3-alpha.0''
+
+    * version::''1.12.3-alpha.1''
+
+    * version::''1.12.3-beta.0''
+
+    * version::''1.12.3-beta.1''
+
+    * version::''1.12.3-beta.2''
+
+    * version::''1.12.3-rc.0''
+
+    * version::''1.13.0''
+
+
+note::
+    Un \chgt de sous-\num remet à zéro tous les sous-\nums qui sont situés plus à droite de celui modifié.
+
+
+warning::
+    Toute \nelle version d'un produit stable devra avoir un \num version::''COR'' égal à 0.
+    Pourquoi ? Ceci signifie que l'on pense fournir un \prod stable sans erreur, tout en permettant d'indiquer plus tard qu'une erreur critique a pu être corrigé en cas d'urgence via un \num version::''COR'' non nul.

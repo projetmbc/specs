@@ -1,0 +1,10 @@
+this::
+    date = 2023-10-26
+
+
+=====================
+Pour les utilisateurs
+=====================
+
+Un utilisateur va vite se perdre dans un journal détaillé indiquant \ttes les \modifs faites à un projet.
+C'est pour cette raison qu'un \2nd journal est dédié uniquement aux versions stables : il fournira juste les évolutions majeures.

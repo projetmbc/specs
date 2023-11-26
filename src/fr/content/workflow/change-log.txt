@@ -1,29 +1,23 @@
 this::
-    date = 2023-10-25   ????  dev + published version !!!!
+    date = 2023-10-26
 
 
-==================
-Journal des \chgts
-==================
+abrev::
+    content = :this.name:
+
+
+========================
+Deux journaux des \chgts
+========================
 
 La tenue d'un journal des \chgts est une pratique extrêmement répandu dans les projets de programmation ; cette pratique est en fait aussi très pertinente pour un écrit. Dans ce dernier cas, ceci permet d'aider un lecteur acharné à ne pas perdre son temps lors de \chgts n'affectant pas le fond
 ((
     Penser par exemple à des corrections de syntaxe et d'orthographe, ou encore à un \chgt de \mef comme la réorganisation des sections, ou bien de simples \modifs esthétiques.
 )).
+Ceci étant rappelé, il semble pertinent de proposer deux journaux des \chgts comme nous allons le voir dans les deux sections suivantes.
 
 
-Pour gérer un tel journal de bord, il a été retenu de passer via un dossier dédié contenant les différentes \majs indiquées de façon efficace, mais précise, et ceci via le biais de fichiers "textuels"
-((
-    L'auteur de ce \docu utilise \tnschges.
-)).
-Ce choix présente les avantages suivants.
-
-    1) Des fichiers "textuels" sont très bien versionnés par \git.
-
-    1) Centraliser à un endroit précis tout ce qui concerne les \modifs faites permet à la longue une utilisation et une maintenance très faciles.
-
-    1) Enfin, il est aisé d'extraire d'un fichier "textuel" bien structuré des \infos telles que la date de création du projet, sa dernière date de \modif et sa dernière version.
-
-
-note::
-    La langue retenue pour le journal des \chgts est l'anglais.
+content::
+    content/dev.txt
+    content/user.txt
+    content/how-to.txt

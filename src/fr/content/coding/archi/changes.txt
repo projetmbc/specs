@@ -2,33 +2,47 @@ this::
     date = 2023-10-26
 
 
-==================================
-Journal des \chgts pou les codeurs
-==================================
+====================================
+Journaux des \chgts pour les codeurs
+====================================
 
-Les \chgts liés à l'\ens du projet sont rédigés en anglais dans le dossier path::''changes'' via des fichiers ext::''txt'' organisés comme dans l'exemple fictif suivant !
-Pour chaque année, un dossier bien nommé est employé, et pour chaque mois un fichier bien nommé lui aussi est utilisé.
-De plus, pour répertorier des choses à faire plus tard éventuellement, on utilisera un fichier path::''TODO-FR.txt'' pour une saisie efficace dans sa langue maternelle
-((
-    Il n'est pas indispensable de rendre accessible ce que l'on souhaite faire ou explorer.
-)),
-ici le français, ou juste path::''TODO.txt'' si on rédige directement en anglais.
+Les \chgts liés à l'\ens du \proj sont rédigés en anglais dans le dossier path::''changes'' via des fichiers ext::''txt'' organisés comme dans l'exemple fictif suivant.
 
 dirtree::
     + changes
         * TODO-FR.txt
-        + 2020
-            * 06.txt
-        + 2021
-            * 03.txt
-            * 07.txt
+        + dev
+            + 2020
+                * 06.txt
+                * 08.txt
+                * 11.txt
+            + 2021
+                * 03.txt
+                * 04.txt
+                * 07.txt
+        + stable
+            + 2020
+                * 08.txt
+            + 2021
+                * 07.txt
 
 
-Voici un contenu possible pour le fichier path::''2020/06.txt'' ; la syntaxe très intuitive utilisée est celle proposée par le projet \tnschges.
+Voici comment fonctionne ce dossier.
+
+    1) Le dossier path::''dev'' est dédié au \dev uniquement, et non aux versions stables. Ce dossier s'adresse aux codeurs.
+
+    1) Le dossier path::''stable'' résume les \chgts importants. Ce dossier s'adresse aux utilisateurs.
+
+    1) Pour chaque année, un dossier bien nommé est employé, et pour chaque mois un fichier bien nommé lui aussi est utilisé.
+
+    1) Pour répertorier des choses à faire plus tard, éventuellement, on utilise un fichier path::''TODO-FR.txt'' pour une saisie efficace dans sa langue maternelle, ici le français, ou juste path::''TODO.txt'' si on rédige directement en anglais.
+
+
+Finissons par un contenu possible pour le fichier path::''dev/2020/06.txt'', la syntaxe très intuitive utilisée étant celle proposée par le \proj \tnschges.
 
 tnschges::
     ==
-    01  (0.0.0-beta)
+    01  (0.0.0-alpha.0)
     ==
 
     -----
@@ -39,5 +53,5 @@ tnschges::
     This package provides a lot of new fictive features.
 
 
-Noter que la date est indiquée via le titre tns::''01'' entouré par des tnschges::''=='', et le \chgt de version ajouté simplement via tnschges::''(0.0.0-beta)'' après la date.
+Noter que la date est indiquée via le titre tns::''01'' entouré par des tnschges::''=='', et le \chgt de version ajouté simplement via tnschges::''(0.0.0-alpha.0)'' après la date.
 Pour le reste, cela permet ici d'indiquer une nouveauté dans l'\api. Se reporter à la \doc de \tnschges pour découvrir tout ce qui est disponible.

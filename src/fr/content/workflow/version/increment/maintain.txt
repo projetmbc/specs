@@ -10,6 +10,10 @@ La \num^o des versions \beta est similaire à celle des versions \alpha, voir cf
 
     1) Correction de bugs ou d'erreurs.
 
-    1) Pour un \prog, \maj de la \doc sans toucher aux fonctionnalités.
+    1) Pour un \prog, on a aussi :
+
+        * \Maj de la \doc sans toucher aux fonctionnalités.
+
+        * Amélioration des \perfs.
 
     1) Préparer la prochaine version publique.

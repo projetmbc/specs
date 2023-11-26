@@ -2,7 +2,7 @@
 
 
 ==
-26  (0.0.0-beta.10)     ????????
+26  (0.0.0-beta.10)
 ==
 
 -------
@@ -14,11 +14,9 @@ Here are the \chges about coding.
 
     1) \Numver: the rules have been simplified considerably!
 
-    1) ????????
-    \Chges: two \tech logs are needed, one for the maintenance, and another for the public versions.
+    1) \Chges: two logs are needed, one for the maintenance, and another for the public versions.
 
-    1) ????????
-    Just for \latex: the friendly change log is only for the public versions.
+    1) Just for \latex: the specific change log is only for the public versions.
 
 
 // ---------- //
