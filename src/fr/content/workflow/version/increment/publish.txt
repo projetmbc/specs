@@ -1,5 +1,5 @@
 ﻿this::
-    date = 2023-11-26    ???
+    date = 2023-11-26
 
 
 abrev::
@@ -10,12 +10,14 @@ abrev::
 Publier - Les versions \rc et stables
 =====================================
 
-????
+La publication d'une \nelle version ne doit pas être faite trop rapidement car malgré \ts les efforts fournis, il persiste souvent quelques \pbs cachés.
+Il est donc nécessaire de passer via une phase de validation intermédiaire dite phase \rc
+((
+    \rc est pour "Release Candidate", soit "Candidat à la Publication" en anglais.
+)).
+La publication se résume alors à bien numéroter la \nelle version tout en indiquant clairement ce qui a été accompli dans le journal des \chgts.
 
 
 content::
-    content/XXXX.txt        ???????
-    content/XXXX.txt        ??????
-    content/XXXX.txt        ?????
-    content/XXXX.txt        ????
-    content/XXXX.txt        ???
+    content/rc.txt
+    content/stable.txt

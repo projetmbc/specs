@@ -1,0 +1,9 @@
+﻿this::
+    date = 2023-11-26
+
+
+==========================================
+Candidat à la publication - La version \rc
+==========================================
+
+La \num^o des versions \rc est similaire à celle des versions \alpha, voir cf::''start.txt''.
