@@ -10,13 +10,12 @@ abrev::
 Publier - Les versions \rc et stables
 =====================================
 
-
 ????
 
 
 content::
-    content/XXXX.txt
-    content/XXXX.txt
-    content/XXXX.txt
-    content/XXXX.txt
-    content/XXXX.txt
+    content/XXXX.txt        ???????
+    content/XXXX.txt        ??????
+    content/XXXX.txt        ?????
+    content/XXXX.txt        ????
+    content/XXXX.txt        ???

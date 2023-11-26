@@ -8,5 +8,5 @@ Incrémenter
 
 content::
     content/start.txt
-    content/publish.txt     ???
-    content/maintain.txt    ?????
+    content/publish.txt
+    content/maintain.txt

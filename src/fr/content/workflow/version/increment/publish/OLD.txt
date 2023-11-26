@@ -39,33 +39,19 @@ Indiquons que dans les exemples proposés, pour les \docus, "section" désignera
         a) Pour les versions stables, c'est à dire celles considérées comme finies, à un moment donné bien entendu, la partie version::''EXTRA'' n'est pas utilisée tout simplement.
 
 
-Le choix retenu pour incrémenter les \numvers est de garder un historique complet de l'évolution d'un projet. Concrètement, on pourra avoir une \seq de \modifs comme la suivante
-((
-    Il faudra juste indiquer ce choix dans des \docs destinés à un utilisateur "lambda" pour que ce dernier ne soit pas surpris qu'une version stable passe de version::''0.10.0'' à version::''0.21.0'' par exemple.
-    N'oublions que le \numver s'adresse surtout à des codeurs.
-)).
-
-    * version::''0.12.3-alpha''
-
-    * version::''0.13.0-beta''
-
-    * version::''0.13.5-rc''
-
-    * version::''0.14.0'', voir ci-dessous l'avertissement concernant les versions stables.
 
 
-Par contre, on ne fera jamais comme suit
-((
-    Ce 2\nd choix est correct mais non retenu dans le cadre des présentes \specs.
-)).
+Le choix retenu pour incrémenter les \numvers est ?????.
 
-    * version::''4.12.3-alpha''
+    * version::''1.12.3-alpha.0''
 
-    * version::''2.13.0-beta''
+    * version::''1.12.3-beta.0''
 
-    * version::''1.7.0-rc''
+    * version::''1.12.3-rc.0''
 
-    * version::''1.0.0''
+    * version::''1.13.0''
+
+
 
 
 warning::
