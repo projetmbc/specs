@@ -1,5 +1,5 @@
 this::
-    date = 2023-09-30
+    date = 2023-11-30
 
 
 ==================================
@@ -11,3 +11,4 @@ Tout \chgt non rétroactif d'\api sera proposé brutalement
     C'est l'usage dans le monde \latex.
 )),
 charge à l'utilisateur de tenir compte de la \doc pour apporter les correctifs nécessaires.
+Par contre, un \doc devra expliquer comment migrer d'une version donnée à la suivante qui casse l'\api.

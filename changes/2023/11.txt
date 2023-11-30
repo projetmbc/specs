@@ -2,6 +2,21 @@
 
 
 ==
+30  (0.0.0-beta.11)
+==
+
+-----
+:new:
+-----
+
+[[:api:]]
+\latex - Breakig \chges: a \docu should explain how to migrate from one version to the next breaking one.
+
+
+// ---------- //
+
+
+==
 26  (0.0.0-beta.10)
 ==
 
