@@ -7,6 +7,8 @@ specs - TODO
 NOW
 ---
 
+??? upadte doc ? aj aussi de specs avec example bdoc
+
 
 > ---------------------------- <
 
