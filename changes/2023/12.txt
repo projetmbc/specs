@@ -1,0 +1,13 @@
+// ---------- //
+
+
+==
+03  (0.0.0-beta.12)
+==
+
+-----
+:new:
+-----
+
+[[:api:]]
+\latex - Translate: adding a new \lang to a translatable \api must always be done before translating the user \doc.

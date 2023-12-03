@@ -1,10 +1,14 @@
 this::
-    date = 2023-11-24
+    date = 2023-12-03
 
 
 =====================================
 Langues pour les \macros et les \envs
 =====================================
+
+caution::
+    Une \api "utilisateur" sera toujours enrichie d'une \nelle langue avant la \doc utilisateur afin de pouvoir correctement documenter la \doc des \macros et des \envs produisant du texte.
+
 
 Prenons le cas du \pack \bdoc dont le code \src à la date du \bdocdate contient le dossier de \dev path::''main'' suivant.
 

@@ -10,7 +10,7 @@
 -----
 
 [[:api:]]
-\latex - Breakig \chges: a \docu should explain how to migrate from one version to the next breaking one.
+\latex - Breaking \chges: a \docu should explain how to migrate from one version to the next breaking one.
 
 
 // ---------- //
