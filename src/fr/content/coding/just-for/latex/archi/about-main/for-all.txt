@@ -58,10 +58,10 @@ latex::
 
     \NeedsTeXFormat{LaTeX2e}
 
-    \ProvidesPackage%
-      {fict-proj}   %
-      {2023-10-25}  % Creation: 2018-05-01
-      {1.2.3}       %
+    \ProvidesExplPackage
+      {fict-proj}
+      {2023-10-25} % Creation: 2018-05-01
+      {1.2.3}
       {Fictional package for this example.}
 
     % Le reste du code...
