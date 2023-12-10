@@ -2,6 +2,21 @@
 
 
 ==
+10  (0.0.0-beta.14)
+==
+
+-----
+:new:
+-----
+
+[[:doc:]]
+\Contribs: use of path::''status.yaml'' files to manage the integration, or not, of new \contribs.
+
+
+// ---------- //
+
+
+==
 10  (0.0.0-beta.13)
 ==
 

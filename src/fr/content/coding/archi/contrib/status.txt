@@ -1,0 +1,26 @@
+this::
+    date = 2023-12-10
+
+
+=====================
+Statut d'une \contrib
+=====================
+
+Pour finir le processus de \contrib, il reste à voir ce que l'on fait du travail d'autrui. Les états suivants sont possibles.
+
+    1) \Contrib acceptée.
+
+    1) \Contrib rejetée.
+
+    1) \Contrib mise en attente.
+
+    1) \Contrib en cours d'étude ou de \maj.
+
+
+Le statut d'une \contrib devra être indiqué via un fichier bien situé, clairement nommé et avec un contenu limpide comme le suivant qui donne le statut d'une \trad de la \doc "utilisateur" faite dans le dossier path::''contrib/doc/manual/en''.
+
+yaml::
+    ---
+    path  = ?/examples/contrib/trans-about.yaml
+    title = Contenu de path::''contrib/doc/manual/en-about.yaml''
+    ---

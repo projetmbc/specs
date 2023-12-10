@@ -37,3 +37,4 @@ content::
     \content/isolang.txt
     \content/changes.txt
     \content/submit.txt
+    \content/status.txt

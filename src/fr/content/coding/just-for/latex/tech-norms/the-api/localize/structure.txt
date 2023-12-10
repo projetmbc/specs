@@ -10,7 +10,7 @@ Considérons comme exemple le cas du package \tutodoc. Le \tutodocdate, son code
 
 dirtree::
     ---
-    path = ?/example/translate/api-config/dirtree-src.txt
+    path = ?/examples/translate/api-config/dirtree-src.txt
     ---
 
 
@@ -18,7 +18,7 @@ Voici l'affreux code utilisé en interne pour le français.
 
 latex::
     ---
-    path = ?/example/translate/api-config/tutodoc/tutodoc-locale-french.cfg.sty
+    path = ?/examples/translate/api-config/tutodoc/tutodoc-locale-french.cfg.sty
     title = Contenu de path::''tutodoc-locale-french.cfg.sty'' le \tutodocdate
     ---
 
@@ -31,12 +31,12 @@ latex::
 
 verb::
     ---
-    path = ?/example/translate/api-config/tutodoc/macros.txt
+    path = ?/examples/translate/api-config/tutodoc/macros.txt
     title = Contenu du fichier path::''french/macros.txt'' le \tutodocdate
     ---
 
 verb::
     ---
-    path = ?/example/translate/api-config/tutodoc/sentences.txt
+    path = ?/examples/translate/api-config/tutodoc/sentences.txt
     title = Contenu du fichier path::''french/sentences.txt'' le \tutodocdate
     ---
