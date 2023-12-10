@@ -1,9 +1,16 @@
 this::
-    date = 2023-11-21
+    date = 2023-12-10
 
 
-=========================
-Promouvoir via des \demos
-=========================
+================
+Gérer les \demos
+================
 
-Le dossier path::''demos'' sert à proposer des cas d'utilisation du \proj qui sont non triviaux et directement utilisables.
+Le dossier path::''demos'' sert à proposer des cas d'utilisation du \proj qui sont non triviaux et directement utilisables
+((
+    Ceci peut aussi faire office de tests.
+)).
+
+
+caution::
+    Les \demos n'ont pas vocation à faire partie de la \distrib d'un \proj, elles doivent au contraire être utilisables une fois ce dernier installé.

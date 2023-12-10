@@ -7,7 +7,16 @@ specs - TODO
 NOW
 ---
 
-??? upadte doc ? aj aussi de specs avec example bdoc
+
+> ---------------------------- <
+
+contrib
+
+    + aussi pour certaines specs auto-doc
+
+    + translation mettre la docu codeur en doublon de façon automatisé pour à la fois point de départ et aussi repéré des chgts
+
+    + besoin de 'une doc autonomé directement translatable par un contrib sans connaissances tech !!!!!
 
 
 > ---------------------------- <

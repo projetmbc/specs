@@ -10,6 +10,7 @@ content::
     \content/archi.txt
     \content/the-docs.txt
     \content/tech-norms.txt
+    \content/contrib.txt
 
 // Just to ease the maintenance.
     \content/just-for.txt

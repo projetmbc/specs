@@ -1,5 +1,5 @@
 this::
-    date = 2023-11-24
+    date = 2023-12-10
 
 
 abrev::
@@ -10,10 +10,7 @@ abrev::
 \Contribs peu \techs
 ====================
 
-Pour certaines parties d'un \proj, des \contribs ne demandant aucune connaissance particulière peuvent être faites, c'est à cela que sert le dossier path::''\contrib''
-((
-    Les hackeurs peuvent \contribuer classiquement via un lieu de dépôt en ligne du \proj en suivant la "méthodologie \git".
-)).
+Pour certaines parties d'un \proj, des \contribs ne demandant aucune connaissance particulière peuvent être faites, c'est à cela que sert le dossier path::''\contrib''.
 Nous allons considérer un \proj proposant de \contribuer à l'\api et aux \docs "utilisateur" et \techs d'un prog. Dans un tel cas, le dossier path::''\contrib'' sera organisé comme suit.
 
 dirtree::
@@ -39,3 +36,4 @@ content::
     \content/the-docs.txt
     \content/isolang.txt
     \content/changes.txt
+    \content/submit.txt

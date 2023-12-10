@@ -1,29 +1,21 @@
 this::
-    date = 2023-10-31
+    date = 2023-12-10
 
     lexic = latex
-
-
-abrev::
-    content = :this.name:
 
 
 ===================
 \latex et compagnie
 ===================
 
-Pour pouvoir coder par petites touches, il faut pouvoir automatiser la \fabric d'un "unique" \pack \etou d'une "unique" classe de \mef que l'on souhaite distribuer.
-Ceci nécessite de respecter un style de codage et une \orga "commune" des dossiers et des fichiers, ainsi qu'un cycle de \dev spécialement pour les \projs \latex.
-Nous allons parler de ceci dans les sections à venir.
-
-
-note::
-    L'outil d'automatisation retenu pour concevoir les \projs \latex est \texfacto.
+Dans le monde de la \prog, \latex est un \lang très particulier avec son écosystème. Libre à vous de l'utiliser ou non
+((
+    L'auteur de cette \spec s'appuie sur un outil "maison" \texfacto pour développer de façon plus efficace, au moins à ses yeux.
+)).
+Nous allons ici nous concentrer sur des règles générales de codage et de conception propres à \latex et ses dérivées.
 
 
 content::
     \content/archi.txt
-    \content/the-docs.txt
     \content/tech-norms.txt
     \content/testing.txt
-    \content/contrib.txt

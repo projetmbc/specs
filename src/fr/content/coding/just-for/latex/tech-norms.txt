@@ -8,7 +8,6 @@ Des points \techs importants
 
 content::
     \content/formatting.txt
-    \content/magic-comments.txt
     \content/tabs.txt
     \content/the-api.txt
     \content/no-conflict.txt

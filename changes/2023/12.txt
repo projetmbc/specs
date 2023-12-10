@@ -2,6 +2,21 @@
 
 
 ==
+10  (0.0.0-beta.13)
+==
+
+-------
+:break:
+-------
+
+[[:flow:]]
+What is specific to the \dev of \latex has been moved to the \texfacto \doc. This has involved major updates to the general coding section.
+
+
+// ---------- //
+
+
+==
 03  (0.0.0-beta.12)
 ==
 
