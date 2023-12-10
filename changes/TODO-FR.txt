@@ -21,6 +21,11 @@ contrib
 
 > ---------------------------- <
 
+first version : quand finaliser just-for-python
+
+
+> ---------------------------- <
+
     [??] LATEX - doc open source : rq sur les iamges et les virere des exemples !!!
 
     [??] LATEX - rollout canevas imposé
