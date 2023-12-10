@@ -4,6 +4,10 @@ this::
     lexic = latex
 
 
+abrev::
+    tutodocdate = date::''2023-12-10''
+
+
 ===================
 \latex et compagnie
 ===================
