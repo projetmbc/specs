@@ -10,6 +10,11 @@ NOW
 
 > ---------------------------- <
 
+monorepo & branches : main juste à récipient à release
+
+
+> ---------------------------- <
+
 contrib
 
     + aussi pour certaines specs auto-doc
