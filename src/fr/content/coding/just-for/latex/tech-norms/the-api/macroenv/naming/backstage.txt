@@ -8,4 +8,5 @@ En coulisse
 
 content::
     \content/latex3.txt
+    \content/latex2e.txt
     \content/luanolua.txt

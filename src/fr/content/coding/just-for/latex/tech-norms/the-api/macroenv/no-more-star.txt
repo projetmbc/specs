@@ -6,5 +6,5 @@ this::
 Versions étoilées... Ou pas !
 =============================
 
-Historiquement, les macros et \envs étoilés ont rendu de grands services, mais il est devenu facile de s'en passer en proposant des \args de type ''clé-valeur'' \etou en s'appuyant sur le versatile \syst de \sign des \args proposé par \latex2e.
+Historiquement, les macros et \envs étoilés ont rendu de grands services, mais il est devenu facile de s'en passer en proposant des \args de type ''clé-valeur'', \etou en s'appuyant sur le versatile \syst de \sign des \args proposé par \latex2e.
 Il ne sera donc jamais proposé de macro ou d'\env étoilé.

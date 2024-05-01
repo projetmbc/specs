@@ -7,6 +7,8 @@ this::
 abrev::
     tutodocdate = date::''2023-12-10''
 
+    content = :this.name:
+
 
 ===================
 \latex et compagnie

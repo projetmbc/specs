@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-06
+    date = 2024-05-01
 
 
 ==============================
@@ -7,4 +7,4 @@ Redéfinition de macros "\stds"
 ==============================
 
 Certaines macros comme latex_math::''\frac'' et latex_math::''\sqrt'' peuvent être modifiées de façon silencieuse par certains \packs.
-Dans ce type de situation, le comportement standard reste accessible via les macros ''\stdfrac'' et ''\stdsqrt'' où l'on a ajouté le préfixe ''std''. Ce sera toujours ainsi lors de la redéfinition de macros "standards".
+Dans ce type de situation, le comportement \std reste accessible via les macros ''\stdfrac'' et ''\stdsqrt'' où l'on a ajouté le préfixe ''std''. Ce sera toujours ainsi lors de la redéfinition de macros "\stds".

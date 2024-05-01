@@ -1,0 +1,17 @@
+// ---------- //
+
+
+==
+01  (0.0.0-beta.16)
+==
+
+-----
+:new:
+-----
+
+[[:doc: & :test:]]
+Two contexts of coding completed.
+
+    1) \latex: names for hidden variables in pure \latex2e coding via the ``@`` symbol.
+
+    2) \python: some specific rules added.

@@ -1,0 +1,15 @@
+this::
+    lexic = python
+
+
+abrev::
+    content = :this.name:
+
+
+======================
+\python en particulier
+======================
+
+content::
+    \content/docstring.txt
+    \content/testing.txt

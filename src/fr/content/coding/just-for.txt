@@ -2,7 +2,12 @@ abrev::
     content = :this.name:
 
 
-// WARNING!
-// We do not want to increase the section level.
+// warning::
+//     We do not want to increase the section level.
+//
+// info::
+//     Sections are sorted alphabetically.
+
 input::
     \content/latex.txt
+    \content/python.txt

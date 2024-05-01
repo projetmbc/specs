@@ -1,13 +1,19 @@
 this::
-    date = 2023-10-31
+    date = 2024-05-01
 
 
 ===========
 Les options
 ===========
 
-Une option est du type verb::''key = value'' ou verb::''one_boolean'' où est utilisé l'anglais, et plusieurs options sont séparées par des virgules.
-De plus, afin de faciliter l'usage de fonctionnalités particulières, il pourra être fait usage de délimiteurs "maison", comme ''< ... >'' par exemple, en plus du traditionnel ''[ ... ]''
-((
+Voilà ce qui sera proposé.
+
+    1) Une option est du type verb::''key = value'' ou verb::''one_boolean'', le nommage utilisant \tjrs l'anglais.
+
+    1) Plusieurs options sont séparées par des virgules.
+
+    1) Enfin, pour faciliter l'usage de fonctionnalités particulières, il pourra être fait usage de délimiteurs "maison", comme ''< ... >'' par exemple, en plus du traditionnel ''[ ... ]''
+
+
+caution::
     **Uniquement si cela fait sens sémantiquement***, des délimiteurs identiques à des positions différentes pourront être proposés comme dans ''\fictivemacro[color=red]{5}[color=blue]{7}''.
-)).
