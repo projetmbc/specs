@@ -1,15 +1,15 @@
 this::
-    date = 2023-09-29
+    date = 2024-05-03
 
 
 =========================
 Agréger différents \packs
 =========================
 
-Pour des raisons pratiques, des \packs ne font qu'agréger d'autres \packs afin d'éviter de devoir faire plein d'importations à la main.
-Ce type de \packs agrégateurs proposent tous une \api répondant aux \specs suivantes
+Pour des raisons pratiques, des \packs peuvent ne faire qu'agréger d'autres \packs afin d'éviter de devoir faire à la main un grand \nbre d'importations.
+Ce type de \pack agrégateur proposera une \api répondant aux \specs suivantes
 ((
-    La majorité du travail est automatisé.
+    La majorité du travail est automatisable. L'auteur de ce \docu utilise l'outil \texfacto.
 )).
 
     * On importe les \packs en ne fabriquant pas un \pack qui reprendrait les codes des différents sous-\packs. Ceci simplifie grandement les \majs.
@@ -18,7 +18,10 @@ Ce type de \packs agrégateurs proposent tous une \api répondant aux \specs sui
 
     * Côté utilisateur, il est possible de choisir une importation ciblée de certains \packs, \etou d'en exclure d'autres.
 
-    * La \doc agrège les \docs des différents \packs importés afin de proposer toutes les \infos au même endroit dans un unique \pdf.
+    * La \doc agrège les \docs des différents \packs importés afin de proposer toutes les \infos au même endroit dans un unique \pdf
+    ((
+        Quitte à obtenir une volumineuse \doc.
+    )).
 
 
 warning::

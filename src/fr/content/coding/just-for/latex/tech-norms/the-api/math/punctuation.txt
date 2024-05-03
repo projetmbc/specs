@@ -1,5 +1,5 @@
 this::
-    date = 2023-09-05
+    date = 2024-05-03
 
 
 ===========================
@@ -17,5 +17,5 @@ Avant toute chose, il faut absolument savoir que le \syst de ponctuation retenu 
     Pour obtenir `12345.6789012` aisément, il faut saisir ''\num{12345.6789012}'' où la macro ''\num'' est fournie par le package ''sinutix''.
 
 
+    Suivant la langue choisie, lors de la \mef, les macros et \envs fournis useront de la ponctuation correspondante à la langue du \docu.
 note::
-    Suivant la langue choisie, les macros et \envs fournis useront de la ponctuation associée lors de la \mef.

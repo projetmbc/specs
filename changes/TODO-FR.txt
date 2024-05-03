@@ -10,6 +10,11 @@ NOW
 
 > ---------------------------- <
 
+latex: message et key-val option in dedicated sty in a amin folder
+
+
+> ---------------------------- <
+
 monorepo & branches : main juste à récipient à release
 
 

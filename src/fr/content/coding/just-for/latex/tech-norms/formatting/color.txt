@@ -1,25 +1,25 @@
 this::
-    date = 2023-10-31
+    date = 2024-05-03
 
 
-====================
-Couleurs... ou pas !
-====================
+===================
+Colorer... Ou pas !
+===================
 
 Par défaut, les fonctionnalités proposées sont toutes faites pour un mode noir-et-blanc
 ((
     Utile pour une impression de \docus.
-)).
-Il est tout de même possible d'obtenir facilement un rendu coloré
+)),
+mais il est tout de même possible d'obtenir facilement un rendu coloré
 ((
     Utile pour une lecture sur écran.
 )).
-Ceci se fait via une option de \pack en faisant appel à un l'un des thèmes proposés, celui par défaut utilisant le noir-et-blanc.
+Ceci se fera via une option de \pack en faisant appel à des thèmes de \mef, celui par défaut étant en noir-et-blanc.
 
 
 caution::
-    Les versions colorées et celle noir-et-blanc peuvent différées dans leur \mef : on ne fera pas juste un passage à un niveau de gris car ceci est rarement pertinent pour des \docus destinés à être photocopiés.
+    Les versions colorées et celle noir-et-blanc peuvent différées dans leur \mef : on ne fera pas juste un passage à un niveau de gris, car ceci est rarement pertinent pour des \docus destinés à être photocopiés.
 
 
 note::
-    En coulisse, les \mefs sont obtenues via les outils fournis par le \pack \tnsformat.
+    En coulisse, les \mefs pourront être gérées via le \pack \tnsformat développé par l'auteur des présentes lignes.

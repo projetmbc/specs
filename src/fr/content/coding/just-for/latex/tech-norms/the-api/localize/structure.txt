@@ -1,12 +1,12 @@
 this::
-    date = 2023-12-10
+    date = 2024-05-03
 
 
 ====================
 Organiser les \trads
 ====================
 
-Considérons comme exemple le cas du package \tutodoc. Le \tutodocdate, son code \src contenait un dossier de \dev path::''main'' où l'on trouvait les fichiers et dossiers suivants permettant d'avoir des macros gérant le français et l'anglais.
+Considérons comme exemple le cas du package \tutodoc : le \tutodocdate, son code \src contenait un dossier de \dev path::''main'' où l'on trouvait les fichiers et dossiers suivants permettant d'avoir des macros gérant le français et l'anglais.
 
 dirtree::
     ---

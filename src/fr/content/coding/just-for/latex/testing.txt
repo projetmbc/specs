@@ -1,12 +1,12 @@
 this::
-    date = 2023-12-10
+    date = 2024-05-03
 
 
 ======
 Tester
 ======
 
-Pour tester à la fois la non régression du rendu, mais aussi la validité des données produites, le projet \l3build est utilisé dans le sous-dossier path::''rollout'' à la racine du projet.
+Pour tester à la fois la non régression du rendu, mais aussi la validité des données produites, le projet \l3build est utilisé dans un sous-dossier nommé path::''rollout'' à la racine du projet.
 Cette approche pourra être complétée via les \techs suivantes
 ((
     Dans chacun des cas, les fichiers et dossiers utilisés ne seront pas incorporés au produit final.
@@ -14,7 +14,7 @@ Cette approche pourra être complétée via les \techs suivantes
 
     1) Des données de tests à destination de \l3build peuvent être fabriquées via des outils externes de confiance en utilisant des dossiers nommés path::''tool'' ou path::''tools'' \etou des fichiers de noms préfixés par path::''tool_'' ou path::''tools_''.
 
-    1) Via des langages comme \python et \bash par exemple, des tests "faits maison" sont possibles en utilisant des dossiers nommés path::''test'' ou path::''tests'' \etou des fichiers de noms préfixés par path::''test_'' ou path::''tests_''.
+    1) Via des langagescomme \python et \bash par exemple, des tests "faits maison" sont possibles en utilisant des dossiers nommés path::''test'' ou path::''tests'' \etou des fichiers de noms préfixés par path::''test_'' ou path::''tests_''.
 
 
 note::
