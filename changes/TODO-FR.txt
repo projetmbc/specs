@@ -13,6 +13,10 @@ NOW
 latex: message et key-val option in dedicated sty in a amin folder
 
 
+??? : parler de la configà extraire du contenu !
+
+
+
 > ---------------------------- <
 
 monorepo & branches : main juste à récipient à release

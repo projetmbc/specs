@@ -1,12 +1,12 @@
 this::
-    date = 2024-05-03
+    date = 2024-05-04
 
 
 ===========================
 La ponctuation mathématique
 ===========================
 
-Avant toute chose, il faut absolument savoir que le \syst de ponctuation retenu est celui à l'anglaise. Rappelons ce que cela signifie.
+Le \syst de ponctuation retenu est celui à l'anglaise. Voici ce que cela signifie.
 
     1) Dans une formule n'usant pas d'une macro spécifique, la virgule et le point-virgule seront gérés comme des séparateurs d'\args.
 
@@ -17,5 +17,5 @@ Avant toute chose, il faut absolument savoir que le \syst de ponctuation retenu 
     Pour obtenir `12345.6789012` aisément, il faut saisir ''\num{12345.6789012}'' où la macro ''\num'' est fournie par le package ''sinutix''.
 
 
-    Suivant la langue choisie, lors de la \mef, les macros et \envs fournis useront de la ponctuation correspondante à la langue du \docu.
 note::
+    Suivant la langue choisie, lors de la \mef, les macros et \envs fournis useront de la ponctuation correspondante à la langue du \docu.

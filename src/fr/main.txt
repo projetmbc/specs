@@ -36,7 +36,3 @@ content::
 // -- SPECIFIC TO ... -- //
 // --------------------- //
     \content/coding.txt
-
-
-
-??? : parler de la configà extraire du contenu !

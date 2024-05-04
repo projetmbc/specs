@@ -1,12 +1,16 @@
 this::
-    date = 2024-05-01
+    date = 2024-05-04
 
 
 ===========
 Les options
 ===========
 
-Voilà ce qui sera proposé.
+note::
+    En coulisse, les options sont réglées à la sauce \latex3 dans des fichiers spécifiques \tjrs nommés path::''keyvals.cfg.sty''.
+
+
+Côté "utilisateur", voilà ce qui sera proposé.
 
     1) Une option est du type verb::''key = value'' ou verb::''one_boolean'', le nommage utilisant \tjrs l'anglais.
 
@@ -16,4 +20,4 @@ Voilà ce qui sera proposé.
 
 
 caution::
-    **Uniquement si cela fait sens sémantiquement***, des délimiteurs identiques à des positions différentes pourront être proposés comme dans ''\fictivemacro[color=red]{5}[color=blue]{7}''.
+    **Uniquement si cela fait sens sémantiquement***, des délimiteurs identiques à des positions différentes pourront être proposés comme dans ''\fictivemacro[color = red]{5}[color = blue]{7}''.

@@ -2,6 +2,21 @@
 
 
 ==
+04  (0.0.0-beta.17)
+==
+
+-----
+:new:
+-----
+
+[[:tech:]]
+Messages and settings of key-val are coded in local files always named path::''messages.cfg.sty'' and path::''keyvals.cfg.sty''.
+
+
+// ---------- //
+
+
+==
 01  (0.0.0-beta.16)
 ==
 

@@ -1,3 +1,7 @@
+this::
+    date = 2024-05-04
+
+
 abrev::
     content = :this.name:
 
@@ -5,6 +9,10 @@ abrev::
 =================================
 Messages destinés à l'utilisateur
 =================================
+
+note::
+    En coulisse, les messages sont codés à la sauce \latex3 dans des fichiers spécifiques \tjrs nommés path::''messages.cfg.sty''.
+
 
 content::
     \content/meaning.txt

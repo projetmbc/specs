@@ -1,9 +1,9 @@
 this::
-    date = 2024-05-01
+    date = 2024-05-04
 
 
 ======
 Tester
 ======
 
-Les bibliothèques utilisées sont \pytest, \behave et \hypothesis.
+Les bibliothèques conseillées sont \pytest, \behave et \hypothesis.
