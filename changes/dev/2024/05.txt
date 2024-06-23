@@ -9,8 +9,8 @@
 :new:
 -----
 
-[[:tech: & \latex]]
-Messages and settings of key-val are coded in local files always named path::''messages.cfg.sty'' and path::''keyvals.cfg.sty''.
+[[:tech:]]
+\latex: messages and settings of key-val are coded in local files always named path::''messages.cfg.sty'' and path::''keyvals.cfg.sty''.
 
 
 // ---------- //
