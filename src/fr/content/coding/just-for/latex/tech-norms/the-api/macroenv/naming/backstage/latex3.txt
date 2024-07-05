@@ -2,12 +2,12 @@ this::
     date = 2024-05-01
 
 
-============
-Avec \latex3
-============
+========
+Avec \l3
+========
 
-Les macros et les \envs "compliqués" sont majoritairement codés en coulisse en \latex3 a minima : ceci signifie que chaque \pack propose une \api publique faisant le lien avec les "fonctions" \latex3 qui font réellement le travail.
-Pour ces macros et ces \envs privés, les conventions de nommage du projet \latex3 sont respectées, et côté casse de police, on reprend ce qui a été indiqué pour les outils "utilisateur".
+Les macros et les \envs "compliqués" sont majoritairement codés en coulisse en \l3 a minima : ceci signifie que chaque \pack propose une \api publique faisant le lien avec les "fonctions" \l3 qui font réellement le travail.
+Pour ces macros et ces \envs privés, les conventions de nommage du projet \l3 sont respectées, et côté casse de police, on reprend ce qui a été indiqué pour les outils "utilisateur".
 
 
 info::

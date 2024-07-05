@@ -104,7 +104,7 @@
 [[:api:]]
 \latex.
 
-    1) Automatic tasks and "manual" versions: this is shown in a dedicated section rather than in the \latex3 naming section.
+    1) Automatic tasks and "manual" versions: this is shown in a dedicated section rather than in the \l3 naming section.
 
     1) Mathematical punctuations: explanations about the possible use of ''siuntix'', instead of always importing the ''numprint'' package.
 

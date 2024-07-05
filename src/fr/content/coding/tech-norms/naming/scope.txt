@@ -10,5 +10,5 @@ Dans certains contextes, on ne veut pas rendre visible une \cte, une classe, une
 Dans ce cas, le nom sera précédé d'un caractère spécial même pour des langages disposant de mécanismes de type java::''private'' comme en \java.
 Pour la majorité des langages, on utilisera un ou deux blancs soulignés ''_'' au tout début du nom comme dans ''_no_need_to_know_this'' ou ''__really_secret''
 ((
-    Pour \latex, et non \latex3, on utilisera ''@'' comme dans ''@no@need@to@know@this'' ou ''@@really@secret''.
+    Pour \latex, et non \l3, on utilisera ''@'' comme dans ''@no@need@to@know@this'' ou ''@@really@secret''.
 )).

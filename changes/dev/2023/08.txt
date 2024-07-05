@@ -33,4 +33,4 @@
 -----
 
 [[:api:]]
-\latex - Core tools: use of the ''xtemplate'' \techno from \latex3.
+\latex - Core tools: use of the ''xtemplate'' \techno from \l3.

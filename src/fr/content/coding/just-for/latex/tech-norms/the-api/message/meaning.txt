@@ -6,7 +6,7 @@ this::
 Ce que signifie le message indiqué
 ==================================
 
-Voici comment sont utilisés les différents niveaux de message proposé par le dialecte \latex3.
+Voici comment sont utilisés les différents niveaux de message proposé par le dialecte \l3.
 
     1) **Erreur critique ou fatale:** ceci concerne tous les usages illégaux.
 

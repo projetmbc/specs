@@ -1,0 +1,19 @@
+// ---------- //
+
+
+==
+05  (0.0.0-beta.18)
+==
+
+--------
+:update:
+--------
+
+[[:tech:]]
+\latex: renames of messages and key-vals \cfg files associated to a \dev file. If this \dev file is named path::''my-devfile.sty', we will use the following names.
+
+    1) path::''my-devfile.msg.sty'' will replace the obsolete
+    path::''messages.cfg.sty''.
+
+    1) path::''my-devfile.kv.sty'' will replace the obsolete
+    path::''keyvals.cfg.sty''.

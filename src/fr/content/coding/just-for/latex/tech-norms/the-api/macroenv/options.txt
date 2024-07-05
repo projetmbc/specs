@@ -1,5 +1,5 @@
 this::
-    date = 2024-05-04
+    date = 2024-07-05
 
 
 ===========
@@ -7,7 +7,7 @@ Les options
 ===========
 
 note::
-    En coulisse, les options sont réglées à la sauce \latex3 dans des fichiers spécifiques \tjrs nommés path::''keyvals.cfg.sty''.
+    En coulisse, les options sont réglées à la sauce \l3 dans des fichiers spécifiques \tjrs nommés suivant le schéma path::''dev-file.kv.sty'' où path::''dev-file.sty'' est le nom d'un fichier de \dev utilisant les options.
 
 
 Côté "utilisateur", voilà ce qui sera proposé.

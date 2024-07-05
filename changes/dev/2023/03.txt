@@ -14,7 +14,7 @@
 
     1) The distinction between the public and the private \apis have been explained.
 
-    1) Coding styles for \latex3 and \lua have been written.
+    1) Coding styles for \l3 and \lua have been written.
 
 
 // ---------- //

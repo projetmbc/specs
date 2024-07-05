@@ -6,4 +6,4 @@ this::
 Avec \latex2e "\std"
 ====================
 
-Quelques fois, l'usage de \latex3 n'est pas utile. Dans ces cas, pour les macros et les \envs privés, les conventions de nommage ressemblent à celles pour \latex3, mais en remplaçant le \_ ``_`` par le caractère ``@``.
+Quelques fois, l'usage de \l3 n'est pas utile. Dans ces cas, pour les macros et les \envs privés, les conventions de nommage ressemblent à celles pour \l3, mais en remplaçant le \_ ``_`` par le caractère ``@``.
