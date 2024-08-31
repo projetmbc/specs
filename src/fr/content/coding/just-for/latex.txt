@@ -5,7 +5,7 @@ this::
 
 
 abrev::
-    thisproj = cf::''TeXfacto ;
+    texfacto = cf::''TeXfacto ;
                      https://github.com/bc-tools/for-latex/tree/main/TeXfacto''
 
     tutodocdate = date::''2024-08-29''
