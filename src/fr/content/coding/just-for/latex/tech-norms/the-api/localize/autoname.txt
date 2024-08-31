@@ -1,5 +1,5 @@
 this::
-    date = 2024-05-03
+    date = 2024-08-31
 
 
 ==============================
@@ -8,9 +8,9 @@ Noms des macros "traductrices"
 
 Les noms sont \tjrs construits suivant le même schéma. Considérons par exemple le package \tutodoc daté du \tutodocdate.
 
-    1) verb::''exa_title = Exemple'' est présent dans un fichier de traductions pour le français.
+    1) verb::''exa_title = Exemple'' est présent dans un fichier de \trads pour le français.
 
-    1) Dans le fichier path::''french.sty'' est ajoutée "\auto^t" la macro ''\tutodoc@trans@exa@title'' où le schéma de nommage est du type ''\monpackage@trans@id@une@trad'' où verb::''id_une_trad'' est un identifiant utilisé dans les fichiers ext::''txt'' de traductions.
+    1) La macro ''\tutodoc@trans@exa@title'' dans le fichier path::''french.sty'' est ajoutée "\auto^t", le schéma de nommage étant du type ''\monpackage@trans@id@de@la@trad'' où verb::''id_de_la_trad'' est un identifiant utilisé dans les fichiers ext::''txt'' de \trads.
 
 
 note::

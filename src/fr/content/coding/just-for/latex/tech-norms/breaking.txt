@@ -1,5 +1,5 @@
 this::
-    date = 2024-05-03
+    date = 2024-08-31
 
 
 ==================================
@@ -14,4 +14,4 @@ charge à l'utilisateur de tenir compte de la \doc pour apporter les correctifs 
 
 
 note::
-    Un \doc expliquera \tjrs comment migrer d'une version donnée à la suivante lors de \chgts non rétroactifs.
+    Dans la \docu, une section dédiée expliquera \tjrs comment migrer d'une version donnée à la suivante lors de \chgts non rétroactifs.

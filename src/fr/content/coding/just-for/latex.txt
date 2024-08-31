@@ -1,18 +1,21 @@
 this::
-    date = 2024-05-03
+    date = 2024-08-31
 
     lexic = latex
 
 
 abrev::
-    tutodocdate = date::''2023-12-10''
+    thisproj = cf::''TeXfacto ;
+                     https://github.com/bc-tools/for-latex/tree/main/TeXfacto''
+
+    tutodocdate = date::''2024-08-29''
 
     content = :this.name:
 
 
-===================
-\latex et compagnie
-===================
+==================
+\latex et ses amis
+==================
 
 Dans le monde de la \prog, \latex est un \lang très particulier avec son écosystème
 ((

@@ -1,0 +1,13 @@
+// ---------- //
+
+
+==
+31  (0.0.0-beta.19)
+==
+
+--------
+:update:
+--------
+
+[[:doc:]]
+\latex: \ref to the last \ver of \tutodoc in the section about locale settings of an \api.
