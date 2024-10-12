@@ -13,4 +13,4 @@ content::
     \content/localize.txt
     \content/how-to-format.txt
     \content/message.txt
-    \content/key-val-options.txt         ?????
+    \content/key-options.txt

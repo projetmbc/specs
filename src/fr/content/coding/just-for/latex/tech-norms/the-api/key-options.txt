@@ -1,0 +1,34 @@
+this::
+    date = 2024-10-13
+
+
+=======================
+Des options de type clé
+=======================
+
+note::
+    En coulisse, les options de type clé sont codées à la sauce \l3.
+
+
+La seule contrainte est d'éviter les conflits de noms dans le code \src. Pour ce faire, on utilise un "chemin" constitué du nom \proj et de celui du fichier \src où sont codés les options.
+
+
+Voici un exemple de code \l3 présent dans un fichier \src path::''srcfile.sty'' relatif à un \pack verb::''fictpack''.
+
+l3::
+    \keys_define:nn { fictpack / srcfile } {
+      theme .choices:nn = {
+        color,
+        black-white,
+        white-black
+      } {
+        \tl_set:Nn \l_fictpack_theme_str
+          { \tl_use:N \l_keys_choice_tl }
+      },
+      theme .initial:n = color,
+      theme / unknown .code:n =
+        \msg_error:nnxxx { fictpack ~ (srcfile) }
+          { package-option-unknown-theme }
+    }
+
+    \ProcessKeyOptions[fictpack]

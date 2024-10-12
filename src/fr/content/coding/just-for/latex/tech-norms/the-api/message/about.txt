@@ -1,5 +1,5 @@
 this::
-    date = 2024-10-12
+    date = 2024-10-13
 
 
 ===============================
@@ -8,28 +8,26 @@ Localiser le "lanceur d'alerte"
 
 Chaque message indique toujours les \infos suivantes.
 
-    1) **Le nom du \pack.** Pour les \packs "agrégateurs", les erreurs qui ne leur sont pas propres garderont la \ref au sous-\pack utilisé.
+    1) **Le nom du \proj.** Pour les \packs "agrégateurs", les erreurs qui ne leur sont pas propres garderont la \ref au sous-\pack utilisé.
 
-    1) **Le nom du fichier \src.** En plus du nom du pacakge, on donne aussi entre parenthèses le nom du fichier \src où a été codé le message. Ce nom de fichier sert aussi comme préfixe pour éviter des conflits de noms dans le code \src.
+    1) **Le nom du fichier \src.** En plus du nom du \pack, on donne aussi entre parenthèses le nom du fichier \src où a été codé le message. Ce nom de fichier sert aussi comme préfixe pour éviter des conflits de noms dans le code \src.
 
-    1) **Le contexte.** Ceci peut concerner un régélage, l'emploi d'une macro ou d'un \env.
-
-    1) **Le pourquoi.** Une \desc courte, mais précise, permet d'aider à la fois l'utilisateur et le maintenur du code en cas de bogue.
+    1) **Le contexte \etou le pourquoi.** Une \desc courte, mais précise, permet d'aider à la fois l'utilisateur et le mainteneur du code en cas de bogue.
 
 
-Voici un exemple de code \l3 tapé dans un fichier \src path::''onesrcfile.sty'' relatif à un \pack verb::''fictpack''.
+Voici un exemple de code \l3 présent dans un fichier \src path::''srcfile.sty'' relatif à un \pack verb::''fictpack''.
 
 l3::
-    \msg_set:nnnn { fictpack ~ (onesrcfile) }
-      { onesrcfile : unsupported-option }
-      { unsupported ~ option ~ << ~ #1 ~ >>. }
+    \msg_set:nnnn { fictpack ~ (srcfile) }
+      { srcfile : package-option-unknown }
+      { unknown ~ package ~ option ~ << ~ #1 ~ >>. }
       { \msg_see_documentation_text:n { fictpack } }
 
 
 Côté utilisateur, en cas de souci, on obtient ce qui suit.
 
 term::
-    Critical Package fictpack (onesrcfile) Error: unsupported option << XxX >>.
+    Critical Package fictpack (srcfile) Error: unknown package option << XxX >>.
 
 
 Nous voyons que le codeur obtient ainsi \ttes les \infos utiles pour mener l'enquête en cas de bogue.
