@@ -6,7 +6,7 @@ abrev::
 //     We do not want to increase the section level.
 //
 // info::
-//     Sections are sorted alphabetically.
+//     The list of files is sorted alphabetically.
 
 input::
     \content/latex.txt

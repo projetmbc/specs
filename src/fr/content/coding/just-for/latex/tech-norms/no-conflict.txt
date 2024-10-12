@@ -1,15 +1,14 @@
 this::
-    date = 2024-05-03
+    date = 2024-10-12
 
 
 =======================
 Une \api sans conflit ?
 =======================
 
-info::
-    L'outil \tnsdoc produit une \doc \tech \auto^t à partir du code \src, lors de cette phase, un fichier path::''signature.yaml'' est produit pour donner l'\ens des \signs des objets codés.
-    Le projet \texfacto sait utiliser path::''signature.yaml'' afin de vérifier qu'il n'y a pas de conflits de noms \etou de \signs au sein d'un \pack, mais aussi avec ceux disponibles sur \ctan.
+L'outil \tnsdoc produit une \doc \tech \auto^t à partir du code \src, lors de cette phase, un fichier path::''signature.yaml'' est produit pour donner l'\ens des \signs des objets codés.
+Ensuite, le projet \texfacto pourra utiliser path::''signature.yaml'' afin de vérifier qu'il n'y a pas de conflits de noms \etou de \signs au sein d'un \pack, mais aussi avec ceux disponibles sur \ctan.
 
 
 warning::
-    Il est de la responsabilité du codeur d'indiquer, via la syntaxe \tnsdoc, des cas problématiques liés à l'utilisation de fonctions du type ''\csname'' en coulisse.
+    Il est de la responsabilité du codeur d'indiquer, via la syntaxe \tnsdoc, des cas problématiques liés à l'utilisation de fonctions du type ''\csname'' en coulisse (technique de nommage dynamique).

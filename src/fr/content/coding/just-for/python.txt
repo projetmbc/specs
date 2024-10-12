@@ -6,9 +6,9 @@ abrev::
     content = :this.name:
 
 
-======================
-\python en particulier
-======================
+==============
+Le cas \python
+==============
 
 content::
     \content/docstring.txt

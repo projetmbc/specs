@@ -17,19 +17,19 @@ Chaque message indique toujours les \infos suivantes.
     1) **Le pourquoi.** Une \desc courte, mais précise, permet d'aider à la fois l'utilisateur et le maintenur du code en cas de bogue.
 
 
-Voici un exemple de code \l3 tapé dans un fichier \src path::''main.sty'' relatif à un \pack verb::''tutodoc''.
+Voici un exemple de code \l3 tapé dans un fichier \src path::''onesrcfile.sty'' relatif à un \pack verb::''fictpack''.
 
 l3::
-    \msg_set:nnnn { tutodoc ~ (main) }
-      { main : unsupported-lang }
-      { unsupported ~ language ~ << ~ #1 ~ >>. }
-      { \msg_see_documentation_text:n {tutodoc} }
+    \msg_set:nnnn { fictpack ~ (onesrcfile) }
+      { onesrcfile : unsupported-option }
+      { unsupported ~ option ~ << ~ #1 ~ >>. }
+      { \msg_see_documentation_text:n { fictpack } }
 
 
 Côté utilisateur, en cas de souci, on obtient ce qui suit.
 
 term::
-    Critical Package tutodoc (main) Error: unsupported language << de >>.
+    Critical Package fictpack (onesrcfile) Error: unsupported option << XxX >>.
 
 
 Nous voyons que le codeur obtient ainsi \ttes les \infos utiles pour mener l'enquête en cas de bogue.

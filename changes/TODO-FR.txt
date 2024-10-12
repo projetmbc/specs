@@ -22,6 +22,15 @@ first version
 
 > ---------------------------- <
 
+faire un branche latex, une python
+
+branche dev pour ce qui est géénral !
+
+ajout alors du nom de la branch en mode auto
+
+
+> ---------------------------- <
+
 monorepo & branches : main juste à récipient à release
 
 

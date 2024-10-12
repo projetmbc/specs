@@ -1,0 +1,36 @@
+this::
+    date = 2024-10-12    ????
+
+
+======================
+Des options clé-valeur
+======================
+
+note::
+    En coulisse, les options clé-valeur sont codées à la sauce \l3.
+
+
+?????
+
+
+HHHHH
+
+
+
+l3::
+    \keys_define:nn { tdoc } {
+      lang .choices:nn =
+        { french, english }
+        {
+        \tl_set:Nn \l_tdoc_opt_lang_str
+                    { \tl_use:N \l_keys_choice_tl }
+        },
+      lang .initial:n = english,
+      lang / unknown .code:n =
+        \msg_error:nnxxx { tdoc } { package-option-lang-unknown }
+        { lang }             % Name of choice key
+        { french, english }  % Valid choices
+        { \exp_not:n {#1} }  % Invalid choice given
+    }
+
+    \ProcessKeyOptions[tdoc]

@@ -6,6 +6,14 @@
 ==
 
 -----
+:new:
+-----
+
+[[:tech:]]     ???????
+\latex: \specs for key-val options added.
+
+
+-----
 :fix:
 -----
 
