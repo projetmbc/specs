@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-31
+    date = 2024-10-12
 
 
 ==================================
@@ -8,10 +8,10 @@ Ce que signifie le message indiqué
 
 Voici comment sont utilisés les différents niveaux de message proposé par le dialecte \l3.
 
-    1) **Erreur critique ou fatale:** ceci concerne tous les usages illégaux.
-
-    1) **Erreur simple:** ceci concerne des mésusages de macros pour lesquels on peut proposer une \exp dégradée mais pas forcément attendue (penser par exemple à la volonté d'user de codes \lua alors que le compilateur n'est pas \luatex).
-
-    1) **Avertissement:** ce niveau sera utilisé pour indiquer un \chgt majeur d'\api à venir lorsque que de grandes modifications deviennent nécessaires.
-
     1) **\Info:** ceci permet d'indiquer des actions physiques comme l'écriture dans un fichier path::''aux'' par exemple, ou encore d'indiquer que le \nbre de compilations n'est pas suffisant pour valider l'usage d'une fonctionnalité.
+
+    1) **Avertissement:** ceci concerne des mésusages de macros pour lesquels on peut proposer une \exp dégradée, pas forcément attendue, mais fonctionnelle (penser par exemple à la volonté d'user de codes \lua alors que le compilateur n'est pas \luatex).
+
+    1) **Erreur simple:** ceci concerne tous les usages illégaux qui offre tout de même une expérience dégradée (par exemple, si l'on doit travailler avec une langue non supportée, on peut proser de passer via l'anglais qui est pris en compte).
+
+    1) **Erreur critique ou fatale:** ce niveau est pour les erreurs d'emploi de l'\api, mais aussi pour toutes les mésusages sans solution de secours.
