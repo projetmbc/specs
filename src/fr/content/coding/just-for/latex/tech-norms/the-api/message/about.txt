@@ -1,5 +1,5 @@
 this::
-    date = 2023-09-05
+    date = 2024-10-12
 
 
 ===============================
@@ -8,8 +8,28 @@ Localiser le "lanceur d'alerte"
 
 Chaque message indique toujours les \infos suivantes.
 
-    1) **Le nom du \pack.** Pour les \packs "agrégateurs", les erreurs qui ne leur sont pas propres garderont la \ref au sous-\pack utilisé afin de vite cibler un \pb et rendre plus efficace la correction d'eventuels bogues.
+    1) **Le nom du \pack.** Pour les \packs "agrégateurs", les erreurs qui ne leur sont pas propres garderont la \ref au sous-\pack utilisé.
 
-    1) **Le contexte.** Ceci peut concerner l'activation d'un module, l'emploi d'une macro ou d'un \env.
+    1) **Le nom du fichier \src.** En plus du nom du pacakge, on donne aussi entre parenthèses le nom du fichier \src où a été codé le message. Ce nom de fichier sert aussi comme préfixe pour éviter des conflits de noms dans le code \src.
+
+    1) **Le contexte.** Ceci peut concerner un régélage, l'emploi d'une macro ou d'un \env.
 
     1) **Le pourquoi.** Une \desc courte, mais précise, permet d'aider à la fois l'utilisateur et le maintenur du code en cas de bogue.
+
+
+Voici un exemple de code \l3 tapé dans un fichier \src path::''main.sty'' relatif à un \pack verb::''tutodoc''.
+
+l3::
+    \msg_set:nnnn { tutodoc ~ (main) }
+      { main : unsupported-lang }
+      { unsupported ~ language ~ << ~ #1 ~ >>. }
+      { \msg_see_documentation_text:n {tutodoc} }
+
+
+Côté utilisateur, en cas de souci, on obtient ce qui suit.
+
+term::
+    Critical Package tutodoc (main) Error: unsupported language << de >>.
+
+
+Nous voyons que le codeur obtient ainsi \ttes les \infos utiles pour mener l'enquête en cas de bogue.

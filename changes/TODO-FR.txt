@@ -10,11 +10,14 @@ NOW
 
 > ---------------------------- <
 
-latex: message et key-val option in dedicated sty in a amin folder
+latex: key-val option utilise aussi src file comme prefixe !
 
 
-??? : parler de la configà extraire du contenu !
+> ---------------------------- <
 
+first version
+
+    ---> Finaliser just-for-python une fois uv utilisé car TOPISSIME et du coup virtualenv enfin utilisé !!!
 
 
 > ---------------------------- <
@@ -31,11 +34,6 @@ contrib
     + translation mettre la docu codeur en doublon de façon automatisé pour à la fois point de départ et aussi repéré des chgts
 
     + besoin de 'une doc autonomé directement translatable par un contrib sans connaissances tech !!!!!
-
-
-> ---------------------------- <
-
-first version : quand finaliser just-for-python
 
 
 > ---------------------------- <

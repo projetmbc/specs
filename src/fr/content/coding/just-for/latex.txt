@@ -1,5 +1,5 @@
 this::
-    date = 2024-08-31
+    date = 2024-10-12
 
     lexic = latex
 
@@ -17,7 +17,7 @@ abrev::
 \latex et ses amis
 ==================
 
-Dans le monde de la \prog, \latex est un \lang très particulier avec son écosystème
+Dans le monde de la \prog, \latex est un \lang très particulier
 ((
     Libre à vous d'utiliser, ou non, l'écosystème de \dev poposé par \latex. L'auteur de cette \spec préfère s'appuyer sur un outil "maison" \texfacto pour développer de façon plus efficace, au moins à ses yeux.
 )).

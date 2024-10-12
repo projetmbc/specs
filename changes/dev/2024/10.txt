@@ -2,7 +2,7 @@
 
 
 ==
-10  (0.0.0-beta.20)
+12  (0.0.0-beta.20)
 ==
 
 -----
@@ -10,4 +10,12 @@
 -----
 
 [[:tech:]]
-\latex: warning and error messages were not prioritized correctly.
+\latex.
+
+    1) Messages are no longer in dedicated files. Instead, messages are constructed as follows.
+
+        * The \src file name is next to the \pck one in the begining of error \msgs.
+
+        * The \src file name is used as prefix to avoid conflict names internally.
+
+    1) Warning and error messages were not prioritized correctly.

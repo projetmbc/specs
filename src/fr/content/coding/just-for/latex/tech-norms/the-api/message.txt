@@ -1,5 +1,5 @@
 this::
-    date = 2024-07-05
+    date = 2024-10-12
 
 
 abrev::
@@ -11,7 +11,7 @@ Messages destinés à l'utilisateur
 =================================
 
 note::
-    En coulisse, les messages sont codés à la sauce \l3 dans des fichiers spécifiques \tjrs nommés suivant le schéma path::''dev-file.msg.sty'' où path::''dev-file.sty'' est le nom d'un fichier de \dev utilisant les messages.
+    En coulisse, les messages sont codés à la sauce \l3.
 
 
 content::
