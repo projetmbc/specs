@@ -6,4 +6,4 @@ this::
 XXX
 ======
 
-Les bibliothèques conseillées sont \pytest, \behave et \hypothesis.
+???
