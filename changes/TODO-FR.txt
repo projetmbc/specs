@@ -10,11 +10,6 @@ NOW
 
 > ---------------------------- <
 
-latex: key-val option utilise aussi src file comme prefixe !
-
-
-> ---------------------------- <
-
 first version
 
     ---> Finaliser just-for-python une fois uv utilisé car TOPISSIME et du coup virtualenv enfin utilisé !!!
