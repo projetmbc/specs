@@ -1,9 +1,0 @@
-this::
-    date = 2024-10-13
-
-
-=====================
-Quid des docstrings ?
-=====================
-
-L'outil \tnsdoc est capable de produire une version du code intégrant les \docs \techs directement dans les docstrings, ces dernières ne seront donc pas utilisées lors du \dev du projet concerné.

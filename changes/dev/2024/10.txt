@@ -2,6 +2,20 @@
 
 
 ==
+13  (1.0.0-rc.1)
+==
+
+------
+:desc:
+------
+
+This is the first real public version of the \specs (the special case of \python will be done it the next minor release).
+
+
+// ---------- //
+
+
+==
 13  (0.0.0-beta.21)
 ==
 

@@ -1,5 +1,5 @@
 this::
-    date = 2024-10-12
+    date = 2024-10-13
 
     lexic = latex
 
@@ -13,9 +13,9 @@ abrev::
     content = :this.name:
 
 
-==================
-\latex et ses amis
-==================
+=======================
+Pour \latex et ses amis
+=======================
 
 Dans le monde de la \prog, \latex est un \lang très particulier
 ((
