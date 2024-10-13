@@ -10,13 +10,17 @@ note::
     En coulisse, les options de type clé sont codées à la sauce \l3.
 
 
-La seule contrainte est d'éviter les conflits de noms dans le code \src. Pour ce faire, on utilise un "chemin" constitué du nom \proj et de celui du fichier \src où sont codés les options.
+Afin d'éviter les conflits de noms dans le code \src, un groupe de clé est nommé via un chemin virtuel de l'un des types suivants.
+
+    1) ''project-name / source-file-name''
+
+    1) ''project-name / source-file-name / macro-env-name''
 
 
-Voici un exemple de code \l3 présent dans un fichier \src path::''srcfile.sty'' relatif à un \pack verb::''fictpack''.
+Voici un exemple de code \l3 présent dans un fichier \src path::''main.sty'' relatif à un \pack verb::''fictpack''. Comme nous définissons ici des clés pour un réglage global du package, nous utilisons un chemin virtuel court.
 
 l3::
-    \keys_define:nn { fictpack / srcfile } {
+    \keys_define:nn { fictpack / main } {
       theme .choices:nn = {
         color,
         black-white,

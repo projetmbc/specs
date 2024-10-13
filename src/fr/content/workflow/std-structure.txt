@@ -1,5 +1,5 @@
 this::
-    date = 2023-11-24
+    date = 2024-10-13
 
 
 =============================
@@ -43,7 +43,7 @@ Expliquons l'utilité de chaque composant.
           require:
             - latex
 
-    **Rien n'empêche d'utiliser une autre syntaxe s'appuyant sur le format \json ou \toml par exemple**. Par contre, il faut rendre les \metainfos facilement à un programme informatique et à un oeil humain.
+    **Rien n'empêche d'utiliser une autre syntaxe s'appuyant sur le format \json ou \toml par exemple**. Par contre, il faut rendre les \metainfos facilement accessibles à différents programmes informatiques, tout en les laissant lisibles par des humains.
 
     1) Le fichier path::''versions.yaml'' suit le même type de règles générales que le fichier path::''about.yaml''.
     Le fichier path::''versions.yaml'' permet de rendre facilement accessible l'historique daté des \numvers. Voici un exemple fictif que pourrait produire \tnschges par analyse du dossier path::''changes'' dont on va parler dans l'item suivant.
