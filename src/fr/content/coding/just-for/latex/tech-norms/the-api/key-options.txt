@@ -10,14 +10,17 @@ note::
     En coulisse, les options de type clé sont codées à la sauce \l3.
 
 
-Afin d'éviter les conflits de noms dans le code \src, un groupe de clé est nommé via un chemin virtuel de l'un des types suivants.
+Afin d'éviter les conflits de noms dans le code \src, un \grp de clé est nommé via un chemin virtuel de l'un des types suivants.
 
     1) ''project-name / source-file-name''
 
     1) ''project-name / source-file-name / macro-env-name''
 
 
-Voici un exemple de code \l3 présent dans un fichier \src path::''main.sty'' relatif à un \pack verb::''fictpack''. Comme nous définissons ici des clés pour un réglage global du package, nous utilisons un chemin virtuel court.
+Voici un exemple de code \l3 présent dans un fichier \src path::''main.sty'' relatif à un \pack verb::''fictpack''. Comme nous définissons ici des clés pour un réglage global du \pack, nous utilisons un chemin virtuel court
+((
+    Noter au passage le respect des règles établies pour les messages d'erreur : voir \cf::''./message/about''.
+)).
 
 l3::
     \keys_define:nn { fictpack / main } {
@@ -31,7 +34,7 @@ l3::
       },
       theme .initial:n = color,
       theme / unknown .code:n =
-        \msg_error:nnxxx { fictpack ~ (srcfile) }
+        \msg_error:nn { fictpack ~ (main) }
           { package-option-unknown-theme }
     }
 
