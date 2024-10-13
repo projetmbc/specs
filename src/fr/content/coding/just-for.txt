@@ -10,4 +10,4 @@ abrev::
 
 input::
     \content/latex.txt
-//    \content/python.txt
+    \content/python.txt
