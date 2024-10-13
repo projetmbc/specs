@@ -1,0 +1,12 @@
+// ---------- //
+
+
+==
+13  (1.0.0)
+==
+
+------
+:desc:
+------
+
+This is the first real public version of the \specs.
