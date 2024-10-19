@@ -1,30 +1,16 @@
 this::
-    date = 2024-10-19    ????
+    date = 2024-10-19
 
 
 ==================
 Des \mefs au choix
 ==================
 
-
-XXXX
-
-
-
-Par défaut, les fonctionnalités proposées sont toutes faites pour un mode noir-et-blanc
+Lorsque cela est pertinent, différentes \mefs globales peuvent être proposées via des options de \pack, ou de \cls. On parle alors de thèmes qui jouent sur les couleurs et le rendu de certains \envs et macros. Dans le code \src, le \dev de ces thèmes se fait dans des fichiers d'extension étendue path::''css.sty''
 ((
-    Utile pour une impression de \docus.
-)),
-mais il est tout de même possible d'obtenir facilement un rendu coloré
-((
-    Utile pour une lecture sur écran.
+    Ceci fournit facilement des exemples de codes pour de \nelles contributions extérieures.
 )).
-Ceci se fera via une option de \pack, ou de \cls, en faisant appel à des thèmes de \mef, celui par défaut étant en noir-et-blanc.
 
 
 caution::
-    Les versions colorées et celle noir-et-blanc peuvent différées dans leur \mef : on ne fera pas juste un passage à un niveau de gris, car ceci est rarement pertinent pour des \docus destinés à être photocopiés.
-
-
-note::
-    En coulisse, les \mefs pourront être gérées via le \pack \tnsformat développé par l'auteur des présentes lignes.
+    Le style de codage doit permettre de partir d'un thème existant pour en changer que certains \params, un peu comme ce que permet le \css pour les fichiers \html.
