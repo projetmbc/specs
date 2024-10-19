@@ -1,20 +1,12 @@
-this::
-    date = 2024-05-03
-
-
 abrev::
     content = :this.name:
 
 
-================================================
-Différentes langues pour les macros et les \envs
-================================================
-
-Par défaut, l'anglais et le français sont \tjrs pris en compte, le choix de la langue se faisant via une option de \pack du type verb::''lang = french'' ou verb::''lang = english'' en reprenant les noms des langues proposés par le \pack \babel.
-
-La gestion des \trads doit utiliser un processus semi-automatisé qui autorise l'ajout de \nlles \trads par des non-codeurs. Les sections suivantes expliquent le processus suivi par l'auteur de ce \docu.
-
+===================
+Gestion des langues
+===================
 
 content::
+    \content/gene-process.txt
     \content/structure.txt
     \content/autoname.txt

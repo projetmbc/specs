@@ -2,6 +2,25 @@
 
 
 ==
+19  (1.1.0-rc.1)
+==
+
+--------
+:update:
+--------
+
+[[:tech:]]
+\latex.
+
+    1) \Trans: the new process uses latex::''\BCPdata{language}''.
+
+    1) Themes: the \css style has been chosen.
+
+
+// ---------- //
+
+
+==
 13  (1.0.0-rc.1)
 ==
 

@@ -8,7 +8,7 @@ Macros et \envs
 
 content::
     \content/naming.txt
-    \content/no-more-star.txt
+    \content/very-few-star.txt
     \content/args.txt
     \content/options.txt
     \content/local-2-global.txt

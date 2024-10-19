@@ -1,12 +1,12 @@
 this::
-    date = 2024-08-31
+    date = 2024-10-19
 
 
 ====================
 Organiser les \trads
 ====================
 
-Considérons comme exemple le cas du package \tutodoc : le \tutodocdate, son code \src contenait un dossier de \dev path::''main'' où l'on trouvait les fichiers et dossiers suivants permettant d'avoir des macros gérant le français et l'anglais.
+Considérons comme exemple le cas de la classe \tutodoc : le \tutodocdate, son code \src contenait un dossier de \dev path::''main'' où l'on trouvait les fichiers et dossiers suivants permettant d'avoir des macros gérant le français et l'anglais.
 
 dirtree::
     ---
@@ -18,14 +18,14 @@ Voici l'affreux code utilisé en interne pour le français.
 
 latex::
     ---
-    path = ?/examples/translate/api-config/tutodoc/tutodoc-locale-main-french.cfg.sty
-    title = Contenu de path::''tutodoc-locale-main-french.cfg.sty'' le \tutodocdate
+    path = ?/examples/translate/api-config/tutodoc/tutodoc-locale-main-fr.cfg.cls.sty
+    title = Contenu de path::''tutodoc-locale-main-fr.cfg.cls.sty'' le \tutodocdate
     ---
 
 
 \Ttes les macros dans l'horreur précédente ont été produites \auto^t
 ((
-    Noter les préfixes utilisés dans le fichier path::''tutodoc-locale-main-french.cfg.sty'' afin d'éviter des conflits de noms avec d'autres packages (quitte à répéter du code dans différents endroits mais ceci est un moindre mal).
+    Noter les préfixes utilisés dans le fichier path::''tutodoc-locale-main-fr.cfg.cls.sty'' afin d'éviter des conflits de noms avec d'autres packages (quitte à répéter du code dans différents endroits mais ceci est un moindre mal).
 ))
 à partir des deux fichiers suivants très simples à modifier par un non codeur : voir cf::''?/translate/api-config.txt'' à ce sujet.
 
@@ -40,7 +40,3 @@ verb::
     path = ?/examples/translate/api-config/tutodoc/sentences.txt
     title = Contenu du fichier path::''fr/sentences.txt'' le \tutodocdate
     ---
-
-
-warning::
-    Quand on parle à \latex, on utilise les noms anglais des langues comme dans path::''tutodoc-locale-main-french.cfg.sty'', mais quand on code, on s'appuie sur les noms courts de la \isolang comme dans path::''fr/macros.txt''.
