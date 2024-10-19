@@ -1,5 +1,5 @@
 this::
-    date = 2024-05-03
+    date = 2024-10-19
 
 
 ================================
@@ -11,6 +11,6 @@ Pour ce type de macros, l'utilisateur a \tjrs la possibilité de choisir la tail
 
     1) Les tailles ''big'', ''Big'', ''bigg'', ''Bigg'' son similaires à ce que propose \amsmath.
 
-    1) ''asit'' demande de n'opérer à aucun \chgt d'échelle.
+    1) Une valeur "vide" demande de n'opérer à aucun \chgt d'échelle.
 
-    1) ''auto'' permet d'utiliser des délimiteurs "étirables" obtenus viales macros ''\left'' et ''\right''.
+    1) ''auto'' permet d'utiliser des délimiteurs "étirables" obtenus via les macros ''\left'' et ''\right''.

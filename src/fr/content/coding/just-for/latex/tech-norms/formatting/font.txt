@@ -1,12 +1,12 @@
 this::
-    date = 2024-05-03
+    date = 2024-10-19
 
 
 =================================
 Polices de caractères... Ou pas !
 =================================
 
-Comme le choix de polices de caractères est affaire de goût, la gestion de celles-ci se fait via des options de \pack. Par défaut, rien de particulier ne sera fait.
+Comme le choix de polices de caractères est affaire de goût, la gestion de celles-ci se fait via des options de \pack, ou de \cls. Par défaut, rien de particulier ne sera fait.
 
 
 note::
@@ -14,4 +14,4 @@ note::
     ((
         Pour le meilleur... Ou pour le pire.
     )).
-    Les \packs pourront donc offrir des réglages de polices de caractères plus fins via \lualatex.
+    Les \packs et les \clss pourront donc offrir des réglages de polices de caractères plus fins via \lualatex.

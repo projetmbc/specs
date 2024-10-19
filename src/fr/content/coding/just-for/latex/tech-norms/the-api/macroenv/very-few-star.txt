@@ -1,5 +1,5 @@
 this::
-    date = 2023-10-07
+    date = 2024-10-19
 
 
 =============================
@@ -7,4 +7,4 @@ Versions étoilées... Ou pas !
 =============================
 
 Historiquement, les macros et \envs étoilés ont rendu de grands services, mais il est devenu facile de s'en passer en proposant des \args de type ''clé-valeur'', \etou en s'appuyant sur le versatile \syst de \sign des \args proposé par \latex2e.
-Il ne sera donc jamais proposé de macro ou d'\env étoilé.
+Dès lors, la proposition de macros ou d'\envs étoilés devra rester très exceptionnel !

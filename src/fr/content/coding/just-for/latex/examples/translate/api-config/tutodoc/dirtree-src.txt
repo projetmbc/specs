@@ -4,11 +4,11 @@ dirtree::
             + fr
                 * macros.txt
                 * sentences.txt
-        * about.yaml
+        * main.cls
         * formatting-geo.tex
         * formatting-link.tex
         * formatting-title-n-toc.tex
         * lang.tex
-        * main.sty
-        * tutodoc-locale-main-english.cfg.sty
-        * tutodoc-locale-main-french.cfg.sty
+        * tutodoc-locale-main-en.cfg.cls.sty
+        * tutodoc-locale-main-fr.cfg.cls.sty
+        * about.yaml

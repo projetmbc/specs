@@ -8,5 +8,5 @@ abrev::
 
 content::
     \content/font.txt
-    \content/color.txt
+    \content/theme.txt
     \content/math.txt

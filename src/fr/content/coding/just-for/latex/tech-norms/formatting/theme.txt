@@ -1,10 +1,15 @@
 this::
-    date = 2024-05-03
+    date = 2024-10-19    ????
 
 
-===================
-Colorer... Ou pas !
-===================
+==================
+Des \mefs au choix
+==================
+
+
+XXXX
+
+
 
 Par défaut, les fonctionnalités proposées sont toutes faites pour un mode noir-et-blanc
 ((
@@ -14,7 +19,7 @@ mais il est tout de même possible d'obtenir facilement un rendu coloré
 ((
     Utile pour une lecture sur écran.
 )).
-Ceci se fera via une option de \pack en faisant appel à des thèmes de \mef, celui par défaut étant en noir-et-blanc.
+Ceci se fera via une option de \pack, ou de \cls, en faisant appel à des thèmes de \mef, celui par défaut étant en noir-et-blanc.
 
 
 caution::

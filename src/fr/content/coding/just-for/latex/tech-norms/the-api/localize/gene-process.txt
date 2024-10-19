@@ -1,0 +1,19 @@
+this::
+    date = 2024-10-19
+
+
+====================
+Le processus général
+====================
+
+Voici comment développer des fonctionalités spécifiques à des langues données.
+
+    1) Il faut délèguer le maximum de travail à des \packs spécialisés tels que \csquotes, \babel, \polyglossia...
+
+    1) Le repérage de la langue d'un \docu se fait via ''\BCPdata{language}'' qui est compatible avec l'usage de \babel ou \polyglossia : par exemple, l'emploi de ''\usepackage[french]{babel}'' donne la valeur ''fr'' à ''\BCPdata{language}''.
+
+    1) L'anglais doit \tjrs être pris en compte.
+
+    1) Lorsqu’une langue n’est pas prise en compte par le \pack, ou la \cls, un message d’avertissement est émis, et l’anglais est alors choisi comme langue.
+
+    1) Enfin, la gestion des \trads suit un processus semi-automatisé autorisant l'ajout de \nlles \trads par des non-codeurs. Voir les sections suivantes à ce sujet.
