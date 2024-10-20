@@ -6,7 +6,7 @@ this::
 Des \mefs au choix
 ==================
 
-Lorsque cela est pertinent, différentes \mefs globales peuvent être proposées via des options de \pack, ou de \cls. On parle alors de thèmes qui jouent sur les couleurs et le rendu de certains \envs et macros. Dans le code \src, le \dev de ces thèmes se fait dans des fichiers d'extension étendue path::''css.sty''
+Lorsque cela est pertinent, différentes \mefs globales peuvent être proposées via des options de \pack, ou de \cls. On parle alors de thèmes qui jouent sur les couleurs et le rendu de certains \envs et macros. Dans le code \src, le \dev de ces thèmes se fait dans des fichiers d'extension étendue path::''css.sty'' pour un \pack, et path::''css.cls.sty'' pour une \cls.
 ((
     Ceci fournit facilement des exemples de codes pour de \nelles contributions extérieures.
 )).
