@@ -1,0 +1,12 @@
++ contrib
+    + api
+        + changes
+        + status
+        + configs
+            + std
+    + translate
+        + changes
+        + status
+        + en
+            + doc
+                + manual

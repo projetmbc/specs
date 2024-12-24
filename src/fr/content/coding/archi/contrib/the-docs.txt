@@ -1,9 +1,0 @@
-this::
-    date = 2023-10-27
-
-
-=========================================
-Traduire les \docs "utilisateur" et \tech
-=========================================
-
-Tout se passe dans les bien nommés dossiers path::''doc/manual'' et path::''doc/tech'', chaque \trad se faisant dans un sous-dossier portant le nom codé d'une langue : voir cf::''isolang.txt''.

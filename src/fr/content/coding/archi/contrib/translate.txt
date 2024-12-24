@@ -1,0 +1,10 @@
+this::
+    date = 2024-12-25
+
+
+========
+Traduire
+========
+
+Tout se passe dans le bien nommé dossier path::''translate'' qui propose un dossier path::''en'' contenant du texte en anglais comme base de départ pour proposer d'autres \trads.
+Chaque \nelle \trad se trouvera dans un dossier nommé via le nom court de la langue : voir cf::''isolang.txt'' à ce sujet.

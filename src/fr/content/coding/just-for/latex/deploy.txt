@@ -1,0 +1,19 @@
+this::
+    date = 2024-12-24
+
+
+=========
+Distibuer
+=========
+
+L'outil \l3build rend très aisé le déploiement d'un \proj sur \ctan via la ligne de commandes.
+
+    1) Se placer dans le sous-dossier path::''rollout'' via une \cmd de type term::''cd''.
+
+    2) La \cmd term::''l3build ctan'' va construire le dossier qui servira de base pour la mise en ligne sur le site de \ctan de votre \proj. Durant cette phase, tous les tests devront être validés, ainsi que la compilation de votre documentation fonctionnelle.
+
+    3) Enfin la \cmd term::''l3build upload" effectuera \ttes les \opes nécéessaires à la demande de mise en ligne de votre \proj.
+
+
+note::
+    Le lecteur convaincu par le cycle de distribution ci-dessus se reportera à la \doc de \l3build pour une présentation détaillée, et aussi à jour, du mode de fonction de term::''l3build upload".

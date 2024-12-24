@@ -30,3 +30,4 @@ Nous allons ici nous concentrer sur des règles générales de codage et de conc
 content::
     \content/tech-norms.txt
     \content/testing.txt
+    \content/deploy.txt

@@ -1,0 +1,36 @@
+// ---------- //
+
+
+==
+25  (1.2.0-beta.2)
+==
+
+-------
+:break:
+-------
+
+[[:tech:]]
+\Contrib: the whole process has been changed.
+
+
+// ---------- //
+
+
+==
+24  (1.2.0-beta.1)
+==
+
+-----
+:new:
+-----
+
+[[:tech:]]
+\latex: a section on deployment on ctan has been added.
+
+
+--------
+:update:
+--------
+
+[[:tech:]]
+\latex: simplifications have been made to the section on tests.

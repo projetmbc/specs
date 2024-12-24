@@ -6,4 +6,4 @@ this::
 Tabuler
 =======
 
-Les tabulations relatives au code \src seront de deux espaces et non quatre afin de limiter l'espace perdu.
+Les tabulations relatives au code \src seront de deux espaces, et non quatre, afin de limiter l'espace perdu.

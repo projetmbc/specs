@@ -1,0 +1,9 @@
+this::
+    date = 2024-12-24
+
+
+==================
+Des \sols "maison"
+==================
+
+Des tests "faits maison" sont aussi possibles en utilisant des dossiers nommés path::''test'' ou path::''tests'' \etou des fichiers de noms préfixés par path::''test_'' ou path::''tests_''.

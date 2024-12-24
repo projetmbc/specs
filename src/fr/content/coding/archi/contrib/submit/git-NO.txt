@@ -1,12 +1,15 @@
 this::
-    date = 2023-12-10
+    date = 2024-12-25
 
 
 ======================================
 Sans passer via le dépôt \git en ligne
 ======================================
 
-Dans ce cas, les étapes à suivre sont les suivantes servant à automatiser une partie de l'intégration du travail effectué.
+Dans ce cas, les étapes à suivre sont les suivantes
+((
+    L'idée est de proposer un processus simple côté contributeur, et automatisable côté codeur.
+)).
 
     1) Compression au format \zip du dossier de la \contrib.
 

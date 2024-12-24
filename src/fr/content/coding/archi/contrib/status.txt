@@ -1,5 +1,5 @@
 this::
-    date = 2023-12-10
+    date = 2024-12-25
 
 
 =====================
@@ -17,10 +17,19 @@ Pour finir le processus de \contrib, il reste à voir ce que l'on fait du travai
     1) \Contrib en cours d'étude ou de \maj.
 
 
-Le statut d'une \contrib devra être indiqué via un fichier bien situé, clairement nommé et avec un contenu limpide comme le suivant qui donne le statut d'une \trad de la \doc "utilisateur" faite dans le dossier path::''contrib/doc/manual/en''.
+Les statuts des \contribs seront indiqués dans les sous-dossiers path::''status'' qui ne contiennent que des fichiers \yaml, les noms de ces derniers devant mimer l'\orga des \contribs.
+Dans le cas de notre exemple ficitif, nous aurions l'\orga ci-après avec une \contrib côté \api, et une \trad française de la \doc "utilisateur".
+
+dirtree::
+    ---
+    path  = ?/examples/contrib/dirtree-status.txt
+    ---
+
+
+Voici un exemple possible de contenu à propos du statut de la \trad en français.
 
 yaml::
     ---
     path  = ?/examples/contrib/trans-about.yaml
-    title = Contenu de path::''contrib/doc/manual/en-about.yaml''
+    title = Contenu de path::''contrib/translate/status/fr/manual.yaml''
     ---

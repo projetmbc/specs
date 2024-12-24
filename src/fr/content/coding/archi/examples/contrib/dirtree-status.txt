@@ -1,0 +1,23 @@
++ contrib
+    + api
+        + changes
+        + status
+            * std.yaml
+            * special.yaml
+        + configs
+            + std
+            + special
+
+    + translate
+        + changes
+        + status
+            + en
+                * manual.yaml
+            + fr
+                * manual.yaml
+        + en
+            + doc
+                + manual
+        + fr
+            + doc
+                + manual

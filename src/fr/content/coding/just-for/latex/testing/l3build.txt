@@ -1,0 +1,14 @@
+this::
+    date = 2024-12-24
+
+
+=======================
+Le si pratique \l3build
+=======================
+
+L'outil \l3build est très efficace pour tester la non régression du rendu, mais aussi la validité des données produites.
+De tels tests pourront être fabriqués via des outils externes de confiance en utilisant des dossiers nommés path::''tool'' ou path::''tools'' \etou des fichiers de noms préfixés par path::''tool_'' ou path::''tools_''.
+
+
+note::
+    Se reporter à la \doc de \l3build pour une présentation détaillée, et aussi à jour, de la gestion de tests via \l3build.

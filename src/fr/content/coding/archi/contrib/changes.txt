@@ -1,16 +1,17 @@
 this::
-    date = 2023-10-27
+    date = 2024-12-25
 
 
 ===================
 Des \chgts à cibler
 ===================
 
-Les dossiers path::''api/changes'', path::''doc/manual/changes'' et path::''doc/tech/changes'' s'utilisent de la même façon que celui du projet
+Les dossiers path::''api/changes'' et path::''translate/changes'' s'utilisent de la même façon que celui du \proj
 ((
     Revoir cf::''?/archi/changes.txt'' si besoin.
 )).
-Par contre, il faut éviter de créer des doublons avec le journal des \chgts du projet. Voici des exemples et contre-exemples possibles.
+Par contre, le contenu doit se limiter au strict nécessaire afin de communiquer efficacement aux autres contributeurs les \chgts majeurs.
+Voici des exemples et contre-exemples possibles.
 
 
 pros::

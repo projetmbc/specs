@@ -1,0 +1,14 @@
+this::
+    date = 2024-12-25
+
+
+====================
+La base \maj \auto^t
+====================
+
+Le dossier de \contribs doit \tjrs proposer comme base de travail des dossiers fournis par le \proj, et mis à jour de façon automatisée. Dans notre exemple fictif, ce sont les dossiers path::''api/configs'' et path::''translate/en'' qui servent de base.
+De plus, des fichiers \readme, rédigés en anglais, fournissent des explications sur la démarche à suivre suivant le type de \contrib.
+
+
+note::
+    Comme \git est utilisé, il est facile de noter les \chgts ciblés à indiquer aux contributeurs en cas de besoin : voir cf::''changes.txt'' à ce sujet.

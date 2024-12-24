@@ -1,5 +1,5 @@
 this::
-    date = 2023-12-10
+    date = 2024-12-25
 
 
 abrev::
@@ -10,30 +10,24 @@ abrev::
 \Contribs peu \techs
 ====================
 
-Pour certaines parties d'un \proj, des \contribs ne demandant aucune connaissance particulière peuvent être faites, c'est à cela que sert le dossier path::''\contrib''.
-Nous allons considérer un \proj proposant de \contribuer à l'\api et aux \docs "utilisateur" et \techs d'un prog. Dans un tel cas, le dossier path::''\contrib'' sera organisé comme suit.
+Pour certaines parties d'un \proj, des \contribs ne demandant aucune connaissance particulière peuvent être faites : c'est à cela que sert le dossier path::''contrib''.
+
+
+Comme illustration, nous allons considérer un \proj proposant de contribuer à l'\api via des fichiers de \config faciles à adapter, ainsi qu'à la \trad de la \doc "utilisateur" à partir de la version anglaise gérée par le \proj. Dans un tel cas, le dossier path::''contrib'' sera organisé comme suit.
 
 dirtree::
-    + \contrib
-        + api
-            + changes
-            + [...]
-        + doc
-            + manual
-                + changes
-                + [...]
-            + tech
-                + changes
-                + [...]
+    ---
+    path  = ?/examples/contrib/dirtree-no-status.txt
+    ---
 
 
-Les sections suivantes expliquent le fonctionnement du dossier path::''\contrib''.
+Les sections suivantes expliquent le fonctionnement du dossier path::''contrib'' où les sous-dossiers path::''api/configs'' et path::''translate/en'' sont spécifiques à notre exemple fictif.
 
 
 content::
-    \content/auto-main.txt
+    \content/start-from-main.txt
     \content/api.txt
-    \content/the-docs.txt
+    \content/translate.txt
     \content/isolang.txt
     \content/changes.txt
     \content/submit.txt
