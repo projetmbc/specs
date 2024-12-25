@@ -10,7 +10,11 @@
 -------
 
 [[:tech:]]
-\Contrib: the whole process has been changed.
+Here a the breaking \chges.
+
+    1) General: the whole process for \contribs has been changed.
+
+    1) \latex: for themes, the \css-like files must be included inside path::''css'' folders, and in the final \proj, each theme will just use a single \css-like file.
 
 
 // ---------- //

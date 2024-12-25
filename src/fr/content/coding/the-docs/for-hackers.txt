@@ -1,5 +1,5 @@
 this::
-    date = 2024-05-01
+    date = 2024-12-25
 
 
 abrev::
@@ -12,7 +12,7 @@ Pour le "hacker", du bien arride
 ================================
 
 Beaucoup de langages de \prog proposent des outils pour documenter son code directement dans le \src : on pense par exemple aux "docstrings" de \python, ou au support de \doxygen en \c et en \php.
-Cette idée est excellente à condition de se limiter à la rédaction d'une \doc \tech donnant des caractéristiques telles que la \sign d'une \fonc par exemple, mais ceci ne doit surtout pas servir à rédiger une \doc au complet comme expliqué dans cf::''for-users.txt''.
+Cette idée est excellente à condition de se limiter à la rédaction d'une \doc \tech donnant des caractéristiques telles que la \sign d'une \fonc par exemple, mais ceci ne doit surtout pas servir à rédiger une \doc "utilisateur" comme expliqué dans cf::''for-users.txt''.
 
 
 Voyons ce que cela donne avec \tnsdoc
@@ -64,14 +64,18 @@ latex::
 
     %%%
     % prototype::
-    %     :return: a constant token list
+    %     :action: a constant token list that can be eaten by \tex
     %            @ is_text
     %%%
     \NewDocumentCommand\mymacro{}{Do something !}
 
 
+note::
+    Il ne semble absoluement pas pertinent d'utiliser une autre langue que l'anglais pour la \doc \tech.
+
+
 warning::
-    Rappelons qu'il faut bien veiller à ne donner que des \infos \techs minimales pour ne pas noyer le code dans la \doc \tech, et garder les détails pour la \doc non \tech "amicale"
+    Il faut bien veiller à ne donner que des \infos \techs minimales pour ne pas noyer le code dans la \doc \tech, et garder les détails pour la \doc "utilisateur"
     ((
         Toutes mes excuses aux adeptes de la \prog littéraire que l'auteur trouve catastrophique du point de vue d'un utiliseur peu aguerri. Désolé maître Knuth.
     )).
