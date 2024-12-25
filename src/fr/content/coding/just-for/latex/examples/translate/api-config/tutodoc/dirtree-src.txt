@@ -1,14 +1,13 @@
-dirtree::
-    + main
-        + locale
-            + fr
-                * macros.txt
-                * sentences.txt
-        * main.cls
-        * formatting-geo.tex
-        * formatting-link.tex
-        * formatting-title-n-toc.tex
-        * lang.tex
-        * tutodoc-locale-main-en.cfg.cls.sty
-        * tutodoc-locale-main-fr.cfg.cls.sty
-        * about.yaml
++ main
+    + locale
+        + fr
+            * macros.txt
+            * sentences.txt
+    * main.cls
+    * formatting-geo.tex
+    * formatting-link.tex
+    * formatting-title-n-toc.tex
+    * lang.tex
+    * tutodoc-locale-main-en.cfg.cls.sty
+    * tutodoc-locale-main-fr.cfg.cls.sty
+    * about.yaml
